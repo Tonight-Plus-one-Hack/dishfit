@@ -1,0 +1,79 @@
+/* Impressum and Datenschutzerklärung: plain reading column in the app's type scale. */
+
+.legal {
+  display: grid;
+  gap: 28px;
+  max-width: 680px;
+  padding: 20px 16px 8px;
+}
+
+.dsk-screen--page .legal {
+  padding: 8px 0 0;
+}
+
+.legal__lede {
+  font-size: var(--fs-lede);
+  line-height: 1.55;
+  letter-spacing: var(--track-lede);
+}
+
+.legal__section {
+  display: grid;
+  gap: 10px;
+}
+
+.legal__h2 {
+  font-size: var(--fs-card);
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: var(--track-card);
+  text-wrap: balance;
+}
+
+.legal p,
+.legal__list {
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.legal p strong {
+  font-weight: 600;
+}
+
+.legal a {
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 3px;
+  transition: text-decoration-color var(--dur-state) var(--ease-out);
+}
+
+.legal a:hover {
+  text-decoration-color: currentcolor;
+}
+
+.legal .legal-links__a {
+  text-decoration: none;
+}
+
+.legal__address {
+  display: grid;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.legal__pending {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.legal__list {
+  display: grid;
+  gap: 2px;
+  padding-left: 1.2em;
+  list-style: disc;
+}
+
+.legal__links {
+  padding-top: 20px;
+  border-top: 1px solid var(--rule-soft);
+}

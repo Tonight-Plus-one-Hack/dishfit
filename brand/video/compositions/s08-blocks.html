@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Plus One logo loop, shot 08: colour blocks. Mounted by index.html. -->
+  </head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/plus-one.css" />
+      <style>
+        #root {
+          position: absolute;
+          inset: 0;
+          overflow: hidden;
+          background: var(--surface);
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+        }
+        /* Seven rows of 360 px, the centre tile under the mark. */
+        #s08-grid {
+          flex: none;
+          margin-top: calc(var(--mark-cy) - 1260px);
+          display: grid;
+          grid-template-columns: repeat(3, 360px);
+          grid-auto-rows: 360px;
+        }
+        #s08-grid i {
+          display: block;
+        }
+        #s08-grid .pale {
+          background: #e3e5fc;
+        }
+        #s08-grid .surface {
+          background: var(--surface-hover);
+        }
+        #s08-grid .violet {
+          background: var(--art-violet);
+        }
+        #s08-grid .peri {
+          background: var(--art-periwinkle);
+        }
+        #s08-grid .night {
+          background: var(--dark);
+        }
+        #s08-grid .white {
+          background: #ffffff;
+        }
+        /* Twice the tile height so the gradient can slide inside its tile (as in the reference). */
+        #s08-grid .grad {
+          background: linear-gradient(180deg, var(--art-violet) 0%, var(--art-periwinkle) 30%, var(--art-blue) 65%, var(--art-blue) 100%);
+          background-size: 100% 200%;
+          background-position: 50% 0%;
+        }
+        #s08-mark {
+          background: var(--art-blue);
+        }
+      </style>
+
+      <div id="root" data-composition-id="s08" data-width="1080" data-height="1080">
+        <div id="s08-grid" data-layout-allow-overflow>
+          <i class="pale"></i><i class="grad"></i><i class="surface"></i>
+          <i class="violet"></i><i class="pale"></i><i class="grad"></i>
+          <i class="surface"></i><i class="violet"></i><i class="peri"></i>
+          <i class="grad"></i><i class="white"></i><i class="night"></i>
+          <i class="peri"></i><i class="surface"></i><i class="violet"></i>
+          <i class="night"></i><i class="grad"></i><i class="pale"></i>
+          <i class="pale"></i><i class="peri"></i><i class="surface"></i>
+        </div>
+        <div id="s08-mark" class="mark logo-mask"></div>
+      </div>
+
+      <script>
+        const tl = gsap.timeline({ paused: true });
+
+        // The gradient tiles slide inside their cells; the grid itself never moves, so no edge opens.
+        tl.fromTo("#s08-grid .grad", { backgroundPosition: "50% 0%" }, { backgroundPosition: "50% 70%", duration: 8 / 30, ease: "none" }, 0);
+        window.__timelines["s08"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

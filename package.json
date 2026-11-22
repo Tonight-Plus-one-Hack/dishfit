@@ -1,0 +1,32 @@
+{
+  "name": "wohin",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "worker"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @wohin/worker",
+    "check": "npm run check --workspaces && tsc -p e2e",
+    "lint": "oxlint --deny-warnings packages worker pipeline e2e",
+    "test": "npm run test --workspaces",
+    "db:migrate:local": "npm run db:migrate:local -w @wohin/worker",
+    "db:seed:local": "npm run db:seed:local -w @wohin/worker",
+    "seed:build": "npm run seed:build -w @wohin/worker",
+    "cards": "npm run cards -w @wohin/worker --",
+    "deploy:production": "bash worker/scripts/deploy-production.sh",
+    "deploy:check": "npm run build --prefix apps/web && npm run cards && npm run lint && npm run check && npm test && npm run seed:build && npm run deploy:dry -w @wohin/worker && npm run e2e:deploy-check",
+    "e2e": "playwright test -c e2e",
+    "e2e:deploy-check": "if [ \"$DEPLOY_CHECK_E2E\" = 1 ]; then E2E_SKIP_BUILD=1 npm run e2e -- --retries=1 --timeout=60000; else echo 'e2e skipped: set DEPLOY_CHECK_E2E=1 to run the click-through regression'; fi",
+    "slides:build": "node submission/scripts/build.mjs",
+    "numbers:export": "node submission/scripts/export-numbers.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "@types/node": "^24.19.2",
+    "oxlint": "^1.90.0",
+    "typescript": "~7.0.2",
+    "vitest": "~4.1.12"
+  }
+}

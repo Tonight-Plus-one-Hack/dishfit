@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Plus One logo loop, shot 06: frosted glass on the dark canvas. Mounted by index.html. -->
+  </head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/plus-one.css" />
+      <style>
+        #root {
+          position: absolute;
+          inset: 0;
+          overflow: hidden;
+          background: var(--dark);
+        }
+        #s06-glow {
+          position: absolute;
+          inset: 0;
+          background:
+            radial-gradient(260px 260px at calc(50% + 150px) calc(var(--mark-cy) + 120px), var(--art-violet) 0%, rgba(156, 144, 254, 0) 100%),
+            radial-gradient(300px 260px at calc(50% - 170px) calc(var(--mark-cy) - 110px), var(--art-blue) 0%, rgba(53, 94, 218, 0) 100%);
+        }
+        #s06-rail {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: calc(var(--mark-cy) + 300px);
+          display: flex;
+          justify-content: center;
+          gap: 40px;
+          color: var(--dark-muted);
+        }
+        #s06-glass {
+          filter: drop-shadow(0 24px 40px rgba(0, 0, 0, 0.45));
+        }
+        #s06-frost {
+          background:
+            radial-gradient(260px 260px at 352px 322px, rgba(156, 144, 254, 0.55) 0%, rgba(156, 144, 254, 0) 100%),
+            radial-gradient(300px 260px at 32px 92px, rgba(53, 94, 218, 0.55) 0%, rgba(53, 94, 218, 0) 100%),
+            linear-gradient(160deg, rgba(237, 238, 240, 0.42) 0%, rgba(237, 238, 240, 0.16) 100%);
+        }
+        #s06-edge {
+          filter: url(#s06-rim);
+        }
+        #s06-edge-shape {
+          background: #000000;
+        }
+      </style>
+
+      <div id="root" data-composition-id="s06" data-width="1080" data-height="1080">
+        <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+          <filter id="s06-rim" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB">
+            <feMorphology in="SourceAlpha" operator="erode" radius="1.5" result="e" />
+            <feComposite in="SourceAlpha" in2="e" operator="out" result="o" />
+            <feFlood flood-color="#EDEEF0" flood-opacity="0.7" />
+            <feComposite in2="o" operator="in" />
+          </filter>
+        </svg>
+        <div id="s06-glow"></div>
+        <div id="s06-glass" class="mark">
+          <div id="s06-frost" class="shot-layer logo-mask"></div>
+          <div id="s06-edge" class="shot-layer"><div id="s06-edge-shape" class="shot-layer logo-mask"></div></div>
+        </div>
+        <div id="s06-rail" class="mono"><span>Pick a city</span><span>+</span><span>Join a group</span><span>+</span><span>Meet up</span></div>
+      </div>
+
+      <script>
+        const tl = gsap.timeline({ paused: true });
+        // Hold: the cut is the motion.
+        window.__timelines["s06"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

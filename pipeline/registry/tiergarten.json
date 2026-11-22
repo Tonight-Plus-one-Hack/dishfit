@@ -1,0 +1,106 @@
+{
+ "kiez": "tiergarten",
+ "name": "Tiergarten",
+ "scannedBy": "BatuCani",
+ "updatedAt": "2026-11-21T21:49:29.704Z",
+ "provider": "openai",
+ "models": {
+  "menu": "gpt-6.2-sol",
+  "nutrition": "gpt-6.2-sol",
+  "chief": "gpt-6.2-sol",
+  "second": "gpt-6.1-terra",
+  "translate": "gpt-6-luna"
+ },
+ "counts": {
+  "found": 19,
+  "menus": 13,
+  "restaurants": 13,
+  "dishes": 378,
+  "images": 13,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 3.78,
+  "byStage": {
+   "check": 0.08,
+   "classify": 0.02,
+   "find": 0.42,
+   "image": 0.33,
+   "menu": 1.78,
+   "nutrition": 1.15
+  },
+  "byProvider": {
+   "openai": 3.2,
+   "google-places": 0.58
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/tiergarten.json",
+ "places": [
+  {
+   "id": "osm-node-5580909810",
+   "placeId": "ChIJXYVvawBRqEcRvXEIf7KyHN0",
+   "osmId": "node/5580909810"
+  },
+  {
+   "id": "osm-node-3837620857",
+   "placeId": "ChIJmf6Y04JRqEcR9JuCLUYy6Ik",
+   "osmId": "node/3837620857"
+  },
+  {
+   "id": "osm-node-667886515",
+   "placeId": "ChIJo8ypraxRqEcRe1DSMHgmQeo",
+   "osmId": "node/667886515"
+  },
+  {
+   "id": "osm-node-3834271598",
+   "placeId": "ChIJN89il0pQqEcRnj_fG-XYIUM",
+   "osmId": "node/3834271598"
+  },
+  {
+   "id": "osm-node-12367860829",
+   "placeId": "ChIJtwF7n1VQqEcRMWF7GgFVA8M",
+   "osmId": "node/12367860829"
+  },
+  {
+   "id": "osm-node-12595582250",
+   "placeId": "ChIJ7YZqMlRRqEcRZre7b_rIuZs",
+   "osmId": "node/12595582250"
+  },
+  {
+   "id": "osm-node-662579109",
+   "placeId": "ChIJwRNUdgBRqEcREAlOeZkdW2A",
+   "osmId": "node/662579109"
+  },
+  {
+   "id": "osm-node-2131992134",
+   "placeId": "ChIJs_dwAVNQqEcRJDxQhSKEu8I",
+   "osmId": "node/2131992134"
+  },
+  {
+   "id": "osm-node-4655998890",
+   "placeId": "ChIJR0OIjkpQqEcRIN6GCR5sTLQ",
+   "osmId": "node/4655998890"
+  },
+  {
+   "id": "osm-node-2517230830",
+   "placeId": "ChIJNwaZlFpRqEcRCxY69f4-mnY",
+   "osmId": "node/2517230830"
+  },
+  {
+   "id": "osm-node-3957483632",
+   "placeId": "ChIJTYcTLspRqEcRM50HDuvMReE",
+   "osmId": "node/3957483632"
+  },
+  {
+   "id": "osm-node-6132882808",
+   "placeId": "ChIJ1wgPOcpRqEcR2KtQKnCwzQg",
+   "osmId": "node/6132882808"
+  },
+  {
+   "id": "osm-node-3837620191",
+   "placeId": "ChIJs0TMl0pQqEcRacLWE5KZsow",
+   "osmId": "node/3837620191"
+  }
+ ],
+ "appendBase": null
+}

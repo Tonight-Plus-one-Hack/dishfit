@@ -1,0 +1,42 @@
+.place-cover {
+  position: relative;
+  display: block;
+  background: var(--canvas);
+}
+
+.place-cover__live {
+  display: block;
+}
+
+.place-cover__live[data-visible='true'] {
+  pointer-events: auto;
+}
+
+.place-cover__live[data-visible='false'] {
+  position: absolute;
+  inset: 0 0 auto;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.place-cover__live > gmp-place-details-compact {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  background-color: var(--canvas);
+  color-scheme: light;
+  font-size: 12px;
+  --gmp-mat-font-family: var(--font-sans);
+  --gmp-mat-color-on-surface: var(--ink);
+  --gmp-mat-color-on-surface-variant: var(--muted);
+  --gmp-mat-color-outline-decorative: var(--rule-soft);
+  --gmp-mat-color-primary: var(--ink);
+  --gmp-star-rating-color: var(--ink);
+  --gmp-thumbnail-border-radius: var(--radius-card);
+}
+
+.place-cover__fallback {
+  display: block;
+  height: var(--media-h, 112px);
+}

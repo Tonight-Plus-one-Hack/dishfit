@@ -1,0 +1,4863 @@
+[
+  {
+    "id": "node/4702114064",
+    "name": "Hot Club Portugal",
+    "lat": 38.7181486,
+    "lng": -9.1456468,
+    "category": "nightclub",
+    "website": "https://www.hcp.pt/",
+    "curated": true,
+    "vibes": [
+      "club",
+      "culture"
+    ],
+    "description": "Nightclub with live music."
+  },
+  {
+    "id": "way/96595223",
+    "name": "Onda Jazz",
+    "lat": 38.7094425,
+    "lng": -9.1310174,
+    "category": "bar",
+    "curated": true,
+    "vibes": [
+      "bar",
+      "culture"
+    ],
+    "description": "Bar."
+  },
+  {
+    "id": "node/13140700803",
+    "name": "Friends Bairro Alto",
+    "lat": 38.7136368,
+    "lng": -9.1442479,
+    "category": "bar",
+    "opening_hours": "Su-Fr 18:00-02:00; Sa 18:00-03:00",
+    "website": "https://www.instagram.com/friendsbairroalto",
+    "address": {
+      "street": "Travessa da Água-da-Flor",
+      "housenumber": "17"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Bar on Travessa da Água-da-Flor."
+  },
+  {
+    "id": "node/4292877138",
+    "name": "The George",
+    "lat": 38.7102452,
+    "lng": -9.1387924,
+    "category": "bar",
+    "opening_hours": "Mo-Fr 17:00-02:00; Sa 11:00-02:00; Su 11:00-01:00",
+    "website": "https://www.thegeorgelisbon.com/",
+    "address": {
+      "street": "Rua do Crucifixo",
+      "housenumber": "58-62",
+      "postcode": "1100-184"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Bar on Rua do Crucifixo."
+  },
+  {
+    "id": "node/6366304914",
+    "name": "Brew",
+    "lat": 38.7092717,
+    "lng": -9.1388505,
+    "category": "bar",
+    "opening_hours": "Su-We 13:00-12:00, Th-Sa 13:00-01:00",
+    "website": "https://www.brewportugal.pt/",
+    "address": {
+      "street": "Rua Nova do Almada",
+      "housenumber": "14",
+      "postcode": "1200-288",
+      "city": "Lisboa",
+      "country": "PT"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Bar on Rua Nova do Almada."
+  },
+  {
+    "id": "node/4231507539",
+    "name": "Duque Brewpub",
+    "lat": 38.7131412,
+    "lng": -9.142505,
+    "category": "pub",
+    "opening_hours": "Mo-We 16:00-00:00; Th 16:00-01:00; Fr-Sa 16:00-02:00; Su 16:00-:00",
+    "website": "https://www.duquebrewpub.com/",
+    "address": {
+      "street": "Calçada do Duque",
+      "housenumber": "51",
+      "postcode": "1200-156"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Pub on Calçada do Duque."
+  },
+  {
+    "id": "node/2501836314",
+    "name": "Foxtrot",
+    "lat": 38.7139166,
+    "lng": -9.1518763,
+    "category": "bar",
+    "opening_hours": "Mo-Sa 18:00-02:00",
+    "website": "http://www.barfoxtrot.com/",
+    "address": {
+      "street": "Travessa de Santa Teresa",
+      "housenumber": "28",
+      "postcode": "1200-405",
+      "city": "Lisboa"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Bar on Travessa de Santa Teresa with outdoor seating."
+  },
+  {
+    "id": "node/6080541907",
+    "name": "Trobadores",
+    "lat": 38.7088344,
+    "lng": -9.1394154,
+    "category": "pub",
+    "opening_hours": "Mo-Su 15:00-02:00",
+    "website": "https://www.facebook.com/pg/TrobadoresBar",
+    "address": {
+      "street": "Calçada de São Francisco",
+      "housenumber": "6A",
+      "postcode": "1200-005",
+      "city": "Lisboa"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Pub on Calçada de São Francisco."
+  },
+  {
+    "id": "node/1802158801",
+    "name": "A Tasca do Chico",
+    "lat": 38.7116311,
+    "lng": -9.144132,
+    "category": "pub",
+    "opening_hours": "Su-Th 19:00-02:00; Fr-Sa 19:00-04:00",
+    "website": "https://www.tascadochico.com",
+    "address": {
+      "street": "Rua do Diário de Notícias",
+      "housenumber": "39",
+      "postcode": "1200-108"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Pub on Rua do Diário de Notícias."
+  },
+  {
+    "id": "node/4803699721",
+    "name": "D. Afonso o Gordo",
+    "lat": 38.7103088,
+    "lng": -9.1347893,
+    "category": "bar",
+    "opening_hours": "Mo-Su 09:00-00:00",
+    "address": {
+      "street": "Rua de Santo António da Sé",
+      "housenumber": "18"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Bar on Rua de Santo António da Sé."
+  },
+  {
+    "id": "node/5203365221",
+    "name": "TR3S Lisboa",
+    "lat": 38.714329,
+    "lng": -9.1494246,
+    "category": "bar",
+    "opening_hours": "Mo-Su 18:00-03:00",
+    "website": "https://www.tr3slisboa.com/",
+    "address": {
+      "street": "Rua Ruben A. Leitão",
+      "housenumber": "2",
+      "postcode": "1200-392",
+      "city": "Lisboa"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Bar on Rua Ruben A. Leitão."
+  },
+  {
+    "id": "node/3509349153",
+    "name": "Silk Club",
+    "lat": 38.7113833,
+    "lng": -9.1427573,
+    "category": "nightclub",
+    "opening_hours": "Tu-Th 19:00-02:00; Fr-Sa 19:00-04:00",
+    "website": "https://www.silk-club.com/",
+    "address": {
+      "street": "Rua da Misericórdia",
+      "housenumber": "14",
+      "postcode": "1249",
+      "city": "Lisboa"
+    },
+    "curated": true,
+    "vibes": [
+      "club"
+    ],
+    "description": "Nightclub on Rua da Misericórdia."
+  },
+  {
+    "id": "node/6617379754",
+    "name": "Oitava Graça",
+    "lat": 38.7184372,
+    "lng": -9.1320184,
+    "category": "pub",
+    "opening_hours": "Tu-Th 12:00-23:00; Fr, Sa 12:00-01:00; Su 12:00-21:00",
+    "website": "https://www.oitavacolina.pt/",
+    "address": {
+      "street": "Rua Damasceno Monteiro",
+      "housenumber": "8a",
+      "postcode": "1170-108",
+      "city": "Lisboa"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Pub on Rua Damasceno Monteiro with outdoor seating."
+  },
+  {
+    "id": "node/6047546785",
+    "name": "Trumps Lisbon",
+    "lat": 38.7174149,
+    "lng": -9.1519004,
+    "category": "bar",
+    "opening_hours": "Mo-Su 23:45-18:00",
+    "website": "https://trumps.pt/",
+    "address": {
+      "street": "Rua da Imprensa Nacional",
+      "housenumber": "104B",
+      "postcode": "1250-127"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Bar on Rua da Imprensa Nacional."
+  },
+  {
+    "id": "node/14365700603",
+    "name": "Oásis By Aché",
+    "lat": 38.7073232,
+    "lng": -9.1438856,
+    "category": "bar",
+    "opening_hours": "Mo-Su 12:00-04:00",
+    "website": "http://acheoasis.web.app",
+    "address": {
+      "street": "Rua Nova do Carvalho",
+      "housenumber": "48",
+      "postcode": "1200-372"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Bar on Rua Nova do Carvalho."
+  },
+  {
+    "id": "node/4986521256",
+    "name": "Bartô",
+    "lat": 38.7114227,
+    "lng": -9.1338261,
+    "category": "bar",
+    "opening_hours": "22:00-02:00",
+    "website": "http://www.barto.tk",
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Bar."
+  },
+  {
+    "id": "node/12246404901",
+    "name": "IF IF IF",
+    "lat": 38.7199208,
+    "lng": -9.1511943,
+    "category": "bar",
+    "opening_hours": "Mo-Su 15:00-23:00",
+    "website": "https://www.instagram.com/if_if_if_bar/",
+    "address": {
+      "street": "R. do Salitre",
+      "housenumber": "122",
+      "unit": "b",
+      "postcode": "1250-199",
+      "city": "Lisboa"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Bar on R. do Salitre."
+  },
+  {
+    "id": "node/4848686224",
+    "name": "O'Gilins",
+    "lat": 38.706955,
+    "lng": -9.1438636,
+    "category": "pub",
+    "opening_hours": "Mo-Su 11:00-02:00",
+    "website": "http://www.ogilins.com",
+    "address": {
+      "street": "Rua dos Remolares",
+      "housenumber": "8/10",
+      "postcode": "1200-371"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Pub on Rua dos Remolares."
+  },
+  {
+    "id": "node/6542678985",
+    "name": "Lusco Arte Bar",
+    "lat": 38.7127498,
+    "lng": -9.1358414,
+    "category": "bar",
+    "opening_hours": "We-Su 18:00-02:00",
+    "address": {
+      "street": "Escadinhas de São Cristóvão",
+      "housenumber": "8",
+      "postcode": "1100-177",
+      "city": "Lisboa",
+      "country": "PT"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Bar on Escadinhas de São Cristóvão."
+  },
+  {
+    "id": "node/4658437789",
+    "name": "Skybar Seen by Olivier",
+    "lat": 38.7210852,
+    "lng": -9.1470818,
+    "category": "pub",
+    "opening_hours": "Mo-Su 18:30-00:00",
+    "website": "https://seenlx.com/",
+    "address": {
+      "street": "Avenida da Liberdade",
+      "housenumber": "185"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Pub on Avenida da Liberdade."
+  },
+  {
+    "id": "node/6068437686",
+    "name": "TascaMastai",
+    "lat": 38.7113974,
+    "lng": -9.1454128,
+    "category": "pub",
+    "opening_hours": "Tu-Su 13:00-24:00",
+    "address": {
+      "street": "Rua da Rosa",
+      "housenumber": "14A",
+      "postcode": "1200-387",
+      "city": "Lisboa"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Pub on Rua da Rosa."
+  },
+  {
+    "id": "node/6214406211",
+    "name": "Delirium Café Lisboa",
+    "lat": 38.7103374,
+    "lng": -9.139597,
+    "category": "pub",
+    "opening_hours": "Mo-Th 12:00-01:00; Fr-Sa 12:00-02:00; Su 16:00-01:00",
+    "address": {
+      "street": "Calçada Nova de São Francisco",
+      "housenumber": "2",
+      "unit": "A",
+      "city": "Lisboa"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Pub on Calçada Nova de São Francisco."
+  },
+  {
+    "id": "node/14321660401",
+    "name": "Lisboa Rio",
+    "lat": 38.7052645,
+    "lng": -9.1446095,
+    "category": "nightclub",
+    "opening_hours": "Mo-Su 00:00-07:00",
+    "website": "http://lisboario.pt",
+    "address": {
+      "street": "Cais do Gás",
+      "housenumber": "14",
+      "postcode": "1200-109"
+    },
+    "curated": true,
+    "vibes": [
+      "club"
+    ],
+    "description": "Nightclub on Cais do Gás."
+  },
+  {
+    "id": "node/7280590389",
+    "name": "Tabernáculo by Hernâni Miguel",
+    "lat": 38.7085241,
+    "lng": -9.1465323,
+    "category": "pub",
+    "opening_hours": "Mo-Su 12:00-02:00",
+    "address": {
+      "street": "Rua de São Paulo",
+      "housenumber": "218",
+      "city": "Lisboa"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Pub on Rua de São Paulo."
+  },
+  {
+    "id": "node/12076787695",
+    "name": "Crafty Corner",
+    "lat": 38.7094794,
+    "lng": -9.1318481,
+    "category": "pub",
+    "website": "https://www.craftycornerlisboa.com/",
+    "address": {
+      "street": "Rua de São João da Praça",
+      "housenumber": "95"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Pub on Rua de São João da Praça."
+  },
+  {
+    "id": "node/4692271836",
+    "name": "Posh Club Lisbon",
+    "lat": 38.7147374,
+    "lng": -9.1540138,
+    "category": "nightclub",
+    "opening_hours": "Mo-Su 20:00-04:00",
+    "address": {
+      "street": "Rua de São Bento",
+      "housenumber": "151",
+      "city": "Lisboa"
+    },
+    "curated": true,
+    "vibes": [
+      "club"
+    ],
+    "description": "Nightclub on Rua de São Bento."
+  },
+  {
+    "id": "node/3232312707",
+    "name": "Plateau disco",
+    "lat": 38.7063538,
+    "lng": -9.1574334,
+    "category": "nightclub",
+    "opening_hours": "We 23:00-06:00; Fr-Sa 23:59-06:00",
+    "website": "https://www.plateaulisbonclub.pt",
+    "address": {
+      "street": "Escadinhas da Praia",
+      "housenumber": "7",
+      "postcode": "1200-769"
+    },
+    "curated": true,
+    "vibes": [
+      "club"
+    ],
+    "description": "Nightclub on Escadinhas da Praia."
+  },
+  {
+    "id": "node/9867881418",
+    "name": "ministérium club",
+    "lat": 38.7080954,
+    "lng": -9.1354849,
+    "category": "nightclub",
+    "website": "http://ministerium.pt/club/",
+    "address": {
+      "street": "Praça Comércio",
+      "housenumber": "72",
+      "postcode": "1100-148",
+      "city": "Lisboa"
+    },
+    "curated": true,
+    "vibes": [
+      "club"
+    ],
+    "description": "Nightclub on Praça Comércio."
+  },
+  {
+    "id": "node/10040782917",
+    "name": "Cerveteca Lisboa",
+    "lat": 38.74103,
+    "lng": -9.1364616,
+    "category": "biergarten",
+    "opening_hours": "Mo-Fr 14:30-22:30; Sa-Su 15:30-23:00",
+    "address": {
+      "street": "Avenida de Paris",
+      "housenumber": "15B",
+      "postcode": "1000-191"
+    },
+    "curated": true,
+    "vibes": [
+      "chill"
+    ],
+    "description": "Beer garden on Avenida de Paris."
+  },
+  {
+    "id": "node/4419964090",
+    "name": "Este",
+    "lat": 38.7130969,
+    "lng": -9.1256997,
+    "category": "bar",
+    "opening_hours": "We-Su 20:00-02:00",
+    "address": {
+      "street": "Rua dos Remédios",
+      "housenumber": "182"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Bar on Rua dos Remédios."
+  },
+  {
+    "id": "node/2537090840",
+    "name": "Botequim",
+    "lat": 38.7159874,
+    "lng": -9.1304976,
+    "category": "bar",
+    "opening_hours": "PH,Th-Tu 11:00-02:00",
+    "website": "https://botequim.net/",
+    "address": {
+      "street": "Largo da Graça",
+      "housenumber": "79,80"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Bar on Largo da Graça."
+  },
+  {
+    "id": "node/14365707002",
+    "name": "Aché Cohiba",
+    "lat": 38.7128765,
+    "lng": -9.1437949,
+    "category": "bar",
+    "opening_hours": "Mo-Su 18:00-04:00",
+    "address": {
+      "street": "Rua do Norte",
+      "housenumber": "121",
+      "postcode": "1200-334"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Bar on Rua do Norte."
+  },
+  {
+    "id": "node/13439821069",
+    "name": "1868",
+    "lat": 38.7099513,
+    "lng": -9.1434357,
+    "category": "bar",
+    "opening_hours": "Tu-Sa 17:00-01:00",
+    "curated": false
+  },
+  {
+    "id": "node/13435269951",
+    "name": "1885 Gin Garden",
+    "lat": 38.7086714,
+    "lng": -9.1435408,
+    "category": "bar",
+    "website": "https://www.martinhal.com/locations/chiado/bar1855/",
+    "curated": false
+  },
+  {
+    "id": "node/5857140303",
+    "name": "31 D'ARMADA",
+    "lat": 38.7052783,
+    "lng": -9.1701932,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11244404480",
+    "name": "38º 41'",
+    "lat": 38.692852,
+    "lng": -9.2104898,
+    "category": "bar",
+    "website": "https://www.altishotels.com/altis-belem-spa/restaurantes-bares/",
+    "curated": false
+  },
+  {
+    "id": "node/2474060346",
+    "name": "3D",
+    "lat": 38.7043089,
+    "lng": -9.1749231,
+    "category": "bar",
+    "address": {
+      "street": "Avenida de Ceuta"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14365700606",
+    "name": "A Capela",
+    "lat": 38.7119913,
+    "lng": -9.1449585,
+    "category": "bar",
+    "opening_hours": "Mo-Su 19:30-02:00",
+    "address": {
+      "street": "Rua da Atalaia",
+      "housenumber": "45",
+      "postcode": "1200-043"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4315337890",
+    "name": "A Caravelas",
+    "lat": 38.7073715,
+    "lng": -9.1443448,
+    "category": "bar",
+    "opening_hours": "Mo-We 12:00-02:00; Th-Sa 12:00-04:00",
+    "address": {
+      "street": "Rua Nova do Carvalho"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4160807389",
+    "name": "A Paródia",
+    "lat": 38.7134811,
+    "lng": -9.1646987,
+    "category": "bar",
+    "website": "https://www.aparodia.com/",
+    "address": {
+      "street": "Rua do Patrocinio",
+      "housenumber": "26B"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4917825406",
+    "name": "À Parte Lounge",
+    "lat": 38.7336062,
+    "lng": -9.1428217,
+    "category": "bar",
+    "opening_hours": "Mo-Fr 18:00-01:00; Sa 19:30-01:00",
+    "address": {
+      "street": "Avenida",
+      "housenumber": "14-B"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11584433282",
+    "name": "A Primorosa de Alvalade",
+    "lat": 38.7488669,
+    "lng": -9.1462718,
+    "category": "nightclub",
+    "curated": false
+  },
+  {
+    "id": "node/10573250856",
+    "name": "A Senhorita",
+    "lat": 38.7057818,
+    "lng": -9.1715603,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4563896807",
+    "name": "A Tabacaria",
+    "lat": 38.7082011,
+    "lng": -9.1458909,
+    "category": "bar",
+    "opening_hours": "Su-Th 18:00-02:00, Fr,Sa 18:00-03:00",
+    "address": {
+      "street": "Rua de São Paulo",
+      "housenumber": "75 77"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12851850219",
+    "name": "A Tasca do Senhor Matos",
+    "lat": 38.7127715,
+    "lng": -9.1278794,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11218614738",
+    "name": "A Viagem das Horas",
+    "lat": 38.7337695,
+    "lng": -9.1315656,
+    "category": "bar",
+    "opening_hours": "Mo-Fr 17:00-00:00",
+    "address": {
+      "street": "Rua de José Ricardo",
+      "housenumber": "1"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11882012663",
+    "name": "A zona",
+    "lat": 38.7047758,
+    "lng": -9.1682135,
+    "category": "pub",
+    "address": {
+      "housenumber": "24"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14365707201",
+    "name": "Aché Atalaia Bar & Tapas",
+    "lat": 38.7120795,
+    "lng": -9.1449769,
+    "category": "bar",
+    "opening_hours": "Mo-Su 16:30-02:00",
+    "address": {
+      "street": "Rua da Atalaia",
+      "housenumber": "53",
+      "postcode": "1200-027"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14365700608",
+    "name": "Aché Barroca",
+    "lat": 38.7123004,
+    "lng": -9.1446355,
+    "category": "bar",
+    "opening_hours": "Mo-Su 16:00-02:00",
+    "address": {
+      "street": "Rua da Barroca",
+      "housenumber": "109",
+      "postcode": "1200-048"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14365707001",
+    "name": "Aché Latino",
+    "lat": 38.7118631,
+    "lng": -9.1449527,
+    "category": "bar",
+    "opening_hours": "Mo-Su 17:00-02:00",
+    "address": {
+      "street": "Rua da Atalaia",
+      "housenumber": "35",
+      "postcode": "1200-043"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14042286801",
+    "name": "Aerobica",
+    "lat": 38.7099098,
+    "lng": -9.1461024,
+    "category": "bar",
+    "address": {
+      "street": "Rua da Bica de Duarte Belo",
+      "housenumber": "26"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11389723919",
+    "name": "Alba",
+    "lat": 38.7081138,
+    "lng": -9.1468215,
+    "category": "pub",
+    "address": {
+      "street": "Rua da Moeda",
+      "housenumber": "12",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4420865091",
+    "name": "Alface Hall",
+    "lat": 38.7128879,
+    "lng": -9.1437318,
+    "category": "bar",
+    "address": {
+      "street": "Rua do Norte",
+      "housenumber": "96"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4375637993",
+    "name": "All Saints Bar",
+    "lat": 38.7075969,
+    "lng": -9.1543562,
+    "category": "bar",
+    "address": {
+      "street": "Largo de Santos",
+      "housenumber": "9c",
+      "postcode": "1200"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11891497044",
+    "name": "All' Mondegaria Gastrobar",
+    "lat": 38.7178149,
+    "lng": -9.1663101,
+    "category": "bar",
+    "address": {
+      "street": "Rua Francisco Metrass",
+      "housenumber": "34B",
+      "postcode": "1350-140",
+      "city": "Campo de Ourique"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4922959487",
+    "name": "Alto Amor",
+    "lat": 38.7125418,
+    "lng": -9.1437165,
+    "category": "bar",
+    "address": {
+      "street": "Rua do Norte",
+      "housenumber": "86",
+      "postcode": "1200-287",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10253764125",
+    "name": "Amazonas",
+    "lat": 38.7217008,
+    "lng": -9.1242107,
+    "category": "bar",
+    "opening_hours": "We-Sa 18:00-02:00",
+    "website": "https://linktr.ee/amz.amazonas",
+    "address": {
+      "street": "Calçada dos Barbadinhos",
+      "housenumber": "136",
+      "unit": "Loja E",
+      "postcode": "1170-041",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12696590801",
+    "name": "ANA Lounge",
+    "lat": 38.7713698,
+    "lng": -9.1307247,
+    "category": "bar",
+    "opening_hours": "Mo-Su 04:00-23:00",
+    "curated": false
+  },
+  {
+    "id": "node/12610599800",
+    "name": "Antisocial",
+    "lat": 38.7045113,
+    "lng": -9.1662884,
+    "category": "bar",
+    "opening_hours": "We-Th 20:00-02:00; Fr-Sa 20:00-03:00",
+    "address": {
+      "street": "Rua Presidente Arriaga",
+      "housenumber": "138",
+      "postcode": "1200-774",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11895371695",
+    "name": "Antù Cais do Sodré",
+    "lat": 38.7073542,
+    "lng": -9.1425916,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/2329873202",
+    "name": "Apprazível",
+    "lat": 38.7105866,
+    "lng": -9.1401197,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4378102189",
+    "name": "Arroz Doce",
+    "lat": 38.7129087,
+    "lng": -9.1450894,
+    "category": "bar",
+    "address": {
+      "street": "Rua da Atalaia",
+      "housenumber": "119"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5674587416",
+    "name": "Artis Wine Bar",
+    "lat": 38.7125525,
+    "lng": -9.144194,
+    "category": "bar",
+    "opening_hours": "Tu-Th 17:30-02:00, Fr-Sa 17:30-03:00, Su 17:30-02:00",
+    "address": {
+      "street": "Rua do Diário de Notícias",
+      "housenumber": "95",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2504936274",
+    "name": "B'leza",
+    "lat": 38.7054835,
+    "lng": -9.1473475,
+    "category": "nightclub",
+    "address": {
+      "street": "Cais do Gás",
+      "housenumber": "1",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14372798301",
+    "name": "B'Shisha",
+    "lat": 38.7661216,
+    "lng": -9.1225518,
+    "category": "bar",
+    "opening_hours": "Tu-Su 19:00-02:00",
+    "address": {
+      "street": "Rua Cidade de Vila Cabral",
+      "housenumber": "353",
+      "postcode": "1800-131"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11307420569",
+    "name": "Bacaro",
+    "lat": 38.718592,
+    "lng": -9.1302093,
+    "category": "bar",
+    "opening_hours": "18:00-24:00",
+    "address": {
+      "street": "Travessa do Monte",
+      "housenumber": "5",
+      "postcode": "1170-296"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/7280556910",
+    "name": "Bacchanal",
+    "lat": 38.7073291,
+    "lng": -9.1427266,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/13289079501",
+    "name": "Bada",
+    "lat": 38.7208534,
+    "lng": -9.1316777,
+    "category": "bar",
+    "address": {
+      "street": "Rua Damasceno Monteiro",
+      "housenumber": "104C",
+      "postcode": "1170-113"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11895371694",
+    "name": "Bairrazza",
+    "lat": 38.7073753,
+    "lng": -9.1425239,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11848069629",
+    "name": "Baleal",
+    "lat": 38.7133119,
+    "lng": -9.136553,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "way/935203996",
+    "name": "Banana Cafe Blue",
+    "lat": 38.7085282,
+    "lng": -9.1303538,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "way/1419068555",
+    "name": "Banana Café N.º 3",
+    "lat": 38.7180614,
+    "lng": -9.1441279,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "way/935203993",
+    "name": "Banana Cafe Red",
+    "lat": 38.7082405,
+    "lng": -9.1310122,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "way/935203997",
+    "name": "Banana Cafe Yellow",
+    "lat": 38.7079567,
+    "lng": -9.1316725,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/13379851068",
+    "name": "Bar 104",
+    "lat": 38.7124742,
+    "lng": -9.14494,
+    "category": "bar",
+    "address": {
+      "street": "Rua da Atalaia",
+      "housenumber": "104;106"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13688440501",
+    "name": "Bar 106",
+    "lat": 38.7152446,
+    "lng": -9.1507433,
+    "category": "bar",
+    "address": {
+      "street": "Rua de São Marçal",
+      "housenumber": "106"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11584396981",
+    "name": "Bar 10A",
+    "lat": 38.7505547,
+    "lng": -9.1371703,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/5319098321",
+    "name": "Bar Alto Restaurant",
+    "lat": 38.7115354,
+    "lng": -9.1441385,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/491133064",
+    "name": "Bar Arché Cohiba",
+    "lat": 38.7128224,
+    "lng": -9.1437112,
+    "category": "pub",
+    "website": "https://www.achecohiba.com",
+    "curated": false
+  },
+  {
+    "id": "node/11892515140",
+    "name": "Bar Boalma",
+    "lat": 38.7241954,
+    "lng": -9.1523652,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4977930543",
+    "name": "Bar Cena de Copos",
+    "lat": 38.7121614,
+    "lng": -9.1446492,
+    "category": "bar",
+    "address": {
+      "street": "Rua da Barroca",
+      "housenumber": "105"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/530674344",
+    "name": "Bar Charh",
+    "lat": 38.7352581,
+    "lng": -9.1555128,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/2011486064",
+    "name": "Bar da Universidade Europeia",
+    "lat": 38.7601969,
+    "lng": -9.194068,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/12258400539",
+    "name": "Bar da Vera Shorty's",
+    "lat": 38.7133596,
+    "lng": -9.1453757,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/3232293861",
+    "name": "Bar do Cais",
+    "lat": 38.7071869,
+    "lng": -9.1438143,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4753650322",
+    "name": "Bar do Ricardo",
+    "lat": 38.7087186,
+    "lng": -9.1442682,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/3575235997",
+    "name": "Bar Lis",
+    "lat": 38.7077027,
+    "lng": -9.1443723,
+    "category": "bar",
+    "address": {
+      "street": "Praça de São Paulo",
+      "housenumber": "16"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11350619739",
+    "name": "Bar Na Colina",
+    "lat": 38.7097722,
+    "lng": -9.1487405,
+    "category": "bar",
+    "opening_hours": "Mo-Fr 00:00-01:00,18:00-24:00; Sa-Su 00:00-03:00,18:00-24:00",
+    "website": "https://www.instagram.com/barnacolina/",
+    "address": {
+      "street": "Rua da Santa Catarina",
+      "housenumber": "28",
+      "postcode": "1200-085",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3232312708",
+    "name": "Bar Number Two",
+    "lat": 38.7050842,
+    "lng": -9.159329,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/5319093821",
+    "name": "Bar Portas Largas",
+    "lat": 38.7127549,
+    "lng": -9.1450865,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/8744407802",
+    "name": "Bar Torre",
+    "lat": 38.7734112,
+    "lng": -9.0923037,
+    "category": "bar",
+    "address": {
+      "street": "Rua da Pimenta",
+      "housenumber": "111"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5324784522",
+    "name": "Barrio Latino",
+    "lat": 38.7058161,
+    "lng": -9.1554158,
+    "category": "nightclub",
+    "website": "https://www.facebook.com/BarrioLatinoPT/",
+    "address": {
+      "street": "Avenida de Brasília",
+      "postcode": "1399-036",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13092823001",
+    "name": "Barroso Alto",
+    "lat": 38.7128659,
+    "lng": -9.1451892,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/13208237801",
+    "name": "Beer Cocktail",
+    "lat": 38.705167,
+    "lng": -9.1435122,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11879174599",
+    "name": "Beers",
+    "lat": 38.7759501,
+    "lng": -9.0953864,
+    "category": "pub",
+    "address": {
+      "street": "Alameda dos Oceanos",
+      "housenumber": "81D"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11364878753",
+    "name": "Beers LxFactory",
+    "lat": 38.7030659,
+    "lng": -9.1786816,
+    "category": "pub",
+    "address": {
+      "street": "Rua Rodrigues Faria",
+      "housenumber": "103"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10589902513",
+    "name": "Bica Sour",
+    "lat": 38.7099082,
+    "lng": -9.1462021,
+    "category": "bar",
+    "address": {
+      "street": "Rua da Bica de Duarte Belo",
+      "housenumber": "31",
+      "postcode": "1200-056",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/759797939",
+    "name": "Bicaense",
+    "lat": 38.7100003,
+    "lng": -9.1451806,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/5599482721",
+    "name": "Bicaense real location",
+    "lat": 38.7101905,
+    "lng": -9.1460083,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11884007403",
+    "name": "Black Pepper & Basil",
+    "lat": 38.7188619,
+    "lng": -9.1657759,
+    "category": "bar",
+    "opening_hours": "Mo-Sa 10:30-19:30",
+    "curated": false
+  },
+  {
+    "id": "node/8242762519",
+    "name": "Black Sheep",
+    "lat": 38.7151697,
+    "lng": -9.1510789,
+    "category": "bar",
+    "opening_hours": "Tu-Th, Sa-Su 19:00-00:00; Fr 18:00-01:00",
+    "address": {
+      "street": "Rua da Palmeira",
+      "housenumber": "62",
+      "postcode": "1200-192",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1955021865",
+    "name": "Black Sheep Main Bar",
+    "lat": 38.7151561,
+    "lng": -9.1510294,
+    "category": "bar",
+    "opening_hours": "Mo-Th 15:30-01:00; Fr-Sa 15:30-02:00; Su 15:30-01:00; Mo-Su 15:30-01:00",
+    "address": {
+      "street": "Praça das Flores",
+      "housenumber": "62",
+      "postcode": "1200-192"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2507444526",
+    "name": "Black Tie Club",
+    "lat": 38.7289341,
+    "lng": -9.1467392,
+    "category": "nightclub",
+    "curated": false
+  },
+  {
+    "id": "node/3912903733",
+    "name": "Bliss",
+    "lat": 38.7578474,
+    "lng": -9.0922343,
+    "category": "bar",
+    "address": {
+      "street": "Passeio do Adamastor"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4408409515",
+    "name": "Bluelounge",
+    "lat": 38.7689905,
+    "lng": -9.12996,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/2507444530",
+    "name": "Boîte Gallery",
+    "lat": 38.7275154,
+    "lng": -9.1455965,
+    "category": "nightclub",
+    "curated": false
+  },
+  {
+    "id": "node/10315017710",
+    "name": "Bom Bom Bom",
+    "lat": 38.721393,
+    "lng": -9.1301468,
+    "category": "bar",
+    "website": "https://www.instagram.com/bombombomlisboa",
+    "address": {
+      "street": "Rua Angelina Vidal",
+      "housenumber": "5"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14365700607",
+    "name": "Bombar",
+    "lat": 38.7120546,
+    "lng": -9.1449024,
+    "category": "bar",
+    "opening_hours": "Mo-Su 18:00-02:00",
+    "address": {
+      "street": "Rua da Atalaia",
+      "housenumber": "64A 66",
+      "postcode": "1200-042"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1743801705",
+    "name": "Bora-Bora",
+    "lat": 38.7381001,
+    "lng": -9.1335996,
+    "category": "bar",
+    "opening_hours": "Su-Th 20:30-03:00, Fr,Sa 20:30-03:30",
+    "curated": false
+  },
+  {
+    "id": "node/14365707501",
+    "name": "Botanica",
+    "lat": 38.7126538,
+    "lng": -9.1437992,
+    "category": "bar",
+    "opening_hours": "Tu-Su 20:00-02:00",
+    "address": {
+      "street": "Rua do Norte",
+      "housenumber": "111",
+      "postcode": "1200-365"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/7281250473",
+    "name": "Brasão",
+    "lat": 38.7085397,
+    "lng": -9.1518394,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/4405500089",
+    "name": "British Bar",
+    "lat": 38.7069008,
+    "lng": -9.1431785,
+    "category": "bar",
+    "address": {
+      "street": "Rua Bernardino Costa",
+      "housenumber": "52"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11894244552",
+    "name": "Bruxas beer bar",
+    "lat": 38.7115558,
+    "lng": -9.1355563,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4374485378",
+    "name": "Bus",
+    "lat": 38.7247683,
+    "lng": -9.133273,
+    "category": "bar",
+    "opening_hours": "Mo-Fr 12:00-0:00;Sa 16:00-0:00",
+    "address": {
+      "street": "Rua Maria",
+      "housenumber": "73",
+      "postcode": "1170-210",
+      "city": "Lisboa",
+      "country": "PT"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5134097922",
+    "name": "bytheWine",
+    "lat": 38.709001,
+    "lng": -9.1436835,
+    "category": "bar",
+    "address": {
+      "street": "Rua das Flores",
+      "housenumber": "41"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12191890018",
+    "name": "Cabal",
+    "lat": 38.7151669,
+    "lng": -9.1386349,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4256854408",
+    "name": "Café Bar BA",
+    "lat": 38.7102299,
+    "lng": -9.1433068,
+    "category": "bar",
+    "opening_hours": "Mo-Su 07:30-11:30, 12:30-16:00, 19:00-23:55",
+    "website": "https://www.bahr.pt/",
+    "curated": false
+  },
+  {
+    "id": "node/11875228178",
+    "name": "Café Central",
+    "lat": 38.7196163,
+    "lng": -9.1304455,
+    "category": "bar",
+    "opening_hours": "Mo-Tu,Th-Su 17:00-24:00",
+    "curated": false
+  },
+  {
+    "id": "node/5962675085",
+    "name": "Café Klandestino",
+    "lat": 38.7197865,
+    "lng": -9.1349298,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11895371696",
+    "name": "Cais do Pirata",
+    "lat": 38.7073488,
+    "lng": -9.1428844,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/5908984886",
+    "name": "Caos",
+    "lat": 38.7076476,
+    "lng": -9.1441715,
+    "category": "bar",
+    "opening_hours": "Mo-Su 19:00-02:00",
+    "curated": false
+  },
+  {
+    "id": "node/12650902083",
+    "name": "Capela, Live Arts & Bar",
+    "lat": 38.700143,
+    "lng": -9.1837868,
+    "category": "bar",
+    "address": {
+      "street": "Rua da Junqueira",
+      "housenumber": "66",
+      "postcode": "1300-343",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/490185698",
+    "name": "Carioca da Trindade",
+    "lat": 38.7118663,
+    "lng": -9.1420764,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/8815106518",
+    "name": "Casa do Capitão",
+    "lat": 38.7308867,
+    "lng": -9.1072799,
+    "category": "bar",
+    "opening_hours": "24/7",
+    "website": "https://casa-capitao.com/",
+    "address": {
+      "street": "Rua do Grilo",
+      "housenumber": "119",
+      "postcode": "1950-147"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14333909501",
+    "name": "Catfish Cocktail Bar",
+    "lat": 38.718102,
+    "lng": -9.1457268,
+    "category": "bar",
+    "website": "http://catfishcoctailbar.net",
+    "address": {
+      "street": "Praça da Alegria",
+      "housenumber": "46",
+      "postcode": "1250-004"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4374819333",
+    "name": "Central Café",
+    "lat": 38.7124273,
+    "lng": -9.1259378,
+    "category": "bar",
+    "address": {
+      "street": "Beco da Lapa",
+      "housenumber": "31",
+      "postcode": "1100-331",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10314946512",
+    "name": "Cerveja Canil",
+    "lat": 38.7123695,
+    "lng": -9.1371185,
+    "category": "bar",
+    "address": {
+      "street": "Rua dos Douradores",
+      "housenumber": "133"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11329885293",
+    "name": "Cerveja Canil",
+    "lat": 38.723288,
+    "lng": -9.1457884,
+    "category": "pub",
+    "website": "https://www.cervejacanil.com/",
+    "curated": false
+  },
+  {
+    "id": "node/11287438899",
+    "name": "Cervejaria a Torre",
+    "lat": 38.7744857,
+    "lng": -9.1586354,
+    "category": "pub",
+    "address": {
+      "street": "Estrada da Torre",
+      "housenumber": "67A"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12296974466",
+    "name": "Cervejaria Cais Bar",
+    "lat": 38.7071112,
+    "lng": -9.143228,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/2507421219",
+    "name": "Cervejaria Solmar (Fechada)",
+    "lat": 38.7168966,
+    "lng": -9.1410172,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/1314882972",
+    "name": "Chafariz do Vinho",
+    "lat": 38.7170042,
+    "lng": -9.147076,
+    "category": "bar",
+    "website": "https://www.chafarizdovinho.com/",
+    "address": {
+      "postcode": "1250-154"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2505121658",
+    "name": "Charlie's",
+    "lat": 38.7074301,
+    "lng": -9.1545894,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/759797942",
+    "name": "Cheers Irish Pub",
+    "lat": 38.7128318,
+    "lng": -9.1449891,
+    "category": "bar",
+    "website": "https://www.cheerslisbon.com/",
+    "address": {
+      "street": "Rua da Atalaia",
+      "housenumber": "126",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/7283430642",
+    "name": "Chiado",
+    "lat": 38.7129402,
+    "lng": -9.1430496,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/4160766989",
+    "name": "Cinco Lounge",
+    "lat": 38.7142129,
+    "lng": -9.1496752,
+    "category": "bar",
+    "website": "https://cincolounge.com/en",
+    "address": {
+      "street": "Rua Ruben A. Leitão",
+      "housenumber": "17-A"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3513648097",
+    "name": "Clube da Esquina",
+    "lat": 38.7114821,
+    "lng": -9.1444344,
+    "category": "bar",
+    "opening_hours": "Mo-Th 19:00-02:00; Fr-Sa 19:00-03:00; Su 21:00-02:00",
+    "address": {
+      "street": "Rua da Barroca",
+      "housenumber": "30",
+      "postcode": "1200",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3190240004",
+    "name": "Cockpit Bar",
+    "lat": 38.744705,
+    "lng": -9.141105,
+    "category": "bar",
+    "website": "http://www.cockpit-bar.com/",
+    "address": {
+      "street": "Avenida Sacadura Cabral",
+      "housenumber": "18C",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12318822375",
+    "name": "Concéptica Bar",
+    "lat": 38.7131182,
+    "lng": -9.1436207,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/7283436355",
+    "name": "COPA Barafina",
+    "lat": 38.7089156,
+    "lng": -9.1495597,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/10727343007",
+    "name": "COPA Lisboa",
+    "lat": 38.7088948,
+    "lng": -9.1518999,
+    "category": "bar",
+    "opening_hours": "Su,Th-Sa,We 18:00-00:00",
+    "address": {
+      "street": "Rua dos Mastros",
+      "housenumber": "4",
+      "postcode": "1200-163"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13379851063",
+    "name": "Copacabana",
+    "lat": 38.7125856,
+    "lng": -9.1449521,
+    "category": "bar",
+    "address": {
+      "street": "Rua da Atalaia",
+      "housenumber": "114:116"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4416857831",
+    "name": "Copenhagen",
+    "lat": 38.7073829,
+    "lng": -9.1429344,
+    "category": "bar",
+    "opening_hours": "22:00-04:00",
+    "curated": false
+  },
+  {
+    "id": "node/6006979352",
+    "name": "Copo e Meio",
+    "lat": 38.7309694,
+    "lng": -9.1330565,
+    "category": "bar",
+    "opening_hours": "Tu-Su 18:00-02:00",
+    "address": {
+      "street": "Praça Olegário Mariano",
+      "housenumber": "4",
+      "postcode": "1170-278",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12258415461",
+    "name": "Copócone",
+    "lat": 38.7108005,
+    "lng": -9.14615,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/9167812217",
+    "name": "Corner",
+    "lat": 38.7254389,
+    "lng": -9.1533777,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/12320507855",
+    "name": "COTOVIA. cocktail bar",
+    "lat": 38.7153407,
+    "lng": -9.1515738,
+    "category": "bar",
+    "address": {
+      "street": "Praça das Flores",
+      "housenumber": "46",
+      "postcode": "1200-250",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12320495058",
+    "name": "Couch Sport Bar",
+    "lat": 38.7070439,
+    "lng": -9.1435565,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4624286113",
+    "name": "CR7 Corner",
+    "lat": 38.7091624,
+    "lng": -9.1361172,
+    "category": "bar",
+    "address": {
+      "street": "Rua do Comércio",
+      "housenumber": "26",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6131310085",
+    "name": "Cusek Bar",
+    "lat": 38.7122714,
+    "lng": -9.1440825,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/9721480107",
+    "name": "De Bru",
+    "lat": 38.7234578,
+    "lng": -9.1425237,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 09:30-22:00",
+    "address": {
+      "street": "Rua Luciano Cordeiro",
+      "housenumber": "2 C"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4116858038",
+    "name": "Decibelz Bar",
+    "lat": 38.7075566,
+    "lng": -9.156022,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/9970131484",
+    "name": "dejaVu bar lounge",
+    "lat": 38.7349052,
+    "lng": -9.1394206,
+    "category": "bar",
+    "opening_hours": "Mo-Su 12:00-02:00",
+    "curated": false
+  },
+  {
+    "id": "node/11183805137",
+    "name": "DejaVu Saldanha Quiosque",
+    "lat": 38.7338929,
+    "lng": -9.144033,
+    "category": "bar",
+    "address": {
+      "street": "Avenida Praia da Vitória",
+      "housenumber": "63"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11893383432",
+    "name": "Djairsound",
+    "lat": 38.706298,
+    "lng": -9.1589099,
+    "category": "bar",
+    "address": {
+      "street": "Rua das Janelas Verdes",
+      "housenumber": "22",
+      "city": "Estrela"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4298966091",
+    "name": "Dois Corvos - Tap Room",
+    "lat": 38.7380581,
+    "lng": -9.1055199,
+    "category": "bar",
+    "opening_hours": "Su-Th 14:00-23:00; Fr-Sa 14:00-01:00",
+    "website": "https://doiscorvos.pt",
+    "address": {
+      "street": "Rua Capitão Leitão",
+      "housenumber": "94",
+      "postcode": "1950-052",
+      "city": "Marvila"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10786611305",
+    "name": "Dois Corvos Cervejaria",
+    "lat": 38.7223469,
+    "lng": -9.1348873,
+    "category": "bar",
+    "opening_hours": "Tu-Th 16:00-00:00; Fr 16:00-01:00; Sa 16:00-01:00; Su 16:00-24:00",
+    "website": "http://doiscorvos.pt/",
+    "address": {
+      "street": "Rua dos Anjos",
+      "housenumber": "16B",
+      "postcode": "1170-014",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/491204143",
+    "name": "Dos Capotes Brancos",
+    "lat": 38.7138511,
+    "lng": -9.1445337,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/13495882502",
+    "name": "Double Deuce Billiards",
+    "lat": 38.7369394,
+    "lng": -9.1440031,
+    "category": "bar",
+    "opening_hours": "Mo-Su 12:00-02:00",
+    "website": "https://doubledeuce.simplybook.it/v2/",
+    "address": {
+      "street": "Avenida Defensores de Chaves",
+      "housenumber": "45c",
+      "postcode": "1000-112"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4160806492",
+    "name": "Double9",
+    "lat": 38.7124104,
+    "lng": -9.1429905,
+    "category": "bar",
+    "website": "https://m.facebook.com/Double9Lisbon/",
+    "address": {
+      "street": "Rua da Misericórdia",
+      "housenumber": "78"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12314497154",
+    "name": "DRAG TASTE",
+    "lat": 38.7304516,
+    "lng": -9.1078913,
+    "category": "bar",
+    "address": {
+      "street": "Rua do Grilo",
+      "housenumber": "112",
+      "postcode": "1950-146",
+      "city": "Beato"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4673773592",
+    "name": "Drako",
+    "lat": 38.7234753,
+    "lng": -9.1432167,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11875228204",
+    "name": "Drama Bar",
+    "lat": 38.7213055,
+    "lng": -9.1317521,
+    "category": "bar",
+    "website": "https://linktr.ee/needfordrama",
+    "curated": false
+  },
+  {
+    "id": "node/6714992987",
+    "name": "Duque da Rua",
+    "lat": 38.712832,
+    "lng": -9.1411603,
+    "category": "bar",
+    "website": "https://duquedarua.pt/",
+    "address": {
+      "street": "Rua do Duque",
+      "housenumber": "23"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/759797945",
+    "name": "Eclipse",
+    "lat": 38.7111389,
+    "lng": -9.1441829,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/9415574717",
+    "name": "El Cabron",
+    "lat": 38.7074567,
+    "lng": -9.1545501,
+    "category": "bar",
+    "address": {
+      "street": "Largo de Santos"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6347929885",
+    "name": "Elefante Branco",
+    "lat": 38.7257082,
+    "lng": -9.1462293,
+    "category": "nightclub",
+    "curated": false
+  },
+  {
+    "id": "node/4293013989",
+    "name": "Empório da Cerveja lisboeta",
+    "lat": 38.7163031,
+    "lng": -9.1501349,
+    "category": "bar",
+    "address": {
+      "street": "Rua Cecílio de Sousa",
+      "housenumber": "67a",
+      "postcode": "1200-099"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10314946516",
+    "name": "Enoteca LX",
+    "lat": 38.7170068,
+    "lng": -9.1470632,
+    "category": "bar",
+    "opening_hours": "Mo-Su 16:00-01:00",
+    "address": {
+      "street": "Rua da Mãe d'Água",
+      "housenumber": "33 38"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2496150527",
+    "name": "Erasmus Corner",
+    "lat": 38.7142233,
+    "lng": -9.1445536,
+    "category": "bar",
+    "website": "https://www.erasmuslifelisboa.com/",
+    "address": {
+      "street": "Travessa da Cara",
+      "housenumber": "2",
+      "city": "Lisboa",
+      "country": "PT"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12296974465",
+    "name": "Espumantaria do Cais",
+    "lat": 38.7071222,
+    "lng": -9.1436244,
+    "category": "bar",
+    "opening_hours": "Mo-Su 13:00-04:00",
+    "address": {
+      "street": "Rua Nova do Carvalho",
+      "housenumber": "39",
+      "postcode": "1200-291",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/1432087006",
+    "name": "Estudio Arroz",
+    "lat": 38.7262029,
+    "lng": -9.1108297,
+    "category": "nightclub",
+    "website": "https://www.arrozestudios.pt/",
+    "address": {
+      "street": "Avenida Infante Dom Henrique",
+      "housename": "AAFC",
+      "postcode": "1900-320",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2474062937",
+    "name": "F Microclub",
+    "lat": 38.7075804,
+    "lng": -9.1538535,
+    "category": "bar",
+    "address": {
+      "street": "Largo Vitorino Damásio"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1600400072",
+    "name": "Feitoria Restaurante & Wine Bar",
+    "lat": 38.6930572,
+    "lng": -9.2107097,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11034285106",
+    "name": "Fermentage",
+    "lat": 38.73893,
+    "lng": -9.1042905,
+    "category": "bar",
+    "address": {
+      "street": "Rua Capitão Leitão",
+      "housenumber": "1B"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10314947210",
+    "name": "Ferroviário",
+    "lat": 38.7183989,
+    "lng": -9.11838,
+    "category": "bar",
+    "address": {
+      "street": "Rua de Santa Apolónia",
+      "housenumber": "59"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6618562882",
+    "name": "Filozofi Social Lounge Bar",
+    "lat": 38.7455141,
+    "lng": -9.1472206,
+    "category": "bar",
+    "opening_hours": "Tu-Su 20:00-02:00",
+    "address": {
+      "street": "Avenida da República",
+      "housenumber": "74 A",
+      "postcode": "1600-205"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2501836316",
+    "name": "Finalmente Clube",
+    "lat": 38.7147899,
+    "lng": -9.1498756,
+    "category": "nightclub",
+    "website": "https://www.finalmenteclub.com/",
+    "address": {
+      "street": "Rua da Palmeira",
+      "housenumber": "38",
+      "postcode": "1200-313",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4773880686",
+    "name": "Flor de Lúpulo",
+    "lat": 38.7299335,
+    "lng": -9.1367192,
+    "category": "pub",
+    "opening_hours": "Mo-Th 17:00-22:30; Fr,Sa 17:00-00:30; Su off",
+    "address": {
+      "street": "Rua Pascoal de Melo"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12320291813",
+    "name": "Floresta de Benfica",
+    "lat": 38.7525482,
+    "lng": -9.2076598,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/2507421217",
+    "name": "Fontória",
+    "lat": 38.7181837,
+    "lng": -9.1446717,
+    "category": "nightclub",
+    "curated": false
+  },
+  {
+    "id": "node/12321222901",
+    "name": "From The Vine",
+    "lat": 38.7160365,
+    "lng": -9.1439105,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/13727788997",
+    "name": "Garagem da Vizinha",
+    "lat": 38.7319025,
+    "lng": -9.1482713,
+    "category": "bar",
+    "address": {
+      "street": "Rua Pedro Nunes",
+      "housenumber": "10",
+      "postcode": "1050-171",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13256809838",
+    "name": "Gardenias Lisboa",
+    "lat": 38.7204212,
+    "lng": -9.1534222,
+    "category": "bar",
+    "opening_hours": "Tu-Sa 17:00-01:00",
+    "website": "https://gardeniaslisboa.com/",
+    "address": {
+      "street": "Rua Alexandre Herculano",
+      "housenumber": "61",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6726661186",
+    "name": "Garrafeira Alfaia",
+    "lat": 38.7130959,
+    "lng": -9.1442875,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/13626907301",
+    "name": "Ginjinha da Dona Alice",
+    "lat": 38.7119921,
+    "lng": -9.1276712,
+    "category": "bar",
+    "address": {
+      "street": "Calçadinha de Santo Estevão",
+      "housenumber": "24",
+      "unit": "R/C",
+      "postcode": "1100-503",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5929732689",
+    "name": "Ginjinha Das Gaveas",
+    "lat": 38.711145,
+    "lng": -9.1433918,
+    "category": "bar",
+    "opening_hours": "Su-Th 17:00-02:00, Fr,Sa 17:00-03:00",
+    "address": {
+      "street": "Rua das Gáveas",
+      "housenumber": "17A"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4465184803",
+    "name": "Ginjinha Popular",
+    "lat": 38.7157089,
+    "lng": -9.1400973,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/4848712321",
+    "name": "Ginjinha Rubi",
+    "lat": 38.7149285,
+    "lng": -9.1382766,
+    "category": "bar",
+    "opening_hours": "Mo-Su 07:00-23:00",
+    "address": {
+      "street": "Rua de Barros Queirós",
+      "housenumber": "27",
+      "postcode": "1150-049"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4790843622",
+    "name": "Glow",
+    "lat": 38.711836,
+    "lng": -9.1451643,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/3575235999",
+    "name": "Glup Glup",
+    "lat": 38.7248779,
+    "lng": -9.1542642,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/14234737101",
+    "name": "Golden Vista Karaoke",
+    "lat": 38.6997303,
+    "lng": -9.1786615,
+    "category": "bar",
+    "opening_hours": "Tu-Sa 17:00-00:00",
+    "website": "https://www.goldenvista.pt/",
+    "address": {
+      "street": "Docas de Santo Amaro",
+      "housenumber": "13",
+      "postcode": "1350-353"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12302366115",
+    "name": "Grog",
+    "lat": 38.7527372,
+    "lng": -9.1443451,
+    "category": "bar",
+    "opening_hours": "Tu-Sa 18:00-02:00",
+    "address": {
+      "street": "Praça de Alvalade",
+      "housenumber": "3C",
+      "postcode": "1700-035",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6797586785",
+    "name": "Grogs Bar",
+    "lat": 38.7118447,
+    "lng": -9.1454755,
+    "category": "bar",
+    "opening_hours": "Su-Th 18:00-02:00; Fr-Sa 18:00-03:00",
+    "address": {
+      "street": "Travessa dos Fiéis de Deus",
+      "housenumber": "3a"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12258436584",
+    "name": "Groove Bar",
+    "lat": 38.7132951,
+    "lng": -9.1453745,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11105597119",
+    "name": "Gulden Draak",
+    "lat": 38.7300246,
+    "lng": -9.1477044,
+    "category": "bar",
+    "opening_hours": "Su-Th 12:00-01:00; Fr-Sa 12:00-02:00",
+    "address": {
+      "street": "Rua Andrade Corvo",
+      "housenumber": "29a",
+      "postcode": "1050-008"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/9592542460",
+    "name": "Hype",
+    "lat": 38.7060093,
+    "lng": -9.1573478,
+    "category": "nightclub",
+    "address": {
+      "street": "Avenida 24 de Julho",
+      "housenumber": "66",
+      "postcode": "1200-869",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13799977301",
+    "name": "Imperial",
+    "lat": 38.7234017,
+    "lng": -9.1323572,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4693698454",
+    "name": "imprensa",
+    "lat": 38.7163459,
+    "lng": -9.1530974,
+    "category": "bar",
+    "address": {
+      "street": "Rua da Imprensa Nacional",
+      "housenumber": "46",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/676940348",
+    "name": "Incógnito",
+    "lat": 38.7107671,
+    "lng": -9.1509016,
+    "category": "bar",
+    "address": {
+      "street": "Rua dos Poiais de São Bento",
+      "housenumber": "37A"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4692609891",
+    "name": "Inda A Noite E Uma Criança",
+    "lat": 38.7149148,
+    "lng": -9.1513363,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/10314947010",
+    "name": "Insaciável",
+    "lat": 38.7078594,
+    "lng": -9.1560214,
+    "category": "bar",
+    "opening_hours": "Tu-Sa 17:00-00:00",
+    "address": {
+      "street": "Rua da Esperança",
+      "housenumber": "156"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/419313423",
+    "name": "Instituto do Vinho do Porto",
+    "lat": 38.714165,
+    "lng": -9.1441224,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/10314946909",
+    "name": "Ippolito & Maciste",
+    "lat": 38.7084194,
+    "lng": -9.1543898,
+    "category": "bar",
+    "opening_hours": "Tu-Sa 18:00-00:00",
+    "address": {
+      "street": "Rua da Esperança",
+      "housenumber": "72"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/9690118458",
+    "name": "Ire",
+    "lat": 38.713492,
+    "lng": -9.1439826,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/8744365238",
+    "name": "Irish & Co",
+    "lat": 38.7717731,
+    "lng": -9.0923963,
+    "category": "pub",
+    "opening_hours": "Mo-Th,Su 12:00-02:00; Fr-Sa 12:00-03:00",
+    "address": {
+      "street": "Rua da Pimenta",
+      "housenumber": "57"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5371196535",
+    "name": "Ironic",
+    "lat": 38.708989,
+    "lng": -9.1466108,
+    "category": "bar",
+    "website": "http://ironiclisbon.com/",
+    "curated": false
+  },
+  {
+    "id": "node/5927395185",
+    "name": "Jam Club - Jam Sessions",
+    "lat": 38.7127177,
+    "lng": -9.1462067,
+    "category": "bar",
+    "opening_hours": "Mo-Su 00:00-23:59",
+    "address": {
+      "street": "Travessa dos Inglesinhos",
+      "housenumber": "49"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3232293905",
+    "name": "Jamaica",
+    "lat": 38.7052722,
+    "lng": -9.1468352,
+    "category": "bar",
+    "address": {
+      "street": "Cais do Gás",
+      "housenumber": "1"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14365700604",
+    "name": "Jay-Z Bar @ Bairro Alto",
+    "lat": 38.7112171,
+    "lng": -9.1447892,
+    "category": "bar",
+    "opening_hours": "Mo-Su 19:00-02:00",
+    "address": {
+      "street": "Rua da Atalaia",
+      "housenumber": "26",
+      "postcode": "1200-041"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5938730588",
+    "name": "Joker Lounge Saldanha",
+    "lat": 38.7372222,
+    "lng": -9.1493756,
+    "category": "bar",
+    "opening_hours": "Tu-Su 18:00-02:00",
+    "address": {
+      "street": "Avenida Marquês de Tomar",
+      "housenumber": "44B",
+      "postcode": "1050-053",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4437430398",
+    "name": "Josephine Bistro & Bar",
+    "lat": 38.7203674,
+    "lng": -9.1349831,
+    "category": "bar",
+    "opening_hours": "Su, Tu 10:30-20:00; We-Th 11:00-00:00; Fr-Sa 10:30-02:00",
+    "website": "http://www.facebook.com/josephinebistrobar",
+    "address": {
+      "street": "Largo do Intendente Pina Manique",
+      "housenumber": "59",
+      "postcode": "1170-285"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11867303059",
+    "name": "Jungle",
+    "lat": 38.7611905,
+    "lng": -9.1657653,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/2003507818",
+    "name": "K Urban Beach",
+    "lat": 38.7039365,
+    "lng": -9.1554933,
+    "category": "nightclub",
+    "opening_hours": "We-Sa 20:00-06:00; Jun 08:00-14:00",
+    "website": "https://www.grupo-k.pt/",
+    "curated": false
+  },
+  {
+    "id": "node/7283457085",
+    "name": "Kamasutra",
+    "lat": 38.7115284,
+    "lng": -9.1435657,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/4786952745",
+    "name": "Karma Lounge Café Bar",
+    "lat": 38.7334855,
+    "lng": -9.1349337,
+    "category": "bar",
+    "opening_hours": "Mo-Su 16:00-02:00",
+    "curated": false
+  },
+  {
+    "id": "node/12532032701",
+    "name": "Kick Off Sports Bar",
+    "lat": 38.7248838,
+    "lng": -9.1541865,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/1302891328",
+    "name": "Kremlin",
+    "lat": 38.7062335,
+    "lng": -9.1573954,
+    "category": "nightclub",
+    "opening_hours": "Fr-Sa 00:30-07:30",
+    "website": "https://www.grupo-k.pt/",
+    "address": {
+      "street": "Escadinhas da Praia",
+      "housenumber": "5",
+      "postcode": "1200",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11421582669",
+    "name": "KUBO",
+    "lat": 38.7055324,
+    "lng": -9.1526194,
+    "category": "nightclub",
+    "curated": false
+  },
+  {
+    "id": "node/11880901428",
+    "name": "La Lisbonera",
+    "lat": 38.7183471,
+    "lng": -9.1309896,
+    "category": "bar",
+    "website": "https://linktr.ee/lalisbonera",
+    "address": {
+      "street": "Calçada da Senhora do Monte",
+      "housenumber": "66"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12307074438",
+    "name": "las gingas",
+    "lat": 38.7310804,
+    "lng": -9.130741,
+    "category": "bar",
+    "address": {
+      "street": "Calçada do Poço dos Mouros",
+      "housenumber": "28",
+      "unit": "izq"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6468985985",
+    "name": "LAV",
+    "lat": 38.7411374,
+    "lng": -9.1021676,
+    "category": "nightclub",
+    "curated": false
+  },
+  {
+    "id": "node/12692950537",
+    "name": "Le bleu",
+    "lat": 38.7154022,
+    "lng": -9.1638985,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/3203794306",
+    "name": "Le Jardin",
+    "lat": 38.7168669,
+    "lng": -9.1484227,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/5055803023",
+    "name": "Let's Rock Bar",
+    "lat": 38.710651,
+    "lng": -9.1458014,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4640505691",
+    "name": "Let's rock café",
+    "lat": 38.7106092,
+    "lng": -9.1458315,
+    "category": "bar",
+    "opening_hours": "Mo-Su 20:00-03:00",
+    "address": {
+      "street": "Rua da Bica de Duarte Belo",
+      "housenumber": "64"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/9238178617",
+    "name": "Lince",
+    "lat": 38.7389282,
+    "lng": -9.1043286,
+    "category": "bar",
+    "opening_hours": "We-Su 17:00-00:00",
+    "website": "https://cervejalince.pt/",
+    "address": {
+      "street": "Rua Capitão Leitão",
+      "housenumber": "1B",
+      "postcode": "1950-049"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11592303853",
+    "name": "Liquid Love",
+    "lat": 38.7195039,
+    "lng": -9.1370053,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/9812149090",
+    "name": "Lisboa Bar",
+    "lat": 38.7135115,
+    "lng": -9.1411206,
+    "category": "bar",
+    "website": "https://www.facebook.com/lisboa.bar.rossio",
+    "address": {
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/9698423940",
+    "name": "Lisboa Comedy Club",
+    "lat": 38.7283396,
+    "lng": -9.1445298,
+    "category": "bar",
+    "opening_hours": "Tu-Sa 19:00-24:00",
+    "website": "https://lisboacomedyclub.pt",
+    "address": {
+      "street": "Avenida Duque de Loulé",
+      "housenumber": "3A",
+      "postcode": "1050-085",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11894244553",
+    "name": "Lisboa Vadia",
+    "lat": 38.7115132,
+    "lng": -9.1354172,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/12320257537",
+    "name": "Lisboa Wine Bar",
+    "lat": 38.7278884,
+    "lng": -9.1098057,
+    "category": "pub",
+    "address": {
+      "street": "Rua de Xabregas",
+      "housenumber": "17",
+      "postcode": "1900-440",
+      "city": "Beato"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10743639737",
+    "name": "Little Chealsea",
+    "lat": 38.7391041,
+    "lng": -9.1045382,
+    "category": "pub",
+    "address": {
+      "street": "Rua Capitão Leitão",
+      "housenumber": "40"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3232293866",
+    "name": "Liverpool",
+    "lat": 38.7070882,
+    "lng": -9.1432705,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/13018805609",
+    "name": "Locals & Nomads",
+    "lat": 38.7185421,
+    "lng": -9.1300947,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11592284322",
+    "name": "Lost In",
+    "lat": 38.7158667,
+    "lng": -9.1463039,
+    "category": "bar",
+    "address": {
+      "street": "Rua Dom Pedro V",
+      "housenumber": "56D",
+      "postcode": "1250-094",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2607963678",
+    "name": "Loucura",
+    "lat": 38.7071669,
+    "lng": -9.1434342,
+    "category": "nightclub",
+    "website": "https://www.loucurabarlisbon.com",
+    "address": {
+      "street": "Rua Nova do Carvalho",
+      "housenumber": "24",
+      "housename": "Musicbox",
+      "postcode": "1249-002",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14362407201",
+    "name": "Lounge",
+    "lat": 38.707835,
+    "lng": -9.1471415,
+    "category": "bar",
+    "website": "https://www.loungelisboa.com.pt/",
+    "address": {
+      "street": "Rua da Moeda",
+      "housenumber": "1 Porta O a P",
+      "postcode": "1200-275"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4819158561",
+    "name": "Love Lisbon",
+    "lat": 38.7292518,
+    "lng": -9.1360177,
+    "category": "bar",
+    "opening_hours": "Tu-Sa 18:00-02:00; Su 17:00-00:00",
+    "curated": false
+  },
+  {
+    "id": "node/12909488395",
+    "name": "Lusa Cocktail & Wine Bar",
+    "lat": 38.7040243,
+    "lng": -9.1621086,
+    "category": "bar",
+    "opening_hours": "We-Su 17:00+; Mo,Tu off",
+    "address": {
+      "street": "Ciclovia Avenida 24 de Julho",
+      "housenumber": "110",
+      "postcode": "1200-871",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5103723582",
+    "name": "Lust in Rio",
+    "lat": 38.7059487,
+    "lng": -9.1499859,
+    "category": "nightclub",
+    "address": {
+      "street": "Rua da Cintura do Porto de Lisboa",
+      "postcode": "1200-109",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/96497162",
+    "name": "Lux Frágil",
+    "lat": 38.7149747,
+    "lng": -9.1205884,
+    "category": "nightclub",
+    "website": "https://www.luxfragil.com/",
+    "curated": false
+  },
+  {
+    "id": "node/12309434345",
+    "name": "Lux Lounge Bar",
+    "lat": 38.7323843,
+    "lng": -9.1345242,
+    "category": "bar",
+    "address": {
+      "street": "Avenida Almirante Reis",
+      "housenumber": "137-B",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6110156037",
+    "name": "Má Língua",
+    "lat": 38.7193232,
+    "lng": -9.1300505,
+    "category": "bar",
+    "opening_hours": "PH,Tu-Su 18:00-02:00",
+    "curated": false
+  },
+  {
+    "id": "node/4312018290",
+    "name": "Magic",
+    "lat": 38.7442777,
+    "lng": -9.1409003,
+    "category": "bar",
+    "website": "http://www.magicpoolbar.com/",
+    "address": {
+      "street": "Rua Augusto Gil",
+      "housenumber": "30A",
+      "postcode": "1000-182",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/338247977",
+    "name": "Magnetic",
+    "lat": 38.7355256,
+    "lng": -9.1484855,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 11:00-02:00",
+    "curated": false
+  },
+  {
+    "id": "node/12320507854",
+    "name": "Magnolia Bistrot & Winebar",
+    "lat": 38.715407,
+    "lng": -9.1516638,
+    "category": "bar",
+    "address": {
+      "street": "Praça das Flores",
+      "housenumber": "43",
+      "postcode": "1200-250",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6131310185",
+    "name": "Magote Bar",
+    "lat": 38.7110378,
+    "lng": -9.1441797,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/12329523393",
+    "name": "Maison Belle",
+    "lat": 38.7118181,
+    "lng": -9.1526253,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/2357964140",
+    "name": "Majone",
+    "lat": 38.7113344,
+    "lng": -9.1449231,
+    "category": "bar",
+    "address": {
+      "street": "Rua da Atalaia",
+      "housenumber": "3"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4848711321",
+    "name": "MALT",
+    "lat": 38.7070972,
+    "lng": -9.1430528,
+    "category": "bar",
+    "opening_hours": "We-Th 09:00-02:00; Fr-Sa 20:00-03:00",
+    "address": {
+      "street": "Rua Nova do Carvalho",
+      "housenumber": "11",
+      "postcode": "1200-014"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3094976712",
+    "name": "Maria Caxuxa",
+    "lat": 38.7111633,
+    "lng": -9.1444355,
+    "category": "bar",
+    "opening_hours": "Mo-Fr 18:00-02:00, Su 21:00-02:00, Sa 18:00-03:00, PH 18:00-03:00",
+    "address": {
+      "street": "Rua da Barroca",
+      "housenumber": "6-12"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10589902516",
+    "name": "Maria Loca",
+    "lat": 38.7097308,
+    "lng": -9.146277,
+    "category": "bar",
+    "address": {
+      "street": "Travessa da Portuguesa",
+      "housenumber": "38",
+      "unit": "A",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1936933682",
+    "name": "Maria Matos Café-Bar",
+    "lat": 38.7459484,
+    "lng": -9.1386559,
+    "category": "bar",
+    "address": {
+      "housename": "Teatro Municipal Maria Matos"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4114466789",
+    "name": "Maruto",
+    "lat": 38.7093728,
+    "lng": -9.1300236,
+    "category": "bar",
+    "address": {
+      "street": "Rua dos Cais de Santarém",
+      "housenumber": "30"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2462126643",
+    "name": "Matiz Pombalina",
+    "lat": 38.7078885,
+    "lng": -9.1567692,
+    "category": "bar",
+    "website": "https://matiz-pombalina.pt/",
+    "address": {
+      "street": "Rua das Trinas",
+      "housenumber": "25",
+      "postcode": "1200-855",
+      "city": "Lisbon"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3232296092",
+    "name": "MDMA",
+    "lat": 38.7140899,
+    "lng": -9.1446185,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/10010979631",
+    "name": "Mean Sardine",
+    "lat": 38.7427363,
+    "lng": -9.1438972,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/12328773657",
+    "name": "Mercearia Tosca - Cais Sodré",
+    "lat": 38.7074857,
+    "lng": -9.1443743,
+    "category": "bar",
+    "opening_hours": "Fr-Sa 20:00-03:00; Su-Th 19:00-02:00",
+    "address": {
+      "street": "Rua Nova do Carvalho",
+      "housenumber": "72"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12191298520",
+    "name": "Merendinha",
+    "lat": 38.7097486,
+    "lng": -9.1391925,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11883941035",
+    "name": "Mestre da Cerveja | Craft Beer Bar",
+    "lat": 38.7197848,
+    "lng": -9.1655687,
+    "category": "pub",
+    "opening_hours": "Tu-Th 17:00-21:00; Fr-Sa 17:00-22:00",
+    "website": "https://www.mestredacerveja.pt/",
+    "address": {
+      "street": "Rua Tomás da Anunciação",
+      "housenumber": "88",
+      "unit": "b",
+      "postcode": "1350-092",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12632927691",
+    "name": "Mignon Sports Bar",
+    "lat": 38.7185119,
+    "lng": -9.1624118,
+    "category": "bar",
+    "address": {
+      "street": "Rua Silva Carvalho",
+      "housenumber": "137"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11933734869",
+    "name": "Mīrārī",
+    "lat": 38.7042678,
+    "lng": -9.1718797,
+    "category": "bar",
+    "opening_hours": "Su 12:00-22:00; Sa 12:00-01:00; We 16:00-02:00; Th 12:00-23:00; Fr 16:00-01:00",
+    "website": "https://mirari.pt/",
+    "address": {
+      "street": "Avenida 24 de Julho",
+      "housenumber": "170",
+      "postcode": "1350-352"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/9820865300",
+    "name": "Miss Can - Canto da Sereia Bar",
+    "lat": 38.6930524,
+    "lng": -9.2088936,
+    "category": "bar",
+    "website": "https://miss-can.com/",
+    "curated": false
+  },
+  {
+    "id": "node/1302891314",
+    "name": "Mome",
+    "lat": 38.7059622,
+    "lng": -9.1574585,
+    "category": "nightclub",
+    "website": "https://www.momelisbon.com/",
+    "address": {
+      "street": "Avenida 24 de Julho",
+      "housenumber": "68",
+      "postcode": "1200-869",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12314935566",
+    "name": "Most",
+    "lat": 38.7608495,
+    "lng": -9.1650574,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4957074123",
+    "name": "Mr Tapas",
+    "lat": 38.6929375,
+    "lng": -9.209391,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/12320497483",
+    "name": "Musa",
+    "lat": 38.7388453,
+    "lng": -9.1030547,
+    "category": "pub",
+    "address": {
+      "street": "Rua do Açúcar",
+      "housenumber": "83"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/8815106617",
+    "name": "Musa da Bica",
+    "lat": 38.708699,
+    "lng": -9.1473021,
+    "category": "bar",
+    "opening_hours": "Mo-Fr 07:30-19:30",
+    "website": "https://cervejamusa.com/",
+    "address": {
+      "street": "Calçada Salvador Correia de Sá",
+      "housenumber": "2A",
+      "postcode": "1200-399"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/9885559621",
+    "name": "Musa da Marvila",
+    "lat": 38.7448788,
+    "lng": -9.1015883,
+    "category": "bar",
+    "website": "https://cervejamusa.com",
+    "address": {
+      "street": "Rua do Vale Formoso",
+      "housenumber": "9",
+      "postcode": "1950-277",
+      "city": "Lisboa",
+      "country": "PT"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/7063405159",
+    "name": "Nau Catrineta",
+    "lat": 38.6961523,
+    "lng": -9.1921451,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/12138561244",
+    "name": "Noir",
+    "lat": 38.7495107,
+    "lng": -9.145663,
+    "category": "nightclub",
+    "opening_hours": "Fr, Sa 23:00-03:00",
+    "website": "https://www.facebook.com/ClubNoirLisboa/",
+    "address": {
+      "street": "Rua António Patrício",
+      "housenumber": "13 A/B"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4369743891",
+    "name": "Nova Tertúlia",
+    "lat": 38.7120899,
+    "lng": -9.1440905,
+    "category": "bar",
+    "opening_hours": "24/7",
+    "address": {
+      "street": "Rua do Diário de Notícias",
+      "housenumber": "60",
+      "postcode": "1200-145"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5426781822",
+    "name": "Nutrilovers - Heartful Food",
+    "lat": 38.7174355,
+    "lng": -9.1298297,
+    "category": "bar",
+    "website": "https://www.oitavacolina.pt/",
+    "curated": false
+  },
+  {
+    "id": "node/6171437485",
+    "name": "O Bom O Mau e O Vilão",
+    "lat": 38.7074219,
+    "lng": -9.143548,
+    "category": "bar",
+    "website": "https://www.obomomaueovilao.pt/",
+    "address": {
+      "street": "Rua do Alecrim",
+      "housenumber": "21",
+      "postcode": "1200-014",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12709680666",
+    "name": "O Covil",
+    "lat": 38.7289987,
+    "lng": -9.1360544,
+    "category": "bar",
+    "website": "https://ocovil.com.pt",
+    "address": {
+      "street": "Rua de Arroios",
+      "housenumber": "58",
+      "unit": "C",
+      "postcode": "1150-056",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14372798401",
+    "name": "O Escondidinho",
+    "lat": 38.7660411,
+    "lng": -9.1208454,
+    "category": "bar",
+    "opening_hours": "Mo-Su 07:00-00:00",
+    "address": {
+      "street": "Rua Cidade de Vila Cabral",
+      "housenumber": "42B",
+      "postcode": "1800-131"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12320497490",
+    "name": "O Jovem",
+    "lat": 38.7386248,
+    "lng": -9.1031423,
+    "category": "bar",
+    "address": {
+      "street": "Rua do Açúcar",
+      "housenumber": "89"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4696453427",
+    "name": "O Melhor De Lisboa",
+    "lat": 38.7167705,
+    "lng": -9.147334,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/12323377143",
+    "name": "O Meu Bar",
+    "lat": 38.7562626,
+    "lng": -9.1459011,
+    "category": "bar",
+    "address": {
+      "street": "Avenida de Roma",
+      "housenumber": "139",
+      "postcode": "1700-063"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/759797940",
+    "name": "O pai tirano",
+    "lat": 38.7098412,
+    "lng": -9.1469831,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11284772293",
+    "name": "O PIF",
+    "lat": 38.7235197,
+    "lng": -9.1333182,
+    "category": "bar",
+    "opening_hours": "Tu-Sa 17:00-23:00",
+    "website": "http://www.opiflisboa.com/",
+    "curated": false
+  },
+  {
+    "id": "node/7280556909",
+    "name": "O Pocinho",
+    "lat": 38.7094845,
+    "lng": -9.1527618,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/4446387302",
+    "name": "O Purista",
+    "lat": 38.7120927,
+    "lng": -9.1423219,
+    "category": "bar",
+    "website": "http://www.opurista.pt",
+    "address": {
+      "street": "Rua Nova da Trindade",
+      "housenumber": "16-A"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3575235694",
+    "name": "O Triángulo da Ribeira",
+    "lat": 38.7075998,
+    "lng": -9.1456941,
+    "category": "bar",
+    "address": {
+      "street": "Rua da Ribeira Nova",
+      "housenumber": "48",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/759797941",
+    "name": "Oito Nove",
+    "lat": 38.7120932,
+    "lng": -9.1446442,
+    "category": "bar",
+    "address": {
+      "street": "Rua da Barroca",
+      "housenumber": "89"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6717384331",
+    "name": "Okah Bar Rooftop",
+    "lat": 38.7030112,
+    "lng": -9.1617907,
+    "category": "bar",
+    "opening_hours": "16:00-02:00",
+    "website": "https://www.okah.pt/bar/",
+    "address": {
+      "street": "Rocha do Conde de Óbidos",
+      "housenumber": "4",
+      "unit": "4th Floor",
+      "postcode": "1350-352",
+      "city": "Lisboa",
+      "country": "PT"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3524384069",
+    "name": "Old Vic",
+    "lat": 38.7456877,
+    "lng": -9.1420454,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11875228196",
+    "name": "Onda Cocktail Room",
+    "lat": 38.720244,
+    "lng": -9.1326552,
+    "category": "bar",
+    "website": "https://ondacocktailroom.wixsite.com/ondacocktailroom",
+    "address": {
+      "street": "Rua Damasceno Monteiro",
+      "housenumber": "45"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10145016451",
+    "name": "Onpoint Shisha & Sushi 360 lounge",
+    "lat": 38.7521336,
+    "lng": -9.197018,
+    "category": "bar",
+    "address": {
+      "street": "Avenida do Uruguai",
+      "housenumber": "24",
+      "unit": "A",
+      "postcode": "1500-613",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13781576005",
+    "name": "Opus Lisbon",
+    "lat": 38.7168325,
+    "lng": -9.1443365,
+    "category": "bar",
+    "opening_hours": "Tu-Fr,Su 19:30-02:00, Sa 18:00-02:00",
+    "curated": false
+  },
+  {
+    "id": "node/4416835309",
+    "name": "Oslo",
+    "lat": 38.707116,
+    "lng": -9.1431934,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/13359385705",
+    "name": "Outra Cena",
+    "lat": 38.742036,
+    "lng": -9.1005814,
+    "category": "nightclub",
+    "website": "https://ra.co/clubs/222133",
+    "address": {
+      "street": "Av. Infante Dom Henrique",
+      "postcode": "1950-021",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6214406210",
+    "name": "Outro Lado",
+    "lat": 38.7094102,
+    "lng": -9.1340528,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/1743801610",
+    "name": "Oxalá",
+    "lat": 38.7380263,
+    "lng": -9.1336045,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/14365700609",
+    "name": "Páginas Tantas",
+    "lat": 38.7124536,
+    "lng": -9.1441752,
+    "category": "bar",
+    "opening_hours": "Mo-Su 20:30-02:00",
+    "address": {
+      "street": "Rua do Diário de Notícias",
+      "housenumber": "85",
+      "postcode": "1200-142"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12328773656",
+    "name": "Palheta",
+    "lat": 38.7073946,
+    "lng": -9.1445167,
+    "category": "bar",
+    "opening_hours": "Mo-Su 18:00-02:00",
+    "address": {
+      "street": "Travessa da Ribeira Nova",
+      "housenumber": "30"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10599701437",
+    "name": "Papillon",
+    "lat": 38.732885,
+    "lng": -9.138898,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4569935590",
+    "name": "Park Rooftop",
+    "lat": 38.7111966,
+    "lng": -9.1476098,
+    "category": "bar",
+    "opening_hours": "Tu-Sa 13:00-02:00",
+    "address": {
+      "street": "Calçada do Combro",
+      "housenumber": "58",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2507450821",
+    "name": "Passerelle",
+    "lat": 38.7426079,
+    "lng": -9.1429188,
+    "category": "nightclub",
+    "curated": false
+  },
+  {
+    "id": "node/13610033197",
+    "name": "Pateo Boaventura Bar",
+    "lat": 38.7148879,
+    "lng": -9.146281,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4755613237",
+    "name": "Pátio",
+    "lat": 38.7119454,
+    "lng": -9.1449975,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4692271798",
+    "name": "Pátio das Cantigas",
+    "lat": 38.7119109,
+    "lng": -9.1530601,
+    "category": "bar",
+    "address": {
+      "street": "Rua Correia Garção",
+      "housenumber": "3"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3155744757",
+    "name": "Pensão Amor",
+    "lat": 38.7072647,
+    "lng": -9.1437283,
+    "category": "bar",
+    "website": "https://www.pensaoamor.pt/",
+    "address": {
+      "street": "Rua do Alecrim",
+      "housenumber": "19",
+      "postcode": "1200-292",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4692272331",
+    "name": "Pérola de Santos",
+    "lat": 38.7075619,
+    "lng": -9.1536948,
+    "category": "bar",
+    "address": {
+      "street": "Largo Vitorino Damásio",
+      "housenumber": "3F"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5979938485",
+    "name": "Pérola de São Paulo",
+    "lat": 38.707658,
+    "lng": -9.1438234,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11895371708",
+    "name": "Pink Dance",
+    "lat": 38.7072112,
+    "lng": -9.1435758,
+    "category": "nightclub",
+    "curated": false
+  },
+  {
+    "id": "node/4622756565",
+    "name": "Poncha House",
+    "lat": 38.7104658,
+    "lng": -9.1288551,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/1662570554",
+    "name": "Portugalia",
+    "lat": 38.755158,
+    "lng": -9.1389282,
+    "category": "pub",
+    "address": {
+      "street": "Largo Frei Heitor Pinto"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12982465305",
+    "name": "Pravda",
+    "lat": 38.7318025,
+    "lng": -9.1392449,
+    "category": "pub",
+    "website": "https://pravda.beer",
+    "address": {
+      "street": "Rua da Ilha do Pico",
+      "housenumber": "1A"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10106909479",
+    "name": "Procópio",
+    "lat": 38.7218408,
+    "lng": -9.155092,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/759797944",
+    "name": "Purex",
+    "lat": 38.7109813,
+    "lng": -9.1444266,
+    "category": "bar",
+    "address": {
+      "street": "Rua das Salgadeiras",
+      "housenumber": "28",
+      "postcode": "1200-241",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13296536712",
+    "name": "Quasebar - Cafetaria e bar",
+    "lat": 38.7657656,
+    "lng": -9.1717199,
+    "category": "bar",
+    "opening_hours": "Mo-Sa 06:00-22:00",
+    "address": {
+      "street": "Rua Professor Prado Coelho",
+      "housenumber": "23B",
+      "postcode": "1600-651",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10314946514",
+    "name": "Quero Te",
+    "lat": 38.7005383,
+    "lng": -9.1754775,
+    "category": "bar",
+    "address": {
+      "street": "Doca de Alcântara"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3575234311",
+    "name": "Querote no Cais",
+    "lat": 38.7070369,
+    "lng": -9.1446498,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11364974600",
+    "name": "Quimera Brewpub",
+    "lat": 38.7055325,
+    "lng": -9.1709254,
+    "category": "pub",
+    "opening_hours": "We,Th 17:00-23:00; Fr-Sa 17:00-00:00; Su 17:00-22:00",
+    "website": "https://www.quimerabrewpub.com/",
+    "address": {
+      "street": "Rua Prior do Crato",
+      "housenumber": "6",
+      "postcode": "1350-261"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/1280193877",
+    "name": "Quiosque Acaso",
+    "lat": 38.7411075,
+    "lng": -9.1437543,
+    "category": "bar",
+    "opening_hours": "Mo-Fr 08:00-21:00; Sa 10:00-21:00; PH off",
+    "address": {
+      "street": "Jardim Maria José Moura",
+      "postcode": "1049-046",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/1308645965",
+    "name": "Quiosque Verde Lima",
+    "lat": 38.7361379,
+    "lng": -9.1642599,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/10724377424",
+    "name": "Real Sports Bar",
+    "lat": 38.7321675,
+    "lng": -9.1512138,
+    "category": "bar",
+    "opening_hours": "15:30-24:00",
+    "website": "https://realhotelsgroup.com",
+    "curated": false
+  },
+  {
+    "id": "node/4662902790",
+    "name": "Red Frog",
+    "lat": 38.7194311,
+    "lng": -9.1458548,
+    "category": "pub",
+    "address": {
+      "street": "Rua do Salitre",
+      "housenumber": "5A"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4392674094",
+    "name": "Red Frog - Speakeasy Bar",
+    "lat": 38.7194469,
+    "lng": -9.1458386,
+    "category": "bar",
+    "address": {
+      "street": "Rua do Salitre",
+      "housenumber": "5A"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10665726605",
+    "name": "Red Frog Speakeasy",
+    "lat": 38.7182757,
+    "lng": -9.1447062,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/9720295639",
+    "name": "Relicário",
+    "lat": 38.7249645,
+    "lng": -9.1527983,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/9722790142",
+    "name": "Remi",
+    "lat": 38.7248574,
+    "lng": -9.1362396,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4138150596",
+    "name": "Rendezvous - more than wine",
+    "lat": 38.7146461,
+    "lng": -9.1293049,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/14362415401",
+    "name": "Rive Rouge",
+    "lat": 38.707443,
+    "lng": -9.1461598,
+    "category": "bar",
+    "opening_hours": "Th-Sa 23:00-06:00",
+    "website": "http://rive-rouge.com",
+    "address": {
+      "street": "Praça Dom Luís I",
+      "housenumber": "1.° andar",
+      "postcode": "1200-148"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11244404487",
+    "name": "Royal Vessel",
+    "lat": 38.714306,
+    "lng": -9.1497807,
+    "category": "bar",
+    "website": "https://www.facebook.com/RoyalVesselBar/",
+    "address": {
+      "street": "Rua Ruben A. Leitão",
+      "housenumber": "21-25"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12314368187",
+    "name": "Ruby wine bar",
+    "lat": 38.7182407,
+    "lng": -9.1673599,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/12075820254",
+    "name": "RubyRosa",
+    "lat": 38.7116721,
+    "lng": -9.1383886,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/6371997223",
+    "name": "Sabor Autêntico",
+    "lat": 38.7171763,
+    "lng": -9.1294204,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/7285978201",
+    "name": "Santos - Vinho",
+    "lat": 38.7081524,
+    "lng": -9.1549309,
+    "category": "pub",
+    "address": {
+      "street": "Rua da Esperança",
+      "housenumber": "106"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13238047158",
+    "name": "Sem Cerimónias",
+    "lat": 38.7461018,
+    "lng": -9.1443766,
+    "category": "bar",
+    "address": {
+      "street": "Rua Alfredo Cortês"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10314947109",
+    "name": "Senor Iberico",
+    "lat": 38.7112891,
+    "lng": -9.1525614,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/14365706802",
+    "name": "Sentido Proibido 3",
+    "lat": 38.7114643,
+    "lng": -9.1446671,
+    "category": "bar",
+    "opening_hours": "Sa-Th 16:00-02:00; Fr 16:00-03:00",
+    "address": {
+      "street": "Travessa da Espera",
+      "housenumber": "54A",
+      "postcode": "1200-050"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4702114062",
+    "name": "Shelter Bar",
+    "lat": 38.7148479,
+    "lng": -9.1505212,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4977930546",
+    "name": "Side",
+    "lat": 38.7114735,
+    "lng": -9.1445326,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/2003531113",
+    "name": "sKones",
+    "lat": 38.7048207,
+    "lng": -9.1566257,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/13446895499",
+    "name": "Sky Bar Oriente",
+    "lat": 38.7665153,
+    "lng": -9.0983706,
+    "category": "bar",
+    "opening_hours": "12:30-01:00",
+    "website": "https://www.tivolihotels.com/en/tivoli-oriente/restaurants/sky-bar-oriente",
+    "address": {
+      "street": "Avenida Dom João II",
+      "housenumber": "27"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14365700605",
+    "name": "Skyline Bar",
+    "lat": 38.7117736,
+    "lng": -9.144128,
+    "category": "bar",
+    "opening_hours": "Mo-Su 17:00-02:00",
+    "address": {
+      "street": "Rua do Diário de Notícias",
+      "housenumber": "431200 365",
+      "postcode": "1200-365"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12328761683",
+    "name": "Snack Bar \"Wonderpuppet\"",
+    "lat": 38.7259336,
+    "lng": -9.1186784,
+    "category": "bar",
+    "address": {
+      "street": "Avenida Afonso III",
+      "housenumber": "70A",
+      "postcode": "1900-038",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12323377145",
+    "name": "Snack-Bar Lélia",
+    "lat": 38.7561419,
+    "lng": -9.1458359,
+    "category": "bar",
+    "address": {
+      "street": "Avenida de Roma",
+      "housenumber": "135-A",
+      "postcode": "1700-063"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1952693713",
+    "name": "Snob Bar",
+    "lat": 38.7151655,
+    "lng": -9.1475724,
+    "category": "bar",
+    "website": "https://www.snobarestaurante.com/",
+    "curated": false
+  },
+  {
+    "id": "node/11773014289",
+    "name": "So What",
+    "lat": 38.7070002,
+    "lng": -9.1554709,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/8176697903",
+    "name": "Social B",
+    "lat": 38.7089071,
+    "lng": -9.1495036,
+    "category": "pub",
+    "website": "https://www.facebook.com/Social-B-Lisboa-197112367575799/",
+    "address": {
+      "street": "Rua da Boavista",
+      "housenumber": "116"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/155614414",
+    "name": "Speak Easy",
+    "lat": 38.7027901,
+    "lng": -9.1612114,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/3232296090",
+    "name": "SPOT Bairro Alto",
+    "lat": 38.7116747,
+    "lng": -9.1449296,
+    "category": "bar",
+    "opening_hours": "Mo-Su 19:00-02:00",
+    "address": {
+      "street": "Rua da Atalaia",
+      "housenumber": "25",
+      "postcode": "1200-036"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11849844100",
+    "name": "Sr. Tasco",
+    "lat": 38.7087242,
+    "lng": -9.1528213,
+    "category": "bar",
+    "address": {
+      "street": "Rua do Merca-Tudo"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3235957848",
+    "name": "Station",
+    "lat": 38.7052034,
+    "lng": -9.1446076,
+    "category": "nightclub",
+    "curated": false
+  },
+  {
+    "id": "node/2536815945",
+    "name": "Steps",
+    "lat": 38.7140399,
+    "lng": -9.1233976,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/14321660301",
+    "name": "Studio 44 Club",
+    "lat": 38.7080415,
+    "lng": -9.1526162,
+    "category": "nightclub",
+    "address": {
+      "street": "Avenida Dom Carlos I",
+      "housenumber": "44",
+      "postcode": "1200-649"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6131309986",
+    "name": "Suave Bar",
+    "lat": 38.7110626,
+    "lng": -9.1440439,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11886860459",
+    "name": "Taberna da Rosa",
+    "lat": 38.7038098,
+    "lng": -9.2002639,
+    "category": "pub",
+    "opening_hours": "Mo 08:00-23:00 We-Su 08:00-23:00",
+    "address": {
+      "street": "Largo da Paz",
+      "housenumber": "30",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/9740830552",
+    "name": "Taberna do Lopes",
+    "lat": 38.7207637,
+    "lng": -9.1542872,
+    "category": "pub",
+    "address": {
+      "street": "Rua de São Filipe Néri",
+      "housenumber": "23"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11887681390",
+    "name": "Taberna São João",
+    "lat": 38.7544965,
+    "lng": -9.1752079,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "address": {
+      "street": "Rua General Schiappa Monteiro",
+      "housenumber": "1A",
+      "postcode": "1600-153",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4755469321",
+    "name": "Tábuas Porto Wine Tavern",
+    "lat": 38.7091478,
+    "lng": -9.134668,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/12323328944",
+    "name": "Tailors Copos e Petiscos",
+    "lat": 38.7616435,
+    "lng": -9.1709686,
+    "category": "pub",
+    "opening_hours": "Mo-Su 10:00-24:00",
+    "address": {
+      "street": "Rua Professor João Barreira",
+      "housenumber": "13",
+      "postcode": "1600-615",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2507429686",
+    "name": "Tamila Clube",
+    "lat": 38.7274057,
+    "lng": -9.1457673,
+    "category": "nightclub",
+    "curated": false
+  },
+  {
+    "id": "node/6280775787",
+    "name": "Tapas - Bar 52",
+    "lat": 38.7157558,
+    "lng": -9.1459316,
+    "category": "bar",
+    "address": {
+      "street": "Rua Dom Pedro V 56",
+      "housenumber": "56"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6007052480",
+    "name": "Tarannà Espai Barcelona",
+    "lat": 38.7275967,
+    "lng": -9.1380237,
+    "category": "bar",
+    "opening_hours": "Tu-Th 18:00-23:45; Fr-Sa 18:00-02:00",
+    "address": {
+      "street": "Rua Jacinta Marto",
+      "housenumber": "10 B",
+      "postcode": "1150-192",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11878873302",
+    "name": "Tardezinha",
+    "lat": 38.7540391,
+    "lng": -9.205593,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/2458357930",
+    "name": "Tasca 129",
+    "lat": 38.7174532,
+    "lng": -9.1219262,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/11871523342",
+    "name": "Tasca O Cantinho dos Sabores",
+    "lat": 38.7545014,
+    "lng": -9.1433189,
+    "category": "pub",
+    "address": {
+      "street": "Rua Marquesa de Alorna",
+      "housenumber": "30A",
+      "postcode": "1700-303",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2473034392",
+    "name": "Tasco do Tio Candinha",
+    "lat": 38.6998761,
+    "lng": -9.2248681,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/6131309985",
+    "name": "tasquinha do fadista",
+    "lat": 38.7137951,
+    "lng": -9.144496,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/3747354990",
+    "name": "Tasquinha Ginja d'Alfama",
+    "lat": 38.7111939,
+    "lng": -9.1285672,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/12319367283",
+    "name": "Taverna Gipsy",
+    "lat": 38.7385467,
+    "lng": -9.1199095,
+    "category": "pub",
+    "address": {
+      "housenumber": "53B",
+      "postcode": "1900-206"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11886923898",
+    "name": "Taverna Zizi",
+    "lat": 38.7038043,
+    "lng": -9.2015731,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 07:30-20:00",
+    "address": {
+      "street": "Travessa Paulo Martins",
+      "housenumber": "37",
+      "unit": "A",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11584410598",
+    "name": "Távola Jazz Club",
+    "lat": 38.7485063,
+    "lng": -9.1367576,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11891455630",
+    "name": "Teimar",
+    "lat": 38.718292,
+    "lng": -9.1659531,
+    "category": "pub",
+    "opening_hours": "Mo-Su 12:30-15:30, 19:00-23:30",
+    "address": {
+      "street": "Rua de Infantaria 16",
+      "housenumber": "63A",
+      "postcode": "1350-169",
+      "city": "Campo de Ourique"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4393833090",
+    "name": "Tejo Bar",
+    "lat": 38.7124789,
+    "lng": -9.1271103,
+    "category": "bar",
+    "address": {
+      "street": "Beco do Vigário",
+      "housenumber": "1A"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14321620801",
+    "name": "Temple Club",
+    "lat": 38.7062964,
+    "lng": -9.1577054,
+    "category": "nightclub",
+    "opening_hours": "Mo 00:00-05:00; Th 23:00-00:00; Fr 00:00-05:00; Sa 00:00-06:30; Su 00:00-05:00",
+    "website": "http://temple-club.com",
+    "address": {
+      "street": "Pátio do Pinzaleiro",
+      "housenumber": "26",
+      "postcode": "1200-869"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1802158802",
+    "name": "Tendinha da Atalaia",
+    "lat": 38.7107892,
+    "lng": -9.1449525,
+    "category": "pub",
+    "website": "https://www.facebook.com/pages/Tendinha-da-Atalaia/257484574617",
+    "address": {
+      "street": "Rua da Atalaia",
+      "housenumber": "4",
+      "postcode": "1200-041",
+      "city": "Lisboa",
+      "country": "PT"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12328826634",
+    "name": "Thay - Shisha & Gin Bar",
+    "lat": 38.7262171,
+    "lng": -9.1285567,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/5888817285",
+    "name": "The Bar",
+    "lat": 38.716486,
+    "lng": -9.1499962,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4334224690",
+    "name": "The Beer Station",
+    "lat": 38.7140387,
+    "lng": -9.1409276,
+    "category": "bar",
+    "opening_hours": "Mo-Su 12:00-00:00",
+    "address": {
+      "street": "Largo do Duque do Cadaval",
+      "housenumber": "17",
+      "postcode": "1200-160"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2884148401",
+    "name": "The Corner Irish Pub Lisbon",
+    "lat": 38.7129911,
+    "lng": -9.1437983,
+    "category": "pub",
+    "website": "https://www.pubthecorner.com/",
+    "address": {
+      "street": "Travessa da Queimada",
+      "housenumber": "7 - 9",
+      "postcode": "1200-285",
+      "city": "Lisboa",
+      "country": "PT"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3232293867",
+    "name": "The Couch Sports Bar",
+    "lat": 38.7073915,
+    "lng": -9.1435269,
+    "category": "bar",
+    "website": "https://www.thecouch.pt/",
+    "address": {
+      "street": "Rua do Alecrim",
+      "housenumber": "21A",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14321609301",
+    "name": "The Couch Sports Bar Docas",
+    "lat": 38.6996871,
+    "lng": -9.1787849,
+    "category": "bar",
+    "opening_hours": "Mo-Su 11:00-00:00",
+    "website": "http://thecouch.pt",
+    "address": {
+      "street": "Avenida de Brasília",
+      "housenumber": "5, Armazém 14",
+      "postcode": "1350-353"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1122343485",
+    "name": "The Couch Sports Bar Marquês",
+    "lat": 38.7263065,
+    "lng": -9.1472604,
+    "category": "bar",
+    "address": {
+      "street": "Avenida Duque de Loulé",
+      "housenumber": "85",
+      "postcode": "1050-089"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4753551921",
+    "name": "The Old Pharmacy",
+    "lat": 38.7123243,
+    "lng": -9.1441728,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/5134097921",
+    "name": "The pink street",
+    "lat": 38.7072496,
+    "lng": -9.1436902,
+    "category": "nightclub",
+    "address": {
+      "street": "Rua Nova do Carvalho"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/7280583961",
+    "name": "The Wine Cellar",
+    "lat": 38.7075861,
+    "lng": -9.1440275,
+    "category": "bar",
+    "opening_hours": "Mo-Su 00:00-12:00",
+    "address": {
+      "street": "Rua de São Paulo",
+      "housenumber": "49",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11582750237",
+    "name": "Titanic Sur Mer",
+    "lat": 38.7053246,
+    "lng": -9.1470277,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/10314947009",
+    "name": "Toca da Raposa",
+    "lat": 38.7130899,
+    "lng": -9.1418841,
+    "category": "bar",
+    "opening_hours": "Th-Tu 18:00-02:00",
+    "address": {
+      "street": "Rua da Condessa",
+      "housenumber": "45"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3232293863",
+    "name": "Tokyo",
+    "lat": 38.70523,
+    "lng": -9.1467343,
+    "category": "bar",
+    "address": {
+      "street": "Cais do Gás",
+      "housenumber": "1"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14372798501",
+    "name": "Top Floor Club",
+    "lat": 38.7707433,
+    "lng": -9.0925137,
+    "category": "bar",
+    "opening_hours": "Fr-Sa 23:00-06:00",
+    "address": {
+      "street": "Rua do Bojador",
+      "housenumber": "29",
+      "postcode": "1990-254"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6736006786",
+    "name": "TOPO",
+    "lat": 38.7168375,
+    "lng": -9.1365313,
+    "category": "bar",
+    "website": "https://www.topo-lisboa.pt",
+    "address": {
+      "postcode": "1100-341"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/1225126349",
+    "name": "Topo Chiado",
+    "lat": 38.7125463,
+    "lng": -9.1399912,
+    "category": "bar",
+    "website": "https://www.carmorooftop.pt/",
+    "address": {
+      "street": "Terraços do Carmo",
+      "postcode": "1200-288",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/853892691",
+    "name": "Tralhas Bar",
+    "lat": 38.718919,
+    "lng": -9.1281412,
+    "category": "bar",
+    "address": {
+      "street": "Rua das Beatas",
+      "housenumber": "7",
+      "postcode": "1170-051",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5417595986",
+    "name": "Tribo Tapas Bar",
+    "lat": 38.7169967,
+    "lng": -9.1445813,
+    "category": "bar",
+    "address": {
+      "street": "Rua da Glória",
+      "housenumber": "65",
+      "city": "Lisboa"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12381062829",
+    "name": "Tricky's",
+    "lat": 38.7088983,
+    "lng": -9.1494294,
+    "category": "bar",
+    "website": "https://www.facebook.com/Social-B-Lisboa-197112367575799/",
+    "address": {
+      "street": "Rua da Boavista",
+      "housenumber": "116"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2331564076",
+    "name": "Tuareg",
+    "lat": 38.7613746,
+    "lng": -9.1655296,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11421083770",
+    "name": "Under the Bridge - Rooftop Bar",
+    "lat": 38.701927,
+    "lng": -9.1785632,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/12827214702",
+    "name": "UNI",
+    "lat": 38.7154798,
+    "lng": -9.1476674,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/10314947211",
+    "name": "Vago",
+    "lat": 38.7093976,
+    "lng": -9.151147,
+    "category": "bar",
+    "address": {
+      "street": "Rua das Gaivotas",
+      "housenumber": "11A"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/8685265816",
+    "name": "Valhalla Rock Pub",
+    "lat": 38.7047855,
+    "lng": -9.1970044,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/3232294503",
+    "name": "Velha Senhora",
+    "lat": 38.7072771,
+    "lng": -9.1437668,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/5035238624",
+    "name": "Viagem",
+    "lat": 38.7072622,
+    "lng": -9.1446086,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/5371196536",
+    "name": "Vila Bica",
+    "lat": 38.7089939,
+    "lng": -9.1466573,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/6952524985",
+    "name": "Vino Vero",
+    "lat": 38.7186878,
+    "lng": -9.1304996,
+    "category": "bar",
+    "opening_hours": "PH,Mo-Su 18:00-01:00",
+    "curated": false
+  },
+  {
+    "id": "node/14154010360",
+    "name": "Vitrine",
+    "lat": 38.748775,
+    "lng": -9.1492909,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/5214638059",
+    "name": "Vlada Lounge",
+    "lat": 38.7360014,
+    "lng": -9.1320473,
+    "category": "bar",
+    "opening_hours": "Tu-Su 18:00-02:00",
+    "curated": false
+  },
+  {
+    "id": "node/5450863121",
+    "name": "Wasp",
+    "lat": 38.7132871,
+    "lng": -9.1442768,
+    "category": "bar",
+    "opening_hours": "Tu-Su 19:00-02:00",
+    "address": {
+      "street": "Rua do Diário de Notícias",
+      "housenumber": "126"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12704682010",
+    "name": "Wine bar",
+    "lat": 38.7157758,
+    "lng": -9.134555,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/3157288207",
+    "name": "Wine Bar do Castelo",
+    "lat": 38.711853,
+    "lng": -9.1329201,
+    "category": "bar",
+    "address": {
+      "street": "Rua Bartolomeu de Gusmão",
+      "housenumber": "13"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/7280570508",
+    "name": "Wine Not",
+    "lat": 38.7102155,
+    "lng": -9.1402008,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/11893527488",
+    "name": "Wize bar- coffee beer and wine",
+    "lat": 38.7196701,
+    "lng": -9.1581769,
+    "category": "bar",
+    "address": {
+      "street": "Rua do Sol ao Rato",
+      "housenumber": "23 A",
+      "city": "Campo de Ourique"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4669839191",
+    "name": "woof x Lisbon",
+    "lat": 38.7147389,
+    "lng": -9.1520719,
+    "category": "bar",
+    "address": {
+      "street": "Rua Manuel Bernardes",
+      "housenumber": "2 B"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4231507892",
+    "name": "Xafarix",
+    "lat": 38.708997,
+    "lng": -9.1537193,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/9416700961",
+    "name": "XPTO",
+    "lat": 38.7102077,
+    "lng": -9.1507627,
+    "category": "bar",
+    "address": {
+      "street": "Rua do Poço dos Negros",
+      "housenumber": "75"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13689129601",
+    "name": "XXL Lisbon Club",
+    "lat": 38.7142791,
+    "lng": -9.1460328,
+    "category": "pub",
+    "address": {
+      "street": "Calçada do Tijolo",
+      "housenumber": "8"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4394082537",
+    "name": "YAO Pressed Juicery",
+    "lat": 38.7110682,
+    "lng": -9.1496399,
+    "category": "bar",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa, Su 10:00-20:00",
+    "website": "http://facebook.com/yaopressedjuicery",
+    "address": {
+      "street": "Largo Doutor António de Sonst Macedo",
+      "housenumber": "4-B"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11218614739",
+    "name": "Zénite Bar Galeria",
+    "lat": 38.7305512,
+    "lng": -9.1367944,
+    "category": "bar",
+    "opening_hours": "Tu-Th 16:00-01:00; Fr-Sa 16:00-02:00; Su 18:00-00:00",
+    "address": {
+      "housenumber": "116A"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4705351529",
+    "name": "Zepherino's",
+    "lat": 38.712314,
+    "lng": -9.1562062,
+    "category": "bar",
+    "address": {
+      "housenumber": "36 A"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14321613801",
+    "name": "Zero Lisbon",
+    "lat": 38.7059262,
+    "lng": -9.1577298,
+    "category": "nightclub",
+    "opening_hours": "Th-Sa 00:00-06:00",
+    "address": {
+      "street": "Pátio do Pinzaleiro",
+      "housenumber": "6",
+      "postcode": "1200-869"
+    },
+    "curated": false
+  }
+]

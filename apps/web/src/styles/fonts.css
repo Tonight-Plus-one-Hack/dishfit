@@ -1,0 +1,4 @@
+/* Type follows Cal AI: Apple's system font. SF Pro Text and Display through -apple-system on Apple platforms, SF Pro Rounded
+   (ui-rounded) for large numbers where the browser exposes it. SF Pro is never embedded: its licence only covers Apple platforms.
+   Everywhere else Inter (SIL OFL, @fontsource-variable/inter) stands in; browsers only download it when the system font is missing. */
+@import '@fontsource-variable/inter';

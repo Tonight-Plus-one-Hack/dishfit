@@ -1,0 +1,364 @@
+/* Focused one-question-per-screen flow: thin progress rail, serif questions, wide rectangular actions. */
+
+.flow {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 0 16px;
+  border-inline: 1px solid var(--rule-soft);
+}
+
+@media (max-width: 599px) {
+  .flow {
+    border-inline: 0;
+  }
+}
+
+.flow__bar {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  align-items: center;
+  gap: 12px;
+  height: var(--header);
+}
+
+.flow__back,
+.flow__close {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-action);
+  color: var(--ink);
+  transition: background-color var(--dur-state) var(--ease-out);
+}
+
+@media (hover: hover) {
+  .flow__back:hover,
+  .flow__close:hover {
+    background: var(--hover);
+  }
+}
+
+.flow__logo {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.flow__logo .wordmark {
+  height: 18px;
+}
+
+.flow__progress {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--hover);
+  overflow: hidden;
+}
+
+.flow__progress span {
+  display: block;
+  height: 100%;
+  background: var(--ink);
+  transform-origin: left;
+  transition: transform var(--dur-step) var(--ease-spring);
+}
+
+.flow__context {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  margin-top: 8px;
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+}
+
+.flow__context > span:last-child {
+  display: grid;
+  min-width: 0;
+}
+
+.flow__context-thumb {
+  width: 40px;
+  height: 40px;
+  flex: none;
+  border-radius: 6px;
+}
+
+.flow__context-title {
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+  line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.flow__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .flow__body > * {
+    animation: step-in var(--dur-step) var(--ease-spring) both;
+  }
+}
+
+.question {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.question__title {
+  max-width: 14em;
+}
+
+.question__hint {
+  margin-top: 12px;
+  max-width: 32em;
+}
+
+.flow__footer {
+  display: grid;
+  gap: 8px;
+  margin-top: auto;
+  padding-block: 24px calc(24px + env(safe-area-inset-bottom));
+  position: sticky;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgb(252 252 253 / 0), var(--canvas) 24px);
+}
+
+/* ---------- Nickname ---------- */
+
+.nick {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.nick__input {
+  width: 100%;
+  height: 64px;
+  padding: 0 4px;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  border-radius: 0;
+  background: transparent;
+  font-family: var(--font-serif);
+  font-size: 32px;
+  letter-spacing: var(--track-display);
+  outline: none;
+  transition: border-color var(--dur-state) var(--ease-out);
+}
+
+.nick__input:focus,
+.nick__input:focus-visible {
+  border-bottom-color: var(--ink);
+  outline: none;
+}
+
+.nick__input::placeholder {
+  color: #b9bbc6;
+}
+
+.nick__count {
+  margin-top: 8px;
+  align-self: flex-end;
+}
+
+/* ---------- Options ---------- */
+
+.options {
+  display: grid;
+  gap: 8px;
+  margin-top: 32px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  min-height: 64px;
+  padding: 12px 16px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  text-align: left;
+  transition:
+    background-color var(--dur-state) var(--ease-out),
+    border-color var(--dur-state) var(--ease-out),
+    color var(--dur-state) var(--ease-out),
+    transform var(--dur-state) var(--ease-out);
+}
+
+@media (hover: hover) {
+  .option:hover {
+    background: var(--hover);
+  }
+}
+
+.option:active {
+  transform: scale(0.985);
+}
+
+.option[aria-checked='true'] {
+  background: var(--cta);
+  border-color: var(--cta);
+  color: var(--cta-ink);
+}
+
+.option__icon {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  flex: none;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-action);
+  background: var(--canvas);
+  color: var(--ink);
+}
+
+.option[aria-checked='true'] .option__icon {
+  border-color: var(--dark-rule);
+  background: var(--dark-surface);
+  color: var(--dark-ink);
+}
+
+.option__text {
+  display: grid;
+}
+
+.option__label {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+}
+
+.option__hint {
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: var(--muted);
+}
+
+.option[aria-checked='true'] .option__hint {
+  color: var(--dark-muted);
+}
+
+.option--plain {
+  justify-content: space-between;
+}
+
+/* ---------- Joining ---------- */
+
+.joining {
+  display: grid;
+  gap: 32px;
+  padding-top: 24px;
+}
+
+.joining__steps {
+  display: grid;
+  gap: 16px;
+}
+
+.joining__steps li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  animation: fade-up var(--dur-step) var(--ease-spring) both;
+}
+
+.joining__tick {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid var(--rule);
+  color: transparent;
+  animation: tick var(--dur-tick) var(--ease-out) both;
+}
+
+/* ---------- Done ---------- */
+
+.done {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.done__check {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--cta-ink);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .done__check {
+    animation: pop var(--dur-check) var(--ease-spring) both;
+  }
+}
+
+.done__hints {
+  display: grid;
+  gap: 14px;
+  margin-top: 24px;
+  padding: 20px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+}
+
+.done__hint {
+  display: flex;
+  gap: 12px;
+  animation: fade-up var(--dur-step) var(--ease-spring) both;
+}
+
+.done__hint > span:last-child {
+  display: grid;
+}
+
+.done__hint-title {
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+}
+
+.done__hint-body {
+  font-size: 14px;
+  letter-spacing: -0.02em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .joining__steps li,
+  .joining__tick,
+  .done__hint {
+    animation: none;
+  }
+
+  .joining__tick {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--cta-ink);
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="score-badge">
+  <path d="M8.4 14.2L6.6 20.6L9 19.7L10.6 21.4L11.6 15.6Z" fill="#355EDA" stroke="#355EDA" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M15.6 14.2L17.4 20.6L15 19.7L13.4 21.4L12.4 15.6Z" fill="#355EDA" stroke="#355EDA" stroke-width="1.2" stroke-linejoin="round"/>
+  <circle cx="18.30" cy="9.60" r="2.2" fill="#8391F7"/><circle cx="17.46" cy="12.75" r="2.2" fill="#8391F7"/><circle cx="15.15" cy="15.06" r="2.2" fill="#8391F7"/><circle cx="12.00" cy="15.90" r="2.2" fill="#8391F7"/><circle cx="8.85" cy="15.06" r="2.2" fill="#8391F7"/><circle cx="6.54" cy="12.75" r="2.2" fill="#8391F7"/><circle cx="5.70" cy="9.60" r="2.2" fill="#8391F7"/><circle cx="6.54" cy="6.45" r="2.2" fill="#8391F7"/><circle cx="8.85" cy="4.14" r="2.2" fill="#8391F7"/><circle cx="12.00" cy="3.30" r="2.2" fill="#8391F7"/><circle cx="15.15" cy="4.14" r="2.2" fill="#8391F7"/><circle cx="17.46" cy="6.45" r="2.2" fill="#8391F7"/>
+  <circle cx="12" cy="9.6" r="6.6" fill="#8391F7"/>
+  <circle cx="12" cy="9.6" r="4.4" fill="#FFFFFF"/>
+</svg>

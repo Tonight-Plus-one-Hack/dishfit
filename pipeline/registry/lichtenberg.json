@@ -1,0 +1,61 @@
+{
+ "kiez": "lichtenberg",
+ "name": "Lichtenberg",
+ "scannedBy": "BatuCani",
+ "updatedAt": "2026-11-21T21:49:29.222Z",
+ "provider": "openai",
+ "models": {
+  "menu": "gpt-6.2-sol",
+  "nutrition": "gpt-6.2-sol",
+  "chief": "gpt-6.2-sol",
+  "second": "gpt-6.1-terra",
+  "translate": "gpt-6-luna"
+ },
+ "counts": {
+  "found": 19,
+  "menus": 5,
+  "restaurants": 4,
+  "dishes": 113,
+  "images": 4,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 1.64,
+  "byStage": {
+   "check": 0.02,
+   "classify": 0.01,
+   "find": 0.53,
+   "image": 0.13,
+   "menu": 0.57,
+   "nutrition": 0.4
+  },
+  "byProvider": {
+   "openai": 0.85,
+   "google-places": 0.81
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/lichtenberg.json",
+ "places": [
+  {
+   "id": "osm-node-2965123257",
+   "placeId": "ChIJSwWoKEFPqEcRf7vk1xv6F00",
+   "osmId": "node/2965123257"
+  },
+  {
+   "id": "osm-node-3203350861",
+   "placeId": "ChIJcaw_mI1OqEcR14nhwtfUZSo",
+   "osmId": "node/3203350861"
+  },
+  {
+   "id": "osm-node-11051080444",
+   "placeId": "ChIJrYOIkUdNqEcRNT4k9gpdSTE",
+   "osmId": "node/11051080444"
+  },
+  {
+   "id": "osm-node-3968672798",
+   "placeId": "ChIJKbnOiY1OqEcRC4kvbOziS8E",
+   "osmId": "node/3968672798"
+  }
+ ],
+ "appendBase": null
+}

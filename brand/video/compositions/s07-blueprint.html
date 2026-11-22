@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Plus One logo loop, shot 07: blueprint construction. Mounted by index.html. -->
+  </head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/plus-one.css" />
+      <style>
+        #root {
+          position: absolute;
+          inset: 0;
+          overflow: hidden;
+          background:
+            radial-gradient(70% 55% at 50% calc(var(--mark-cy) - 100px), var(--art-periwinkle) 0%, rgba(131, 145, 247, 0) 100%),
+            var(--art-blue);
+        }
+        #s07-plan {
+          position: absolute;
+          left: 50%;
+          top: var(--mark-cy);
+          width: 1000px;
+          height: 1000px;
+          margin: -500px 0 0 -500px;
+        }
+        #s07-fill {
+          background: rgba(255, 255, 255, 0.32);
+        }
+        #s07-line {
+          filter: url(#s07-edge);
+        }
+        #s07-shape {
+          background: #000000;
+        }
+        #root .mono {
+          position: absolute;
+          color: #ffffff;
+        }
+      </style>
+
+      <div id="root" data-composition-id="s07" data-width="1080" data-height="1080">
+        <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+          <filter id="s07-edge" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB">
+            <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="d" />
+            <feComposite in="d" in2="SourceAlpha" operator="out" result="o" />
+            <feFlood flood-color="#FFFFFF" flood-opacity="0.95" />
+            <feComposite in2="o" operator="in" />
+          </filter>
+        </svg>
+        <svg id="s07-plan" viewBox="0 0 1000 1000" aria-hidden="true">
+          <g fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="2">
+            <rect x="297.5" y="297.5" width="405" height="405" />
+            <circle cx="500" cy="500" r="202.5" />
+            <circle cx="500" cy="500" r="286" />
+            <circle cx="500" cy="500" r="440" stroke-dasharray="6 10" />
+            <path d="M0 500 H1000 M500 0 V1000" stroke-opacity="0.3" />
+            <path d="M297.5 297.5 L702.5 702.5 M702.5 297.5 L297.5 702.5" stroke-opacity="0.3" />
+          </g>
+          <g stroke="#FFFFFF" stroke-width="2">
+            <path d="M297.5 283 V312 M283 297.5 H312" />
+            <path d="M702.5 283 V312 M688 297.5 H717" />
+            <path d="M297.5 688 V717 M283 702.5 H312" />
+            <path d="M702.5 688 V717 M688 702.5 H717" />
+          </g>
+        </svg>
+        <div id="s07-fill" class="mark logo-mask"></div>
+        <div id="s07-line" class="mark"><div id="s07-shape" class="shot-layer logo-mask"></div></div>
+        <span id="s07-size" class="mono" style="left: calc(50% + 20px); top: calc(var(--mark-cy) - 352px)">405 x 405</span>
+        <span id="s07-radius" class="mono" style="right: calc(50% + 298px); top: calc(var(--mark-cy) - 48px)">r 202.5</span>
+        <span id="s07-name" class="mono" style="left: calc(50% + 20px); top: calc(var(--mark-cy) + 300px)">Plus One, mark</span>
+      </div>
+
+      <script>
+        const tl = gsap.timeline({ paused: true });
+        // Hold: the cut is the motion.
+        window.__timelines["s07"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,167 @@
+/* Every animation timing and keyframe lives here (plus src/lib/motion.ts for script-driven timing),
+   so the measured reference motion spec can replace these values in one place.
+   Reduced motion shows final states immediately. */
+:root {
+  --ease-spring: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --dur-state: 180ms;
+  --dur-reveal: 500ms;
+  --stagger: 25ms;
+  --reveal-shift: 0.4em;
+  --reveal-blur: 6px;
+  --dur-media-settle: 1600ms;
+  --dur-overlay: 900ms;
+  --delay-overlay: 400ms;
+  --delay-hero-tag: 900ms;
+  --dur-marquee: 80s;
+  --dur-step: 420ms;
+  --dur-tick: 300ms;
+  --dur-check: 520ms;
+  --dur-sheet: 420ms;
+  --dur-pop: 320ms;
+  --dur-backdrop: 240ms;
+  --dur-heart: 360ms;
+}
+
+/* ---------- Reveal ---------- */
+
+.rv-word {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.rv-char {
+  display: inline-block;
+  opacity: 0;
+}
+
+.is-in .rv-char {
+  animation: rise var(--dur-reveal) var(--ease-spring) both;
+  animation-delay: calc(var(--i) * var(--step, 12ms) + var(--base, 0ms));
+}
+
+.fade {
+  opacity: 0;
+}
+
+.fade.is-in {
+  animation: fade-up var(--dur-reveal) var(--ease-spring) both;
+  animation-delay: var(--delay, 0ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rv-char,
+  .fade {
+    opacity: 1;
+  }
+
+  .is-in .rv-char,
+  .fade.is-in {
+    animation: none;
+  }
+
+  .btn:active {
+    transform: none;
+  }
+}
+
+/* ---------- Keyframes ---------- */
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(var(--reveal-shift));
+    filter: blur(var(--reveal-blur));
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    filter: blur(0);
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes ov-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes hero-settle {
+  from {
+    transform: scale(1.06);
+    filter: blur(8px);
+  }
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(calc(-50% - var(--gap-card) / 2));
+  }
+}
+
+@keyframes step-in {
+  from {
+    opacity: 0;
+    transform: translateX(16px);
+  }
+}
+
+@keyframes tick {
+  to {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--cta-ink);
+  }
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+}
+
+@keyframes heart {
+  40% {
+    transform: scale(1.25);
+  }
+}
+
+@keyframes share-up {
+  from {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes share-pop {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+}
+
+@keyframes share-fade {
+  from {
+    opacity: 0;
+  }
+}

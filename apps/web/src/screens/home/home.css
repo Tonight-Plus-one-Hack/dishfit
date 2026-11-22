@@ -1,0 +1,319 @@
+/* Grid items default to their content's width; the scrolling Kiez row must not widen the page. */
+.home > * {
+  min-width: 0;
+}
+
+.home__section {
+  display: grid;
+  gap: 12px;
+}
+
+.home-action {
+  --btn-h: 44px;
+}
+
+/* ---------- Kiez switcher ---------- */
+
+.kiez-strip {
+  position: relative;
+}
+
+.kiez-strip::before,
+.kiez-strip::after {
+  position: absolute;
+  z-index: 1;
+  inset-block: 0;
+  width: 42px;
+  pointer-events: none;
+}
+
+.kiez-strip[data-prev='true']::before {
+  content: '';
+  left: -16px;
+  background: linear-gradient(to right, var(--canvas), transparent);
+}
+
+.kiez-strip[data-next='true']::after {
+  content: '';
+  right: -16px;
+  background: linear-gradient(to left, var(--canvas), transparent);
+}
+
+.kiez-strip__arrow {
+  display: none;
+}
+
+@media (any-pointer: fine) {
+  .kiez-strip__arrow {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: -16px;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    color: var(--ink);
+  }
+
+  .kiez-strip__arrow svg {
+    box-sizing: content-box;
+    padding: 5px;
+    border: 1px solid var(--rule);
+    border-radius: 50%;
+    background: var(--canvas);
+  }
+
+  .kiez-strip__arrow:hover svg {
+    background: var(--hover);
+  }
+
+  .kiez-strip__arrow--prev {
+    right: auto;
+    left: -16px;
+  }
+
+  .kiez-strip__arrow--prev svg {
+    transform: rotate(180deg);
+  }
+}
+
+.kiez-switch {
+  display: flex;
+  gap: 6px;
+  margin-inline: -16px;
+  padding: 2px 16px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.kiez-switch::-webkit-scrollbar {
+  display: none;
+}
+
+.kiez-switch__option {
+  position: relative;
+  flex: none;
+  height: 40px;
+  padding: 0 14px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-card);
+  background: var(--canvas);
+  font-family: var(--font-sans);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: var(--track-label);
+  white-space: nowrap;
+  color: var(--ink);
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    color var(--dur-state) var(--ease-out),
+    border-color var(--dur-state) var(--ease-out);
+}
+
+/* 44 px tap target. */
+.kiez-switch__option::before {
+  content: '';
+  position: absolute;
+  inset: -2px -3px;
+}
+
+@media (hover: hover) {
+  .kiez-switch__option[aria-checked='false']:hover {
+    background: var(--hover);
+  }
+}
+
+.kiez-switch__option[aria-checked='true'] {
+  border-color: var(--cta);
+  color: var(--cta-ink);
+}
+
+.kiez-switch__indicator {
+  position: absolute;
+  inset: -1px;
+  border-radius: var(--radius-card);
+  background: var(--cta);
+}
+
+.kiez-switch__label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ---------- Ranking ---------- */
+
+.home-rank__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.home-rank__title {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: var(--track-display);
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+.home-rank__map {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 6px;
+  height: 44px;
+  margin-top: -8px;
+  font-family: var(--font-sans);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: var(--track-label);
+  color: var(--muted);
+}
+
+.home-rank__meta {
+  margin-top: -4px;
+  font-family: var(--font-sans);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: var(--track-label);
+  color: var(--muted);
+}
+
+.home-rank {
+  display: grid;
+  gap: 12px;
+}
+
+.home-rank .rank-card {
+  --media-h: 136px;
+}
+
+.home-empty {
+  display: grid;
+  justify-items: start;
+  gap: 6px;
+  padding: 16px;
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--radius-media);
+  background: var(--surface);
+}
+
+.home-empty__title {
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+}
+
+.home-empty .btn {
+  margin-top: 6px;
+  height: 44px;
+}
+
+.home-empty__inline {
+  padding: 8px 0;
+}
+
+.home__skeleton {
+  height: 240px;
+}
+
+.locate-hint {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 44px;
+  padding: 12px 14px;
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.locate-hint[disabled] {
+  color: var(--muted);
+}
+
+/* ---------- Restaurants ---------- */
+
+.near-list {
+  border-top: 1px solid var(--rule-soft);
+}
+
+.near-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule-soft);
+}
+
+.near-row__body {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.near-row__name {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+}
+
+.near-row__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  color: var(--muted);
+}
+
+.near-row__count {
+  flex: none;
+}
+
+.home__note {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.goal-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: var(--radius-card);
+  background: var(--cta);
+  color: var(--cta-ink);
+}
+
+.goal-card__text {
+  display: grid;
+  gap: 2px;
+}
+
+.goal-card__title {
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+}
+
+.goal-card .t-muted {
+  font-size: 13px;
+  color: var(--dark-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kiez-switch__option {
+    transition: none;
+  }
+}

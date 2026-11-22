@@ -1,0 +1,71 @@
+.waitlist-content {
+  display: grid;
+  gap: 16px;
+  max-width: 32rem;
+  padding-bottom: 24px;
+}
+
+.waitlist-field {
+  display: grid;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.waitlist-input {
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-action);
+  background: var(--surface);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.waitlist-code {
+  font-family: monospace;
+}
+
+.waitlist-offer {
+  font-weight: 600;
+}
+
+.waitlist-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.waitlist-consent input {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  margin: 2px 0 0;
+  accent-color: var(--cta);
+}
+
+.waitlist-link {
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.waitlist-map-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--fs-label);
+}
+
+.waitlist-map-row a {
+  padding-block: 4px;
+}
+
+.waitlist-map-row button {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  color: var(--muted);
+}

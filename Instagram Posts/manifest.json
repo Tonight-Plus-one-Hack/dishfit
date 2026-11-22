@@ -1,0 +1,525 @@
+{
+  "package": "DishFit Instagram Posts — flat GitHub upload edition",
+  "complete": true,
+  "expected_video_count": 24,
+  "available_video_count": 24,
+  "file_count": 59,
+  "hash_scope": "All delivery files except this self-describing manifest.",
+  "static_references": {
+    "checked_count": 167,
+    "missing": [],
+    "external": [],
+    "nested_or_escaped": []
+  },
+  "source_media_identical": true,
+  "files": [
+    {
+      "file": "DE-01-hungry-in-berlin-12s.mp4",
+      "bytes": 1453308,
+      "sha256": "23e58a450b411773aa17a8b81a5739000cfb03af625d538b53b685d4f499b584"
+    },
+    {
+      "file": "DE-01-hungry-in-berlin.jpg",
+      "bytes": 218857,
+      "sha256": "0f390f92244931c7a47068deb5e61d8cc722e31ba857670aa0feb1f94f835bb2"
+    },
+    {
+      "file": "DE-02-know-before-ordering-12s.mp4",
+      "bytes": 1303851,
+      "sha256": "c1d4d36d4e6a7284daa20620f5e90c61b9bcbee1614bbf6bd45972f0922c7490"
+    },
+    {
+      "file": "DE-02-know-before-ordering.jpg",
+      "bytes": 147803,
+      "sha256": "7cf5f0a962e199a78f579f06a3f24a4531e99a4ed753f8f5f96918778742faea"
+    },
+    {
+      "file": "DE-03-your-meal-budget-12s.mp4",
+      "bytes": 1093339,
+      "sha256": "fdee9d7eebd4d284d217b730269d2612fc48c74ef818dc10c3eb61772e75f611"
+    },
+    {
+      "file": "DE-03-your-meal-budget.jpg",
+      "bytes": 125458,
+      "sha256": "26a7e147c804c2d27515b056ae9c2045e731089e7a1ee9d4088fbcdaa099f5f4"
+    },
+    {
+      "file": "DE-04-new-kiez-new-favourite-12s.mp4",
+      "bytes": 1056012,
+      "sha256": "73192efe4a8c230df2fb71648bfdf31be1efab0648eaa8b43195fca03199f3de"
+    },
+    {
+      "file": "DE-04-new-kiez-new-favourite.jpg",
+      "bytes": 133628,
+      "sha256": "2b481e9efc03031425e157fad7050a8ee761f3f009984466f240d89ad4f7614b"
+    },
+    {
+      "file": "DE-05-meet-your-macros-12s.mp4",
+      "bytes": 1145488,
+      "sha256": "168fe984b15c7978b137e760851c44a19a7f4c730fcf5a766e8482efa25e7cec"
+    },
+    {
+      "file": "DE-05-meet-your-macros.jpg",
+      "bytes": 124690,
+      "sha256": "e31976cb0b606e9b2f6e09388d0058aac1cd8739d36fe466d02c9676b2eca73a"
+    },
+    {
+      "file": "DE-06-protein-per-euro-12s.mp4",
+      "bytes": 1002993,
+      "sha256": "1039e37d9dbfe1f5cb4a7faa991298209bc13814cee411d03e065e41baeb32ac"
+    },
+    {
+      "file": "DE-06-protein-per-euro.jpg",
+      "bytes": 118526,
+      "sha256": "3ecc7de419f830242d0b9e9e66032efd00e2b4a65308ade4e4d4764b41cfb45b"
+    },
+    {
+      "file": "DE-07-break-the-lunch-loop-12s.mp4",
+      "bytes": 1133416,
+      "sha256": "a392d28693865e3ae8e781813053f4790557d62c3a1e66e84f5612eb647a933d"
+    },
+    {
+      "file": "DE-07-break-the-lunch-loop.jpg",
+      "bytes": 128284,
+      "sha256": "aa0c247c23235dcf57d961fc9bf4c639c90e6c59c840d8b8cdcf7ed97d9bb5c3"
+    },
+    {
+      "file": "DE-08-estimates-with-context-12s.mp4",
+      "bytes": 1177480,
+      "sha256": "8f8863cb3edb664c0c3d0e5d2554ba2ce240a10dff64b7c4ef6c8cc3bc27d1cf"
+    },
+    {
+      "file": "DE-08-estimates-with-context.jpg",
+      "bytes": 128985,
+      "sha256": "fd2a6fe49e031eee6a0be6ade0a8772ef5ee22b14aeb3b4c6328b2a616c2245f"
+    },
+    {
+      "file": "DE-09-before-you-pick-12s.mp4",
+      "bytes": 1036147,
+      "sha256": "7490e6fb9cd96e5d191b4b429070be9d78093b149ad65e0b3b4b7dcbd794d126"
+    },
+    {
+      "file": "DE-09-before-you-pick.jpg",
+      "bytes": 142067,
+      "sha256": "f8ef63eeccd2e42313af89fac4f644ab2713aa9dc9bcf8f092d4240814bc4b94"
+    },
+    {
+      "file": "DE-10-your-kiez-your-bite-12s.mp4",
+      "bytes": 1456262,
+      "sha256": "17fce7552f7c538d32bd59cb296005b4ece1353ac3584ce4dc1f80b192d62a12"
+    },
+    {
+      "file": "DE-10-your-kiez-your-bite.jpg",
+      "bytes": 227642,
+      "sha256": "e1798501678c4669de93c233a46e0c64869c07c51649b4d7107a788275d85b49"
+    },
+    {
+      "file": "DE-11-one-menu-more-options-12s.mp4",
+      "bytes": 1367068,
+      "sha256": "55f41c52bba17a9920b5e93fd922fec296c0b218853da385507a380b4660c5e3"
+    },
+    {
+      "file": "DE-11-one-menu-more-options.jpg",
+      "bytes": 144119,
+      "sha256": "85932f64675aba732b1c93c5b5c53d1f546d02a0bdc76ab4f9a85cc6ef69b22e"
+    },
+    {
+      "file": "DE-12-your-meal-priorities-12s.mp4",
+      "bytes": 1118170,
+      "sha256": "f3ea7b69188c94323e79bb97618dbb2fa4ee6ca77e18611680e19c6b73f73ff1"
+    },
+    {
+      "file": "DE-12-your-meal-priorities.jpg",
+      "bytes": 121777,
+      "sha256": "3aa6963eada37ffa6a377bee72063c88c9c97fd84329b374c23f2ae49d796b8b"
+    },
+    {
+      "file": "DE-contact-sheet.jpg",
+      "bytes": 658289,
+      "sha256": "257c5e7dce886bddf35e65e31a1e2bfbb195201575693536125258e6eafc01b4"
+    },
+    {
+      "file": "DE-copy.json",
+      "bytes": 3378,
+      "sha256": "b9a9f759baf6668eb98af8dd2b6485943bbc7a58f361e43ce3ef2aab2f04aaf9"
+    },
+    {
+      "file": "DE-validation.json",
+      "bytes": 24575,
+      "sha256": "caf9a857efb1e0e2bac3e71882eee103743468501f1855e06ee83dbbbc33003b"
+    },
+    {
+      "file": "Deutsch.html",
+      "bytes": 7813,
+      "sha256": "22b758b44daf53d5e8f7dc93507b49dd1a54fedd61411e3854e8fc299b580905"
+    },
+    {
+      "file": "EN-01-hungry-in-berlin-12s.mp4",
+      "bytes": 1437611,
+      "sha256": "d275524c8cf0c31ba7e130a597bbf60a39b4ec2f7347bd26818ef13b904d62ec"
+    },
+    {
+      "file": "EN-01-hungry-in-berlin.jpg",
+      "bytes": 217541,
+      "sha256": "33e6b3275612f0c360786878bcd45bb21ca0d8a5812d4f844cf18a13087dc391"
+    },
+    {
+      "file": "EN-02-know-before-ordering-12s.mp4",
+      "bytes": 1275169,
+      "sha256": "1c71b3f7cd13bb07404143807b7f05daff0759244991e92351c81f3f4c710237"
+    },
+    {
+      "file": "EN-02-know-before-ordering.jpg",
+      "bytes": 144467,
+      "sha256": "1941c19af62c36c840396394b7697d89b2003afce9222477ee3e420b763febcd"
+    },
+    {
+      "file": "EN-03-your-meal-budget-12s.mp4",
+      "bytes": 1069129,
+      "sha256": "9248be8015d75a72437e10020dd81bbd38d349522d278ec9245b59155dc5c3f1"
+    },
+    {
+      "file": "EN-03-your-meal-budget.jpg",
+      "bytes": 121657,
+      "sha256": "0a09aca2b95858e1241e3afe0b4998747487b02449c054e1baaca6d32fe0241a"
+    },
+    {
+      "file": "EN-04-new-kiez-new-favourite-12s.mp4",
+      "bytes": 1043772,
+      "sha256": "f9d01b41a9f1e1bcfbd940ac56fea261df6b08634ab4bb630c16f5f7af72b60e"
+    },
+    {
+      "file": "EN-04-new-kiez-new-favourite.jpg",
+      "bytes": 131894,
+      "sha256": "3f2d2468cb9112a4c77f873e22bee58a8eee05234b798ba83fc94ee26f1cde45"
+    },
+    {
+      "file": "EN-05-meet-your-macros-12s.mp4",
+      "bytes": 1131423,
+      "sha256": "b5c6286f217c70ece43ce70c60da5c8b171bb77b7f99c5851267d04b3e62277d"
+    },
+    {
+      "file": "EN-05-meet-your-macros.jpg",
+      "bytes": 119159,
+      "sha256": "735abe0cd38114a3856cf54d4733d0bb7c99a0dcb38df940847b36166cb73ff0"
+    },
+    {
+      "file": "EN-06-protein-per-euro-12s.mp4",
+      "bytes": 983174,
+      "sha256": "bfdca80d46e33ce4a73d555263b1dca33428dfcfd5021e362bf2799850d505d2"
+    },
+    {
+      "file": "EN-06-protein-per-euro.jpg",
+      "bytes": 117036,
+      "sha256": "702ef7ef7f6b7d43290ab26553a392178803e038bee3262b372d53e090092559"
+    },
+    {
+      "file": "EN-07-break-the-lunch-loop-12s.mp4",
+      "bytes": 1128666,
+      "sha256": "03aa69d404badac54e598a06c076187be35d17d64ce0a2deae75d2020e19a7aa"
+    },
+    {
+      "file": "EN-07-break-the-lunch-loop.jpg",
+      "bytes": 127162,
+      "sha256": "5f48db25e50a11050a64de2ce224880093b2945bc87e542626ea6ff33ba5c1a4"
+    },
+    {
+      "file": "EN-08-estimates-with-context-12s.mp4",
+      "bytes": 1155592,
+      "sha256": "b4f69374552d56e0aa6b941f9cde4d7f026b8410e46b036612d4b3e78e739b84"
+    },
+    {
+      "file": "EN-08-estimates-with-context.jpg",
+      "bytes": 124569,
+      "sha256": "24a6bf25f69ef9b5ac810413eaf63ce1949f7df7117917825e72ce67f6a0956f"
+    },
+    {
+      "file": "EN-09-before-you-pick-12s.mp4",
+      "bytes": 1056164,
+      "sha256": "44b10d38678fae5ca296073588776aa899ec286229e82d6c07df1dba0c78fdeb"
+    },
+    {
+      "file": "EN-09-before-you-pick.jpg",
+      "bytes": 140084,
+      "sha256": "42cb15b1ed794cd7ac48e7000dd60e0f19b2ac9e221e894ce4c49175749b7452"
+    },
+    {
+      "file": "EN-10-your-kiez-your-bite-12s.mp4",
+      "bytes": 1440705,
+      "sha256": "23a4e6af76ad70f31afbe989fe00860ee83f5ecc73fa1385c661062192495dc8"
+    },
+    {
+      "file": "EN-10-your-kiez-your-bite.jpg",
+      "bytes": 222381,
+      "sha256": "877b671a66e2e74ab5257e06123cd98388640e483969bcee0bb73bed33428647"
+    },
+    {
+      "file": "EN-11-one-menu-more-options-12s.mp4",
+      "bytes": 1345951,
+      "sha256": "3b7841f4665ca1ac8d261d8a280c4bcc95d5c5c276daaa157c0501917489db93"
+    },
+    {
+      "file": "EN-11-one-menu-more-options.jpg",
+      "bytes": 131501,
+      "sha256": "ea0653b30ea8e0587cc93bdd62f5873fad079dd088d07ab50345791213ca6b9a"
+    },
+    {
+      "file": "EN-12-your-meal-priorities-12s.mp4",
+      "bytes": 1089631,
+      "sha256": "be71d2ffad47744daa2275f76f9fccd2cf689ba1ed3d5c130aa5064afac87a7d"
+    },
+    {
+      "file": "EN-12-your-meal-priorities.jpg",
+      "bytes": 122917,
+      "sha256": "61f3533d9c643e5134136dc5b791a6c065c839b20a59d4ab081f928445fe0491"
+    },
+    {
+      "file": "EN-contact-sheet.jpg",
+      "bytes": 644409,
+      "sha256": "bd2f6a33509c1f856ca04b310940f5e6c6b9c98d16399da463eb3f7f86410bc5"
+    },
+    {
+      "file": "EN-copy.json",
+      "bytes": 3248,
+      "sha256": "c853c1567bee5e96d08a572fbe80149e601f1ecc745991f2da14fdd7c0cdc5aa"
+    },
+    {
+      "file": "EN-validation.json",
+      "bytes": 24533,
+      "sha256": "b3fe017565a8160acfb5dba30d3fc7d83f9becfd65ccec2961a517c4213ba242"
+    },
+    {
+      "file": "English.html",
+      "bytes": 7656,
+      "sha256": "920e304e67d28ae69ff746bb0e7b848e3890b146c51e0ea1e3f511668d01b86e"
+    },
+    {
+      "file": "README.md",
+      "bytes": 4325,
+      "sha256": "fb55efb68e56da6e8805a0391de97448f164ef65e3b9c378881bddbf55c0c83c"
+    },
+    {
+      "file": "index.html",
+      "bytes": 3404,
+      "sha256": "c71250d9138dd108214b038ca90ec90631b4962c5a3ff4b2bf642094918c516b"
+    }
+  ],
+  "reels": [
+    {
+      "language": "English",
+      "id": 1,
+      "title": "Hungry in Berlin",
+      "video": "EN-01-hungry-in-berlin-12s.mp4",
+      "poster": "EN-01-hungry-in-berlin.jpg",
+      "sha256": "d275524c8cf0c31ba7e130a597bbf60a39b4ec2f7347bd26818ef13b904d62ec",
+      "validated": true
+    },
+    {
+      "language": "English",
+      "id": 2,
+      "title": "Know Before Ordering",
+      "video": "EN-02-know-before-ordering-12s.mp4",
+      "poster": "EN-02-know-before-ordering.jpg",
+      "sha256": "1c71b3f7cd13bb07404143807b7f05daff0759244991e92351c81f3f4c710237",
+      "validated": true
+    },
+    {
+      "language": "English",
+      "id": 3,
+      "title": "Your Meal Budget",
+      "video": "EN-03-your-meal-budget-12s.mp4",
+      "poster": "EN-03-your-meal-budget.jpg",
+      "sha256": "9248be8015d75a72437e10020dd81bbd38d349522d278ec9245b59155dc5c3f1",
+      "validated": true
+    },
+    {
+      "language": "English",
+      "id": 4,
+      "title": "New Kiez, New Favourite",
+      "video": "EN-04-new-kiez-new-favourite-12s.mp4",
+      "poster": "EN-04-new-kiez-new-favourite.jpg",
+      "sha256": "f9d01b41a9f1e1bcfbd940ac56fea261df6b08634ab4bb630c16f5f7af72b60e",
+      "validated": true
+    },
+    {
+      "language": "English",
+      "id": 5,
+      "title": "Meet Your Meal’s Macros",
+      "video": "EN-05-meet-your-macros-12s.mp4",
+      "poster": "EN-05-meet-your-macros.jpg",
+      "sha256": "b5c6286f217c70ece43ce70c60da5c8b171bb77b7f99c5851267d04b3e62277d",
+      "validated": true
+    },
+    {
+      "language": "English",
+      "id": 6,
+      "title": "Protein Per Euro",
+      "video": "EN-06-protein-per-euro-12s.mp4",
+      "poster": "EN-06-protein-per-euro.jpg",
+      "sha256": "bfdca80d46e33ce4a73d555263b1dca33428dfcfd5021e362bf2799850d505d2",
+      "validated": true
+    },
+    {
+      "language": "English",
+      "id": 7,
+      "title": "Break the Lunch Loop",
+      "video": "EN-07-break-the-lunch-loop-12s.mp4",
+      "poster": "EN-07-break-the-lunch-loop.jpg",
+      "sha256": "03aa69d404badac54e598a06c076187be35d17d64ce0a2deae75d2020e19a7aa",
+      "validated": true
+    },
+    {
+      "language": "English",
+      "id": 8,
+      "title": "Estimates With Context",
+      "video": "EN-08-estimates-with-context-12s.mp4",
+      "poster": "EN-08-estimates-with-context.jpg",
+      "sha256": "b4f69374552d56e0aa6b941f9cde4d7f026b8410e46b036612d4b3e78e739b84",
+      "validated": true
+    },
+    {
+      "language": "English",
+      "id": 9,
+      "title": "Before You Pick Your Plate",
+      "video": "EN-09-before-you-pick-12s.mp4",
+      "poster": "EN-09-before-you-pick.jpg",
+      "sha256": "44b10d38678fae5ca296073588776aa899ec286229e82d6c07df1dba0c78fdeb",
+      "validated": true
+    },
+    {
+      "language": "English",
+      "id": 10,
+      "title": "Your Kiez, Your Next Bite",
+      "video": "EN-10-your-kiez-your-bite-12s.mp4",
+      "poster": "EN-10-your-kiez-your-bite.jpg",
+      "sha256": "23a4e6af76ad70f31afbe989fe00860ee83f5ecc73fa1385c661062192495dc8",
+      "validated": true
+    },
+    {
+      "language": "English",
+      "id": 11,
+      "title": "One Menu, More Options",
+      "video": "EN-11-one-menu-more-options-12s.mp4",
+      "poster": "EN-11-one-menu-more-options.jpg",
+      "sha256": "3b7841f4665ca1ac8d261d8a280c4bcc95d5c5c276daaa157c0501917489db93",
+      "validated": true
+    },
+    {
+      "language": "English",
+      "id": 12,
+      "title": "Your Meal Priorities",
+      "video": "EN-12-your-meal-priorities-12s.mp4",
+      "poster": "EN-12-your-meal-priorities.jpg",
+      "sha256": "be71d2ffad47744daa2275f76f9fccd2cf689ba1ed3d5c130aa5064afac87a7d",
+      "validated": true
+    },
+    {
+      "language": "Deutsch",
+      "id": 1,
+      "title": "Hunger in Berlin",
+      "video": "DE-01-hungry-in-berlin-12s.mp4",
+      "poster": "DE-01-hungry-in-berlin.jpg",
+      "sha256": "23e58a450b411773aa17a8b81a5739000cfb03af625d538b53b685d4f499b584",
+      "validated": true
+    },
+    {
+      "language": "Deutsch",
+      "id": 2,
+      "title": "Erst schauen, dann bestellen",
+      "video": "DE-02-know-before-ordering-12s.mp4",
+      "poster": "DE-02-know-before-ordering.jpg",
+      "sha256": "c1d4d36d4e6a7284daa20620f5e90c61b9bcbee1614bbf6bd45972f0922c7490",
+      "validated": true
+    },
+    {
+      "language": "Deutsch",
+      "id": 3,
+      "title": "Dein Essensbudget",
+      "video": "DE-03-your-meal-budget-12s.mp4",
+      "poster": "DE-03-your-meal-budget.jpg",
+      "sha256": "fdee9d7eebd4d284d217b730269d2612fc48c74ef818dc10c3eb61772e75f611",
+      "validated": true
+    },
+    {
+      "language": "Deutsch",
+      "id": 4,
+      "title": "Neuer Kiez, neuer Favorit",
+      "video": "DE-04-new-kiez-new-favourite-12s.mp4",
+      "poster": "DE-04-new-kiez-new-favourite.jpg",
+      "sha256": "73192efe4a8c230df2fb71648bfdf31be1efab0648eaa8b43195fca03199f3de",
+      "validated": true
+    },
+    {
+      "language": "Deutsch",
+      "id": 5,
+      "title": "Die Makros deines Essens",
+      "video": "DE-05-meet-your-macros-12s.mp4",
+      "poster": "DE-05-meet-your-macros.jpg",
+      "sha256": "168fe984b15c7978b137e760851c44a19a7f4c730fcf5a766e8482efa25e7cec",
+      "validated": true
+    },
+    {
+      "language": "Deutsch",
+      "id": 6,
+      "title": "Protein pro Euro",
+      "video": "DE-06-protein-per-euro-12s.mp4",
+      "poster": "DE-06-protein-per-euro.jpg",
+      "sha256": "1039e37d9dbfe1f5cb4a7faa991298209bc13814cee411d03e065e41baeb32ac",
+      "validated": true
+    },
+    {
+      "language": "Deutsch",
+      "id": 7,
+      "title": "Raus aus der Essensroutine",
+      "video": "DE-07-break-the-lunch-loop-12s.mp4",
+      "poster": "DE-07-break-the-lunch-loop.jpg",
+      "sha256": "a392d28693865e3ae8e781813053f4790557d62c3a1e66e84f5612eb647a933d",
+      "validated": true
+    },
+    {
+      "language": "Deutsch",
+      "id": 8,
+      "title": "Schätzungen mit Kontext",
+      "video": "DE-08-estimates-with-context-12s.mp4",
+      "poster": "DE-08-estimates-with-context.jpg",
+      "sha256": "8f8863cb3edb664c0c3d0e5d2554ba2ce240a10dff64b7c4ef6c8cc3bc27d1cf",
+      "validated": true
+    },
+    {
+      "language": "Deutsch",
+      "id": 9,
+      "title": "Bevor du dein Essen wählst",
+      "video": "DE-09-before-you-pick-12s.mp4",
+      "poster": "DE-09-before-you-pick.jpg",
+      "sha256": "7490e6fb9cd96e5d191b4b429070be9d78093b149ad65e0b3b4b7dcbd794d126",
+      "validated": true
+    },
+    {
+      "language": "Deutsch",
+      "id": 10,
+      "title": "Dein Kiez, dein nächstes Essen",
+      "video": "DE-10-your-kiez-your-bite-12s.mp4",
+      "poster": "DE-10-your-kiez-your-bite.jpg",
+      "sha256": "17fce7552f7c538d32bd59cb296005b4ece1353ac3584ce4dc1f80b192d62a12",
+      "validated": true
+    },
+    {
+      "language": "Deutsch",
+      "id": 11,
+      "title": "Eine Speisekarte, mehr Optionen",
+      "video": "DE-11-one-menu-more-options-12s.mp4",
+      "poster": "DE-11-one-menu-more-options.jpg",
+      "sha256": "55f41c52bba17a9920b5e93fd922fec296c0b218853da385507a380b4660c5e3",
+      "validated": true
+    },
+    {
+      "language": "Deutsch",
+      "id": 12,
+      "title": "Deine Kriterien fürs Essen",
+      "video": "DE-12-your-meal-priorities-12s.mp4",
+      "poster": "DE-12-your-meal-priorities.jpg",
+      "sha256": "f3ea7b69188c94323e79bb97618dbb2fa4ee6ca77e18611680e19c6b73f73ff1",
+      "validated": true
+    }
+  ]
+}

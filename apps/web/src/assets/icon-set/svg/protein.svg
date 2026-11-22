@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="protein">
+  <path d="M13.6 10.4L17.4 6.6" fill="none" stroke="#FFD3BC" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="16.8" cy="4.7" r="2" fill="#FFD3BC"/>
+  <circle cx="19.3" cy="7.2" r="2" fill="#FFD3BC"/>
+  <path d="M11.4 12.6L15.2 8.8" fill="none" stroke="#EF5B4C" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="9.2" cy="14.8" rx="6.9" ry="5.6" transform="rotate(-45 9.2 14.8)" fill="#EF5B4C"/>
+</svg>

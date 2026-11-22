@@ -1,0 +1,4731 @@
+[
+  {
+    "id": "osm-node-966975630",
+    "citySlug": "berlin",
+    "name": "Frannz Club",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Schönhauser Allee with live music.",
+    "address": "Schönhauser Allee 36",
+    "neighborhood": "Prenzlauer Berg",
+    "lat": 52.5382108,
+    "lng": 13.4126884,
+    "openingHours": "Mo-Su 17:00-18:00+",
+    "website": "http://www.frannz.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1488606494",
+    "citySlug": "berlin",
+    "name": "Peppi Guggenheim",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Weichselstraße with outdoor seating and live music.",
+    "address": "Weichselstraße 7",
+    "neighborhood": "Neukölln",
+    "lat": 52.4842307,
+    "lng": 13.4331894,
+    "openingHours": "Mo-Su 18:00+",
+    "website": "https://www.peppi-guggenheim.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1814188786",
+    "citySlug": "berlin",
+    "name": "MacLaren",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Boxhagener Straße with outdoor seating.",
+    "address": "Boxhagener Straße 16",
+    "neighborhood": "Friedrichshain",
+    "lat": 52.5135122,
+    "lng": 13.4551962,
+    "openingHours": "Tu-Su,PH 18:00+",
+    "website": "http://www.maclarens.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-490740360",
+    "citySlug": "berlin",
+    "name": "Kilkenny",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Am Zwirngraben with outdoor seating.",
+    "address": "Am Zwirngraben 17-20",
+    "neighborhood": "Mitte",
+    "lat": 52.5224444,
+    "lng": 13.4015612,
+    "openingHours": "Su-Th 10:00-24:00, Fr,Sa 10:00-02:00",
+    "website": "http://www.kilkenny-pub.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1819404955",
+    "citySlug": "berlin",
+    "name": "Lerchen & Eulen",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Pücklerstraße with outdoor seating.",
+    "address": "Pücklerstraße 33",
+    "neighborhood": "Kreuzberg",
+    "lat": 52.5021595,
+    "lng": 13.4307682,
+    "openingHours": "Mo-Su 15:00-24:00",
+    "website": "https://www.lerchenundeulen.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-778710953",
+    "citySlug": "berlin",
+    "name": "Zaza",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Kastanienallee with outdoor seating.",
+    "address": "Kastanienallee 12",
+    "neighborhood": "Prenzlauer Berg",
+    "lat": 52.5391125,
+    "lng": 13.4100306,
+    "openingHours": "Mo-Su 16:00+",
+    "website": "https://www.zaza-bar.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4958557025",
+    "citySlug": "berlin",
+    "name": "Protokoll Berlin",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Boxhagener Straße with outdoor seating.",
+    "address": "Boxhagener Straße 110",
+    "neighborhood": null,
+    "lat": 52.5131761,
+    "lng": 13.4570229,
+    "openingHours": "Su-Th 16:00-00:00; Fr-Sa 16:00-02:00",
+    "website": "http://protokollberlin.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1552565067",
+    "citySlug": "berlin",
+    "name": "Bijou Bar",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Monbijouplatz with outdoor seating.",
+    "address": "Monbijouplatz 1",
+    "neighborhood": "Mitte",
+    "lat": 52.5229828,
+    "lng": 13.3999603,
+    "openingHours": "Mo-Su 07:00-00:00",
+    "website": "http://www.monbijouhotel.de",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4213412590",
+    "citySlug": "berlin",
+    "name": "vorWien",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Skalitzer Straße with outdoor seating.",
+    "address": "Skalitzer Straße 41",
+    "neighborhood": null,
+    "lat": 52.499129,
+    "lng": 13.4287641,
+    "openingHours": "Tu-Sa 18:00-04:00",
+    "website": "https://vor-wien.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3826455885",
+    "citySlug": "berlin",
+    "name": "Segunda Casa",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Eisenacher Straße with outdoor seating.",
+    "address": "Eisenacher Straße 2",
+    "neighborhood": "Schöneberg",
+    "lat": 52.4998512,
+    "lng": 13.3493148,
+    "openingHours": "Mo-Fr 16:00-01:00, Sa-Su 14:00-01:00",
+    "website": "https://www.instagram.com/segunda_casa_berlin/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1256888936",
+    "citySlug": "berlin",
+    "name": "Schilling",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Weserstraße with outdoor seating.",
+    "address": "Weserstraße 9",
+    "neighborhood": "Neukölln",
+    "lat": 52.4882152,
+    "lng": 13.4287315,
+    "openingHours": "Mo-Su 18:00+",
+    "website": "https://www.schillingbar.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3095210830",
+    "citySlug": "berlin",
+    "name": "Baden im Wein",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Schönhauser Allee with outdoor seating.",
+    "address": "Schönhauser Allee 155",
+    "neighborhood": null,
+    "lat": 52.5375887,
+    "lng": 13.4117811,
+    "openingHours": "Mo-Sa 18:00+",
+    "website": "https://www.badenimwein.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3826452056",
+    "citySlug": "berlin",
+    "name": "Hans Weinstube",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Motzstraße with outdoor seating.",
+    "address": "Motzstraße 10",
+    "neighborhood": null,
+    "lat": 52.4988758,
+    "lng": 13.3510921,
+    "openingHours": "Tu-Fr 16:00-22:00; Sa-Mo off",
+    "website": "http://hans-weinstube.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2862857952",
+    "citySlug": "berlin",
+    "name": "Platzwart Kickerbar",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Audre-Lorde-Straße with outdoor seating.",
+    "address": "Audre-Lorde-Straße 27",
+    "neighborhood": "Kreuzberg",
+    "lat": 52.5030199,
+    "lng": 13.4298656,
+    "openingHours": "Mo-Th 18:00-01:00, Fr,Sa 18:00+, Su 18:00-24:00",
+    "website": "http://www.platzwart-berlin.de",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4908049914",
+    "citySlug": "berlin",
+    "name": "Honigdachs",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Grünberger Straße with outdoor seating.",
+    "address": "Grünberger Straße 64",
+    "neighborhood": null,
+    "lat": 52.5114842,
+    "lng": 13.4576903,
+    "openingHours": "Mo-We 18:00-24:00; Th 17:00-24:00; Fr-Sa 16:00-03:00; Su 16:00-24:00",
+    "website": "https://honigdachsbar.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1164354181",
+    "citySlug": "berlin",
+    "name": "Yuma Bar",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Weserstraße with outdoor seating.",
+    "address": "Weserstraße 14",
+    "neighborhood": "Neukölln",
+    "lat": 52.4876511,
+    "lng": 13.4306232,
+    "openingHours": "Su-Th,PH 18:00-04:00+, Fr,Sa 18:00-05:00+",
+    "website": "http://www.yuma-bar.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1149058591",
+    "citySlug": "berlin",
+    "name": "Anna Koschke",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Krausnickstraße with outdoor seating.",
+    "address": "Krausnickstraße 11",
+    "neighborhood": "Mitte",
+    "lat": 52.5252864,
+    "lng": 13.3982393,
+    "openingHours": "Mo-Th 17:00-01:00, Fr-Sa 17:00-03:00, Su 17:00-01:00",
+    "website": "http://www.anna-koschke.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-516574171",
+    "citySlug": "berlin",
+    "name": "Manifest Taproom",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Oderberger Straße with outdoor seating.",
+    "address": "Oderberger Straße 15",
+    "neighborhood": "Prenzlauer Berg",
+    "lat": 52.5392219,
+    "lng": 13.408481,
+    "openingHours": "Mo-Th 17:00-00:00; Sa 16:00-02:00; Fr 17:00-02:00; Su 16:00-00:00",
+    "website": "https://manifesttaproom.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3395000386",
+    "citySlug": "berlin",
+    "name": "Vin Aqua Vin",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Weserstraße with outdoor seating.",
+    "address": "Weserstraße 204",
+    "neighborhood": null,
+    "lat": 52.4878896,
+    "lng": 13.4306193,
+    "openingHours": "Mo-Th 14:00-23:00, Fr,Sa 12:00-24:00, Su 14:00-22:00",
+    "website": "http://vinaquavin.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-383851727",
+    "citySlug": "berlin",
+    "name": "Bar Voyage",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Nollendorfstraße with outdoor seating.",
+    "address": "Nollendorfstraße 1",
+    "neighborhood": "Schöneberg",
+    "lat": 52.4979752,
+    "lng": 13.3562993,
+    "openingHours": "Tu-Su 17:00-24:00+",
+    "website": "https://www.barvoyage.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-945106909",
+    "citySlug": "berlin",
+    "name": "Eschschloraque Rümschrümp",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Rosenthaler Straße.",
+    "address": "Rosenthaler Straße 39",
+    "neighborhood": "Mitte",
+    "lat": 52.5244696,
+    "lng": 13.4017208,
+    "openingHours": "Su-Th 14:00-03:00; Fr-Sa 14:00-04:00",
+    "website": "http://www.eschschloraque.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1093969677",
+    "citySlug": "berlin",
+    "name": "Troy",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Simon-Dach-Straße with outdoor seating.",
+    "address": "Simon-Dach-Straße 14",
+    "neighborhood": "Friedrichshain",
+    "lat": 52.5100814,
+    "lng": 13.4560026,
+    "openingHours": "Mo-Tu 17:00-01:00; We 16:00-01:00; Th 16:00-02:00; Fr 16:00-04:00; Sa 15:00-04:00; Su 15:00-23:30",
+    "website": "https://www.troybar.de",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3830239588",
+    "citySlug": "berlin",
+    "name": "Trompete",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Lützowplatz.",
+    "address": "Lützowplatz 9",
+    "neighborhood": null,
+    "lat": 52.5044307,
+    "lng": 13.3534385,
+    "openingHours": "Th 19:00+; Sa 21:00+",
+    "website": "https://trompete-berlin.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3469247893",
+    "citySlug": "berlin",
+    "name": "Alte Kantine",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Knaackstraße.",
+    "address": "Knaackstraße 97",
+    "neighborhood": "Prenzlauer Berg",
+    "lat": 52.5395329,
+    "lng": 13.4136676,
+    "openingHours": "Mo 22:00-06:00; Th 22:00-05:00; Fr 19:00-06:00; Sa 20:00-06:30",
+    "website": "https://alte-kantine.eu",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1165008486",
+    "citySlug": "berlin",
+    "name": "Soda Club",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Knaackstraße.",
+    "address": "Knaackstraße 97",
+    "neighborhood": "Prenzlauer Berg",
+    "lat": 52.5395232,
+    "lng": 13.4142448,
+    "openingHours": "Th,Su 19:00-26:00; Fr-Sa 22:00-30:00",
+    "website": "https://www.soda-berlin.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1820069776",
+    "citySlug": "berlin",
+    "name": "b-flat",
+    "kind": "nightclub",
+    "vibes": [
+      "club",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Dircksenstraße with live music.",
+    "address": "Dircksenstraße 40",
+    "neighborhood": "Mitte",
+    "lat": 52.5235538,
+    "lng": 13.4069893,
+    "openingHours": "Mo-Su 20:00-01:00",
+    "website": "http://b-flat-berlin.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-621429565",
+    "citySlug": "berlin",
+    "name": "Berndhain",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Simon-Dach-Straße.",
+    "address": "Simon-Dach-Straße 32",
+    "neighborhood": "Friedrichshain",
+    "lat": 52.5091003,
+    "lng": 13.4560428,
+    "openingHours": "Tu-Sa 18:00+, Su 14:00+",
+    "website": "https://berndhain.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-way-504622723",
+    "citySlug": "berlin",
+    "name": "Babette's Garden",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Am Sudhaus.",
+    "address": "Am Sudhaus 3",
+    "neighborhood": null,
+    "lat": 52.4790361,
+    "lng": 13.4311882,
+    "openingHours": "Mo-Su 15:00-22:00 \"bei schönem Wetter\"",
+    "website": "https://www.kindl-berlin.de/cafe",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-429735547",
+    "citySlug": "berlin",
+    "name": "Clärchens Ballhaus",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Auguststraße.",
+    "address": "Auguststraße 24",
+    "neighborhood": "Mitte",
+    "lat": 52.5264743,
+    "lng": 13.39691,
+    "openingHours": "Tu-Fr 17:00-23:00; Sa-Su 14:00-23:00",
+    "website": "https://www.claerchensball.haus/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-12243965940",
+    "citySlug": "berlin",
+    "name": "Fischer & Lustig",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Poststraße.",
+    "address": "Poststraße 26",
+    "neighborhood": null,
+    "lat": 52.5172035,
+    "lng": 13.4061283,
+    "openingHours": "Mo-Su 11:30-24:00, Su 11:30-23:00",
+    "website": "https://fischerundlustig.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-way-523614476",
+    "citySlug": "berlin",
+    "name": "Brło-Biergarten",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Schöneberger Straße.",
+    "address": "Schöneberger Straße 16",
+    "neighborhood": "Kreuzberg",
+    "lat": 52.5000084,
+    "lng": 13.373386,
+    "openingHours": "Mo-Th 16:00+; Fr 14:00+; Sa,Su,PH 12:00+",
+    "website": "https://www.brlo.de/gastronomien/brlo-biergarten",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-167013475",
+    "citySlug": "berlin",
+    "name": "Jockel",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Ratiborstraße.",
+    "address": "Ratiborstraße 14c",
+    "neighborhood": "Kreuzberg",
+    "lat": 52.4916944,
+    "lng": 13.4389954,
+    "openingHours": "11:00-22:00",
+    "website": "https://www.biergartenjockel.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-6595669185",
+    "citySlug": "hamburg",
+    "name": "Molotow",
+    "kind": "nightclub",
+    "vibes": [
+      "club",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Reeperbahn with live music.",
+    "address": "Reeperbahn 136",
+    "neighborhood": null,
+    "lat": 53.5496913,
+    "lng": 9.9595423,
+    "openingHours": null,
+    "website": "https://www.molotowclub.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-10773065821",
+    "citySlug": "hamburg",
+    "name": "Kaiserkeller",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Große Freiheit with live music.",
+    "address": "Große Freiheit 36",
+    "neighborhood": null,
+    "lat": 53.5512153,
+    "lng": 9.9578905,
+    "openingHours": "\"lt. Veranstaltungsplakat\"",
+    "website": "https://www.grossefreiheit36.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-290635282",
+    "citySlug": "hamburg",
+    "name": "Le Fonque",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Juliusstraße with outdoor seating.",
+    "address": "Juliusstraße 33",
+    "neighborhood": null,
+    "lat": 53.5614162,
+    "lng": 9.9615311,
+    "openingHours": "21:00+",
+    "website": "http://fonque.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2410714455",
+    "citySlug": "hamburg",
+    "name": "Frau Möller",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Lange Reihe with outdoor seating.",
+    "address": "Lange Reihe 96",
+    "neighborhood": null,
+    "lat": 53.5586752,
+    "lng": 10.0132469,
+    "openingHours": "Mo-Th 08:00-04:00; Fr-Sa 08:00-05:00; Su 08:00-03:00",
+    "website": "https://fraumoeller.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2428571509",
+    "citySlug": "hamburg",
+    "name": "Men's Needs",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Valentinskamp with outdoor seating.",
+    "address": "Valentinskamp 18",
+    "neighborhood": null,
+    "lat": 53.5554909,
+    "lng": 9.9860723,
+    "openingHours": "Mo-Fr 10:00-19:00; Sa 10:00-16:00",
+    "website": "https://shop.mens-needs.de",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-267626220",
+    "citySlug": "hamburg",
+    "name": "Kostbar",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Susannenstraße with outdoor seating.",
+    "address": "Susannenstraße 36",
+    "neighborhood": null,
+    "lat": 53.5623128,
+    "lng": 9.9630847,
+    "openingHours": "Mo-Th 09:00-23:00; Fr-Sa 09:00-02:00; Su 09:00-23:00",
+    "website": "https://kostbar-hamburg.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-11151671850",
+    "citySlug": "hamburg",
+    "name": "Heritage",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on An der Alster with outdoor seating.",
+    "address": "An der Alster 52",
+    "neighborhood": null,
+    "lat": 53.5585283,
+    "lng": 10.0080313,
+    "openingHours": "15:00-00:00",
+    "website": "https://productmate.de/concierge/heritage-bar/main",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3922372958",
+    "citySlug": "hamburg",
+    "name": "Wodka Bombe",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Reeperbahn with outdoor seating.",
+    "address": "Reeperbahn 116",
+    "neighborhood": null,
+    "lat": 53.5497492,
+    "lng": 9.9602926,
+    "openingHours": "Su-Th 18:00-03:00; Fr-Sa 17:00-05:00",
+    "website": "https://www.wodka-bombe.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1076975393",
+    "citySlug": "hamburg",
+    "name": "Zur Traube",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Karl-Theodor-Straße.",
+    "address": "Karl-Theodor-Straße 4",
+    "neighborhood": null,
+    "lat": 53.5485671,
+    "lng": 9.9311446,
+    "openingHours": "Th 18:00-23:00; Fr, Sa 18:00-00:00; Su 12:00-23:00",
+    "website": "https://www.traube-hamburg.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-290636389",
+    "citySlug": "hamburg",
+    "name": "Goldfischglas",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Bartelsstraße with outdoor seating.",
+    "address": "Bartelsstraße 30",
+    "neighborhood": null,
+    "lat": 53.5625379,
+    "lng": 9.9643633,
+    "openingHours": "Su-Fr 14:00-24:00+; Sa 13:00-24:00+",
+    "website": "https://goldfischglas.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-6090949460",
+    "citySlug": "hamburg",
+    "name": "Bar Bleu",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Stadthausbrücke.",
+    "address": "Stadthausbrücke 10",
+    "neighborhood": null,
+    "lat": 53.5515743,
+    "lng": 9.9863132,
+    "openingHours": "We-Sa 18:00-22:00",
+    "website": "https://www.tortue.de/de/bars/bar-bleu.html",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-598263491",
+    "citySlug": "hamburg",
+    "name": "Max und Consorten",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Spadenteich with outdoor seating.",
+    "address": "Spadenteich 1",
+    "neighborhood": null,
+    "lat": 53.5560177,
+    "lng": 10.008123,
+    "openingHours": "Mo-Fr 11:00+; Sa-Su 10:00+",
+    "website": "https://maxundconsorten.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-437355075",
+    "citySlug": "hamburg",
+    "name": "BeerPONG BAR",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Reeperbahn with outdoor seating.",
+    "address": "Reeperbahn 102",
+    "neighborhood": null,
+    "lat": 53.5497482,
+    "lng": 9.960888,
+    "openingHours": "We-Th 19:00-01:00; Fr 18:00-04:00; Sa 15:00-04:00; Su 18:00-02:00",
+    "website": "https://beerpongbar.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-way-25881947",
+    "citySlug": "hamburg",
+    "name": "Hafenbahnhof",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Große Elbstraße with outdoor seating.",
+    "address": "Große Elbstraße 276",
+    "neighborhood": null,
+    "lat": 53.5448116,
+    "lng": 9.9284837,
+    "openingHours": "Mo 20:30+; Tu-Fr 18:00+; Sa 19:00+; Su 12:00+",
+    "website": "https://www.hafenbahnhof.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-767919941",
+    "citySlug": "hamburg",
+    "name": "Fritz Bauch",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Bartelsstraße with outdoor seating.",
+    "address": "Bartelsstraße 6",
+    "neighborhood": null,
+    "lat": 53.5617709,
+    "lng": 9.9651662,
+    "openingHours": "Mo-Sa 17:00-18:00+",
+    "website": "http://www.fritzbauch.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-490185871",
+    "citySlug": "hamburg",
+    "name": "Erste Liebe Bar",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Michaelisbrücke with outdoor seating.",
+    "address": "Michaelisbrücke 3",
+    "neighborhood": null,
+    "lat": 53.5492265,
+    "lng": 9.9848943,
+    "openingHours": "Mo-Fr 08:00-18:00; Sa 09:30-18:00",
+    "website": "https://ersteliebe.hamburg/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1774109533",
+    "citySlug": "hamburg",
+    "name": "Generation Bar",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Lange Reihe.",
+    "address": "Lange Reihe 81",
+    "neighborhood": null,
+    "lat": 53.5582514,
+    "lng": 10.0121743,
+    "openingHours": "Mo-Th 16:00-02:00; Fr-Sa 16:00-04:00; Su 16:00-02:00",
+    "website": "https://www.generation-bar.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-8722058413",
+    "citySlug": "hamburg",
+    "name": "Halo Club",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Große Freiheit.",
+    "address": "Große Freiheit 6",
+    "neighborhood": null,
+    "lat": 53.5502294,
+    "lng": 9.9578805,
+    "openingHours": "Fr-Sa 22:30+",
+    "website": "https://halo.club/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-278943489",
+    "citySlug": "hamburg",
+    "name": "Haus 73",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Schulterblatt.",
+    "address": "Schulterblatt 73",
+    "neighborhood": null,
+    "lat": 53.5623976,
+    "lng": 9.9612198,
+    "openingHours": "Tu-Th 18:00+; Fr 14:00+; Sa-Su 12:00+",
+    "website": "https://www.dreiundsiebzig.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1564055707",
+    "citySlug": "hamburg",
+    "name": "Cotton Club",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Alter Steinweg with outdoor seating.",
+    "address": "Alter Steinweg 10",
+    "neighborhood": null,
+    "lat": 53.5504572,
+    "lng": 9.9820739,
+    "openingHours": "Mo-Sa 20:00-24:00+, Su 11:00-15:00",
+    "website": "http://www.cotton-club.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3673876622",
+    "citySlug": "hamburg",
+    "name": "Bar Hamburg",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Rautenbergstraße with outdoor seating.",
+    "address": "Rautenbergstraße 6-8",
+    "neighborhood": null,
+    "lat": 53.5563592,
+    "lng": 10.0063245,
+    "openingHours": "Su-Th 16:00-01:00, Fr,Sa 16:00-03:00",
+    "website": "https://www.barhh.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-11708841153",
+    "citySlug": "hamburg",
+    "name": "L’Apéro NAT",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Bahrenfelder Straße.",
+    "address": "Bahrenfelder Straße 51",
+    "neighborhood": null,
+    "lat": 53.550194,
+    "lng": 9.930074,
+    "openingHours": "We-Th 17:00-22:00; Fr-Sa 17:00-23:00; Su 14:00-21:00",
+    "website": "https://www.apero-nat.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-10771255808",
+    "citySlug": "hamburg",
+    "name": "MashUp - Music Bar",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Große Freiheit.",
+    "address": "Große Freiheit 8",
+    "neighborhood": null,
+    "lat": 53.5502813,
+    "lng": 9.9576089,
+    "openingHours": "Mo-Su 18:00+",
+    "website": "https://mashupbar.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-611052824",
+    "citySlug": "hamburg",
+    "name": "The Irish Rover",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Großneumarkt with outdoor seating.",
+    "address": "Großneumarkt 8",
+    "neighborhood": null,
+    "lat": 53.5507084,
+    "lng": 9.9809458,
+    "openingHours": "Mo off; Tu-Th,Su 17:00-23:00; Fr-Sa 17:00-24:00",
+    "website": "http://www.irishrover.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4082447664",
+    "citySlug": "hamburg",
+    "name": "Mathilde Bar",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Kleine Rainstraße with outdoor seating.",
+    "address": "Kleine Rainstraße 11",
+    "neighborhood": null,
+    "lat": 53.5539454,
+    "lng": 9.9298568,
+    "openingHours": "Tu-Sa 17:00-24:00",
+    "website": "https://www.mathilde-hh.de/mathilde-bar-ottensen/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-10771255809",
+    "citySlug": "hamburg",
+    "name": "BKI: Kiezinternat",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Große Freiheit.",
+    "address": "Große Freiheit 10",
+    "neighborhood": null,
+    "lat": 53.550332,
+    "lng": 9.9575973,
+    "openingHours": "Fr-Sa 22:00+",
+    "website": "http://www.blankenesekiezinternat.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-12469799037",
+    "citySlug": "hamburg",
+    "name": "Große Freiheit Nr.7",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Große Freiheit.",
+    "address": "Große Freiheit 7",
+    "neighborhood": null,
+    "lat": 53.5502393,
+    "lng": 9.9573317,
+    "openingHours": "Fr-Sa 23:00+",
+    "website": "https://www.grossefreiheit-nr7.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-9177093418",
+    "citySlug": "hamburg",
+    "name": "Colibri",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Große Freiheit.",
+    "address": "Große Freiheit 34",
+    "neighborhood": null,
+    "lat": 53.5510758,
+    "lng": 9.9578704,
+    "openingHours": "SH Th 22:00+; Fr,Sa 21:00+",
+    "website": "https://www.colibri-club.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-13757901416",
+    "citySlug": "hamburg",
+    "name": "Astra-Biergarten",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Bei den St. Pauli-Landungsbrücken.",
+    "address": "Bei den St. Pauli-Landungsbrücken 2",
+    "neighborhood": null,
+    "lat": 53.5449426,
+    "lng": 9.9710372,
+    "openingHours": "Mo-Th 10:00-21:00; Fr-Sa 10:00-23:00; Su 10:00-20:00",
+    "website": "https://astra-biergarten.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-way-40912020",
+    "citySlug": "hamburg",
+    "name": "Brücke 10 im Strandhaus",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Övelgönner Hohlweg.",
+    "address": "Övelgönner Hohlweg 12",
+    "neighborhood": null,
+    "lat": 53.5449045,
+    "lng": 9.8922714,
+    "openingHours": "Mo-Fr 12:00-18:00; Sa-Su 10:00-18:00",
+    "website": "https://bruecke10-im-strandhaus.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-way-362244956",
+    "citySlug": "hamburg",
+    "name": "Tiefental",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden.",
+    "address": null,
+    "neighborhood": null,
+    "lat": 53.5836092,
+    "lng": 9.9856198,
+    "openingHours": "Tu-Fr 11:30-23:00; PH,Sa,Su 10:00-23:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1909893880",
+    "citySlug": "hamburg",
+    "name": "Le Lion",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Rathausstraße with outdoor seating.",
+    "address": "Rathausstraße 3",
+    "neighborhood": null,
+    "lat": 53.5501691,
+    "lng": 9.9945708,
+    "openingHours": "Mo-Sa 19:00-01:00",
+    "website": "https://www.lelion.net/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-377752587",
+    "citySlug": "munich",
+    "name": "Kilians",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Frauenplatz with outdoor seating and live music.",
+    "address": "Frauenplatz 11",
+    "neighborhood": null,
+    "lat": 48.1387771,
+    "lng": 11.5746454,
+    "openingHours": "Mo-Th 11:00-01:00, Fr,Sa 11:00-02:00, Su,PH 12:00-01:00",
+    "website": "https://kiliansirishpub.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4855132722",
+    "citySlug": "munich",
+    "name": "James T. Hunt",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Schellingstraße with outdoor seating.",
+    "address": "Schellingstraße 32",
+    "neighborhood": null,
+    "lat": 48.1505157,
+    "lng": 11.5754695,
+    "openingHours": "Mo-Su 17:30-02:00",
+    "website": "https://jameshuntbar.com",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2335083230",
+    "citySlug": "munich",
+    "name": "München '72",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Holzstraße with outdoor seating.",
+    "address": "Holzstraße 16",
+    "neighborhood": null,
+    "lat": 48.1301145,
+    "lng": 11.5676829,
+    "openingHours": "Mo-Th 17:00-01:00, Fr 17:00-02:00, Sa 10:00-02:00, Su 10:00-22:00",
+    "website": "https://muenchen72.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-263892675",
+    "citySlug": "munich",
+    "name": "Monchalant",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Pariser Straße with outdoor seating.",
+    "address": "Pariser Straße 15",
+    "neighborhood": null,
+    "lat": 48.1270301,
+    "lng": 11.5978593,
+    "openingHours": "We-Th 14:00-23:00; Fr,Sa 14:00-24:00; Su 14:00-22:00; Mo,Tu off",
+    "website": "https://www.monchalant.de",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-329088197",
+    "citySlug": "munich",
+    "name": "Giesinger",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Schellingstraße with outdoor seating.",
+    "address": "Schellingstraße 27",
+    "neighborhood": null,
+    "lat": 48.1501312,
+    "lng": 11.5760909,
+    "openingHours": "Mo-Fr 17:00+, Sa,Su 15:00+",
+    "website": "https://www.giesinger-braeu.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-447786271",
+    "citySlug": "munich",
+    "name": "Heiliggeist 1 Bar",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Heiliggeiststraße with outdoor seating.",
+    "address": "Heiliggeiststraße 1",
+    "neighborhood": null,
+    "lat": 48.1358496,
+    "lng": 11.5776633,
+    "openingHours": "Mo-Su 11:00-22:00",
+    "website": "https://heiliggeist1.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-6131368295",
+    "citySlug": "munich",
+    "name": "Wallace Bar",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Occamstraße with outdoor seating.",
+    "address": "Occamstraße 2",
+    "neighborhood": null,
+    "lat": 48.1615075,
+    "lng": 11.5894386,
+    "openingHours": "Th-Sa 18:00+",
+    "website": "https://www.wallace-bar.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-409497615",
+    "citySlug": "munich",
+    "name": "NiL",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Hans-Sachs-Straße with outdoor seating.",
+    "address": "Hans-Sachs-Straße 2",
+    "neighborhood": null,
+    "lat": 48.1305028,
+    "lng": 11.5700284,
+    "openingHours": "Mo-Su 15:00-03:00",
+    "website": "https://www.cafenil.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-9047980483",
+    "citySlug": "munich",
+    "name": "Augustiner Stehausschank",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Frauenplatz with outdoor seating.",
+    "address": "Frauenplatz 9",
+    "neighborhood": null,
+    "lat": 48.138091,
+    "lng": 11.5741147,
+    "openingHours": "Su-Th 11:00-22:00; Fr,Sa 10:00-22:00",
+    "website": "https://www.bratwurst-gloeckl.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-5740037548",
+    "citySlug": "munich",
+    "name": "Bar dell Osteria",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Schellingstraße with outdoor seating.",
+    "address": "Schellingstraße 60",
+    "neighborhood": null,
+    "lat": 48.1514043,
+    "lng": 11.5723393,
+    "openingHours": "Mo-Th 11:00-20:00; Fr 12:00-20:00; Sa 11:00-18:00",
+    "website": "https://www.bar-dell-osteria.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-266698116",
+    "citySlug": "munich",
+    "name": "Negroni",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Sedanstraße with outdoor seating.",
+    "address": "Sedanstraße 9",
+    "neighborhood": null,
+    "lat": 48.1305833,
+    "lng": 11.5974147,
+    "openingHours": "Fr-Sa 18:00-01:30; Tu-Th 18:00-01:00",
+    "website": "https://negronibar.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-388183917",
+    "citySlug": "munich",
+    "name": "cocktailhouse",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Feilitzschstraße with outdoor seating.",
+    "address": "Feilitzschstraße 25",
+    "neighborhood": null,
+    "lat": 48.1609613,
+    "lng": 11.5907622,
+    "openingHours": "Su-Th 19:00-01:00, Fr,Sa 19:00-03:00",
+    "website": "https://www.cocktailhouse-bar.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-409497626",
+    "citySlug": "munich",
+    "name": "Hey Luigi",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Holzstraße.",
+    "address": "Holzstraße 29",
+    "neighborhood": null,
+    "lat": 48.1288095,
+    "lng": 11.5682843,
+    "openingHours": "Mo-Th 17:00-24:00; Fr,Sa 17:00-01:00",
+    "website": "https://www.heyluigi.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-656252925",
+    "citySlug": "munich",
+    "name": "Stazione di Aperitivo",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Kaufingerstraße with outdoor seating.",
+    "address": "Kaufingerstraße 5",
+    "neighborhood": null,
+    "lat": 48.1370001,
+    "lng": 11.5731214,
+    "openingHours": "Mo-Th 11:30-21:00; Fr,Sa 11:30-23:55; Su off",
+    "website": "https://stazionediaperitivo.bar",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-264680687",
+    "citySlug": "munich",
+    "name": "EscoBar",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Breisacher Straße with outdoor seating.",
+    "address": "Breisacher Straße 19",
+    "neighborhood": null,
+    "lat": 48.1306142,
+    "lng": 11.6048328,
+    "openingHours": "Su-Fr 17:00-01:00, Sa 17:00-03:00",
+    "website": "https://escobar-muenchen.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-362100911",
+    "citySlug": "munich",
+    "name": "freebird Bar & Food",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Nordendstraße with outdoor seating.",
+    "address": "Nordendstraße 12",
+    "neighborhood": null,
+    "lat": 48.153822,
+    "lng": 11.5757386,
+    "openingHours": "18:00+",
+    "website": "http://www.freebird-munich.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-712569526",
+    "citySlug": "munich",
+    "name": "Abseits",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Marktstraße.",
+    "address": "Marktstraße 3",
+    "neighborhood": null,
+    "lat": 48.1619043,
+    "lng": 11.588513,
+    "openingHours": "Mo-Th 17:00-01:00; Fr 17:00-02:30; Sa 14:30-02:30; Su 15:00-24:00",
+    "website": "https://www.abseits-rockbar.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-450064799",
+    "citySlug": "munich",
+    "name": "Stehausschank Gärtnerplatz",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Klenzestraße with outdoor seating.",
+    "address": "Klenzestraße 47",
+    "neighborhood": null,
+    "lat": 48.1302069,
+    "lng": 11.5738172,
+    "openingHours": "Mo-Th 16:00-01:00, Fr,Sa 14:00-02:00, Su 14:00-23:00",
+    "website": "https://www.giesinger-braeu.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-263895499",
+    "citySlug": "munich",
+    "name": "Bar Tapas Teatro",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Balanstraße with outdoor seating.",
+    "address": "Balanstraße 23",
+    "neighborhood": null,
+    "lat": 48.1265126,
+    "lng": 11.5954148,
+    "openingHours": "Mo-Sa 17:00-01:00",
+    "website": "https://www.teatro-bar-tapas.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3893571128",
+    "citySlug": "munich",
+    "name": "Dubliner Irish Pub",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Platzl with outdoor seating.",
+    "address": "Platzl 2",
+    "neighborhood": null,
+    "lat": 48.1380144,
+    "lng": 11.5798578,
+    "openingHours": "Mo-Su 11:00-05:00",
+    "website": "https://www.dubliner-irishpub.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-388183268",
+    "citySlug": "munich",
+    "name": "Zum neuen Hut",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Feilitzschstraße.",
+    "address": "Feilitzschstraße 11",
+    "neighborhood": null,
+    "lat": 48.1615512,
+    "lng": 11.5882386,
+    "openingHours": "Tu-Th 18:00-01:00; Fr,Sa 20:00-03:00",
+    "website": "https://zumneuenhut.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-903668883",
+    "citySlug": "munich",
+    "name": "Vivo!",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Lothringer Straße.",
+    "address": "Lothringer Straße 11",
+    "neighborhood": null,
+    "lat": 48.1275912,
+    "lng": 11.5977303,
+    "openingHours": "Su-We 18:00-01:00, Th-Sa 18:00-02:00",
+    "website": "https://www.vivo-muenchen.de",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-343735120",
+    "citySlug": "munich",
+    "name": "Biergarten am Viktualienmarkt",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Viktualienmarkt.",
+    "address": "Viktualienmarkt",
+    "neighborhood": null,
+    "lat": 48.1352755,
+    "lng": 11.5764257,
+    "openingHours": "Mo-Sa 09:00-22:00; \"bei Schönem Wetter auch Sonntags\"",
+    "website": "https://www.viktualienmarkt-muenchen.de/biergarten/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1146425495",
+    "citySlug": "munich",
+    "name": "Pimpernel",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Müllerstraße.",
+    "address": "Müllerstraße 56",
+    "neighborhood": null,
+    "lat": 48.1323398,
+    "lng": 11.5672627,
+    "openingHours": "Mo-Su 22:00-06:00",
+    "website": "https://www.pimpernel.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-5711522537",
+    "citySlug": "munich",
+    "name": "Schlagergarten",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Speicherstraße with outdoor seating.",
+    "address": "Speicherstraße 20",
+    "neighborhood": null,
+    "lat": 48.1239026,
+    "lng": 11.6058829,
+    "openingHours": "Th-Sa 21:30-05:00",
+    "website": "https://www.schlagergarten.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4951695439",
+    "citySlug": "munich",
+    "name": "Discothek Crash",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Ainmillerstraße.",
+    "address": "Ainmillerstraße 10",
+    "neighborhood": null,
+    "lat": 48.158615,
+    "lng": 11.5833309,
+    "openingHours": "Th 20:00-01:00, Fr-Sa 21:00-04:00",
+    "website": "https://www.crash-discothek.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-6651589293",
+    "citySlug": "munich",
+    "name": "Helene",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Occamstraße.",
+    "address": "Occamstraße 5",
+    "neighborhood": null,
+    "lat": 48.1618086,
+    "lng": 11.5892719,
+    "openingHours": "Fr-Sa 22:00+",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-415068874",
+    "citySlug": "munich",
+    "name": "P1",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Prinzregentenstraße.",
+    "address": "Prinzregentenstraße 1",
+    "neighborhood": null,
+    "lat": 48.1444409,
+    "lng": 11.5852836,
+    "openingHours": "We-Sa 19:00-05:00",
+    "website": "https://p1-club.de",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-853262324",
+    "citySlug": "munich",
+    "name": "Sweet",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Maximiliansplatz.",
+    "address": "Maximiliansplatz 5",
+    "neighborhood": null,
+    "lat": 48.1422469,
+    "lng": 11.5706224,
+    "openingHours": "Fr-Sa 22:30-05:00",
+    "website": "https://www.sweetclub.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-260796705",
+    "citySlug": "munich",
+    "name": "Hendlglück Biergarten",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Anzinger Straße.",
+    "address": "Anzinger Straße 2",
+    "neighborhood": null,
+    "lat": 48.1204274,
+    "lng": 11.6071809,
+    "openingHours": "Mo-Su 11:00-22:00",
+    "website": "https://hendlglueck.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-way-126131342",
+    "citySlug": "munich",
+    "name": "Paulaner Bräuhaus",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Kapuzinerplatz.",
+    "address": "Kapuzinerplatz 5",
+    "neighborhood": null,
+    "lat": 48.1260628,
+    "lng": 11.5593697,
+    "openingHours": "Mo-Su 09:45-22:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-way-39541244",
+    "citySlug": "munich",
+    "name": "Biergarten am Chinesischen Turm",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Englischer Garten.",
+    "address": "Englischer Garten 3",
+    "neighborhood": null,
+    "lat": 48.1525061,
+    "lng": 11.592569,
+    "openingHours": "Mo-Fr 11:00+; Sa-Su 10:00+",
+    "website": "https://www.chinaturm.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1448235867",
+    "citySlug": "cologne",
+    "name": "Club Bahnhof Ehrenfeld",
+    "kind": "nightclub",
+    "vibes": [
+      "club",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Bartholomäus-Schink-Straße with live music.",
+    "address": "Bartholomäus-Schink-Straße 65-67",
+    "neighborhood": null,
+    "lat": 50.9516879,
+    "lng": 6.915989,
+    "openingHours": null,
+    "website": "https://cbe-cologne.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4179707475",
+    "citySlug": "cologne",
+    "name": "Yuca (Your Urban Club of Arts)",
+    "kind": "nightclub",
+    "vibes": [
+      "club",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Bartholomäus-Schink-Straße with live music.",
+    "address": "Bartholomäus-Schink-Straße 65-67",
+    "neighborhood": null,
+    "lat": 50.9517153,
+    "lng": 6.9161618,
+    "openingHours": null,
+    "website": "https://yuca.club/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-467770617",
+    "citySlug": "cologne",
+    "name": "Rosebud",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Heinsbergstraße with outdoor seating.",
+    "address": "Heinsbergstraße 20",
+    "neighborhood": null,
+    "lat": 50.9300705,
+    "lng": 6.9380122,
+    "openingHours": "Mo-Th 20:30-02:00; Fr-Sa 21:00-03:00 || \"vor Feiertagen wie Sa\"",
+    "website": "http://www.rosebudbar.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3647866082",
+    "citySlug": "cologne",
+    "name": "James Joyce",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Bonner Straße with outdoor seating.",
+    "address": "Bonner Straße 39",
+    "neighborhood": null,
+    "lat": 50.9185974,
+    "lng": 6.9605577,
+    "openingHours": "Mo-Th 18:00-01:00, Fr,Sa 18:00-03:00, Su 18:00-24:00",
+    "website": "https://jamesjoyceirishpub.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4465447033",
+    "citySlug": "cologne",
+    "name": "Craftbeer Corner Coeln",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Martinstraße with outdoor seating.",
+    "address": "Martinstraße 32",
+    "neighborhood": null,
+    "lat": 50.9371997,
+    "lng": 6.9589148,
+    "openingHours": "Tu-Th 18:00-24:00; Fr-Sa 17:00-01:00",
+    "website": "https://craftbeercorner.eu",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-292881082",
+    "citySlug": "cologne",
+    "name": "Stiefel",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Zülpicher Straße with outdoor seating.",
+    "address": "Zülpicher Straße 18",
+    "neighborhood": null,
+    "lat": 50.9299042,
+    "lng": 6.9383181,
+    "openingHours": "Su-Th 18:00-02:00; Fr,Sa 18:00-05:00",
+    "website": "https://stiefelkneipe.de",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-581887805",
+    "citySlug": "cologne",
+    "name": "ROSA",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Brüsseler Platz.",
+    "address": "Brüsseler Platz 1",
+    "neighborhood": null,
+    "lat": 50.9383371,
+    "lng": 6.9350955,
+    "openingHours": "Mo-Th 14:30-02:00; Fr,Sa 14:30-04:00",
+    "website": "https://rosa-koeln.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-365930481",
+    "citySlug": "cologne",
+    "name": "Baustelle 4U",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Vor St. Martin with outdoor seating.",
+    "address": "Vor St. Martin 12",
+    "neighborhood": null,
+    "lat": 50.9354456,
+    "lng": 6.9596561,
+    "openingHours": "Mo-Th 17:00-01:00; Fr 17:00-03:00; Sa 16:00-03:00; Su 16:00-01:00",
+    "website": "https://www.baustelle4u.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-566650430",
+    "citySlug": "cologne",
+    "name": "Engelbät",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Engelbertstraße with outdoor seating.",
+    "address": "Engelbertstraße 7",
+    "neighborhood": null,
+    "lat": 50.9310111,
+    "lng": 6.9390318,
+    "openingHours": "Mo-Sa 12:00-23:00; Su,PH 12:00-22:00",
+    "website": "https://www.engelbaet.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1018047304",
+    "citySlug": "cologne",
+    "name": "Zino's Spritz",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Moltkestraße with outdoor seating.",
+    "address": "Moltkestraße 65a",
+    "neighborhood": null,
+    "lat": 50.9364086,
+    "lng": 6.9323917,
+    "openingHours": "Mo-Th 17:00-23:00, Fr 17:00-01:00, Sa 15:00-01:00",
+    "website": "https://www.zinos.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-633181842",
+    "citySlug": "cologne",
+    "name": "Papa Joe’s Klimperkasten",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Alter Markt with outdoor seating.",
+    "address": "Alter Markt 50-52",
+    "neighborhood": null,
+    "lat": 50.9388026,
+    "lng": 6.9603387,
+    "openingHours": "Mo-Su 11:00-03:00",
+    "website": "https://www.papajoes.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-535503499",
+    "citySlug": "cologne",
+    "name": "Severin",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Severinstraße with outdoor seating.",
+    "address": "Severinstraße 28",
+    "neighborhood": null,
+    "lat": 50.9230983,
+    "lng": 6.9591148,
+    "openingHours": "Mo-Th 11:00-24:00, Fr,Sa 11:00-01:00, Su 16:00-22:00",
+    "website": "https://www.brauhaus-severin.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-322797145",
+    "citySlug": "cologne",
+    "name": "Furchtbar",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Kyffhäuserstraße with outdoor seating.",
+    "address": "Kyffhäuserstraße 24",
+    "neighborhood": null,
+    "lat": 50.9289262,
+    "lng": 6.939284,
+    "openingHours": "Mo-Su 18:00-05:00",
+    "website": "https://www.furchtbar.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-365768351",
+    "citySlug": "cologne",
+    "name": "Em drügge Pitter",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Venloer Straße with outdoor seating.",
+    "address": "Venloer Straße 216",
+    "neighborhood": null,
+    "lat": 50.953045,
+    "lng": 6.9125342,
+    "openingHours": "Mo-Th 20:00-04:30; Fr-Sa 20:00-04:30; Su 21:00-02:00",
+    "website": "https://edp-koeln.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2419064758",
+    "citySlug": "cologne",
+    "name": "Seiberts",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Friesenwall with outdoor seating.",
+    "address": "Friesenwall 33",
+    "neighborhood": null,
+    "lat": 50.9388152,
+    "lng": 6.9406763,
+    "openingHours": "Tu-Su 17:00-02:00",
+    "website": "https://seiberts-bar.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-345175310",
+    "citySlug": "cologne",
+    "name": "Lost Level",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Kyffhäuserstraße with outdoor seating.",
+    "address": "Kyffhäuserstraße 39",
+    "neighborhood": null,
+    "lat": 50.9286363,
+    "lng": 6.9381717,
+    "openingHours": "Tu 18:00-00:00, We-Th 19:00-01:00, Fr-Sa 19:00-03:00",
+    "website": "https://lostlevel.bar",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-633172563",
+    "citySlug": "cologne",
+    "name": "Die Kulisse",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Unter Käster.",
+    "address": "Unter Käster 14-16",
+    "neighborhood": null,
+    "lat": 50.9378558,
+    "lng": 6.9604118,
+    "openingHours": "Mo-Fr 16:00-01:00, Sa-Su 13:00-01:00",
+    "website": "https://www.kulisse-koeln.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-13614790980",
+    "citySlug": "cologne",
+    "name": "Sportbar Italia",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Rolandstraße with outdoor seating.",
+    "address": "Rolandstraße 6",
+    "neighborhood": null,
+    "lat": 50.9186937,
+    "lng": 6.9594149,
+    "openingHours": "Mo-Fr 06:00-24:00; Sa 06:00-23:00; Su 08:00-23:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2653841922",
+    "citySlug": "cologne",
+    "name": "abhörbar",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Friesenwall with outdoor seating.",
+    "address": "Friesenwall 128",
+    "neighborhood": null,
+    "lat": 50.9413591,
+    "lng": 6.9415234,
+    "openingHours": "Mo-Th 21:00-04:00, Fr-Sa 21:00+",
+    "website": "https://www.abhoerbar.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-356175401",
+    "citySlug": "cologne",
+    "name": "Grace and Grape",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Kyffhäuserstraße with outdoor seating.",
+    "address": "Kyffhäuserstraße 17",
+    "neighborhood": null,
+    "lat": 50.9288143,
+    "lng": 6.939736,
+    "openingHours": "We-Sa 17:00-01:00, Su 16:00-22:00",
+    "website": "https://www.graceandgrape.de",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-6790197222",
+    "citySlug": "cologne",
+    "name": "Zur Kaiserin",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Pipinstraße.",
+    "address": "Pipinstraße 5",
+    "neighborhood": null,
+    "lat": 50.9354086,
+    "lng": 6.9595591,
+    "openingHours": "We,Th 18:00-01:00, Fr,Sa 18:00-02:00, Su 16:00-23:00; Mo,Tu off",
+    "website": "http://www.zurkaiserin.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-267876460",
+    "citySlug": "cologne",
+    "name": "Hängende Gärten von Ehrenfeld",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Vogelsanger Straße.",
+    "address": "Vogelsanger Straße 140",
+    "neighborhood": null,
+    "lat": 50.9472988,
+    "lng": 6.9167527,
+    "openingHours": "Th-Su 20:00-02:00, Fr-Sa 20:00-04:00",
+    "website": "http://www.haengendegaerten.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-7271584664",
+    "citySlug": "cologne",
+    "name": "Umbibar",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar with outdoor seating.",
+    "address": null,
+    "neighborhood": null,
+    "lat": 50.9204531,
+    "lng": 6.959585,
+    "openingHours": "Su 13:00-22:00; Mo-Th 12:00-22:00; Fr-Sa 12:00-23:00",
+    "website": "https://www.umibar.de",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-942692484",
+    "citySlug": "cologne",
+    "name": "Klapsmühle",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Hohenzollernring.",
+    "address": "Hohenzollernring 39-41",
+    "neighborhood": null,
+    "lat": 50.939181,
+    "lng": 6.9393705,
+    "openingHours": "We,Fr,Sa 21:00+; PH -1 day 21:00+",
+    "website": "https://klapsmuehle.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-441240854",
+    "citySlug": "cologne",
+    "name": "KGB Bar",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Rathenauplatz with outdoor seating.",
+    "address": "Rathenauplatz 22",
+    "neighborhood": null,
+    "lat": 50.9314558,
+    "lng": 6.9348679,
+    "openingHours": "Tu-Sa 19:00-06:00; Su,Mo,PH off",
+    "website": "https://www.hotelux.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-5998726446",
+    "citySlug": "cologne",
+    "name": "Zappes im Stollwerck",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Dreikönigenstraße.",
+    "address": "Dreikönigenstraße 23",
+    "neighborhood": null,
+    "lat": 50.925136,
+    "lng": 6.964171,
+    "openingHours": "Mo-Th 11:00-23:00; Fr 11:00 - 01:00; Sa 15:00 - 01:00; Su 11:00 - 20:00",
+    "website": "https://www.zappes-broi.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2395060243",
+    "citySlug": "cologne",
+    "name": "Sonic Ballroom",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Oskar-Jäger-Straße.",
+    "address": "Oskar-Jäger-Straße 190",
+    "neighborhood": null,
+    "lat": 50.9488018,
+    "lng": 6.9076462,
+    "openingHours": "15:00-20:00;\"for concerts\"",
+    "website": "https://www.sonic-ballroom.de/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-7717671993",
+    "citySlug": "cologne",
+    "name": "Johann Schäfer Biergarten",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Agrippinawerft.",
+    "address": "Agrippinawerft 30",
+    "neighborhood": null,
+    "lat": 50.9185852,
+    "lng": 6.9699709,
+    "openingHours": "Mo-Fr 16:00-23:00;Sa-Su 12:00-23:00",
+    "website": "https://www.johann-schaefer.de/biergarten",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2629419509",
+    "citySlug": "cologne",
+    "name": "Tru Club",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Mittelstraße.",
+    "address": "Mittelstraße 12",
+    "neighborhood": null,
+    "lat": 50.9369665,
+    "lng": 6.9440601,
+    "openingHours": "Sa 23:00+",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-way-448647127",
+    "citySlug": "cologne",
+    "name": "Stadtgarten Biergarten",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden.",
+    "address": null,
+    "neighborhood": null,
+    "lat": 50.9428466,
+    "lng": 6.9355888,
+    "openingHours": "Mo-Su 12:00-24:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-5624509121",
+    "citySlug": "cologne",
+    "name": "Veedel Club",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub.",
+    "address": null,
+    "neighborhood": null,
+    "lat": 50.9272542,
+    "lng": 6.939919,
+    "openingHours": "Fr-Sa 23:00-05:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-477280426",
+    "citySlug": "cologne",
+    "name": "Tivoli Cologne",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Hohe Straße.",
+    "address": "Hohe Straße 12",
+    "neighborhood": null,
+    "lat": 50.9345313,
+    "lng": 6.9563284,
+    "openingHours": null,
+    "website": "http://www.tivoli-cologne.de/club/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1759851506",
+    "citySlug": "amsterdam",
+    "name": "Lellebel",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Utrechtsestraat with jazz nights.",
+    "address": "Utrechtsestraat 4",
+    "neighborhood": null,
+    "lat": 52.3656807,
+    "lng": 4.897438,
+    "openingHours": "Mo-Th,Su 20:00-03:00; Fr-Sa 20:00-04:00",
+    "website": "https://www.lellebel.nl",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2730033733",
+    "citySlug": "amsterdam",
+    "name": "Jazz Cafe Alto",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Korte Leidsedwarsstraat.",
+    "address": "Korte Leidsedwarsstraat 115",
+    "neighborhood": null,
+    "lat": 52.3635112,
+    "lng": 4.8845183,
+    "openingHours": "Mo-Su 21:00-04:00",
+    "website": "https://jazz-cafe-alto.nl",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2506027857",
+    "citySlug": "amsterdam",
+    "name": "Pilsvogel",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Gerard Douplein with outdoor seating.",
+    "address": "Gerard Douplein 14-H",
+    "neighborhood": null,
+    "lat": 52.355825,
+    "lng": 4.8927702,
+    "openingHours": "Mo-Th,Su 10:00-01:00; Fr-Sa 10:00-03:00",
+    "website": "https://pilsvogel.nl",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2724283910",
+    "citySlug": "amsterdam",
+    "name": "Café Zwart",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Dam with outdoor seating.",
+    "address": "Dam 15",
+    "neighborhood": null,
+    "lat": 52.3725215,
+    "lng": 4.8941519,
+    "openingHours": "Mo-Su 10:00-03:00",
+    "website": "https://www.amsterdam-dam.com/cafezwart/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-251528291",
+    "citySlug": "amsterdam",
+    "name": "The Old Bell",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Rembrandtplein with outdoor seating.",
+    "address": "Rembrandtplein 46",
+    "neighborhood": null,
+    "lat": 52.365769,
+    "lng": 4.897453,
+    "openingHours": "Su-Th 11:00-01:00; Fr-Sa 11:00-03:00",
+    "website": "https://www.oldbell.nl/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-567951945",
+    "citySlug": "amsterdam",
+    "name": "Hoopman",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Leidseplein with outdoor seating.",
+    "address": "Leidseplein 4",
+    "neighborhood": null,
+    "lat": 52.3645665,
+    "lng": 4.8829676,
+    "openingHours": "Mo-Su 10:00-14:00",
+    "website": "https://www.hoopman.nl/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2506022420",
+    "citySlug": "amsterdam",
+    "name": "Bar Maeve",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Eerste Van der Helststraat with outdoor seating.",
+    "address": "Eerste Van der Helststraat 50",
+    "neighborhood": null,
+    "lat": 52.3561746,
+    "lng": 4.8924253,
+    "openingHours": "Mo-Th,Su 10:30-01:00; Fr-Sa 10:30-03:00",
+    "website": "https://www.barmaeve.nl",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-6491481207",
+    "citySlug": "amsterdam",
+    "name": "Pulitzer's Bar",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Keizersgracht.",
+    "address": "Keizersgracht 234",
+    "neighborhood": null,
+    "lat": 52.3726265,
+    "lng": 4.8845105,
+    "openingHours": "Mo-Th 17:00-01:00, Fr,Sa 15:00-02:00, Su 15:00-01:00",
+    "website": "https://www.pulitzersbar.nl/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-432860310",
+    "citySlug": "amsterdam",
+    "name": "Schiller",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Rembrandtplein with outdoor seating.",
+    "address": "Rembrandtplein 24A",
+    "neighborhood": null,
+    "lat": 52.365674,
+    "lng": 4.896587,
+    "openingHours": "Mo 16:00-00:00, Tu-Th 16:00-01:00, Fr 16:00-02:00, Sa 15:00-02:00, Su 15:00-00:00",
+    "website": "https://cafeschiller.nl",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1427417012",
+    "citySlug": "amsterdam",
+    "name": "Dan Murphy's Irish bar",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Leidseplein with outdoor seating.",
+    "address": "Leidseplein 24",
+    "neighborhood": null,
+    "lat": 52.3645054,
+    "lng": 4.8822704,
+    "openingHours": "Fr-Sa 12:00-03:00; Su-Th 12:00-01:00",
+    "website": "http://www.danmurphys.nl",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4089901003",
+    "citySlug": "amsterdam",
+    "name": "Villa Nieuwmarkt",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Nieuwmarkt with outdoor seating.",
+    "address": "Nieuwmarkt 25",
+    "neighborhood": null,
+    "lat": 52.3719718,
+    "lng": 4.9005593,
+    "openingHours": "Su-Th 11:00-01:00; Fr-Sa 11:00-03:00",
+    "website": "https://www.villanieuwmarkt.nl/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-272811437",
+    "citySlug": "amsterdam",
+    "name": "Het Paardje",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Gerard Douplein with outdoor seating.",
+    "address": "Gerard Douplein 1",
+    "neighborhood": null,
+    "lat": 52.3561578,
+    "lng": 4.8927044,
+    "openingHours": "Su-Th 10:30-01:00; Fr-Sa 10:30-03:00",
+    "website": "https://www.cafehetpaardje.nl",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-410212543",
+    "citySlug": "amsterdam",
+    "name": "Festina Lente",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Looiersgracht with outdoor seating.",
+    "address": "Looiersgracht 40B",
+    "neighborhood": null,
+    "lat": 52.3686458,
+    "lng": 4.8813577,
+    "openingHours": "Mo-Fr 00:00-01:00,09:00-24:00; Sa,Su 00:00-03:00,10:00-24:00",
+    "website": "https://cafefestinalente.nl",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2724283838",
+    "citySlug": "amsterdam",
+    "name": "Belushi's Amsterdam",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Warmoesstraat.",
+    "address": "Warmoesstraat 129",
+    "neighborhood": null,
+    "lat": 52.3739521,
+    "lng": 4.8965109,
+    "openingHours": "Su-Th 10:00-03:00; Fr-Sa 10:00-04:00",
+    "website": "https://www.belushis.com/amsterdam-central",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1427416999",
+    "citySlug": "amsterdam",
+    "name": "Chicago Social Club",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Leidseplein.",
+    "address": "Leidseplein 12",
+    "neighborhood": null,
+    "lat": 52.3646621,
+    "lng": 4.8825624,
+    "openingHours": "Tu-Th,Su 20:00-04:00; Fr-Sa 20:00-05:00; Mo off",
+    "website": "https://chicagosocialclub.nl/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-10937849384",
+    "citySlug": "amsterdam",
+    "name": "John Doe",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Rembrandtplein.",
+    "address": "Rembrandtplein 31",
+    "neighborhood": null,
+    "lat": 52.3664514,
+    "lng": 4.8976284,
+    "openingHours": "We-Th 23:00-04:00; Fr-Sa 23:00-07:00; Su 23:00-04:00",
+    "website": "https://www.clubjohndoe.nl",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2456734510",
+    "citySlug": "amsterdam",
+    "name": "Cafe Berkhout",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Stadhouderskade with outdoor seating.",
+    "address": "Stadhouderskade 77-H",
+    "neighborhood": null,
+    "lat": 52.3579555,
+    "lng": 4.8906939,
+    "openingHours": "Su-Th 09:00-01:00; Fr-Sa 09:00-03:00",
+    "website": "https://www.cafeberkhout.nl",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-11367990069",
+    "citySlug": "amsterdam",
+    "name": "Chin Chin Club",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Rozengracht.",
+    "address": "Rozengracht 133",
+    "neighborhood": null,
+    "lat": 52.3727679,
+    "lng": 4.8788419,
+    "openingHours": "Th 23:00-04:00; Fr-Sa 19:00-05:00",
+    "website": "https://chinchinclub.nl",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2724826844",
+    "citySlug": "amsterdam",
+    "name": "Rosalia's Menagerie",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Kloveniersburgwal.",
+    "address": "Kloveniersburgwal 20",
+    "neighborhood": null,
+    "lat": 52.3717192,
+    "lng": 4.8990243,
+    "openingHours": "Mo-Su 18:00-01:00",
+    "website": "https://www.rosalias.amsterdam",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2138577019",
+    "citySlug": "amsterdam",
+    "name": "Jimmy Woo",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Korte Leidsedwarsstraat.",
+    "address": "Korte Leidsedwarsstraat 18",
+    "neighborhood": null,
+    "lat": 52.3647963,
+    "lng": 4.8823749,
+    "openingHours": "Th 23:00-03:00; Fr,Sa 23:00-04:00",
+    "website": "https://www.jimmywoo.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1623897542",
+    "citySlug": "amsterdam",
+    "name": "Cooldown Cafe Rembrandtplein",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Rembrandtplein.",
+    "address": "Rembrandtplein 45",
+    "neighborhood": null,
+    "lat": 52.366353,
+    "lng": 4.8977883,
+    "openingHours": "Mo closed; Tu-Th 22:00-04:00; Fr-Sa 22:00-05:00",
+    "website": "https://www.cooldowncafe.nl/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2817610711",
+    "citySlug": "amsterdam",
+    "name": "Bar Buka",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Albert Cuypstraat.",
+    "address": "Albert Cuypstraat 124-H",
+    "neighborhood": null,
+    "lat": 52.3552739,
+    "lng": 4.8926046,
+    "openingHours": "Th 17:00-00:00; Fr 17:00-00:30; Sa 17:00-01:00; Su 16:00-20:00",
+    "website": "https://barbuka.nl/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-10312071206",
+    "citySlug": "amsterdam",
+    "name": "OCCO",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Keizersgracht.",
+    "address": "Keizersgracht 384",
+    "neighborhood": null,
+    "lat": 52.3692088,
+    "lng": 4.8836865,
+    "openingHours": "07:00-00:00",
+    "website": "https://www.occo.nl",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2724367024",
+    "citySlug": "amsterdam",
+    "name": "Excalibur",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Oudezijds Achterburgwal.",
+    "address": "Oudezijds Achterburgwal 48",
+    "neighborhood": null,
+    "lat": 52.3740261,
+    "lng": 4.8993924,
+    "openingHours": "Mo-Th 11:00-01:00; Fr-Sa 10:30-02:00; Su 11:00-01:00",
+    "website": "https://www.excaliburcafe.nl/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2730036922",
+    "citySlug": "amsterdam",
+    "name": "Kopstootbar",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Marnixstraat.",
+    "address": "Marnixstraat 429",
+    "neighborhood": null,
+    "lat": 52.3640519,
+    "lng": 4.8818503,
+    "openingHours": "Tu-Th 18:00-01:00; Fr-Sa 18:00-03:00",
+    "website": "https://kopstootbar.amsterdam/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-5060913712",
+    "citySlug": "amsterdam",
+    "name": "GlouGlou",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Tweede Van der Helststraat with outdoor seating.",
+    "address": "Tweede Van der Helststraat 3",
+    "neighborhood": null,
+    "lat": 52.3525122,
+    "lng": 4.8950603,
+    "openingHours": "Mo-Fr 15:00-24:00; Sa-Su 14:00-24:00",
+    "website": "https://glouglou.nl/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2725663184",
+    "citySlug": "amsterdam",
+    "name": "Moulin Rouge",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Oudezijds Achterburgwal.",
+    "address": "Oudezijds Achterburgwal 7",
+    "neighborhood": null,
+    "lat": 52.374326,
+    "lng": 4.9001821,
+    "openingHours": "Mo-Th 20:00-02:00; Fr 16:30-02:00; Sa 14:00-02:00; Su 18:00-02:00",
+    "website": "https://MoulinRougeAmsterdam.nl",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-10884102737",
+    "citySlug": "amsterdam",
+    "name": "Club Up",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Korte Leidsedwarsstraat.",
+    "address": "Korte Leidsedwarsstraat 26",
+    "neighborhood": null,
+    "lat": 52.3638432,
+    "lng": 4.8837791,
+    "openingHours": "Th 23:00-04:00; Fr-Sa 23:00-05:00",
+    "website": "https://www.clubup.nl",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2730037359",
+    "citySlug": "amsterdam",
+    "name": "De Biertuin Prinsengracht",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Prinsengracht.",
+    "address": "Prinsengracht 494-H",
+    "neighborhood": null,
+    "lat": 52.3640544,
+    "lng": 4.8854519,
+    "openingHours": "Mo-Th,Su 11:00-01:00; Fr-Sa 11:00-03:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-way-851424618",
+    "citySlug": "amsterdam",
+    "name": "Breugem Meeting Point",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden.",
+    "address": null,
+    "neighborhood": null,
+    "lat": 52.3936166,
+    "lng": 4.8674127,
+    "openingHours": "Su 06:00-20:00,06:00-20:00,11:00-23:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2285522455",
+    "citySlug": "amsterdam",
+    "name": "Tante Roosje",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Rembrandtplein with outdoor seating.",
+    "address": "Rembrandtplein 5",
+    "neighborhood": null,
+    "lat": 52.3664267,
+    "lng": 4.896055,
+    "openingHours": "Su-We 09:00-00:00, Th 09:00-01:00, Fr,Sa 09:00-02:00",
+    "website": "https://www.facebook.com/cafetanteroosje",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2725877856",
+    "citySlug": "amsterdam",
+    "name": "St. James's Gate",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Rembrandtplein with outdoor seating.",
+    "address": "Rembrandtplein 10",
+    "neighborhood": null,
+    "lat": 52.3659121,
+    "lng": 4.8954881,
+    "openingHours": "Su-Th 09:00-02:00; Fr-Sa 09:00-03:00",
+    "website": "https://www.stjamesgate.nl",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2247789630",
+    "citySlug": "barcelona",
+    "name": "Craft Barcelona",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Carrer del Paradís with live music.",
+    "address": "Carrer del Paradís 4",
+    "neighborhood": null,
+    "lat": 41.3831558,
+    "lng": 2.176977,
+    "openingHours": "Mo off; Tu-We 18:00-01:00; Th 18:00-02:00; Fr 18:00-03:00; Sa 12:30-03:00; Su 17:30-01:00",
+    "website": "https://www.craftbarcelona.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3954672458",
+    "citySlug": "barcelona",
+    "name": "Cerveseria Jazz",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Carrer de Margarit.",
+    "address": "Carrer de Margarit 43",
+    "neighborhood": null,
+    "lat": 41.372246,
+    "lng": 2.1631577,
+    "openingHours": "Tu-Sa 19:00-00:00",
+    "website": "http://www.cerveceriajazz.com",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-5718757792",
+    "citySlug": "barcelona",
+    "name": "360°",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Rambla del Raval with outdoor seating.",
+    "address": "Rambla del Raval 17-21",
+    "neighborhood": null,
+    "lat": 41.3790957,
+    "lng": 2.1696433,
+    "openingHours": "11:00-01:00",
+    "website": "https://www.terrazeo.com/terraza/terraza-del-hotel-barcelo-raval/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3517276245",
+    "citySlug": "barcelona",
+    "name": "Bar Canigó",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Carrer de Verdi with outdoor seating.",
+    "address": "Carrer de Verdi 2",
+    "neighborhood": null,
+    "lat": 41.4029724,
+    "lng": 2.1579186,
+    "openingHours": "Mo-Th 10:00-02:00; Fr 10:00-03:00; Sa 20:00-03:00",
+    "website": "http://www.barcanigo.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3491476947",
+    "citySlug": "barcelona",
+    "name": "Bar del Pla",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Carrer de Montcada with outdoor seating.",
+    "address": "Carrer de Montcada 2",
+    "neighborhood": null,
+    "lat": 41.3856036,
+    "lng": 2.1800221,
+    "openingHours": "Mo-Th 12:00-23:00; Fr-Sa 12:00-00:00",
+    "website": "https://www.bardelpla.cat/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-5081388242",
+    "citySlug": "barcelona",
+    "name": "La Raposa",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Carrer de Tapioles with outdoor seating.",
+    "address": "Carrer de Tapioles 47",
+    "neighborhood": null,
+    "lat": 41.3725137,
+    "lng": 2.1639527,
+    "openingHours": "Su-Tu 13:00-20:00; We-Sa 13:00-24:00",
+    "website": "https://laraposacoop.wordpress.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-9651946618",
+    "citySlug": "barcelona",
+    "name": "Bar Torpedo",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Carrer d'Aribau.",
+    "address": "Carrer d'Aribau 143",
+    "neighborhood": null,
+    "lat": 41.3922397,
+    "lng": 2.1538817,
+    "openingHours": "Mo,We,Su 13:30-02:00; Th-Sa 13:30-03:00; Tu off",
+    "website": "https://bartorpedo.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-12064891611",
+    "citySlug": "barcelona",
+    "name": "Bar Sauvage",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Passeig del Born.",
+    "address": "Passeig del Born 13",
+    "neighborhood": null,
+    "lat": 41.3845406,
+    "lng": 2.1824839,
+    "openingHours": "Mo-Th,Su 20:00-03:00; Fr-Sa 19:00-03:30",
+    "website": "https://www.barsauvage.com",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-5152356104",
+    "citySlug": "barcelona",
+    "name": "Casa Figari",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Carrer del Torrent de l'Olla.",
+    "address": "Carrer del Torrent de l'Olla 141",
+    "neighborhood": null,
+    "lat": 41.4035201,
+    "lng": 2.1555614,
+    "openingHours": "Mo-Su 10:00-21:00; Fr-Sa 10:00-23:00",
+    "website": "https://www.casafigari.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3987217352",
+    "citySlug": "barcelona",
+    "name": "Ginger",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Carrer de la Palma de Sant Just.",
+    "address": "Carrer de la Palma de Sant Just 1",
+    "neighborhood": null,
+    "lat": 41.382757,
+    "lng": 2.1785313,
+    "openingHours": "Tu-Sa 19:30-02:30",
+    "website": "http://ginger.cat/GINGER_BARCELONA/welcome_to_Ginger_Barcelona.html",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4755497021",
+    "citySlug": "barcelona",
+    "name": "Ølgod",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Carrer de l'Hospital.",
+    "address": "Carrer de l'Hospital 74",
+    "neighborhood": null,
+    "lat": 41.3801343,
+    "lng": 2.1691571,
+    "openingHours": "Su-Th 19:00-02:30; Fr,Sa 19:00-03:00",
+    "website": "https://es.olgodbcn.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2910251572",
+    "citySlug": "barcelona",
+    "name": "Dry Martini",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Carrer d'Aribau.",
+    "address": "Carrer d'Aribau 162",
+    "neighborhood": null,
+    "lat": 41.3927442,
+    "lng": 2.1539985,
+    "openingHours": "Mo-Th 13:00-02:30; Fr-Sa 13:00-03:00; Su 16:30-01:30",
+    "website": "https://www.drymartiniorg.com/locales/dry-martini-v2/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-11480713288",
+    "citySlug": "barcelona",
+    "name": "Denassus",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Carrer de Blai.",
+    "address": "Carrer de Blai 53",
+    "neighborhood": null,
+    "lat": 41.3742854,
+    "lng": 2.1627613,
+    "openingHours": "Fr, Sa 13:00-00:00; Tu-Th, Su 13:00-23:00",
+    "website": "https://www.denassus.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1314943380",
+    "citySlug": "barcelona",
+    "name": "Mescladís del Pou",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Carrer dels Carders with outdoor seating.",
+    "address": "Carrer dels Carders 35",
+    "neighborhood": null,
+    "lat": 41.3870865,
+    "lng": 2.1803497,
+    "openingHours": "Mo-Fr 13:00-21:00; Sa,Su 11:00-21:00",
+    "website": "https://www.mescladis.org/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-10679155605",
+    "citySlug": "barcelona",
+    "name": "Bar Billar HDP",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Carrer de Sant Joaquim.",
+    "address": "Carrer de Sant Joaquim 35",
+    "neighborhood": null,
+    "lat": 41.4017761,
+    "lng": 2.1550741,
+    "openingHours": "Tu-Th 18:00-01:00; Fr-Sa 18:00-03:00; Su-Mo 18:00-00:00",
+    "website": "https://hdpbillar.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2892028393",
+    "citySlug": "barcelona",
+    "name": "Kino",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Carrer de Ferlandina with outdoor seating.",
+    "address": "Carrer de Ferlandina 23",
+    "neighborhood": null,
+    "lat": 41.3825992,
+    "lng": 2.1665452,
+    "openingHours": "Mo-Su 11:00-02:00",
+    "website": "https://kinobcn.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4137531391",
+    "citySlug": "barcelona",
+    "name": "Kælderkold",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Carrer del Cardenal Casañas.",
+    "address": "Carrer del Cardenal Casañas 7",
+    "neighborhood": null,
+    "lat": 41.3816113,
+    "lng": 2.1733408,
+    "openingHours": "Su-Th 12:30-02:30; Fr-Sa 12:30-03:00",
+    "website": "https://www.kaelderkold.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4401234193",
+    "citySlug": "barcelona",
+    "name": "BlackLab Brewhouse & Kitchen",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Plaça de Pau Vila with outdoor seating.",
+    "address": "Plaça de Pau Vila 1",
+    "neighborhood": null,
+    "lat": 41.3812305,
+    "lng": 2.1854573,
+    "openingHours": "Mo,Tu 16:00-00:00; We,Th 12:30-00:00; Fr,Sa 12:30-01:00; Su 10:30-23:00",
+    "website": "https://blacklab.es",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-14065925801",
+    "citySlug": "barcelona",
+    "name": "Maricon Ghetto LGBT+ bar",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Carrer d'Aribau.",
+    "address": "Carrer d'Aribau 55",
+    "neighborhood": null,
+    "lat": 41.3884056,
+    "lng": 2.1591265,
+    "openingHours": "We-Su 18:00-03:00",
+    "website": "https://mariconbar.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-5864772186",
+    "citySlug": "barcelona",
+    "name": "Barna Brew",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Carrer del Parlament.",
+    "address": "Carrer del Parlament 45",
+    "neighborhood": null,
+    "lat": 41.3773461,
+    "lng": 2.1635646,
+    "openingHours": "Mo-Th 17:30-23:00; Fr 17:30-01:30; Sa 12:00-01:30; Su 12:00-22:30",
+    "website": "https://www.barnabrew.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-5519094221",
+    "citySlug": "barcelona",
+    "name": "The Black Horse Pub",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Carrer d'Allada-Vermell.",
+    "address": "Carrer d'Allada-Vermell 16",
+    "neighborhood": null,
+    "lat": 41.386568,
+    "lng": 2.1811814,
+    "openingHours": "Mo-Su 13:00-02:00",
+    "website": "http://www.pubblackhorse.com",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-9767932731",
+    "citySlug": "barcelona",
+    "name": "La Beata",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Carrer de Jesús.",
+    "address": "Carrer de Jesús 16",
+    "neighborhood": null,
+    "lat": 41.3992409,
+    "lng": 2.1580325,
+    "openingHours": "Tu-Sa 18:00-24:00; Su 18:00-01:30",
+    "website": "https://barlabeata.com",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4844565923",
+    "citySlug": "barcelona",
+    "name": "Pampa Drugstore",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Carrer del Carme.",
+    "address": "Carrer del Carme 7",
+    "neighborhood": null,
+    "lat": 41.3827176,
+    "lng": 2.1712051,
+    "openingHours": "Mo-Sa 10:00-21:00; Su 12:00-20:00",
+    "website": "https://www.pampadrugstore.net/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-8685951182",
+    "citySlug": "barcelona",
+    "name": "Costa Breve",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Carrer d'Aribau.",
+    "address": "Carrer d'Aribau 230",
+    "neighborhood": null,
+    "lat": 41.3952962,
+    "lng": 2.1503847,
+    "openingHours": "Th 00:00-05:00; Fr,Sa 00:00-06:00",
+    "website": "https://grupocostabreve.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4958849921",
+    "citySlug": "barcelona",
+    "name": "Berlin Dark",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Passatge de Prunera.",
+    "address": "Passatge de Prunera 18",
+    "neighborhood": null,
+    "lat": 41.3743162,
+    "lng": 2.1561764,
+    "openingHours": "Tu-Th 22:00-03:00; Fr, Sa 22:00-03:30; Su 20:00-02:00",
+    "website": "https://www.berlindark.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3158729112",
+    "citySlug": "barcelona",
+    "name": "Almo2bar",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Carrer de Bruniquer.",
+    "address": "Carrer de Bruniquer 59,61",
+    "neighborhood": null,
+    "lat": 41.4056064,
+    "lng": 2.1621059,
+    "openingHours": "23:00-06:00",
+    "website": "https://grupalmodobar.com/almo2bar/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-13069782182",
+    "citySlug": "barcelona",
+    "name": "Believe Club",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Carrer de Balmes.",
+    "address": "Carrer de Balmes 56",
+    "neighborhood": null,
+    "lat": 41.3894755,
+    "lng": 2.162624,
+    "openingHours": "Mo-Th 23:00-05:00; Fr-Sa 23:00-06:00; Su 23:00-05:00",
+    "website": "https://thebelieve.club/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-10649981205",
+    "citySlug": "barcelona",
+    "name": "Arena Xperience",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Ronda de Sant Pere.",
+    "address": "Ronda de Sant Pere 19-21",
+    "neighborhood": null,
+    "lat": 41.3895686,
+    "lng": 2.1739427,
+    "openingHours": "Su-Th 23:59-05:00; Fr-Sa 23:59-06:00",
+    "website": "https://grupoarena.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2848210517",
+    "citySlug": "barcelona",
+    "name": "Creps al Born",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Passeig del Born.",
+    "address": "Passeig del Born 12",
+    "neighborhood": null,
+    "lat": 41.3842949,
+    "lng": 2.1827139,
+    "openingHours": "Mo-Th 17:30-02:30; Fr 17:30-03:00; Sa 12:00-03:00; Su 12:00-02:30",
+    "website": "https://www.crepsalbornbcn.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3974108491",
+    "citySlug": "barcelona",
+    "name": "Tinta Roja",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Carrer de la Creu dels Molers.",
+    "address": "Carrer de la Creu dels Molers 17",
+    "neighborhood": null,
+    "lat": 41.3742741,
+    "lng": 2.1619869,
+    "openingHours": "We 20:30-00:30; Th 20:30-02:30; Fr, Sa 20:30-03:00",
+    "website": "http://www.tintaroja.cat",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4387192496",
+    "citySlug": "barcelona",
+    "name": "La Terraza del Central",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Via Laietana.",
+    "address": "Via Laietana 30",
+    "neighborhood": null,
+    "lat": 41.385131,
+    "lng": 2.1778655,
+    "openingHours": "Mo-Su 09:00-24:00",
+    "website": "https://www.grandhotelcentral.com/es/rooftop-barcelona/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-10251700509",
+    "citySlug": "barcelona",
+    "name": "LES COSINES",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Carrer de Rosa Puig-Rodon Pla.",
+    "address": "Carrer de Rosa Puig-Rodon Pla 14",
+    "neighborhood": null,
+    "lat": 41.4033498,
+    "lng": 2.1535956,
+    "openingHours": "We-Sa 18:00-24:00, Fr-Su 12:00-16:00; Mo,Tu off",
+    "website": "https://lescosines.cat/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4702114064",
+    "citySlug": "lisbon",
+    "name": "Hot Club Portugal",
+    "kind": "nightclub",
+    "vibes": [
+      "club",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub with live music.",
+    "address": null,
+    "neighborhood": null,
+    "lat": 38.7181486,
+    "lng": -9.1456468,
+    "openingHours": null,
+    "website": "https://www.hcp.pt/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-way-96595223",
+    "citySlug": "lisbon",
+    "name": "Onda Jazz",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar.",
+    "address": null,
+    "neighborhood": null,
+    "lat": 38.7094425,
+    "lng": -9.1310174,
+    "openingHours": null,
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-13140700803",
+    "citySlug": "lisbon",
+    "name": "Friends Bairro Alto",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Travessa da Água-da-Flor.",
+    "address": "Travessa da Água-da-Flor 17",
+    "neighborhood": null,
+    "lat": 38.7136368,
+    "lng": -9.1442479,
+    "openingHours": "Su-Fr 18:00-02:00; Sa 18:00-03:00",
+    "website": "https://www.instagram.com/friendsbairroalto",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4292877138",
+    "citySlug": "lisbon",
+    "name": "The George",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Rua do Crucifixo.",
+    "address": "Rua do Crucifixo 58-62",
+    "neighborhood": null,
+    "lat": 38.7102452,
+    "lng": -9.1387924,
+    "openingHours": "Mo-Fr 17:00-02:00; Sa 11:00-02:00; Su 11:00-01:00",
+    "website": "https://www.thegeorgelisbon.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-6366304914",
+    "citySlug": "lisbon",
+    "name": "Brew",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Rua Nova do Almada.",
+    "address": "Rua Nova do Almada 14",
+    "neighborhood": null,
+    "lat": 38.7092717,
+    "lng": -9.1388505,
+    "openingHours": "Su-We 13:00-12:00, Th-Sa 13:00-01:00",
+    "website": "https://www.brewportugal.pt/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4231507539",
+    "citySlug": "lisbon",
+    "name": "Duque Brewpub",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Calçada do Duque.",
+    "address": "Calçada do Duque 51",
+    "neighborhood": null,
+    "lat": 38.7131412,
+    "lng": -9.142505,
+    "openingHours": "Mo-We 16:00-00:00; Th 16:00-01:00; Fr-Sa 16:00-02:00; Su 16:00-:00",
+    "website": "https://www.duquebrewpub.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2501836314",
+    "citySlug": "lisbon",
+    "name": "Foxtrot",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Travessa de Santa Teresa with outdoor seating.",
+    "address": "Travessa de Santa Teresa 28",
+    "neighborhood": null,
+    "lat": 38.7139166,
+    "lng": -9.1518763,
+    "openingHours": "Mo-Sa 18:00-02:00",
+    "website": "http://www.barfoxtrot.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-6080541907",
+    "citySlug": "lisbon",
+    "name": "Trobadores",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Calçada de São Francisco.",
+    "address": "Calçada de São Francisco 6A",
+    "neighborhood": null,
+    "lat": 38.7088344,
+    "lng": -9.1394154,
+    "openingHours": "Mo-Su 15:00-02:00",
+    "website": "https://www.facebook.com/pg/TrobadoresBar",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1802158801",
+    "citySlug": "lisbon",
+    "name": "A Tasca do Chico",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Rua do Diário de Notícias.",
+    "address": "Rua do Diário de Notícias 39",
+    "neighborhood": null,
+    "lat": 38.7116311,
+    "lng": -9.144132,
+    "openingHours": "Su-Th 19:00-02:00; Fr-Sa 19:00-04:00",
+    "website": "https://www.tascadochico.com",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4803699721",
+    "citySlug": "lisbon",
+    "name": "D. Afonso o Gordo",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Rua de Santo António da Sé.",
+    "address": "Rua de Santo António da Sé 18",
+    "neighborhood": null,
+    "lat": 38.7103088,
+    "lng": -9.1347893,
+    "openingHours": "Mo-Su 09:00-00:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-5203365221",
+    "citySlug": "lisbon",
+    "name": "TR3S Lisboa",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Rua Ruben A. Leitão.",
+    "address": "Rua Ruben A. Leitão 2",
+    "neighborhood": null,
+    "lat": 38.714329,
+    "lng": -9.1494246,
+    "openingHours": "Mo-Su 18:00-03:00",
+    "website": "https://www.tr3slisboa.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3509349153",
+    "citySlug": "lisbon",
+    "name": "Silk Club",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Rua da Misericórdia.",
+    "address": "Rua da Misericórdia 14",
+    "neighborhood": null,
+    "lat": 38.7113833,
+    "lng": -9.1427573,
+    "openingHours": "Tu-Th 19:00-02:00; Fr-Sa 19:00-04:00",
+    "website": "https://www.silk-club.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-6617379754",
+    "citySlug": "lisbon",
+    "name": "Oitava Graça",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Rua Damasceno Monteiro with outdoor seating.",
+    "address": "Rua Damasceno Monteiro 8a",
+    "neighborhood": null,
+    "lat": 38.7184372,
+    "lng": -9.1320184,
+    "openingHours": "Tu-Th 12:00-23:00; Fr, Sa 12:00-01:00; Su 12:00-21:00",
+    "website": "https://www.oitavacolina.pt/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-6047546785",
+    "citySlug": "lisbon",
+    "name": "Trumps Lisbon",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Rua da Imprensa Nacional.",
+    "address": "Rua da Imprensa Nacional 104B",
+    "neighborhood": null,
+    "lat": 38.7174149,
+    "lng": -9.1519004,
+    "openingHours": "Mo-Su 23:45-18:00",
+    "website": "https://trumps.pt/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-14365700603",
+    "citySlug": "lisbon",
+    "name": "Oásis By Aché",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Rua Nova do Carvalho.",
+    "address": "Rua Nova do Carvalho 48",
+    "neighborhood": null,
+    "lat": 38.7073232,
+    "lng": -9.1438856,
+    "openingHours": "Mo-Su 12:00-04:00",
+    "website": "http://acheoasis.web.app",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4986521256",
+    "citySlug": "lisbon",
+    "name": "Bartô",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar.",
+    "address": null,
+    "neighborhood": null,
+    "lat": 38.7114227,
+    "lng": -9.1338261,
+    "openingHours": "22:00-02:00",
+    "website": "http://www.barto.tk",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-12246404901",
+    "citySlug": "lisbon",
+    "name": "IF IF IF",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on R. do Salitre.",
+    "address": "R. do Salitre 122",
+    "neighborhood": null,
+    "lat": 38.7199208,
+    "lng": -9.1511943,
+    "openingHours": "Mo-Su 15:00-23:00",
+    "website": "https://www.instagram.com/if_if_if_bar/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4848686224",
+    "citySlug": "lisbon",
+    "name": "O'Gilins",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Rua dos Remolares.",
+    "address": "Rua dos Remolares 8/10",
+    "neighborhood": null,
+    "lat": 38.706955,
+    "lng": -9.1438636,
+    "openingHours": "Mo-Su 11:00-02:00",
+    "website": "http://www.ogilins.com",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-6542678985",
+    "citySlug": "lisbon",
+    "name": "Lusco Arte Bar",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Escadinhas de São Cristóvão.",
+    "address": "Escadinhas de São Cristóvão 8",
+    "neighborhood": null,
+    "lat": 38.7127498,
+    "lng": -9.1358414,
+    "openingHours": "We-Su 18:00-02:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4658437789",
+    "citySlug": "lisbon",
+    "name": "Skybar Seen by Olivier",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Avenida da Liberdade.",
+    "address": "Avenida da Liberdade 185",
+    "neighborhood": null,
+    "lat": 38.7210852,
+    "lng": -9.1470818,
+    "openingHours": "Mo-Su 18:30-00:00",
+    "website": "https://seenlx.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-6068437686",
+    "citySlug": "lisbon",
+    "name": "TascaMastai",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Rua da Rosa.",
+    "address": "Rua da Rosa 14A",
+    "neighborhood": null,
+    "lat": 38.7113974,
+    "lng": -9.1454128,
+    "openingHours": "Tu-Su 13:00-24:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-6214406211",
+    "citySlug": "lisbon",
+    "name": "Delirium Café Lisboa",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Calçada Nova de São Francisco.",
+    "address": "Calçada Nova de São Francisco 2",
+    "neighborhood": null,
+    "lat": 38.7103374,
+    "lng": -9.139597,
+    "openingHours": "Mo-Th 12:00-01:00; Fr-Sa 12:00-02:00; Su 16:00-01:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-14321660401",
+    "citySlug": "lisbon",
+    "name": "Lisboa Rio",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Cais do Gás.",
+    "address": "Cais do Gás 14",
+    "neighborhood": null,
+    "lat": 38.7052645,
+    "lng": -9.1446095,
+    "openingHours": "Mo-Su 00:00-07:00",
+    "website": "http://lisboario.pt",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-7280590389",
+    "citySlug": "lisbon",
+    "name": "Tabernáculo by Hernâni Miguel",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Rua de São Paulo.",
+    "address": "Rua de São Paulo 218",
+    "neighborhood": null,
+    "lat": 38.7085241,
+    "lng": -9.1465323,
+    "openingHours": "Mo-Su 12:00-02:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-12076787695",
+    "citySlug": "lisbon",
+    "name": "Crafty Corner",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Rua de São João da Praça.",
+    "address": "Rua de São João da Praça 95",
+    "neighborhood": null,
+    "lat": 38.7094794,
+    "lng": -9.1318481,
+    "openingHours": null,
+    "website": "https://www.craftycornerlisboa.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4692271836",
+    "citySlug": "lisbon",
+    "name": "Posh Club Lisbon",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Rua de São Bento.",
+    "address": "Rua de São Bento 151",
+    "neighborhood": null,
+    "lat": 38.7147374,
+    "lng": -9.1540138,
+    "openingHours": "Mo-Su 20:00-04:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3232312707",
+    "citySlug": "lisbon",
+    "name": "Plateau disco",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Escadinhas da Praia.",
+    "address": "Escadinhas da Praia 7",
+    "neighborhood": null,
+    "lat": 38.7063538,
+    "lng": -9.1574334,
+    "openingHours": "We 23:00-06:00; Fr-Sa 23:59-06:00",
+    "website": "https://www.plateaulisbonclub.pt",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-9867881418",
+    "citySlug": "lisbon",
+    "name": "ministérium club",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Praça Comércio.",
+    "address": "Praça Comércio 72",
+    "neighborhood": null,
+    "lat": 38.7080954,
+    "lng": -9.1354849,
+    "openingHours": null,
+    "website": "http://ministerium.pt/club/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-10040782917",
+    "citySlug": "lisbon",
+    "name": "Cerveteca Lisboa",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Avenida de Paris.",
+    "address": "Avenida de Paris 15B",
+    "neighborhood": null,
+    "lat": 38.74103,
+    "lng": -9.1364616,
+    "openingHours": "Mo-Fr 14:30-22:30; Sa-Su 15:30-23:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4419964090",
+    "citySlug": "lisbon",
+    "name": "Este",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Rua dos Remédios.",
+    "address": "Rua dos Remédios 182",
+    "neighborhood": null,
+    "lat": 38.7130969,
+    "lng": -9.1256997,
+    "openingHours": "We-Su 20:00-02:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2537090840",
+    "citySlug": "lisbon",
+    "name": "Botequim",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Largo da Graça.",
+    "address": "Largo da Graça 79,80",
+    "neighborhood": null,
+    "lat": 38.7159874,
+    "lng": -9.1304976,
+    "openingHours": "PH,Th-Tu 11:00-02:00",
+    "website": "https://botequim.net/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-14365707002",
+    "citySlug": "lisbon",
+    "name": "Aché Cohiba",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Rua do Norte.",
+    "address": "Rua do Norte 121",
+    "neighborhood": null,
+    "lat": 38.7128765,
+    "lng": -9.1437949,
+    "openingHours": "Mo-Su 18:00-04:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1229052820",
+    "citySlug": "prague",
+    "name": "AghaRTA Jazz Centrum",
+    "kind": "nightclub",
+    "vibes": [
+      "club",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Železná.",
+    "address": "Železná 491/16",
+    "neighborhood": "Praha 1",
+    "lat": 50.0863674,
+    "lng": 14.4220734,
+    "openingHours": "Mo-Su 00:00-01:00,19:00-24:00",
+    "website": "https://www.agharta.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-296498803",
+    "citySlug": "prague",
+    "name": "jazz republic",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "culture"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Jilská.",
+    "address": "Jilská 527/2",
+    "neighborhood": null,
+    "lat": 50.0841009,
+    "lng": 14.4185232,
+    "openingHours": "We-Mo 20:00-24:00",
+    "website": "https://www.jazzrepublic.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-920066899",
+    "citySlug": "prague",
+    "name": "Hospůdka Nad Viktorkou",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Bořivojova with outdoor seating.",
+    "address": "Bořivojova 785/79",
+    "neighborhood": "Praha 3",
+    "lat": 50.0828715,
+    "lng": 14.4486907,
+    "openingHours": "Mo-Fr 17:00-01:00; Sa-Su 19:00-01:00",
+    "website": "https://www.nadviktorkou.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-5851871527",
+    "citySlug": "prague",
+    "name": "YoCafe",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Anny Letenské with outdoor seating.",
+    "address": "Anny Letenské 1204/1",
+    "neighborhood": null,
+    "lat": 50.0769798,
+    "lng": 14.4372659,
+    "openingHours": "Mo-Fr 16:00-22:00",
+    "website": "http://yocafe.cz",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3019724721",
+    "citySlug": "prague",
+    "name": "U Sudu",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Vodičkova with outdoor seating.",
+    "address": "Vodičkova 677/10",
+    "neighborhood": "Praha 1",
+    "lat": 50.0789387,
+    "lng": 14.4220726,
+    "openingHours": "Mo-Th 09:00-04:00; Fr 09:00-05:00; Sa 10:00-05:00; Su 11:00-04:00",
+    "website": "http://www.usudu.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3339996117",
+    "citySlug": "prague",
+    "name": "Tendance",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Šmeralova with outdoor seating.",
+    "address": "Šmeralova 130/5",
+    "neighborhood": null,
+    "lat": 50.1006639,
+    "lng": 14.4222593,
+    "openingHours": "Tu-Th 17:00-01:00, Fr,Sa 17:00-02:00",
+    "website": "https://www.tendance.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2475847862",
+    "citySlug": "prague",
+    "name": "V Budečské",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Budečská with outdoor seating.",
+    "address": "Budečská 773/19",
+    "neighborhood": "Praha 2",
+    "lat": 50.0748264,
+    "lng": 14.4418538,
+    "openingHours": "Mo 11:00-21:00; Tu-Fr 11:00-22:00",
+    "website": "http://www.restauracevbudecske.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3676788385",
+    "citySlug": "prague",
+    "name": "Bar Nota",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Štěpánská with outdoor seating.",
+    "address": "Štěpánská 539/9",
+    "neighborhood": "Praha 2",
+    "lat": 50.076512,
+    "lng": 14.4242633,
+    "openingHours": "Mo-Th 18:00-02:00, Fr 18:00-03:00, Sa 19:00-03:00",
+    "website": "https://barnota.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4470227676",
+    "citySlug": "prague",
+    "name": "Simply U Kravaty 2",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Seifertova.",
+    "address": "Seifertova 28",
+    "neighborhood": null,
+    "lat": 50.0844226,
+    "lng": 14.4493759,
+    "openingHours": "Tu-We 17:00-24:00; Th-Sa 17:00-02:00; Su 17:00-23:00",
+    "website": "https://www.facebook.com/Simply-U-Kravaty-2-867253483359571/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2737439867",
+    "citySlug": "prague",
+    "name": "Prague Beer Museum",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Americká with outdoor seating.",
+    "address": "Americká 43",
+    "neighborhood": null,
+    "lat": 50.0744865,
+    "lng": 14.4363947,
+    "openingHours": "Mo-Su 15:00-01:00",
+    "website": "http://www.praguebeermuseum.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1490377657",
+    "citySlug": "prague",
+    "name": "Bio Oko",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Františka Křížka.",
+    "address": "Františka Křížka 460/15",
+    "neighborhood": "Praha 7",
+    "lat": 50.1000523,
+    "lng": 14.4299438,
+    "openingHours": "Mo-Fr 00:00-01:00,10:00-24:00; Sa,Su 00:00-01:00,11:00-24:00",
+    "website": "https://www.biooko.net/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4184471423",
+    "citySlug": "prague",
+    "name": "Rodeo Oldies Bar",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Školská.",
+    "address": "Školská 16",
+    "neighborhood": null,
+    "lat": 50.0786921,
+    "lng": 14.4244904,
+    "openingHours": "We-Sa 20:00-05:00",
+    "website": "https://www.rodeopraha.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1314084711",
+    "citySlug": "prague",
+    "name": "La Pantera",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Milíčova.",
+    "address": "Milíčova 413/1",
+    "neighborhood": null,
+    "lat": 50.0845116,
+    "lng": 14.4506383,
+    "openingHours": "Mo,Tu 20:00-03:00; We 20:00-05:00, Tu-Sa 20:00-06:00; Su 21:00+",
+    "website": "https://www.lapantera.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4214305895",
+    "citySlug": "prague",
+    "name": "Café Bar Fano",
+    "kind": "bar",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Haštalská with outdoor seating.",
+    "address": "Haštalská 750/10",
+    "neighborhood": "Praha 1",
+    "lat": 50.0908239,
+    "lng": 14.4240635,
+    "openingHours": "Mo-Su 00:00-09:00,11:00-24:00",
+    "website": "https://www.bar-fano.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-3357371150",
+    "citySlug": "prague",
+    "name": "Kontrast Bar",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Malířská.",
+    "address": "Malířská 14",
+    "neighborhood": null,
+    "lat": 50.1021184,
+    "lng": 14.4254177,
+    "openingHours": "Mo-Su 17:00-03:00",
+    "website": "http://www.kontrast-bar.cz",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4184471426",
+    "citySlug": "prague",
+    "name": "Rocky O' Reillys",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Štěpánská.",
+    "address": "Štěpánská 32",
+    "neighborhood": null,
+    "lat": 50.0795219,
+    "lng": 14.4260267,
+    "openingHours": "Mo-Su 10:00-02:00",
+    "website": "https://www.rockyoreillys.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2161935833",
+    "citySlug": "prague",
+    "name": "U Vystřelenýho voka",
+    "kind": "pub",
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on U božích bojovníků with outdoor seating.",
+    "address": "U božích bojovníků 606/3",
+    "neighborhood": "Praha 3",
+    "lat": 50.087127,
+    "lng": 14.4495723,
+    "openingHours": "Mo-Sa 00:00-01:00,16:30-24:00",
+    "website": "http://www.uvoka.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4188239781",
+    "citySlug": "prague",
+    "name": "U Vávrů",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Šubertova.",
+    "address": "Šubertova 4",
+    "neighborhood": null,
+    "lat": 50.0763677,
+    "lng": 14.437673,
+    "openingHours": "Tu-Fr 11:30-22:00; Mo 15:00-22:00",
+    "website": "http://vinarna-uvavru.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-296679665",
+    "citySlug": "prague",
+    "name": "Absintherie Franz Kafka",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on U Radnice.",
+    "address": "U Radnice 13/8",
+    "neighborhood": null,
+    "lat": 50.0874351,
+    "lng": 14.4193478,
+    "openingHours": "Mo-Su 12:00-24:00",
+    "website": "https://www.absintherie.cz/en/absintherie-franz",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-12756785601",
+    "citySlug": "prague",
+    "name": "The Jam Letna",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Malířská.",
+    "address": "Malířská 227/14",
+    "neighborhood": null,
+    "lat": 50.1021466,
+    "lng": 14.4253903,
+    "openingHours": "Tu-Th 17:00-00:00; Fr 17:00-02:00; Sa 17:00-01:00",
+    "website": "https://www.thejamletna.cz",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4609894852",
+    "citySlug": "prague",
+    "name": "Craft House",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Navrátilova.",
+    "address": "Navrátilova 11",
+    "neighborhood": null,
+    "lat": 50.0786622,
+    "lng": 14.4233853,
+    "openingHours": "Mo-Su 17:00-24:00",
+    "website": "https://www.crafthouse.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4398106790",
+    "citySlug": "prague",
+    "name": "Cathedral Cafè",
+    "kind": "bar",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Bar on Týnská.",
+    "address": "Týnská 611/11",
+    "neighborhood": null,
+    "lat": 50.0883254,
+    "lng": 14.4231517,
+    "openingHours": "09:00-22:00",
+    "website": "http://cathedral-cafe-lounge-restaurant.com/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-2657575731",
+    "citySlug": "prague",
+    "name": "Pivní bar Blanická 28",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Blanická.",
+    "address": "Blanická 1008/28",
+    "neighborhood": null,
+    "lat": 50.077569,
+    "lng": 14.4395939,
+    "openingHours": "Mo-Fr 16:00-01:00, Sa,Su 17:00-01:00",
+    "website": "https://www.abc.cz/firma/pivni-bar-blanicka-praha/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-4455108254",
+    "citySlug": "prague",
+    "name": "U Pižďucha",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Blahníkova.",
+    "address": "Blahníkova 657/6",
+    "neighborhood": "Praha 3",
+    "lat": 50.08515,
+    "lng": 14.4478253,
+    "openingHours": "Mo-Fr 00:00-01:00,11:00-24:00; Sa,Su 00:00-01:00,14:00-24:00",
+    "website": "https://www.upizducha.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-13653818501",
+    "citySlug": "prague",
+    "name": "Šohajka",
+    "kind": "pub",
+    "vibes": [
+      "bar"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Pub on Vodičkova.",
+    "address": "Vodičkova 682/20",
+    "neighborhood": null,
+    "lat": 50.0795894,
+    "lng": 14.4230474,
+    "openingHours": "Su-We 11:00-22:00; Th-Sa 11:00-23:00",
+    "website": "https://www.hostinecsohajka.cz",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1229108524",
+    "citySlug": "prague",
+    "name": "Chapeau Rouge",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Jakubská.",
+    "address": "Jakubská 647/2",
+    "neighborhood": "Praha 1",
+    "lat": 50.0880421,
+    "lng": 14.424627,
+    "openingHours": "Mo-Th 12:00-04:00, Fr 12:00-06:00",
+    "website": "https://www.chapeaurouge.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1317040210",
+    "citySlug": "prague",
+    "name": "Misch Masch",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Veletržní.",
+    "address": "Veletržní 826/61",
+    "neighborhood": null,
+    "lat": 50.1007685,
+    "lng": 14.42614,
+    "openingHours": "We-Tu 20:00-04:00; Fr-Sa 20:00-06:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1314039386",
+    "citySlug": "prague",
+    "name": "Le Clan",
+    "kind": "nightclub",
+    "vibes": [
+      "club"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Nightclub on Balbínova.",
+    "address": "Balbínova 752/23",
+    "neighborhood": null,
+    "lat": 50.0790847,
+    "lng": 14.4352957,
+    "openingHours": "Th-Sa 23:00-08:00",
+    "website": "https://www.leclan.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-13441856882",
+    "citySlug": "prague",
+    "name": "Mlíkárna",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden.",
+    "address": null,
+    "neighborhood": null,
+    "lat": 50.0801353,
+    "lng": 14.4404128,
+    "openingHours": "11:00-23:00",
+    "website": null,
+    "source": "osm"
+  },
+  {
+    "id": "osm-relation-4469371",
+    "citySlug": "prague",
+    "name": "Zahradní pivnice Letenské sady",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Letenské sady.",
+    "address": "Letenské sady 341",
+    "neighborhood": null,
+    "lat": 50.095994,
+    "lng": 14.4256675,
+    "openingHours": null,
+    "website": "http://www.letenskyzamecek.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-7412701685",
+    "citySlug": "prague",
+    "name": "U Pinkasů",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden on Jungmannovo nám.",
+    "address": "Jungmannovo nám. 16",
+    "neighborhood": null,
+    "lat": 50.0829741,
+    "lng": 14.4239092,
+    "openingHours": null,
+    "website": "http://www.upinkasu.cz/",
+    "source": "osm"
+  },
+  {
+    "id": "osm-node-1241323740",
+    "citySlug": "prague",
+    "name": "Parukářka",
+    "kind": "biergarten",
+    "vibes": [
+      "chill"
+    ],
+    "descriptionDe": null,
+    "descriptionEn": "Beer garden.",
+    "address": null,
+    "neighborhood": "Praha 3",
+    "lat": 50.0844176,
+    "lng": 14.4581891,
+    "openingHours": null,
+    "website": "https://www.parukarka.cz/",
+    "source": "osm"
+  }
+]

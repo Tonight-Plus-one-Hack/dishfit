@@ -1,0 +1,154 @@
+{
+ "kiez": "charlottenburg",
+ "name": "Charlottenburg",
+ "scannedBy": "Kalvarez09",
+ "updatedAt": "2026-11-21T19:21:58.403Z",
+ "provider": "openai",
+ "models": {
+  "menu": "gpt-6.2-sol",
+  "nutrition": "gpt-6.2-sol",
+  "chief": "gpt-6.2-sol",
+  "second": "gpt-6.1-terra",
+  "translate": "gpt-6-luna"
+ },
+ "counts": {
+  "found": 442,
+  "menus": 24,
+  "restaurants": 23,
+  "dishes": 811,
+  "images": 23,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 8.38,
+  "byStage": {
+   "check": 0.1,
+   "find": 2.21,
+   "image": 0.56,
+   "menu": 3.06,
+   "nutrition": 2.46
+  },
+  "byProvider": {
+   "openai": 6.12,
+   "google-places": 2.27
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/charlottenburg.json",
+ "places": [
+  {
+   "id": "osm-node-2141331450",
+   "placeId": "ChIJ16RJPMtRqEcRR5fcHmD8Kk8",
+   "osmId": "node/2141331450"
+  },
+  {
+   "id": "osm-node-13272324320",
+   "placeId": "ChIJx2TAFrtRqEcRuz9eFD-fP94",
+   "osmId": "node/13272324320"
+  },
+  {
+   "id": "osm-node-1200964384",
+   "placeId": "ChIJA2NX4ttQqEcR751V6a45gAA",
+   "osmId": "node/1200964384"
+  },
+  {
+   "id": "osm-node-3665953380",
+   "placeId": "ChIJVT2xJrwjZUERve0rAjxIxiY",
+   "osmId": "node/3665953380"
+  },
+  {
+   "id": "osm-node-1226782017",
+   "placeId": "ChIJwwnwBdhQqEcRmNhiaheYjkg",
+   "osmId": "node/1226782017"
+  },
+  {
+   "id": "osm-node-1216652551",
+   "placeId": "ChIJm63RxN9QqEcRbRm8U1OQ2nw",
+   "osmId": "node/1216652551"
+  },
+  {
+   "id": "osm-node-2141331451",
+   "placeId": "ChIJuati81VQqEcR5x5X6_lUcaM",
+   "osmId": "node/2141331451"
+  },
+  {
+   "id": "osm-node-1016553822",
+   "placeId": "ChIJO23gLihRqEcRo5lJzztKntg",
+   "osmId": "node/1016553822"
+  },
+  {
+   "id": "osm-node-2498835756",
+   "placeId": "ChIJE4TuYN5QqEcRXqTBoKE3ehg",
+   "osmId": "node/2498835756"
+  },
+  {
+   "id": "osm-node-3922915258",
+   "placeId": "ChIJ3yVOqONQqEcRLasnaFtyWNU",
+   "osmId": "node/3922915258"
+  },
+  {
+   "id": "osm-node-2466173868",
+   "placeId": "ChIJXaxPbdxQqEcRj5Q-kiou0kQ",
+   "osmId": "node/2466173868"
+  },
+  {
+   "id": "osm-node-6340721409",
+   "placeId": "ChIJ87tlBrlRqEcR_ucm1Zd1DDE",
+   "osmId": "node/6340721409"
+  },
+  {
+   "id": "osm-node-4171310013",
+   "placeId": "ChIJEWUSVthRqEcRBn1_ef-j5q0",
+   "osmId": "node/4171310013"
+  },
+  {
+   "id": "osm-node-2347507096",
+   "placeId": "ChIJoVSY0O9RqEcRdDrAY83rYik",
+   "osmId": "node/2347507096"
+  },
+  {
+   "id": "osm-node-3715509708",
+   "placeId": "ChIJnaio19tQqEcRDJo1sJmTZZ0",
+   "osmId": "node/3715509708"
+  },
+  {
+   "id": "osm-node-12793414901",
+   "placeId": "ChIJldPDf5VRqEcRypDTENyoMhk",
+   "osmId": "node/12793414901"
+  },
+  {
+   "id": "osm-node-1029305310",
+   "placeId": "ChIJja4Et-NQqEcRtKneTV-MDX0",
+   "osmId": "node/1029305310"
+  },
+  {
+   "id": "osm-node-1311479658",
+   "placeId": "ChIJdXm5E1RRqEcRdKAxzq60gzA",
+   "osmId": "node/1311479658"
+  },
+  {
+   "id": "osm-node-12458899901",
+   "placeId": "ChIJdXz5AbxRqEcR6zriKQgzQUQ",
+   "osmId": "node/12458899901"
+  },
+  {
+   "id": "osm-node-1882067150",
+   "placeId": "ChIJ_VIb6-VQqEcR5R_3zJ4R8Uw",
+   "osmId": "node/1882067150"
+  },
+  {
+   "id": "osm-node-3105340829",
+   "placeId": "ChIJN7ZzeR9RqEcRqH07pa4tYgw",
+   "osmId": "node/3105340829"
+  },
+  {
+   "id": "osm-node-775862487",
+   "placeId": "ChIJuVrflfxQqEcRUg1agvlu04o",
+   "osmId": "node/775862487"
+  },
+  {
+   "id": "osm-node-1934175781",
+   "placeId": "ChIJW8FbSuNQqEcR1MRdRpxnx-8",
+   "osmId": "node/1934175781"
+  }
+ ]
+}

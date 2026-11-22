@@ -1,0 +1,81 @@
+{
+ "kiez": "reinickendorf",
+ "name": "Reinickendorf",
+ "scannedBy": "BatuCani",
+ "updatedAt": "2026-11-21T21:49:29.586Z",
+ "provider": "openai",
+ "models": {
+  "menu": "gpt-6.2-sol",
+  "nutrition": "gpt-6.2-sol",
+  "chief": "gpt-6.2-sol",
+  "second": "gpt-6.1-terra",
+  "translate": "gpt-6-luna"
+ },
+ "counts": {
+  "found": 36,
+  "menus": 8,
+  "restaurants": 8,
+  "dishes": 302,
+  "images": 8,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 3.34,
+  "byStage": {
+   "check": 0.05,
+   "classify": 0.01,
+   "find": 0.46,
+   "image": 0.2,
+   "menu": 1.84,
+   "nutrition": 0.78
+  },
+  "byProvider": {
+   "openai": 2.38,
+   "google-places": 0.96
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/reinickendorf.json",
+ "places": [
+  {
+   "id": "osm-node-519924072",
+   "placeId": "ChIJdQnF9_ZTqEcR54JYBWB57lc",
+   "osmId": "node/519924072"
+  },
+  {
+   "id": "osm-node-7829097486",
+   "placeId": "ChIJURSya_JTqEcRLxhMPv5aGmE",
+   "osmId": "node/7829097486"
+  },
+  {
+   "id": "osm-node-78438027",
+   "placeId": "ChIJu0NClPVTqEcR4LHbTQF9DAs",
+   "osmId": "node/78438027"
+  },
+  {
+   "id": "osm-node-735530404",
+   "placeId": "ChIJNaPkdwhTqEcRI3Hw7VDWR0U",
+   "osmId": "node/735530404"
+  },
+  {
+   "id": "osm-node-6772466290",
+   "placeId": "ChIJq0bkeOhTqEcRRnJrVcjMq_Q",
+   "osmId": "node/6772466290"
+  },
+  {
+   "id": "osm-node-136721344",
+   "placeId": "ChIJ7WPKP_JTqEcRvwuYJoHwT5g",
+   "osmId": "node/136721344"
+  },
+  {
+   "id": "osm-way-291724639",
+   "placeId": "ChIJmWaIYS1SqEcRWTRkmcAvMJY",
+   "osmId": "way/291724639"
+  },
+  {
+   "id": "osm-way-61837069",
+   "placeId": "ChIJh7PzxmhTqEcRZ6FPa7YwSGE",
+   "osmId": "way/61837069"
+  }
+ ],
+ "appendBase": null
+}

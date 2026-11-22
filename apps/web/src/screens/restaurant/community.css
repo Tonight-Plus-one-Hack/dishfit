@@ -1,0 +1,141 @@
+/* Community dishes and the scan entry on the restaurant page. */
+
+.community {
+  display: grid;
+  gap: 12px;
+}
+
+.community__head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.community__hint {
+  margin-top: -6px;
+  font-size: 13px;
+}
+
+.community__list {
+  display: grid;
+  gap: 10px;
+}
+
+.community-dish {
+  display: grid;
+  gap: 6px;
+  padding: 14px;
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--radius-media);
+  background: var(--canvas);
+}
+
+.community-dish__top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.community-dish__name {
+  min-width: 0;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+  line-height: 1.3;
+}
+
+.community-dish__price {
+  flex: none;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: var(--track-label);
+}
+
+.community-dish__desc {
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.community-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-self: start;
+  gap: 5px;
+  height: 22px;
+  padding: 0 8px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--surface);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: var(--track-label);
+  color: var(--ink);
+}
+
+.community-badge__date {
+  color: var(--muted);
+}
+
+.scan-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: 4px 14px;
+  padding: 16px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-media);
+  background: var(--surface);
+}
+
+.scan-card__icon {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--cta);
+  color: var(--cta-ink);
+}
+
+.scan-card__text {
+  display: grid;
+  gap: 4px;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  line-height: 1.45;
+}
+
+.scan-card__title {
+  font-size: var(--fs-card);
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+  line-height: 1.3;
+}
+
+.scan-card__btn {
+  grid-column: 2;
+  justify-self: start;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .scan-card {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+  }
+
+  .scan-card__btn {
+    grid-column: 3;
+    margin-top: 0;
+  }
+}
+
+.no-menu__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Plus One logo loop, shot 04: saturated optical field, white mark. Mounted by index.html. -->
+  </head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/plus-one.css" />
+      <style>
+        #root {
+          position: absolute;
+          inset: 0;
+          overflow: hidden;
+          background: var(--art-blue);
+        }
+        #s04-field {
+          position: absolute;
+          inset: -12%;
+          background:
+            radial-gradient(40% 38% at 82% 18%, var(--art-violet) 0%, rgba(156, 144, 254, 0) 100%),
+            radial-gradient(46% 40% at 14% 86%, var(--art-periwinkle) 0%, rgba(131, 145, 247, 0) 100%),
+            radial-gradient(36% 30% at 22% 14%, rgba(237, 238, 240, 0.7) 0%, rgba(237, 238, 240, 0) 100%),
+            var(--art-blue);
+        }
+        #s04-mark {
+          background: linear-gradient(180deg, #ffffff 0%, #ffffff 60%, var(--dark-ink) 100%);
+        }
+      </style>
+
+      <div id="root" data-composition-id="s04" data-width="1080" data-height="1080">
+        <div id="s04-field" data-layout-allow-overflow></div>
+        <div id="s04-mark" class="mark logo-mask"></div>
+      </div>
+
+      <script>
+        const tl = gsap.timeline({ paused: true });
+
+        // The field drifts sideways under the still mark.
+        tl.fromTo("#s04-field", { x: -24 }, { x: 24, duration: 8 / 30, ease: "none" }, 0);
+        window.__timelines["s04"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

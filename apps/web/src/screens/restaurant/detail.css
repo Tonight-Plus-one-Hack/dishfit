@@ -1,0 +1,154 @@
+/* Shared by the restaurant and dish screens: header title, section titles, skeletons, error state. */
+
+.detail {
+  gap: 28px;
+  padding-top: 16px;
+  /* Keep wide scrollers (chip rows, rails) from stretching the column past the screen. */
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.detail > *,
+.menu > *,
+.menu__section > * {
+  min-width: 0;
+}
+
+.detail-head-title {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(6px);
+  transition:
+    opacity var(--dur-state) var(--ease-out),
+    transform var(--dur-state) var(--ease-out);
+}
+
+.detail-head-title.is-shown {
+  opacity: 1;
+  transform: none;
+}
+
+.detail-title {
+  font-size: var(--fs-card);
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+  line-height: 1.3;
+}
+
+.detail-note {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.source-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  color: var(--muted);
+}
+
+.source-line svg {
+  flex: none;
+  margin-top: 3px;
+}
+
+.source-line__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 3px;
+}
+
+.approx {
+  margin-right: 2px;
+  font-family: var(--font-sans);
+  font-size: 0.6em;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--muted);
+}
+
+.tag--protein {
+  background: #e8edfc;
+  color: var(--protein);
+}
+
+/* ---------- Skeletons ---------- */
+
+.sk-line {
+  display: block;
+  height: 14px;
+  border-radius: var(--radius-action);
+}
+
+.sk-title {
+  display: block;
+  width: 70%;
+  height: 30px;
+  border-radius: var(--radius-action);
+}
+
+.sk-btn {
+  display: block;
+  width: 110px;
+  height: 44px;
+  border-radius: var(--radius-action);
+}
+
+.sk-stats {
+  display: block;
+  height: 64px;
+}
+
+.sk-card {
+  display: block;
+  height: 168px;
+  border-radius: var(--radius-media);
+}
+
+.sk-card--tall {
+  height: 300px;
+}
+
+.sk-hero {
+  display: block;
+  aspect-ratio: 16 / 10;
+  border-radius: var(--radius-media);
+}
+
+/* ---------- Error ---------- */
+
+.detail-error {
+  padding-top: 40px;
+}
+
+.detail-error .t-section {
+  max-width: 14em;
+}
+
+.detail-error__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.detail-error .btn {
+  --btn-h: 44px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .detail-head-title {
+    transition: none;
+  }
+
+  .skeleton {
+    animation: none;
+  }
+}

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plus One - 5K Build &amp; Launch submission</title>
+<style>
+  /* Brand kit fonts, inlined by build-slides.py from brand/fonts. */
+  @font-face { font-family: "Source Serif 4"; src: url("{{FONT:source-serif-4.woff2}}") format("woff2"); font-weight: 200 900; }
+  @font-face { font-family: Geist; src: url("{{FONT:geist.woff2}}") format("woff2"); font-weight: 100 900; }
+  @font-face { font-family: "Geist Mono"; src: url("{{FONT:geist-mono.woff2}}") format("woff2"); font-weight: 100 900; }
+
+  /* Tokens from docs/design/tokens.json and brand/theme.css. */
+  :root {
+    --canvas: #fcfcfd;
+    --white: #fff;
+    --surface: #f9f9fb;
+    --hover: #f0f0f3;
+    --ink: #1c2024;
+    --muted: #60646c;
+    --muted-deco: #8b8d98;
+    --line: #d9d9e0;
+    --line-soft: #e8e8ec;
+    --night: #111113;
+    --night-surface: #18191b;
+    --night-line: #363a3f;
+    --night-ink: #edeef0;
+    --night-muted: #afb3ba;
+    --cobalt: #355eda;
+    --periwinkle: #8391f7;
+    --violet: #9c90fe;
+    --tint: #f1f2fe;
+    --tint-line: #d6daf9;
+    --display: "Source Serif 4", Georgia, serif;
+    --body: Geist, system-ui, sans-serif;
+    --mono: "Geist Mono", ui-monospace, monospace;
+    --radius-control: 4px;
+    --radius-card: 8px;
+    --radius-media: 16px;
+    --radius-pill: 48px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; background: #f0f0f3; overflow: hidden; }
+  body { font-family: var(--body); color: var(--ink); letter-spacing: -0.04em; -webkit-font-smoothing: antialiased; }
+
+  /* Fixed 1920x1080 stage, scaled to fit the window (letterboxed). */
+  #viewport { position: fixed; inset: 0; overflow: hidden; }
+  #stage { width: 1920px; height: 1080px; position: absolute; left: 50%; top: 50%; transform-origin: center center; transform: translate(-50%, -50%); }
+  .slide { position: absolute; inset: 0; background: var(--canvas); display: none; flex-direction: column; overflow: hidden; }
+  .slide.active { display: flex; }
+  /* Thin vertical rails, as on the brand site. */
+  .slide::after { content: ""; position: absolute; top: 0; bottom: 0; left: 40px; right: 40px; border-left: 1px solid var(--line); border-right: 1px solid var(--line); pointer-events: none; }
+
+  .topbar {
+    height: 112px; flex: none; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
+    padding: 0 88px; border-bottom: 1px solid var(--line);
+  }
+  .topbar .logo { height: 46px; width: auto; display: block; }
+  .topbar .logo path, .topbar .logo circle { fill: var(--ink); }
+  .topbar .mid { font: 500 24px/1 var(--mono); letter-spacing: -0.02em; color: var(--muted); }
+  .topbar .pageno { justify-self: end; font: 500 24px/1 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  .body { flex: 1; min-height: 0; display: flex; flex-direction: column; padding: 56px 128px 64px; }
+
+  h1, h2 { font-family: var(--display); font-weight: 400; letter-spacing: -0.04em; color: var(--ink); }
+  h1 { font-size: 96px; line-height: 1.04; }
+  h2 { font-size: 72px; line-height: 1.08; }
+  .lede { font-size: 31px; line-height: 1.45; color: var(--muted); letter-spacing: -0.02em; }
+  .accent { color: var(--cobalt); }
+  .label { font: 500 24px/1.3 var(--mono); letter-spacing: -0.02em; color: var(--muted); }
+
+  .pending {
+    display: inline-block; border: 2px dashed var(--line); border-radius: var(--radius-control); padding: 6px 18px;
+    font: 500 0.3em/1.2 var(--mono); letter-spacing: 0; color: var(--muted-deco); vertical-align: middle;
+  }
+  .placeholder {
+    display: grid; place-items: center; text-align: center; padding: 24px; border: 2px dashed var(--line);
+    background: var(--surface); color: var(--muted-deco); font: 500 24px/1.4 var(--mono); letter-spacing: -0.02em;
+  }
+
+  /* Slide 1 */
+  .s1 { flex: 1; display: grid; grid-template-columns: 1fr 560px; gap: 88px; min-height: 0; }
+  .s1-copy { display: flex; flex-direction: column; justify-content: space-between; min-width: 0; }
+  .s1-copy .lede { margin-top: 32px; max-width: 1000px; }
+  .pills { display: flex; gap: 14px; margin-top: 36px; flex-wrap: wrap; }
+  .pill { font: 500 24px/1 var(--mono); letter-spacing: -0.02em; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-pill); padding: 14px 26px; }
+  .try { display: flex; align-items: center; gap: 36px; min-width: 0; }
+  .try > div:last-child { min-width: 0; flex: 1; }
+  .qr { width: 176px; height: 176px; flex: none; border: 1px solid var(--line); border-radius: var(--radius-card); background: var(--white); padding: 12px; display: grid; }
+  .qr img { width: 100%; height: 100%; image-rendering: pixelated; }
+  .qr .placeholder { border-radius: var(--radius-control); font-size: 20px; padding: 8px; }
+  .link { font-family: var(--display); font-size: 60px; line-height: 1.1; letter-spacing: -0.03em; margin-top: 10px; white-space: nowrap; overflow: hidden; }
+  .link a { color: inherit; text-decoration: none; }
+  .link .pending { font-size: 26px; }
+  .try .sub { font-size: 26px; color: var(--muted); letter-spacing: -0.02em; margin-top: 10px; }
+  .media {
+    position: relative; border-radius: var(--radius-media); overflow: hidden; display: grid; place-items: center;
+    background: var(--periwinkle) url("{{IMG:hero.webp}}") center / cover no-repeat;
+  }
+  .phone { width: 380px; height: 780px; border-radius: 56px; background: var(--night); padding: 14px; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.35); }
+  .phone .screen { width: 100%; height: 100%; border-radius: 44px; overflow: hidden; background: var(--canvas); display: grid; }
+  .phone .screen img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+  .phone .screen .placeholder { border: 0; border-radius: 44px; }
+
+  /* Slide 2 */
+  .s2-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 48px; }
+  .window { white-space: nowrap; font: 500 24px/1.5 var(--mono); letter-spacing: -0.02em; color: var(--muted); text-align: right; }
+  .window .pending { font-size: 20px; }
+  .grid { flex: 1; min-height: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-template-rows: 1fr 1fr; gap: 24px; margin-top: 40px; }
+  .tile { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-card); padding: 30px 34px; display: flex; flex-direction: column; justify-content: space-between; min-width: 0; }
+  .tile .k { font-size: 28px; font-weight: 500; letter-spacing: -0.02em; line-height: 1.25; }
+  .tile .value { font-family: var(--display); font-weight: 400; font-size: 112px; line-height: 1; letter-spacing: -0.04em; font-variant-numeric: lining-nums tabular-nums; white-space: nowrap; }
+  .tile .value .unit { font-size: 0.5em; margin-left: 4px; }
+  .tile .note { font: 500 21px/1.35 var(--mono); letter-spacing: -0.02em; color: var(--muted); min-height: 28px; }
+  .tile.night { background: var(--night); border-color: var(--night); color: var(--night-ink); }
+  .tile.night .note { color: var(--night-muted); }
+  .tile.night .pending { border-color: var(--night-line); color: var(--night-muted); }
+  .tile.tint { background: var(--tint); border-color: var(--tint-line); }
+  .tile.wide { grid-column: span 2; }
+  .tile .k .extra { color: var(--muted); font-weight: 400; }
+  .rows { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; }
+  .rows .rk { font: 500 21px/1.3 var(--mono); letter-spacing: -0.02em; color: var(--muted); white-space: nowrap; }
+  .rows .v { font-family: var(--display); font-size: 76px; line-height: 1.1; letter-spacing: -0.04em; font-variant-numeric: lining-nums tabular-nums; white-space: nowrap; }
+  .rows .v .unit { font-size: 0.45em; margin-left: 6px; letter-spacing: 0; }
+  .rows .v .pending { font-size: 20px; }
+  .s2-foot { display: flex; justify-content: space-between; gap: 32px; margin-top: 24px; font: 500 21px/1.3 var(--mono); letter-spacing: -0.02em; color: var(--muted); }
+  .loadhint { color: #b4332a; }
+
+  /* Slide 3 */
+  .flow { margin-top: 32px; display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; align-items: start; gap: 28px; background: var(--night); color: var(--night-ink); border-radius: var(--radius-card); padding: 26px 40px; }
+  .step .n { font: 500 21px/1 var(--mono); letter-spacing: -0.02em; color: var(--periwinkle); }
+  .step .t { font-family: var(--display); font-size: 34px; line-height: 1.15; letter-spacing: -0.03em; margin-top: 12px; }
+  .step .d { font-size: 23px; line-height: 1.35; color: var(--night-muted); letter-spacing: -0.02em; margin-top: 8px; }
+  .flow .arrow { font: 400 36px/1 var(--mono); color: var(--night-line); align-self: center; }
+  .cols { flex: 1; min-height: 0; display: grid; grid-template-columns: 1.1fr 1fr 1fr; gap: 24px; margin-top: 24px; }
+  .col { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-card); padding: 26px 32px; min-width: 0; }
+  .col h3 { font-family: var(--display); font-weight: 400; font-size: 38px; letter-spacing: -0.04em; display: flex; align-items: center; gap: 14px; }
+  .col h3 .tag { font: 500 18px/1 var(--mono); letter-spacing: 0; color: var(--muted); border: 1px solid var(--line); border-radius: var(--radius-control); padding: 6px 10px; background: var(--surface); }
+  .col ul { list-style: none; margin-top: 16px; display: flex; flex-direction: column; gap: 10px; }
+  .col li { font-size: 24px; line-height: 1.32; letter-spacing: -0.02em; padding-left: 34px; position: relative; }
+  .col li::before { content: "+"; position: absolute; left: 0; top: -1px; font: 500 26px/1.3 var(--mono); color: var(--cobalt); }
+  .col li b { font-weight: 600; }
+  .col.tint { background: var(--tint); border-color: var(--tint-line); }
+
+  #progress { position: fixed; left: 0; bottom: 0; height: 4px; background: var(--cobalt); transition: width 0.25s ease; z-index: 5; }
+  #hint { position: fixed; right: 16px; bottom: 12px; font: 500 12px var(--mono); color: var(--muted-deco); z-index: 5; }
+
+  @media print {
+    @page { size: 1920px 1080px; margin: 0; }
+    html, body { background: #fff; overflow: visible; height: auto; }
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    #viewport { position: static; }
+    #stage { position: static; transform: none !important; width: auto; height: auto; }
+    .slide { display: flex !important; position: relative; width: 1920px; height: 1080px; break-after: page; }
+    #progress, #hint, .loadhint { display: none !important; }
+  }
+</style>
+</head>
+<body>
+<div id="viewport">
+  <div id="stage">
+
+    <!-- Slide 1: product in one sentence -->
+    <section class="slide" data-title="Product">
+      <header class="topbar">{{LOGO}}<div class="mid">Layla x Expedia 5K Build &amp; Launch, Berlin</div><div class="pageno">01 / 03</div></header>
+      <div class="body">
+        <div class="s1">
+          <div class="s1-copy">
+            <div>
+              <h1>Pick a city. Join a small group at a public spot tonight.</h1>
+              <p class="lede">See who is heading out tonight and has room for one more: open hangouts of 3 to 8 people, the best public spots to meet, and a hand-off to Layla and Expedia for travelers new in town.</p>
+              <div class="pills">
+                <span class="pill">No account needed</span>
+                <span class="pill">Groups of 3 to 8</span>
+                <span class="pill">Public spots only</span>
+              </div>
+            </div>
+            <div class="try">
+              <div class="qr" id="qr"><div class="placeholder">QR to<br>live link</div></div>
+              <div>
+                <div class="label">Try it live</div>
+                <div class="link" id="live-link"><span class="pending">live link pending</span></div>
+                <div class="sub">Scan, pick Berlin, join tonight's hangout.</div>
+              </div>
+            </div>
+          </div>
+          <div class="media"><div class="phone"><div class="screen" id="shot"><div class="placeholder">App screenshot<br>(Berlin, tonight)</div></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 2: numbers from the launch window, filled from numbers.json -->
+    <section class="slide" data-title="Numbers">
+      <header class="topbar">{{LOGO}}<div class="mid">Real users, launch window</div><div class="pageno">02 / 03</div></header>
+      <div class="body">
+        <div class="s2-head">
+          <h2>What happened in <span class="accent" id="window-hours">our launch window</span></h2>
+          <div class="window" id="window-text">Window <span class="pending">pending</span></div>
+        </div>
+        <div class="grid">
+          <div class="tile night">
+            <div class="k">People joined a hangout</div>
+            <div class="value" data-field="people_joined"></div>
+            <div class="note" id="note-visitors"></div>
+          </div>
+          <div class="tile">
+            <div class="k">Hangouts started</div>
+            <div class="value" data-field="hangouts_started"></div>
+            <div class="note" id="note-cities"></div>
+          </div>
+          <div class="tile tint">
+            <div class="k">Hangouts with 3+ people</div>
+            <div class="value" data-derived="reached_pct"></div>
+            <div class="note" id="note-reached"></div>
+          </div>
+          <div class="tile">
+            <div class="k">Group messages sent</div>
+            <div class="value" data-field="messages_sent"></div>
+            <div class="note" id="note-messages"></div>
+          </div>
+          <div class="tile">
+            <div class="k">Shares per joined user</div>
+            <div class="value" data-derived="shares_per_user"></div>
+            <div class="note" id="note-shares"></div>
+          </div>
+          <div class="tile tint">
+            <div class="k">Layla / Expedia clicks</div>
+            <div class="value" data-derived="brand_total"></div>
+            <div class="note" id="note-brands"></div>
+          </div>
+          <div class="tile wide">
+            <div class="k" id="ads-label">What our 150 EUR ad budget bought</div>
+            <div class="rows">
+              <div><div class="rk">Spent</div><div class="v" data-derived="ads_spent"></div></div>
+              <div><div class="rk">Ad clicks</div><div class="v" data-field="ads.link_clicks"></div></div>
+              <div><div class="rk">Joined via ads</div><div class="v" data-field="ads.people_joined_from_ads"></div></div>
+              <div><div class="rk">Cost per join</div><div class="v" data-derived="cost_per_join"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="s2-foot">
+          <div>Measured from our own events table, team and test devices excluded. Snapshot: <span id="stamp">pending</span></div>
+          <div class="loadhint" id="loadhint"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 3: why it matters -->
+    <section class="slide" data-title="Why it matters">
+      <header class="topbar">{{LOGO}}<div class="mid">Why it matters</div><div class="pageno">03 / 03</div></header>
+      <div class="body">
+        <h2>New in a city tonight, not alone. Then the rest of the trip with <span class="accent">Layla and Expedia</span>.</h2>
+        <div class="flow">
+          <div class="step"><div class="n">01 Arrive</div><div class="t">Erasmus, expat, backpacker, business trip</div><div class="d">Knows nobody, wants to go out tonight</div></div>
+          <div class="arrow">&rarr;</div>
+          <div class="step"><div class="n">02 Meet</div><div class="t">Join a group of 3 to 8 at a public spot</div><div class="d">Pick the city, pick the vibe, show up</div></div>
+          <div class="arrow">&rarr;</div>
+          <div class="step"><div class="n">03 Stay</div><div class="t">Continue with Layla</div><div class="d">Stays on Expedia, Hotels.com and Vrbo</div></div>
+        </div>
+        <div class="cols">
+          <div class="col tint">
+            <h3>Safety by design</h3>
+            <ul>
+              <li><b>Groups only</b>, never 1:1</li>
+              <li><b>Curated public spots</b>, no private addresses</li>
+              <li><b>Report and block</b> on every hangout and message</li>
+              <li><b>No tracking</b>: you pick the city, we never locate you</li>
+              <li>18+ check, hangouts expire at 06:00</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Business model <span class="tag">ideas</span></h3>
+            <ul>
+              <li>Commission on stays booked through the hand-off</li>
+              <li>Layla as the trip planner after the first night out</li>
+              <li>Venue partners, always labeled as promoted</li>
+              <li>Hostels, ESN and unis as city partners</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Next 30 days</h3>
+            <ul>
+              <li>Weekly Berlin hangouts with hostel and ESN partners</li>
+              <li>More cities, each with a local partner</li>
+              <li>Moderation queue and trusted hosts</li>
+              <li>Track fill rate and repeat joins week over week</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+<div id="progress"></div>
+<div id="hint">&larr; &rarr; to navigate &middot; F fullscreen</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ---------- Navigation ---------- */
+  var slides = Array.prototype.slice.call(document.querySelectorAll(".slide"));
+  var stage = document.getElementById("stage");
+  var progress = document.getElementById("progress");
+  var current = 0;
+
+  function fit() {
+    var s = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
+    stage.style.transform = "translate(-50%, -50%) scale(" + s + ")";
+  }
+
+  function show(i, push) {
+    if (push !== false) document.getElementById("hint").style.display = "none";
+    current = Math.max(0, Math.min(slides.length - 1, i));
+    slides.forEach(function (el, k) { el.classList.toggle("active", k === current); });
+    progress.style.width = ((current + 1) / slides.length * 100) + "%";
+    var h = "#" + (current + 1);
+    if (push !== false && location.hash !== h) history.replaceState(null, "", h);
+  }
+
+  function fromHash() {
+    var n = parseInt((location.hash || "").replace("#", ""), 10);
+    return isNaN(n) ? 0 : n - 1;
+  }
+
+  document.addEventListener("keydown", function (e) {
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    var k = e.key;
+    if (k === "ArrowRight" || k === "ArrowDown" || k === "PageDown" || k === " " || k === "Enter") { show(current + 1); e.preventDefault(); }
+    else if (k === "ArrowLeft" || k === "ArrowUp" || k === "PageUp" || k === "Backspace") { show(current - 1); e.preventDefault(); }
+    else if (k === "Home") { show(0); e.preventDefault(); }
+    else if (k === "End") { show(slides.length - 1); e.preventDefault(); }
+    else if (/^[1-9]$/.test(k)) { show(parseInt(k, 10) - 1); }
+    else if (k === "f" || k === "F") {
+      if (!document.fullscreenElement) document.documentElement.requestFullscreen && document.documentElement.requestFullscreen();
+      else document.exitFullscreen && document.exitFullscreen();
+    }
+  });
+  document.addEventListener("click", function (e) {
+    if (e.target.closest("a")) return;
+    show(e.clientX > window.innerWidth / 3 ? current + 1 : current - 1);
+  });
+  window.addEventListener("resize", fit);
+  window.addEventListener("hashchange", function () { show(fromHash(), false); });
+  fit();
+  show(fromHash(), false);
+
+  /* ---------- Optional images: screenshot.png and qr.png next to this file ---------- */
+  function tryImage(containerId, src, alt) {
+    var img = new Image();
+    img.onload = function () {
+      var box = document.getElementById(containerId);
+      box.innerHTML = "";
+      img.alt = alt;
+      box.appendChild(img);
+    };
+    img.src = src;
+  }
+  tryImage("shot", "screenshot.png", "Plus One app screenshot");
+  tryImage("qr", "qr.png", "QR code to the live app");
+
+  /* ---------- Numbers (slide 2) ---------- */
+  var PENDING = '<span class="pending">pending</span>';
+  var fmtInt = new Intl.NumberFormat("en-US");
+
+  function isNum(v) { return typeof v === "number" && isFinite(v); }
+  function get(obj, path) {
+    return path.split(".").reduce(function (o, k) { return o == null ? undefined : o[k]; }, obj);
+  }
+  function int(v) { return isNum(v) ? fmtInt.format(v) : PENDING; }
+  function ratio(a, b) { return isNum(a) && isNum(b) && b > 0 ? a / b : null; }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function when(iso) {
+    if (!iso) return null;
+    var d = new Date(iso);
+    if (isNaN(d)) return null;
+    return d.toLocaleString("en-GB", { weekday: "short", hour: "2-digit", minute: "2-digit", day: "2-digit", month: "short", timeZone: "Europe/Berlin" });
+  }
+
+  /* Shrink numbers until they fit their tile; the ad row shares one size. */
+  function fitValues() {
+    var slide2 = slides[1], wasHidden = !slide2.classList.contains("active");
+    if (wasHidden) slide2.style.display = "flex";
+    document.querySelectorAll(".tile .value, .rows .v").forEach(function (el) {
+      el.style.fontSize = "";
+      var size = parseFloat(getComputedStyle(el).fontSize);
+      while (el.scrollWidth > el.clientWidth && size > 24) {
+        size -= 4;
+        el.style.fontSize = size + "px";
+      }
+    });
+    var row = Array.prototype.slice.call(document.querySelectorAll(".rows .v"));
+    var min = Math.min.apply(null, row.map(function (el) { return parseFloat(getComputedStyle(el).fontSize); }));
+    row.forEach(function (el) { el.style.fontSize = min + "px"; });
+    if (wasHidden) slide2.style.display = "";
+  }
+
+  function render(n) {
+    n = n || {};
+    var ads = n.ads || {};
+    var brands = n.brand_clicks || {};
+
+    document.querySelectorAll("[data-field]").forEach(function (el) {
+      el.innerHTML = int(get(n, el.getAttribute("data-field")));
+    });
+
+    var reached = ratio(n.hangouts_reached_3, n.hangouts_started);
+    var spu = ratio(n.shares, n.people_joined);
+    var brandKeys = [["layla", "Layla"], ["expedia", "Expedia"], ["hotels_com", "Hotels.com"], ["vrbo", "Vrbo"]];
+    var brandVals = brandKeys.map(function (b) { return brands[b[0]]; });
+    var anyBrand = brandVals.some(isNum);
+    var brandTotal = anyBrand ? brandVals.reduce(function (s, v) { return s + (isNum(v) ? v : 0); }, 0) : null;
+    var cpj = ratio(ads.spent_eur, ads.people_joined_from_ads);
+
+    var derived = {
+      reached_pct: reached == null ? PENDING : Math.round(reached * 100) + '<span class="unit">%</span>',
+      shares_per_user: spu == null ? PENDING : spu.toFixed(1),
+      brand_total: brandTotal == null ? PENDING : fmtInt.format(brandTotal),
+      ads_spent: isNum(ads.spent_eur) ? fmtInt.format(Math.round(ads.spent_eur)) + '<span class="unit">EUR</span>' : PENDING,
+      cost_per_join: cpj == null ? PENDING : cpj.toFixed(2) + '<span class="unit">EUR</span>'
+    };
+    document.querySelectorAll("[data-derived]").forEach(function (el) {
+      el.innerHTML = derived[el.getAttribute("data-derived")];
+    });
+
+    function note(id, html) { document.getElementById(id).innerHTML = html || ""; }
+    note("note-visitors", isNum(n.unique_visitors) ? "of " + fmtInt.format(n.unique_visitors) + " unique visitors" : "unique visitors: pending");
+    note("note-cities", isNum(n.cities_live) ? "across " + fmtInt.format(n.cities_live) + " active cities" : "active cities: pending");
+    var reachedNote = isNum(n.hangouts_reached_3) && isNum(n.hangouts_started) ? fmtInt.format(n.hangouts_reached_3) + " of " + fmtInt.format(n.hangouts_started) : "reached 3+ / started";
+    if (isNum(n.hangouts_filled)) reachedNote += ", " + fmtInt.format(n.hangouts_filled) + " filled every seat";
+    note("note-reached", reachedNote);
+    note("note-messages", isNum(n.messages_sent) && isNum(n.hangouts_started) && n.hangouts_started > 0 ? (n.messages_sent / n.hangouts_started).toFixed(1) + " per hangout" : "inside hangout chats");
+    note("note-shares", isNum(n.shares) ? fmtInt.format(n.shares) + " shares in total" : "shares / people joined");
+    note("note-brands", anyBrand ? brandKeys.map(function (b) { return b[1] + " " + (isNum(brands[b[0]]) ? fmtInt.format(brands[b[0]]) : "?"); }).join(" &middot; ") : "Layla, Expedia, Hotels.com, Vrbo");
+
+    var budget = isNum(ads.budget_eur) ? ads.budget_eur : 150;
+    document.getElementById("ads-label").innerHTML = "What our " + fmtInt.format(budget) + " EUR ad budget bought" +
+      (isNum(ads.impressions) ? ' <span class="extra">&middot; ' + fmtInt.format(ads.impressions) + " impressions</span>" : "");
+
+    var w = n.launch_window || {};
+    var ws = when(w.start), we = when(w.end);
+    var hours = w.start && w.end ? (new Date(w.end) - new Date(w.start)) / 36e5 : NaN;
+    document.getElementById("window-hours").textContent = isFinite(hours) && hours > 0 ? "our first " + Math.round(hours) + " hours" : "our launch window";
+    document.getElementById("window-text").innerHTML = ws && we ? esc(ws) + "<br>to " + esc(we) + " (Berlin)" : "Window " + PENDING;
+
+    var stamp = when(n.updated_at);
+    document.getElementById("stamp").innerHTML = stamp ? esc(stamp) + " (Berlin)" : "pending";
+
+    fitValues();
+
+    var link = document.getElementById("live-link");
+    if (n.live_url) {
+      var a = document.createElement("a");
+      a.href = n.live_url;
+      a.textContent = n.live_url.replace(/^https?:\/\//, "").replace(/\/$/, "");
+      link.innerHTML = ""; link.appendChild(a);
+      var size = 60;
+      link.style.fontSize = "";
+      while (link.scrollWidth > link.clientWidth && size > 28) { size -= 2; link.style.fontSize = size + "px"; }
+    }
+  }
+
+  function hint(msg) { document.getElementById("loadhint").textContent = msg || ""; }
+
+  render(null);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitValues);
+  var src = new URLSearchParams(location.search).get("numbers") || "numbers.json";
+  fetch(src, { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (j) { render(j); hint(""); })
+    .catch(function () {
+      hint("numbers.json not loaded: serve this folder over http, or drop numbers.json onto the page");
+    });
+
+  /* Drag and drop a numbers.json file (works when opened via file://). */
+  document.addEventListener("dragover", function (e) { e.preventDefault(); });
+  document.addEventListener("drop", function (e) {
+    e.preventDefault();
+    var f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
+    if (!f) return;
+    f.text().then(function (t) { render(JSON.parse(t)); hint(""); show(1); })
+      .catch(function () { hint("Could not parse the dropped file as JSON"); });
+  });
+})();
+</script>
+</body>
+</html>

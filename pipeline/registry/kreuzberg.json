@@ -1,0 +1,231 @@
+{
+ "kiez": "kreuzberg",
+ "name": "Kreuzberg",
+ "scannedBy": "BatuCani",
+ "updatedAt": "2026-11-21T21:49:30.014Z",
+ "provider": "mixed",
+ "models": {},
+ "counts": {
+  "found": 511,
+  "menus": 36,
+  "restaurants": 34,
+  "dishes": 1065,
+  "images": 34,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 17.71,
+  "byStage": {
+   "check": 0.46,
+   "find": 3.78,
+   "image": 0.89,
+   "menu": 7.08,
+   "nutrition": 5.47,
+   "classify": 0.02
+  },
+  "byProvider": {
+   "anthropic": 8.99,
+   "google-places": 4.12,
+   "openai": 4.59
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/kreuzberg.json",
+ "places": [
+  {
+   "id": "osm-node-10758650317",
+   "placeId": "ChIJH1ncIA1PqEcRI88eQAyRu_A",
+   "osmId": "node/10758650317"
+  },
+  {
+   "id": "osm-node-626304902",
+   "placeId": "ChIJubD2-rdPqEcRK2K6TI9YJMk",
+   "osmId": "node/626304902"
+  },
+  {
+   "id": "osm-node-13192322301",
+   "placeId": "ChIJV1rq5RRPqEcRs4VM8McW85U",
+   "osmId": "node/13192322301"
+  },
+  {
+   "id": "osm-node-2496752195",
+   "placeId": "ChIJ00wZ-CdQqEcReQVzuWom8zA",
+   "osmId": "node/2496752195"
+  },
+  {
+   "id": "osm-node-4107978941",
+   "placeId": "ChIJkSgYHktOqEcRALVZuDYxhA4",
+   "osmId": "node/4107978941"
+  },
+  {
+   "id": "osm-node-11191363324",
+   "placeId": "ChIJcwvuB41RqEcRV-nbUgCSzM4",
+   "osmId": "node/11191363324"
+  },
+  {
+   "id": "osm-node-938419558",
+   "placeId": "ChIJafBhcoVPqEcRb7rHEy3G0L8",
+   "osmId": "node/938419558"
+  },
+  {
+   "id": "osm-node-448603850",
+   "placeId": "ChIJfziMc05OqEcR74o_HSkK5fg",
+   "osmId": "node/448603850"
+  },
+  {
+   "id": "osm-node-12270984995",
+   "placeId": "ChIJF7iU99pRqEcRe3wF6Sqtxv4",
+   "osmId": "node/12270984995"
+  },
+  {
+   "id": "osm-node-2935319802",
+   "placeId": "ChIJYeHd5jxRqEcR9UZ4zBp7mWI",
+   "osmId": "node/2935319802"
+  },
+  {
+   "id": "osm-node-4034138663",
+   "placeId": "ChIJgb5-WzROqEcR_KdxQoJeFK8",
+   "osmId": "node/4034138663"
+  },
+  {
+   "id": "osm-node-5352674046",
+   "placeId": "ChIJ__8PjkpOqEcRlr6QAMfEr-8",
+   "osmId": "node/5352674046"
+  },
+  {
+   "id": "osm-node-11687802227",
+   "placeId": "ChIJZa1Ry9JRqEcRnl5vihDv8eg",
+   "osmId": "node/11687802227"
+  },
+  {
+   "id": "osm-node-2496652037",
+   "placeId": "ChIJqXJxjShQqEcRGJh_M6JvpJQ",
+   "osmId": "node/2496652037"
+  },
+  {
+   "id": "osm-node-12950182832",
+   "placeId": "ChIJ1bioD3NRqEcRnO9VjtdzRqg",
+   "osmId": "node/12950182832"
+  },
+  {
+   "id": "osm-node-895374738",
+   "placeId": "ChIJ7cp1RCxQqEcRd34ZqFtq-N4",
+   "osmId": "node/895374738"
+  },
+  {
+   "id": "osm-node-11329489269",
+   "placeId": "ChIJ1QRLalNPqEcRdpjvxLrXrkA",
+   "osmId": "node/11329489269"
+  },
+  {
+   "id": "osm-node-1250478494",
+   "placeId": "ChIJ78aCVclPqEcR-VYl2hkQcFU",
+   "osmId": "node/1250478494"
+  },
+  {
+   "id": "osm-node-948130098",
+   "placeId": "ChIJpQYfeTpPqEcRillhHFzYpS4",
+   "osmId": "node/948130098"
+  },
+  {
+   "id": "osm-node-13418223658",
+   "placeId": "ChIJMTuVzpJPqEcRtYthTOJz66c",
+   "osmId": "node/13418223658"
+  },
+  {
+   "id": "osm-node-4766962351",
+   "placeId": "ChIJJbU_qAJPqEcRAScBnA8oZiQ",
+   "osmId": "node/4766962351"
+  },
+  {
+   "id": "osm-node-8960282488",
+   "placeId": "ChIJ5zmx3EBPqEcRnWLMqGjKfbk",
+   "osmId": "node/8960282488"
+  },
+  {
+   "id": "osm-node-935637519",
+   "placeId": "ChIJC1II7ddPqEcR6a1jSkfEGrA",
+   "osmId": "node/935637519"
+  },
+  {
+   "id": "osm-node-9722592317",
+   "placeId": "ChIJm94gD9hPqEcRPF07byVx9K8",
+   "osmId": "node/9722592317"
+  },
+  {
+   "id": "osm-node-2935272934",
+   "placeId": "ChIJISFwGNhPqEcRY9yHJ2avLsU",
+   "osmId": "node/2935272934"
+  },
+  {
+   "id": "osm-node-2496651336",
+   "placeId": "ChIJ8899WyhQqEcR6PUGawEOIGw",
+   "osmId": "node/2496651336"
+  },
+  {
+   "id": "osm-node-350462678",
+   "placeId": "ChIJH_G-njNOqEcRuiCKVBKqYnQ",
+   "osmId": "node/350462678"
+  },
+  {
+   "id": "osm-node-2874368637",
+   "placeId": "ChIJSys7uQJPqEcRgAXyd5G8Kas",
+   "osmId": "node/2874368637"
+  },
+  {
+   "id": "osm-node-8105267087",
+   "placeId": "ChIJyeXRiCVRqEcRNp3p1Taf_bA",
+   "osmId": "node/8105267087"
+  },
+  {
+   "id": "osm-node-13038382101",
+   "placeId": "ChIJVQ7x1ztPqEcRbDEDCyCkNBg",
+   "osmId": "node/13038382101"
+  },
+  {
+   "id": "osm-node-9845874922",
+   "placeId": "ChIJw2t_OlNRqEcRkqLi6sGJmQ8",
+   "osmId": "node/9845874922"
+  },
+  {
+   "id": "osm-node-3845815328",
+   "placeId": "ChIJ9epzQdhPqEcRq6fBOibKfHk",
+   "osmId": "node/3845815328"
+  },
+  {
+   "id": "osm-node-6040097378",
+   "placeId": "ChIJqY2b9vpPqEcRiIUZyHazyeA",
+   "osmId": "node/6040097378"
+  },
+  {
+   "id": "osm-node-10053435052",
+   "placeId": "ChIJeflXDABPqEcRhiKLG7UbkvQ",
+   "osmId": "node/10053435052"
+  }
+ ],
+ "appendBase": {
+  "provider": "anthropic",
+  "counts": {
+   "found": 424,
+   "menus": 20,
+   "restaurants": 20,
+   "dishes": 624,
+   "images": 20,
+   "skippedDuplicates": 0
+  },
+  "costUsd": {
+   "total": 12.71,
+   "byStage": {
+    "check": 0.39,
+    "find": 3.15,
+    "image": 0.51,
+    "menu": 4.83,
+    "nutrition": 3.83
+   },
+   "byProvider": {
+    "anthropic": 8.99,
+    "google-places": 3.21,
+    "openai": 0.51
+   }
+  }
+ }
+}

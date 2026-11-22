@@ -1,0 +1,7532 @@
+[
+  {
+    "id": "node/1448235867",
+    "name": "Club Bahnhof Ehrenfeld",
+    "lat": 50.9516879,
+    "lng": 6.915989,
+    "category": "nightclub",
+    "website": "https://cbe-cologne.de/",
+    "address": {
+      "street": "Bartholomäus-Schink-Straße",
+      "housenumber": "65-67",
+      "postcode": "50825",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": true,
+    "vibes": [
+      "club",
+      "culture"
+    ],
+    "description": "Nightclub on Bartholomäus-Schink-Straße with live music."
+  },
+  {
+    "id": "node/4179707475",
+    "name": "Yuca (Your Urban Club of Arts)",
+    "lat": 50.9517153,
+    "lng": 6.9161618,
+    "category": "nightclub",
+    "website": "https://yuca.club/",
+    "address": {
+      "street": "Bartholomäus-Schink-Straße",
+      "housenumber": "65-67",
+      "postcode": "50825",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": true,
+    "vibes": [
+      "club",
+      "culture"
+    ],
+    "description": "Nightclub on Bartholomäus-Schink-Straße with live music."
+  },
+  {
+    "id": "node/467770617",
+    "name": "Rosebud",
+    "lat": 50.9300705,
+    "lng": 6.9380122,
+    "category": "bar",
+    "opening_hours": "Mo-Th 20:30-02:00; Fr-Sa 21:00-03:00 || \"vor Feiertagen wie Sa\"",
+    "website": "http://www.rosebudbar.de/",
+    "address": {
+      "street": "Heinsbergstraße",
+      "housenumber": "20",
+      "postcode": "50674",
+      "city": "Köln"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Bar on Heinsbergstraße with outdoor seating."
+  },
+  {
+    "id": "node/3647866082",
+    "name": "James Joyce",
+    "lat": 50.9185974,
+    "lng": 6.9605577,
+    "category": "pub",
+    "opening_hours": "Mo-Th 18:00-01:00, Fr,Sa 18:00-03:00, Su 18:00-24:00",
+    "website": "https://jamesjoyceirishpub.de/",
+    "address": {
+      "street": "Bonner Straße",
+      "housenumber": "39",
+      "postcode": "50677",
+      "city": "Köln"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Pub on Bonner Straße with outdoor seating."
+  },
+  {
+    "id": "node/4465447033",
+    "name": "Craftbeer Corner Coeln",
+    "lat": 50.9371997,
+    "lng": 6.9589148,
+    "category": "pub",
+    "opening_hours": "Tu-Th 18:00-24:00; Fr-Sa 17:00-01:00",
+    "website": "https://craftbeercorner.eu",
+    "address": {
+      "street": "Martinstraße",
+      "housenumber": "32",
+      "postcode": "50667",
+      "city": "Köln"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Pub on Martinstraße with outdoor seating."
+  },
+  {
+    "id": "node/292881082",
+    "name": "Stiefel",
+    "lat": 50.9299042,
+    "lng": 6.9383181,
+    "category": "pub",
+    "opening_hours": "Su-Th 18:00-02:00; Fr,Sa 18:00-05:00",
+    "website": "https://stiefelkneipe.de",
+    "address": {
+      "street": "Zülpicher Straße",
+      "housenumber": "18",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Pub on Zülpicher Straße with outdoor seating."
+  },
+  {
+    "id": "node/581887805",
+    "name": "ROSA",
+    "lat": 50.9383371,
+    "lng": 6.9350955,
+    "category": "pub",
+    "opening_hours": "Mo-Th 14:30-02:00; Fr,Sa 14:30-04:00",
+    "website": "https://rosa-koeln.de/",
+    "address": {
+      "street": "Brüsseler Platz",
+      "housenumber": "1",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Pub on Brüsseler Platz."
+  },
+  {
+    "id": "node/365930481",
+    "name": "Baustelle 4U",
+    "lat": 50.9354456,
+    "lng": 6.9596561,
+    "category": "pub",
+    "opening_hours": "Mo-Th 17:00-01:00; Fr 17:00-03:00; Sa 16:00-03:00; Su 16:00-01:00",
+    "website": "https://www.baustelle4u.de/",
+    "address": {
+      "street": "Vor St. Martin",
+      "housenumber": "12",
+      "postcode": "50667",
+      "city": "Köln"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Pub on Vor St. Martin with outdoor seating."
+  },
+  {
+    "id": "node/566650430",
+    "name": "Engelbät",
+    "lat": 50.9310111,
+    "lng": 6.9390318,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 12:00-23:00; Su,PH 12:00-22:00",
+    "website": "https://www.engelbaet.de/",
+    "address": {
+      "street": "Engelbertstraße",
+      "housenumber": "7",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Pub on Engelbertstraße with outdoor seating."
+  },
+  {
+    "id": "node/1018047304",
+    "name": "Zino's Spritz",
+    "lat": 50.9364086,
+    "lng": 6.9323917,
+    "category": "bar",
+    "opening_hours": "Mo-Th 17:00-23:00, Fr 17:00-01:00, Sa 15:00-01:00",
+    "website": "https://www.zinos.de/",
+    "address": {
+      "street": "Moltkestraße",
+      "housenumber": "65a",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Bar on Moltkestraße with outdoor seating."
+  },
+  {
+    "id": "node/633181842",
+    "name": "Papa Joe’s Klimperkasten",
+    "lat": 50.9388026,
+    "lng": 6.9603387,
+    "category": "pub",
+    "opening_hours": "Mo-Su 11:00-03:00",
+    "website": "https://www.papajoes.de/",
+    "address": {
+      "street": "Alter Markt",
+      "housenumber": "50-52",
+      "postcode": "50667"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Pub on Alter Markt with outdoor seating."
+  },
+  {
+    "id": "node/535503499",
+    "name": "Severin",
+    "lat": 50.9230983,
+    "lng": 6.9591148,
+    "category": "pub",
+    "opening_hours": "Mo-Th 11:00-24:00, Fr,Sa 11:00-01:00, Su 16:00-22:00",
+    "website": "https://www.brauhaus-severin.de/",
+    "address": {
+      "street": "Severinstraße",
+      "housenumber": "28",
+      "postcode": "50678",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Pub on Severinstraße with outdoor seating."
+  },
+  {
+    "id": "node/322797145",
+    "name": "Furchtbar",
+    "lat": 50.9289262,
+    "lng": 6.939284,
+    "category": "bar",
+    "opening_hours": "Mo-Su 18:00-05:00",
+    "website": "https://www.furchtbar.de/",
+    "address": {
+      "street": "Kyffhäuserstraße",
+      "housenumber": "24",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Bar on Kyffhäuserstraße with outdoor seating."
+  },
+  {
+    "id": "node/365768351",
+    "name": "Em drügge Pitter",
+    "lat": 50.953045,
+    "lng": 6.9125342,
+    "category": "pub",
+    "opening_hours": "Mo-Th 20:00-04:30; Fr-Sa 20:00-04:30; Su 21:00-02:00",
+    "website": "https://edp-koeln.de/",
+    "address": {
+      "street": "Venloer Straße",
+      "housenumber": "216",
+      "postcode": "50825",
+      "city": "Köln"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Pub on Venloer Straße with outdoor seating."
+  },
+  {
+    "id": "node/2419064758",
+    "name": "Seiberts",
+    "lat": 50.9388152,
+    "lng": 6.9406763,
+    "category": "bar",
+    "opening_hours": "Tu-Su 17:00-02:00",
+    "website": "https://seiberts-bar.com/",
+    "address": {
+      "street": "Friesenwall",
+      "housenumber": "33",
+      "postcode": "50672",
+      "city": "Köln"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Bar on Friesenwall with outdoor seating."
+  },
+  {
+    "id": "node/345175310",
+    "name": "Lost Level",
+    "lat": 50.9286363,
+    "lng": 6.9381717,
+    "category": "bar",
+    "opening_hours": "Tu 18:00-00:00, We-Th 19:00-01:00, Fr-Sa 19:00-03:00",
+    "website": "https://lostlevel.bar",
+    "address": {
+      "street": "Kyffhäuserstraße",
+      "housenumber": "39",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Bar on Kyffhäuserstraße with outdoor seating."
+  },
+  {
+    "id": "node/633172563",
+    "name": "Die Kulisse",
+    "lat": 50.9378558,
+    "lng": 6.9604118,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 16:00-01:00, Sa-Su 13:00-01:00",
+    "website": "https://www.kulisse-koeln.de/",
+    "address": {
+      "street": "Unter Käster",
+      "housenumber": "14-16",
+      "postcode": "50667"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Pub on Unter Käster."
+  },
+  {
+    "id": "node/13614790980",
+    "name": "Sportbar Italia",
+    "lat": 50.9186937,
+    "lng": 6.9594149,
+    "category": "bar",
+    "opening_hours": "Mo-Fr 06:00-24:00; Sa 06:00-23:00; Su 08:00-23:00",
+    "address": {
+      "street": "Rolandstraße",
+      "housenumber": "6",
+      "postcode": "50677",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Bar on Rolandstraße with outdoor seating."
+  },
+  {
+    "id": "node/2653841922",
+    "name": "abhörbar",
+    "lat": 50.9413591,
+    "lng": 6.9415234,
+    "category": "bar",
+    "opening_hours": "Mo-Th 21:00-04:00, Fr-Sa 21:00+",
+    "website": "https://www.abhoerbar.com/",
+    "address": {
+      "street": "Friesenwall",
+      "housenumber": "128",
+      "postcode": "50672",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Bar on Friesenwall with outdoor seating."
+  },
+  {
+    "id": "node/356175401",
+    "name": "Grace and Grape",
+    "lat": 50.9288143,
+    "lng": 6.939736,
+    "category": "bar",
+    "opening_hours": "We-Sa 17:00-01:00, Su 16:00-22:00",
+    "website": "https://www.graceandgrape.de",
+    "address": {
+      "street": "Kyffhäuserstraße",
+      "housenumber": "17",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Bar on Kyffhäuserstraße with outdoor seating."
+  },
+  {
+    "id": "node/6790197222",
+    "name": "Zur Kaiserin",
+    "lat": 50.9354086,
+    "lng": 6.9595591,
+    "category": "bar",
+    "opening_hours": "We,Th 18:00-01:00, Fr,Sa 18:00-02:00, Su 16:00-23:00; Mo,Tu off",
+    "website": "http://www.zurkaiserin.de/",
+    "address": {
+      "street": "Pipinstraße",
+      "housenumber": "5",
+      "postcode": "50667",
+      "city": "Köln"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Bar on Pipinstraße."
+  },
+  {
+    "id": "node/267876460",
+    "name": "Hängende Gärten von Ehrenfeld",
+    "lat": 50.9472988,
+    "lng": 6.9167527,
+    "category": "bar",
+    "opening_hours": "Th-Su 20:00-02:00, Fr-Sa 20:00-04:00",
+    "website": "http://www.haengendegaerten.de/",
+    "address": {
+      "street": "Vogelsanger Straße",
+      "housenumber": "140",
+      "postcode": "50823",
+      "city": "Köln"
+    },
+    "curated": true,
+    "vibes": [
+      "bar"
+    ],
+    "description": "Bar on Vogelsanger Straße."
+  },
+  {
+    "id": "node/7271584664",
+    "name": "Umbibar",
+    "lat": 50.9204531,
+    "lng": 6.959585,
+    "category": "bar",
+    "opening_hours": "Su 13:00-22:00; Mo-Th 12:00-22:00; Fr-Sa 12:00-23:00",
+    "website": "https://www.umibar.de",
+    "address": {
+      "postcode": "50677"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Bar with outdoor seating."
+  },
+  {
+    "id": "node/942692484",
+    "name": "Klapsmühle",
+    "lat": 50.939181,
+    "lng": 6.9393705,
+    "category": "nightclub",
+    "opening_hours": "We,Fr,Sa 21:00+; PH -1 day 21:00+",
+    "website": "https://klapsmuehle.com/",
+    "address": {
+      "street": "Hohenzollernring",
+      "housenumber": "39-41",
+      "postcode": "50672",
+      "city": "Köln"
+    },
+    "curated": true,
+    "vibes": [
+      "club"
+    ],
+    "description": "Nightclub on Hohenzollernring."
+  },
+  {
+    "id": "node/441240854",
+    "name": "KGB Bar",
+    "lat": 50.9314558,
+    "lng": 6.9348679,
+    "category": "bar",
+    "opening_hours": "Tu-Sa 19:00-06:00; Su,Mo,PH off",
+    "website": "https://www.hotelux.de/",
+    "address": {
+      "street": "Rathenauplatz",
+      "housenumber": "22",
+      "postcode": "50674",
+      "city": "Köln"
+    },
+    "curated": true,
+    "vibes": [
+      "bar",
+      "chill"
+    ],
+    "description": "Bar on Rathenauplatz with outdoor seating."
+  },
+  {
+    "id": "node/5998726446",
+    "name": "Zappes im Stollwerck",
+    "lat": 50.925136,
+    "lng": 6.964171,
+    "category": "biergarten",
+    "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00 - 01:00; Sa 15:00 - 01:00; Su 11:00 - 20:00",
+    "website": "https://www.zappes-broi.de/",
+    "address": {
+      "street": "Dreikönigenstraße",
+      "housenumber": "23",
+      "postcode": "50678",
+      "city": "Köln"
+    },
+    "curated": true,
+    "vibes": [
+      "chill"
+    ],
+    "description": "Beer garden on Dreikönigenstraße."
+  },
+  {
+    "id": "node/2395060243",
+    "name": "Sonic Ballroom",
+    "lat": 50.9488018,
+    "lng": 6.9076462,
+    "category": "biergarten",
+    "opening_hours": "15:00-20:00;\"for concerts\"",
+    "website": "https://www.sonic-ballroom.de/",
+    "address": {
+      "street": "Oskar-Jäger-Straße",
+      "housenumber": "190",
+      "postcode": "50825"
+    },
+    "curated": true,
+    "vibes": [
+      "chill"
+    ],
+    "description": "Beer garden on Oskar-Jäger-Straße."
+  },
+  {
+    "id": "node/7717671993",
+    "name": "Johann Schäfer Biergarten",
+    "lat": 50.9185852,
+    "lng": 6.9699709,
+    "category": "biergarten",
+    "opening_hours": "Mo-Fr 16:00-23:00;Sa-Su 12:00-23:00",
+    "website": "https://www.johann-schaefer.de/biergarten",
+    "address": {
+      "street": "Agrippinawerft",
+      "housenumber": "30",
+      "postcode": "50678",
+      "city": "Köln"
+    },
+    "curated": true,
+    "vibes": [
+      "chill"
+    ],
+    "description": "Beer garden on Agrippinawerft."
+  },
+  {
+    "id": "node/2629419509",
+    "name": "Tru Club",
+    "lat": 50.9369665,
+    "lng": 6.9440601,
+    "category": "nightclub",
+    "opening_hours": "Sa 23:00+",
+    "address": {
+      "street": "Mittelstraße",
+      "housenumber": "12",
+      "postcode": "50672",
+      "city": "Köln"
+    },
+    "curated": true,
+    "vibes": [
+      "club"
+    ],
+    "description": "Nightclub on Mittelstraße."
+  },
+  {
+    "id": "way/448647127",
+    "name": "Stadtgarten Biergarten",
+    "lat": 50.9428466,
+    "lng": 6.9355888,
+    "category": "biergarten",
+    "opening_hours": "Mo-Su 12:00-24:00",
+    "curated": true,
+    "vibes": [
+      "chill"
+    ],
+    "description": "Beer garden."
+  },
+  {
+    "id": "node/5624509121",
+    "name": "Veedel Club",
+    "lat": 50.9272542,
+    "lng": 6.939919,
+    "category": "nightclub",
+    "opening_hours": "Fr-Sa 23:00-05:00",
+    "curated": true,
+    "vibes": [
+      "club"
+    ],
+    "description": "Nightclub."
+  },
+  {
+    "id": "node/477280426",
+    "name": "Tivoli Cologne",
+    "lat": 50.9345313,
+    "lng": 6.9563284,
+    "category": "nightclub",
+    "website": "http://www.tivoli-cologne.de/club/",
+    "address": {
+      "street": "Hohe Straße",
+      "housenumber": "12"
+    },
+    "curated": true,
+    "vibes": [
+      "club"
+    ],
+    "description": "Nightclub on Hohe Straße."
+  },
+  {
+    "id": "node/9214509415",
+    "name": "„Die 2“",
+    "lat": 51.0210884,
+    "lng": 6.9074723,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/243919932",
+    "name": "\"L\"",
+    "lat": 50.9522133,
+    "lng": 6.9206586,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/13204923413",
+    "name": "103",
+    "lat": 50.9407497,
+    "lng": 7.0109035,
+    "category": "bar",
+    "address": {
+      "street": "Eythstraße",
+      "housenumber": "20"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/363841991",
+    "name": "1460",
+    "lat": 50.9355208,
+    "lng": 6.9591367,
+    "category": "bar",
+    "website": "https://www.14hundert60.de/",
+    "curated": false
+  },
+  {
+    "id": "node/3440971514",
+    "name": "51 Bar & Kitchen",
+    "lat": 50.8784671,
+    "lng": 7.1235884,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/1969878507",
+    "name": "7th Sky",
+    "lat": 50.942082,
+    "lng": 6.9400809,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/14088101541",
+    "name": "903",
+    "lat": 50.938931,
+    "lng": 7.0010164,
+    "category": "bar",
+    "address": {
+      "street": "Kalk-Mülheimer Straße",
+      "housenumber": "28"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14204645398",
+    "name": "Adeline Weinbar",
+    "lat": 50.937172,
+    "lng": 6.837156,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 10:30-22:00; Sa 14:00-22:00; Su off",
+    "website": "https://adeline-weinbar-kloen.eatbu.com/",
+    "address": {
+      "street": "Bunzlauer Straße",
+      "housenumber": "5",
+      "postcode": "50858",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6191204232",
+    "name": "African Drum",
+    "lat": 50.9506874,
+    "lng": 6.9569153,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 18:00-05:00; Sa-Su 22:00-05:00",
+    "curated": false
+  },
+  {
+    "id": "node/5696727609",
+    "name": "Agnes +",
+    "lat": 50.9538854,
+    "lng": 6.9575093,
+    "category": "pub",
+    "opening_hours": "Mo-Th 12:00-00:00; Fr-Sa 12:00-01:00; Su 12:00-18:00",
+    "address": {
+      "street": "Neusser Straße",
+      "housenumber": "58",
+      "postcode": "50670",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/424418542",
+    "name": "Agnes Klause",
+    "lat": 50.9539524,
+    "lng": 6.9546172,
+    "category": "pub",
+    "opening_hours": "Tu-Fr 18:00-01:00, Sa 18:00-02:00",
+    "curated": false
+  },
+  {
+    "id": "way/28674072",
+    "name": "All In",
+    "lat": 50.9373407,
+    "lng": 7.0191744,
+    "category": "bar",
+    "address": {
+      "street": "Miltenberger Straße",
+      "housenumber": "1",
+      "postcode": "51103",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1617920846",
+    "name": "Alt Brück",
+    "lat": 50.9470404,
+    "lng": 7.084748,
+    "category": "pub",
+    "opening_hours": "PH,Mo-Su 11:00-18:00+",
+    "curated": false
+  },
+  {
+    "id": "node/246702298",
+    "name": "Alt Longerich",
+    "lat": 50.9979769,
+    "lng": 6.9069727,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/267531285",
+    "name": "Alt Neppes",
+    "lat": 50.9654933,
+    "lng": 6.9533514,
+    "category": "pub",
+    "website": "https://alt-neppes.geo.io/",
+    "address": {
+      "street": "Neusser Straße",
+      "housenumber": "301"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1818597875",
+    "name": "Alt Poller Wirtshaus",
+    "lat": 50.9113725,
+    "lng": 6.990002,
+    "category": "pub",
+    "opening_hours": "Tu-Sa 15:00-24:00, Su 12:00-23:00, PH 15:00-24:00",
+    "website": "https://alt-poller-wirtshaus.de/",
+    "address": {
+      "street": "Poller Hauptstraße",
+      "housenumber": "28",
+      "postcode": "51105",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/316257642",
+    "name": "Alt-Buchheim",
+    "lat": 50.9578949,
+    "lng": 7.0187147,
+    "category": "pub",
+    "opening_hours": "Mo 13:00-23:00; Tu-Th 10:00-23:00; Fr,Sa 10:00+; Su 10:00-23:00",
+    "curated": false
+  },
+  {
+    "id": "node/2156435326",
+    "name": "Alte Schmiede",
+    "lat": 50.9466538,
+    "lng": 6.8296499,
+    "category": "pub",
+    "opening_hours": "Mo,We-Sa 17:00-24:00; Su 17:00-23:00; Tu off",
+    "website": "https://www.alteschmiede-loevenich.de/",
+    "curated": false
+  },
+  {
+    "id": "node/2536207952",
+    "name": "Alteburg (Biergarten)",
+    "lat": 50.9152603,
+    "lng": 6.9664249,
+    "category": "biergarten",
+    "address": {
+      "street": "Alteburger Straße",
+      "housenumber": "139",
+      "postcode": "50968",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3360307295",
+    "name": "Alter Markt Treff",
+    "lat": 50.9379804,
+    "lng": 6.9604071,
+    "category": "pub",
+    "opening_hours": "Mo-Su, PH 16:00+",
+    "curated": false
+  },
+  {
+    "id": "node/2103367555",
+    "name": "Am Bottermaat",
+    "lat": 50.8886686,
+    "lng": 7.0535387,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/4692617947",
+    "name": "Am Eigelsteintor",
+    "lat": 50.9477225,
+    "lng": 6.9567907,
+    "category": "pub",
+    "address": {
+      "street": "Eigelstein",
+      "housenumber": "60-64"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/343578720",
+    "name": "Am Wiener Platz",
+    "lat": 50.96242,
+    "lng": 7.0039036,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/790036605",
+    "name": "Amadeus",
+    "lat": 50.9353916,
+    "lng": 6.9591747,
+    "category": "bar",
+    "opening_hours": "We,Th 17:00-24:00, Fr,Sa 17:00-03:00, Su 14:00-21:00",
+    "curated": false
+  },
+  {
+    "id": "node/960180509",
+    "name": "Anno Pief",
+    "lat": 50.9483992,
+    "lng": 6.9560714,
+    "category": "pub",
+    "address": {
+      "street": "Im Stavenhof",
+      "housenumber": "8",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/752045462",
+    "name": "Asimmetric Bar",
+    "lat": 50.9462213,
+    "lng": 6.9256186,
+    "category": "bar",
+    "opening_hours": "Mo-Su 18:00-01:00",
+    "website": "https://asimmetric.de/",
+    "address": {
+      "street": "Venloer Straße",
+      "housenumber": "196",
+      "postcode": "50823",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5022778619",
+    "name": "Asmara Club",
+    "lat": 50.9419872,
+    "lng": 6.9414721,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/6034519395",
+    "name": "Azure Cologne",
+    "lat": 50.9378075,
+    "lng": 6.9389638,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/295211093",
+    "name": "Backes",
+    "lat": 50.9192931,
+    "lng": 6.9608956,
+    "category": "pub",
+    "address": {
+      "street": "Darmstädter Straße",
+      "housenumber": "6",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/9890512511",
+    "name": "Bagatelle im Palmengarten",
+    "lat": 50.9596238,
+    "lng": 7.0053462,
+    "category": "biergarten",
+    "website": "https://palmengarten.koeln/kontakt/",
+    "address": {
+      "street": "Jan-Wellem-Straße",
+      "housenumber": "2",
+      "postcode": "51065",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/497691571",
+    "name": "Balthasar",
+    "lat": 50.9531151,
+    "lng": 6.9574543,
+    "category": "pub",
+    "opening_hours": "Mo-Th 11:00-23:00, Fr,Sa 11:00-24:00, Su 12:00-22:00",
+    "curated": false
+  },
+  {
+    "id": "node/248148486",
+    "name": "Bar Botanik",
+    "lat": 50.9318811,
+    "lng": 6.9516289,
+    "category": "bar",
+    "opening_hours": "Mo-Fr 17:00-01:00; Sa 12:00-01:00;Su 12:00-22:00",
+    "website": "https://www.wasserturm-hotel-cologne.com/de/bar-botanik",
+    "curated": false
+  },
+  {
+    "id": "node/1068667413",
+    "name": "Bar Petit Bijou",
+    "lat": 50.955323,
+    "lng": 6.9397455,
+    "category": "bar",
+    "opening_hours": "Mo-Su 00:00-06:00,18:00-24:00",
+    "website": "https://eroscenter-koeln.de/petitbijou.php",
+    "curated": false
+  },
+  {
+    "id": "node/1985977703",
+    "name": "Bar Rix",
+    "lat": 50.9386507,
+    "lng": 6.9408899,
+    "category": "pub",
+    "opening_hours": "Mo off; Tu-Th 17:00-23:00; Fr-Sa 16:00-01:00; Su off|| \"Montag und Sonntag private Weinabende\"",
+    "website": "https://www.bar-rix.de/",
+    "curated": false
+  },
+  {
+    "id": "node/8394429391",
+    "name": "Bar Sicilia",
+    "lat": 50.944186,
+    "lng": 7.0031209,
+    "category": "bar",
+    "address": {
+      "street": "Bertramstraße",
+      "housenumber": "65",
+      "postcode": "51103",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6800217727",
+    "name": "Bar Zwei",
+    "lat": 50.9537345,
+    "lng": 6.9110062,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/587667049",
+    "name": "Baracuda Bar",
+    "lat": 50.9414448,
+    "lng": 6.9352293,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/572688858",
+    "name": "Barbarossa Schänke",
+    "lat": 50.9301806,
+    "lng": 6.9429819,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 11:00+; Sa-Su 17:00+",
+    "address": {
+      "street": "Weyerstraße",
+      "housenumber": "73",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/790036607",
+    "name": "Barcelon",
+    "lat": 50.9354268,
+    "lng": 6.9593596,
+    "category": "pub",
+    "opening_hours": "We,Th 17:00-23:00, Fr,Sa 17:00-02:00, Su 14:00-20:00; Mo,Tu off",
+    "curated": false
+  },
+  {
+    "id": "node/581887169",
+    "name": "Barcode",
+    "lat": 50.9382578,
+    "lng": 6.9376834,
+    "category": "pub",
+    "opening_hours": "Su-Th 11:00-03:00, Fr,Sa 11:00-04:00",
+    "website": "https://lagunabeach.de",
+    "address": {
+      "street": "Maastrichter Straße",
+      "housenumber": "13",
+      "postcode": "50672",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/478633070",
+    "name": "Barney Vallely's",
+    "lat": 50.9392095,
+    "lng": 6.9588797,
+    "category": "pub",
+    "opening_hours": "Mo-Th 12:00-03:00; Fr-Su 11:00-03:00",
+    "website": "https://www.barneyvallelys.com",
+    "address": {
+      "street": "Kleine Budengasse",
+      "housenumber": "7-9"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/452448599",
+    "name": "baros",
+    "lat": 50.9523063,
+    "lng": 6.9137472,
+    "category": "bar",
+    "opening_hours": "Su-Th 12:00-22:00; Fr,Sa 12:00-23:00",
+    "curated": false
+  },
+  {
+    "id": "node/441632086",
+    "name": "Barracuda Bar",
+    "lat": 50.9414488,
+    "lng": 6.9351795,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/256313958",
+    "name": "Basils",
+    "lat": 50.9655045,
+    "lng": 6.9562809,
+    "category": "pub",
+    "opening_hours": "\"Auf Anfrage\"",
+    "curated": false
+  },
+  {
+    "id": "node/6406002050",
+    "name": "Bayenthaler Eck",
+    "lat": 50.9098355,
+    "lng": 6.9631661,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 16:00+; Sa,PH 11:00+",
+    "address": {
+      "street": "Bonner Straße",
+      "housenumber": "235",
+      "postcode": "50968",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4484417496",
+    "name": "Bayleaf",
+    "lat": 50.9273758,
+    "lng": 6.9656049,
+    "category": "bar",
+    "website": "http://bayleaf.cologne/",
+    "curated": false
+  },
+  {
+    "id": "way/1204238354",
+    "name": "Beachbar",
+    "lat": 50.9278018,
+    "lng": 7.067094,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4182879899",
+    "name": "Beerpong Bar",
+    "lat": 50.9374225,
+    "lng": 6.9388814,
+    "category": "bar",
+    "address": {
+      "street": "Hohenzollernring",
+      "housenumber": "21-23"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2622352239",
+    "name": "Behesht",
+    "lat": 50.9392288,
+    "lng": 6.9407821,
+    "category": "bar",
+    "website": "https://menu.behesht-lounge.de/",
+    "address": {
+      "street": "Friesenwall",
+      "housenumber": "45",
+      "postcode": "50672",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/366725736",
+    "name": "Bei d'r Bunn",
+    "lat": 50.989602,
+    "lng": 6.9616482,
+    "category": "pub",
+    "address": {
+      "street": "Sebastianstraße",
+      "housenumber": "168"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/343578781",
+    "name": "Bei İSİ",
+    "lat": 50.9703865,
+    "lng": 7.0082034,
+    "category": "bar",
+    "address": {
+      "street": "Berliner Straße",
+      "housenumber": "27",
+      "postcode": "51063",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1038738842",
+    "name": "Bei Tina",
+    "lat": 50.9389792,
+    "lng": 7.001039,
+    "category": "pub",
+    "address": {
+      "street": "Kalk-Mülheimer Straße",
+      "housenumber": "30"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/244296706",
+    "name": "Beim Dörfer",
+    "lat": 50.979514,
+    "lng": 6.8670576,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/2862275045",
+    "name": "Beim Mäus",
+    "lat": 50.9458822,
+    "lng": 6.9562892,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/5996614285",
+    "name": "Beim Pitter",
+    "lat": 50.9390267,
+    "lng": 6.9604134,
+    "category": "nightclub",
+    "curated": false
+  },
+  {
+    "id": "node/8713389851",
+    "name": "Beim Pitter",
+    "lat": 50.8751178,
+    "lng": 7.0981684,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/343578723",
+    "name": "Belz Bierstuben",
+    "lat": 50.962939,
+    "lng": 7.0032819,
+    "category": "pub",
+    "address": {
+      "street": "Adamsstraße",
+      "housenumber": "1",
+      "postcode": "51063",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/529647597",
+    "name": "Beppo's Oldie Thek(e)",
+    "lat": 50.9772507,
+    "lng": 7.03266,
+    "category": "pub",
+    "address": {
+      "street": "Honschaftsstraße",
+      "housenumber": "230",
+      "postcode": "51061",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/479893802",
+    "name": "Bergkrug",
+    "lat": 50.9484873,
+    "lng": 6.9164154,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 16:00+; Sa 18:00+; Su off",
+    "curated": false
+  },
+  {
+    "id": "node/4264453713",
+    "name": "Bet3000",
+    "lat": 50.9859957,
+    "lng": 6.9976364,
+    "category": "bar",
+    "opening_hours": "11:00-23:00",
+    "address": {
+      "street": "Moses-Heß-Straße",
+      "housenumber": "4",
+      "postcode": "51061",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4628974016",
+    "name": "Bier Kasper",
+    "lat": 50.9688428,
+    "lng": 7.050219,
+    "category": "pub",
+    "opening_hours": "Mo-Th 14:00+; Fr-Sa 11:00+; Su 11:00-16:00",
+    "address": {
+      "street": "Kaspar-Düppes-Straße",
+      "housenumber": "28",
+      "postcode": "51067",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/427101244",
+    "name": "Bier Museum",
+    "lat": 50.93793,
+    "lng": 6.962156,
+    "category": "pub",
+    "opening_hours": "Mo-Su 14:00-03:00",
+    "website": "https://www.biermuseum-koeln.de",
+    "address": {
+      "street": "Buttermarkt",
+      "housenumber": "39",
+      "postcode": "50667",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2971773865",
+    "name": "Bierbrunnen",
+    "lat": 50.9624163,
+    "lng": 6.9583358,
+    "category": "pub",
+    "opening_hours": "Mo-Th 15:00-24:00; Fr,Sa 15:00-01:00",
+    "website": "https://bierbrunnen-cologne.edan.io/",
+    "address": {
+      "street": "Niehler Straße",
+      "housenumber": "59",
+      "postcode": "50733",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/234684886",
+    "name": "Biergarten Aachener Weiher",
+    "lat": 50.9354558,
+    "lng": 6.9297259,
+    "category": "biergarten",
+    "opening_hours": "\"Wetterabhängig\"",
+    "curated": false
+  },
+  {
+    "id": "node/367949188",
+    "name": "Biergarten der Fliegerhütte",
+    "lat": 51.0167541,
+    "lng": 7.0065606,
+    "category": "biergarten",
+    "curated": false
+  },
+  {
+    "id": "node/8317362157",
+    "name": "Biergarten Kletterrose",
+    "lat": 50.9120417,
+    "lng": 6.9050454,
+    "category": "biergarten",
+    "curated": false
+  },
+  {
+    "id": "way/395631795",
+    "name": "Biergarten Zum Treppchen",
+    "lat": 50.8952885,
+    "lng": 6.9944746,
+    "category": "biergarten",
+    "curated": false
+  },
+  {
+    "id": "node/3980770774",
+    "name": "Bierstübchen",
+    "lat": 50.998342,
+    "lng": 6.8773594,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/242847962",
+    "name": "Bierstübchen Terasse",
+    "lat": 50.9963791,
+    "lng": 6.9146874,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/615080947",
+    "name": "Billard Cafe Schneider",
+    "lat": 50.9438594,
+    "lng": 6.9422073,
+    "category": "bar",
+    "opening_hours": "Mo-Sa 12:00-24:00; Su 12:00-22:00",
+    "website": "https://billardcafeschneider.de/",
+    "curated": false
+  },
+  {
+    "id": "node/13132788801",
+    "name": "Bistro 57 Sportsbar",
+    "lat": 50.9401169,
+    "lng": 7.0196713,
+    "category": "bar",
+    "opening_hours": "Mo-Su 14:00-02:00",
+    "address": {
+      "street": "Olpener Straße",
+      "housenumber": "64",
+      "postcode": "51103",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6234051148",
+    "name": "Bistro Café Esin",
+    "lat": 51.0208426,
+    "lng": 6.9013915,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/6002699289",
+    "name": "Bistro Edessa",
+    "lat": 50.8834031,
+    "lng": 7.0599586,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/2846287748",
+    "name": "Bistro Restaurant Kajtek",
+    "lat": 50.9224352,
+    "lng": 6.9597325,
+    "category": "bar",
+    "website": "http://www.restaurant-kajtek.de/",
+    "address": {
+      "street": "Im Ferkulum",
+      "housenumber": "10",
+      "postcode": "50678",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1038738911",
+    "name": "Black Bar",
+    "lat": 50.9388376,
+    "lng": 7.000972,
+    "category": "bar",
+    "address": {
+      "street": "Kalk-Mülheimer Straße",
+      "housenumber": "26"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/419015183",
+    "name": "Blue Shell",
+    "lat": 50.9277582,
+    "lng": 6.9398738,
+    "category": "bar",
+    "website": "https://www.blue-shell.de/",
+    "address": {
+      "street": "Luxemburger Straße",
+      "housenumber": "32",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/448400528",
+    "name": "Bogletti",
+    "lat": 50.9380099,
+    "lng": 6.9407251,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/1969878501",
+    "name": "Bollwerk Cologne",
+    "lat": 50.9420093,
+    "lng": 6.9400245,
+    "category": "nightclub",
+    "website": "https://bollwerk.cologne/",
+    "address": {
+      "street": "Hohenzollernring",
+      "housenumber": "89-93",
+      "postcode": "50672",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1027900810",
+    "name": "Bonner Stübchen",
+    "lat": 50.9176265,
+    "lng": 6.9604505,
+    "category": "pub",
+    "address": {
+      "street": "Bonner Straße",
+      "housenumber": "64",
+      "postcode": "50677",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6362576510",
+    "name": "Bootshaus",
+    "lat": 50.951697,
+    "lng": 6.9819528,
+    "category": "nightclub",
+    "website": "https://bootshaus.tv",
+    "address": {
+      "street": "Auenweg",
+      "housenumber": "173",
+      "postcode": "51063",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/89705918",
+    "name": "Brauerei Zur Malzmühle",
+    "lat": 50.9346484,
+    "lng": 6.9605184,
+    "category": "pub",
+    "opening_hours": "Mo-Su,PH 12:00-18:00+",
+    "website": "https://www.muehlenkoelsch.de/",
+    "address": {
+      "street": "Heumarkt",
+      "housenumber": "6",
+      "postcode": "50667",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/329198728",
+    "name": "Brauhaus Giesler",
+    "lat": 50.9378984,
+    "lng": 6.9604764,
+    "category": "pub",
+    "address": {
+      "street": "Unter Käster",
+      "housenumber": "14",
+      "postcode": "50667",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/244894353",
+    "name": "Brauhaus ohne Namen",
+    "lat": 50.9349698,
+    "lng": 6.974271,
+    "category": "pub",
+    "opening_hours": "Su,PH 12:00-23:00; We-Sa 17:00-23:00; Mo off",
+    "website": "https://www.brauhaus-ohne-namen.de/",
+    "address": {
+      "street": "Mathildenstraße",
+      "housenumber": "42"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/288333258",
+    "name": "Brauhaus Pütz",
+    "lat": 50.9351076,
+    "lng": 6.9377714,
+    "category": "pub",
+    "opening_hours": "Tu-Th 17:00-23:00; Fr,Sa 15:00-24:00, Su,PH 15:00-22:00",
+    "address": {
+      "street": "Engelbertstraße",
+      "housenumber": "67",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/330141667",
+    "name": "Brauhaus zur Schreckenskammer",
+    "lat": 50.9458992,
+    "lng": 6.9536034,
+    "category": "pub",
+    "opening_hours": "Tu-Th 16:30-23:00; Fr,Sa 11:00-13:45,16:30-24:00",
+    "address": {
+      "street": "Ursulagartenstraße",
+      "housenumber": "11-15",
+      "postcode": "50668",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/272775824",
+    "name": "Braustelle",
+    "lat": 50.9538688,
+    "lng": 6.9107278,
+    "category": "pub",
+    "opening_hours": "Tu-Sa 18:00-01:00",
+    "website": "https://www.braustelle.com",
+    "address": {
+      "postcode": "50825"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1144578300",
+    "name": "Brudis",
+    "lat": 50.9515874,
+    "lng": 7.0079544,
+    "category": "pub",
+    "address": {
+      "street": "Heidelberger Straße",
+      "housenumber": "40",
+      "postcode": "51065",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14054132690",
+    "name": "Buchforst'er Veedlel",
+    "lat": 50.9506251,
+    "lng": 7.0039965,
+    "category": "pub",
+    "address": {
+      "street": "Heidelberger Straße",
+      "housenumber": "22"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/27278868",
+    "name": "Bumann & Sohn",
+    "lat": 50.9521287,
+    "lng": 6.9179876,
+    "category": "bar",
+    "website": "https://www.bumannundsohn.de/",
+    "address": {
+      "street": "Bartholomäus-Schink-Straße",
+      "housenumber": "2",
+      "postcode": "50825",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2104817022",
+    "name": "Bürgerstube",
+    "lat": 50.9149127,
+    "lng": 6.9929189,
+    "category": "pub",
+    "opening_hours": "Tu-Fr 10:30-00:00; Sa 17:30-00:00; Su 10:30-14:00, 17:00-22:00",
+    "website": "https://buergerstube-poll.de.tl/",
+    "address": {
+      "street": "Siegburger Straße",
+      "housenumber": "398",
+      "postcode": "51105",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2493672738",
+    "name": "Bürgerstube",
+    "lat": 50.8923182,
+    "lng": 7.0714972,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/919586318",
+    "name": "Buskers",
+    "lat": 50.9321521,
+    "lng": 6.9382783,
+    "category": "pub",
+    "opening_hours": "Mo 20:00-24:00; Tu-Su 20:00-02:00",
+    "website": "https://buskers-irish-pub.9gg.de/",
+    "address": {
+      "street": "Beethovenstraße",
+      "housenumber": "17-19",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1595146066",
+    "name": "Café Jakubowski",
+    "lat": 50.9644296,
+    "lng": 6.999815,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 09:00-00:00; Sa 10:00-00:00; Su 10:00-19:00",
+    "website": "https://cafe-jakubowski.jimdoweb.com/",
+    "address": {
+      "street": "Mülheimer Freiheit",
+      "housenumber": "54"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/7042586476",
+    "name": "Café Kram",
+    "lat": 50.9331027,
+    "lng": 6.9763357,
+    "category": "pub",
+    "opening_hours": "Tu-Th 17:00-01:00, Fr 17:00-02:00, Sa 14:00-02:00, Su 16:00-23:00; Mo off",
+    "curated": false
+  },
+  {
+    "id": "node/249060995",
+    "name": "Cafe Snooker Club",
+    "lat": 50.9454361,
+    "lng": 6.888701,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/7235583015",
+    "name": "Café Tag und Nacht",
+    "lat": 50.9431066,
+    "lng": 7.0515729,
+    "category": "bar",
+    "address": {
+      "street": "Olpener Straße",
+      "housenumber": "524",
+      "postcode": "51109",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/559988587",
+    "name": "Canapé",
+    "lat": 50.9371226,
+    "lng": 6.9600878,
+    "category": "pub",
+    "website": "http://www.canape-cologne.com",
+    "address": {
+      "street": "Heumarkt",
+      "housenumber": "73",
+      "postcode": "50667",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2419064719",
+    "name": "Casa Cuba",
+    "lat": 50.9385815,
+    "lng": 6.9397853,
+    "category": "bar",
+    "address": {
+      "street": "Hohenzollernring",
+      "housenumber": "32-34"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/625328170",
+    "name": "Casino Eck",
+    "lat": 50.934159,
+    "lng": 6.9570936,
+    "category": "pub",
+    "opening_hours": "Tu-Fr 16:00+; Sa 18:00+; Su,Mo off",
+    "curated": false
+  },
+  {
+    "id": "node/343578696",
+    "name": "Castell",
+    "lat": 50.964137,
+    "lng": 7.0023663,
+    "category": "nightclub",
+    "opening_hours": "We-Th 19:00-02:00; Fr-Sa 19:00+",
+    "address": {
+      "street": "Regentenstraße",
+      "housenumber": "11",
+      "postcode": "51063",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/614228329",
+    "name": "Cheznous",
+    "lat": 50.9375583,
+    "lng": 6.9597759,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/8912131583",
+    "name": "Chillex Bistro Café",
+    "lat": 50.9643159,
+    "lng": 6.9477177,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/638720647",
+    "name": "Chlodwig Eck",
+    "lat": 50.9225696,
+    "lng": 6.961519,
+    "category": "pub",
+    "address": {
+      "street": "Annostraße",
+      "housenumber": "1",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1038602705",
+    "name": "Cingenem Travernasi",
+    "lat": 50.94054,
+    "lng": 6.9992832,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/774757003",
+    "name": "Clamotte",
+    "lat": 50.9397211,
+    "lng": 6.9610996,
+    "category": "pub",
+    "opening_hours": "Mo-Th,Su off; Fr,Sa,PH -1 day 19:00+",
+    "website": "https://www.clamotte.de/",
+    "address": {
+      "postcode": "50667"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/7657139211",
+    "name": "Clic Clac",
+    "lat": 50.9194331,
+    "lng": 6.9219558,
+    "category": "bar",
+    "address": {
+      "street": "Sülzburgstraße",
+      "housenumber": "171",
+      "postcode": "50937",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2565369563",
+    "name": "Club Astoria",
+    "lat": 50.9309569,
+    "lng": 6.8774577,
+    "category": "biergarten",
+    "address": {
+      "street": "Guts-Muths-Weg",
+      "housenumber": "3",
+      "postcode": "50933",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6773740328",
+    "name": "Club Volta",
+    "lat": 50.9652791,
+    "lng": 7.0126014,
+    "category": "nightclub",
+    "website": "https://club-volta.de/",
+    "address": {
+      "street": "Schanzenstraße",
+      "housenumber": "6-20",
+      "postcode": "51063",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/413454054",
+    "name": "Club Z",
+    "lat": 50.9422286,
+    "lng": 6.9351135,
+    "category": "nightclub",
+    "address": {
+      "street": "Venloer Straße",
+      "housenumber": "39"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1602684620",
+    "name": "Clubheim",
+    "lat": 51.0017758,
+    "lng": 6.8696764,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/942678109",
+    "name": "Cocoberry",
+    "lat": 50.9379279,
+    "lng": 6.9375862,
+    "category": "bar",
+    "address": {
+      "street": "Brabanter Straße",
+      "housenumber": "8",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/571873738",
+    "name": "Coellner",
+    "lat": 50.9212731,
+    "lng": 6.9616189,
+    "category": "bar",
+    "website": "https://coellner-bar.de/",
+    "address": {
+      "street": "Ubierring",
+      "housenumber": "22",
+      "postcode": "50678",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/769203884",
+    "name": "Connection",
+    "lat": 50.9535913,
+    "lng": 6.9134738,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/4372048242",
+    "name": "Constantin Pub",
+    "lat": 50.9393835,
+    "lng": 6.9757799,
+    "category": "pub",
+    "opening_hours": "We-Sa 17:00-23:00",
+    "address": {
+      "street": "Constantinstraße",
+      "housenumber": "78",
+      "postcode": "50679",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14191031501",
+    "name": "Contrast Bar CGN",
+    "lat": 50.9643504,
+    "lng": 6.948601,
+    "category": "bar",
+    "opening_hours": "Su, Tu-Th 17:30-23:00; Fr-Sa 17:30-01:00",
+    "address": {
+      "street": "Kempener Straße",
+      "housenumber": "68"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/456372581",
+    "name": "Crazy Ball Billardcafe",
+    "lat": 50.9278151,
+    "lng": 6.9463353,
+    "category": "pub",
+    "opening_hours": "Mo-We 16:00-24:00, Th 16:00-01:00, Fr 14:00-01:00, Sa 12:00-01:00, Su 12:00-24:00",
+    "website": "http://www.crazyball.eu/",
+    "address": {
+      "street": "Trierer Straße",
+      "housenumber": "10",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1643520936",
+    "name": "Cuba Bar",
+    "lat": 50.9291294,
+    "lng": 6.9374867,
+    "category": "bar",
+    "address": {
+      "street": "Zülpicher Straße",
+      "housenumber": "25",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1643520945",
+    "name": "Cubana",
+    "lat": 50.9293365,
+    "lng": 6.9373726,
+    "category": "bar",
+    "address": {
+      "street": "Zülpicher Straße",
+      "housenumber": "36",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/307411432",
+    "name": "Cubana",
+    "lat": 50.9289673,
+    "lng": 6.9410604,
+    "category": "pub",
+    "address": {
+      "street": "Barbarossaplatz",
+      "housenumber": "5",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3961345579",
+    "name": "Cubana Bar",
+    "lat": 50.9520671,
+    "lng": 6.9141367,
+    "category": "bar",
+    "opening_hours": "Mo-Su 17:00+",
+    "curated": false
+  },
+  {
+    "id": "node/14098646335",
+    "name": "Da Franco",
+    "lat": 50.9296727,
+    "lng": 7.0448747,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/4875891321",
+    "name": "Daikan",
+    "lat": 50.9382004,
+    "lng": 6.9381688,
+    "category": "bar",
+    "opening_hours": "Mo-Su 11:30-00:00",
+    "website": "https://www.daikan.de/belgisches-viertel",
+    "address": {
+      "postcode": "50672"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1948954386",
+    "name": "Das Ding",
+    "lat": 50.931693,
+    "lng": 6.9408137,
+    "category": "nightclub",
+    "website": "https://www.dingzone.de/",
+    "address": {
+      "street": "Hohenstaufenring",
+      "housenumber": "30-32",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1010672372",
+    "name": "De.lite",
+    "lat": 50.9379623,
+    "lng": 6.932885,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/6759556663",
+    "name": "Deck 5",
+    "lat": 50.9325151,
+    "lng": 6.9591308,
+    "category": "bar",
+    "opening_hours": "Mo-Su 20:00-24:00",
+    "address": {
+      "street": "Mathiasstraße",
+      "housenumber": "5",
+      "postcode": "50676",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1643521362",
+    "name": "Deja Vu Lounge",
+    "lat": 50.929316,
+    "lng": 6.9378171,
+    "category": "bar",
+    "address": {
+      "street": "Zülpicher Straße",
+      "housenumber": "17",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12423510803",
+    "name": "Delicato",
+    "lat": 50.9525039,
+    "lng": 6.8937144,
+    "category": "bar",
+    "website": "https://www.delicatofood.de/",
+    "curated": false
+  },
+  {
+    "id": "node/4482759767",
+    "name": "Der Schwarze Hase",
+    "lat": 50.9501746,
+    "lng": 6.9131961,
+    "category": "bar",
+    "opening_hours": "Mo-Su,PH 18:00+",
+    "website": "https://www.derschwarzehase.de/",
+    "curated": false
+  },
+  {
+    "id": "node/654207482",
+    "name": "Diamonds",
+    "lat": 50.9420999,
+    "lng": 6.9406935,
+    "category": "nightclub",
+    "website": "https://club-diamonds.de/",
+    "address": {
+      "street": "Hohenzollernring",
+      "housenumber": "90",
+      "postcode": "50672",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/285549304",
+    "name": "Die Breddoille Weinbar",
+    "lat": 50.941927,
+    "lng": 6.9364032,
+    "category": "pub",
+    "website": "https://www.die-bredouille.de/",
+    "curated": false
+  },
+  {
+    "id": "node/658898300",
+    "name": "Die Gockel im Teichmann",
+    "lat": 50.9318465,
+    "lng": 6.9418567,
+    "category": "pub",
+    "opening_hours": "Tu-Sa 17:00+",
+    "address": {
+      "street": "Jahnstraße",
+      "housenumber": "34",
+      "postcode": "50676",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3824289159",
+    "name": "Die Halle Tor 2",
+    "lat": 50.9487691,
+    "lng": 6.880129,
+    "category": "nightclub",
+    "curated": false
+  },
+  {
+    "id": "node/287593601",
+    "name": "Die Kantine",
+    "lat": 50.9983334,
+    "lng": 6.9369933,
+    "category": "nightclub",
+    "website": "https://kantine.com/",
+    "address": {
+      "street": "Neusser Landstraße",
+      "housenumber": "2",
+      "postcode": "50735",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/937530545",
+    "name": "Die Mumu",
+    "lat": 50.9347374,
+    "lng": 6.9409605,
+    "category": "bar",
+    "opening_hours": "Su-Th 19:00-01:00, Sa-Su 19:00-05:00",
+    "website": "https://www.die-mumu.de/",
+    "address": {
+      "street": "Schaafenstraße",
+      "housenumber": "51",
+      "postcode": "50676",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2276937527",
+    "name": "Die Oper",
+    "lat": 50.9347595,
+    "lng": 6.936574,
+    "category": "pub",
+    "address": {
+      "street": "Händelstraße",
+      "housenumber": "14"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/456373383",
+    "name": "Die Wohngemeinschaft",
+    "lat": 50.9353143,
+    "lng": 6.934777,
+    "category": "pub",
+    "website": "https://www.die-wohngemeinschaft.net/en/cafebar",
+    "address": {
+      "street": "Richard-Wagner-Straße",
+      "housenumber": "39",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1719176121",
+    "name": "Dimi's Bistro",
+    "lat": 50.8795297,
+    "lng": 6.963247,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/1862061788",
+    "name": "Don Quichote",
+    "lat": 50.9718575,
+    "lng": 7.0095144,
+    "category": "bar",
+    "address": {
+      "street": "Von-Sparr-Straße",
+      "housenumber": "19",
+      "postcode": "51063",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/344863556",
+    "name": "Dorfstube",
+    "lat": 50.9557652,
+    "lng": 7.0165071,
+    "category": "pub",
+    "opening_hours": "Tu-Th 16:00-01:00, Fr,Sa 17:00-01:00, Su,PH 11:00-14:30,17:00-22:00; Mo off",
+    "curated": false
+  },
+  {
+    "id": "node/14088101540",
+    "name": "Dreams",
+    "lat": 50.9388897,
+    "lng": 7.0009932,
+    "category": "bar",
+    "address": {
+      "street": "Kalk-Mülheimer Straße",
+      "housenumber": "26"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13084363066",
+    "name": "Due Amici",
+    "lat": 50.9555919,
+    "lng": 7.0136442,
+    "category": "bar",
+    "address": {
+      "street": "Frankfurter Straße",
+      "housenumber": "96",
+      "postcode": "51065",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/960111957",
+    "name": "Durst",
+    "lat": 50.9488481,
+    "lng": 6.9533003,
+    "category": "pub",
+    "address": {
+      "street": "Weidengasse",
+      "housenumber": "87",
+      "postcode": "50668",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11743819424",
+    "name": "E.L.F.",
+    "lat": 50.9400182,
+    "lng": 6.9453812,
+    "category": "bar",
+    "address": {
+      "street": "Helenenstraße",
+      "housenumber": "14",
+      "postcode": "50667",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/574366698",
+    "name": "EA SPORTS Bar",
+    "lat": 50.9269254,
+    "lng": 6.9662508,
+    "category": "pub",
+    "website": "https://www.easports-bar.de/",
+    "address": {
+      "street": "Im Zollhafen",
+      "housenumber": "17",
+      "postcode": "50678",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3536653168",
+    "name": "Effi",
+    "lat": 50.957857,
+    "lng": 6.923075,
+    "category": "pub",
+    "opening_hours": "Mo off; Tu-Su 18:00+ || \"Sa+So bei Bundesligaspielen ab 15 Uhr\"",
+    "website": "http://www.effi-koeln.de/",
+    "curated": false
+  },
+  {
+    "id": "node/14181074997",
+    "name": "Eftal by Onkel",
+    "lat": 50.9374974,
+    "lng": 7.0194854,
+    "category": "bar",
+    "address": {
+      "street": "Würzburger Straße",
+      "housenumber": "59"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1624367963",
+    "name": "Ehrenbar",
+    "lat": 50.9477518,
+    "lng": 6.9156114,
+    "category": "pub",
+    "opening_hours": "Su-Th 12:00-02:00, Fr,Sa 12:00-03:00",
+    "curated": false
+  },
+  {
+    "id": "node/243975725",
+    "name": "EhrenGarten",
+    "lat": 50.9569279,
+    "lng": 6.9117361,
+    "category": "bar",
+    "address": {
+      "street": "Subbelrather Straße",
+      "housenumber": "363"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10202044173",
+    "name": "Eigel Treff",
+    "lat": 50.9466408,
+    "lng": 6.956391,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/2009782412",
+    "name": "Eigenheim",
+    "lat": 50.9677955,
+    "lng": 6.9532959,
+    "category": "pub",
+    "opening_hours": "Tu-Sa 18:00+",
+    "website": "http://eigenheim-nippes.de/",
+    "curated": false
+  },
+  {
+    "id": "node/668840080",
+    "name": "Einstein",
+    "lat": 50.9380264,
+    "lng": 6.9608298,
+    "category": "pub",
+    "address": {
+      "postcode": "50667"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/942692527",
+    "name": "einundfünfzig",
+    "lat": 50.9396525,
+    "lng": 6.939492,
+    "category": "bar",
+    "opening_hours": "Mo-We, Su off;Th-Sa 19:00+",
+    "website": "https://club-einundfuenfzig.com/",
+    "curated": false
+  },
+  {
+    "id": "node/3898952193",
+    "name": "Electrum",
+    "lat": 50.921735,
+    "lng": 6.9979241,
+    "category": "nightclub",
+    "opening_hours": "23:00+",
+    "website": "https://www.electrum-club.com/",
+    "curated": false
+  },
+  {
+    "id": "node/960117039",
+    "name": "Elektra",
+    "lat": 50.9491249,
+    "lng": 6.9553462,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 19:00+",
+    "website": "http://www.elektrabar.com",
+    "address": {
+      "street": "Gereonswall",
+      "housenumber": "12-14",
+      "postcode": "50668",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1487173138",
+    "name": "Elektroküche",
+    "lat": 50.9245801,
+    "lng": 6.9780268,
+    "category": "bar",
+    "address": {
+      "street": "Siegburger Straße",
+      "housenumber": "110",
+      "postcode": "50679",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/381953969",
+    "name": "Em ale Liempott",
+    "lat": 50.9401687,
+    "lng": 7.0210537,
+    "category": "pub",
+    "opening_hours": "Mo-Su 09:00-02:00",
+    "curated": false
+  },
+  {
+    "id": "node/1052179439",
+    "name": "Em Altertümche",
+    "lat": 50.9488002,
+    "lng": 6.9505154,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 15:00+; Sa,Su,PH off",
+    "website": "https://www.em-altertuemche.de/",
+    "curated": false
+  },
+  {
+    "id": "node/3647673535",
+    "name": "Em Bierstüffge",
+    "lat": 50.9370015,
+    "lng": 6.9765352,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 11:00-21:30+; Su 13:00-21:30+",
+    "website": "https://www.em-bierstueffge.de/",
+    "address": {
+      "street": "Graf-Geßler-Straße",
+      "housenumber": "1",
+      "postcode": "50679",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/522638338",
+    "name": "Em Birkenbäumche",
+    "lat": 50.9150524,
+    "lng": 6.9137303,
+    "category": "biergarten",
+    "opening_hours": "Tu-Fr 18:00-24:00; Sa 16:00-24:00; Su 16:00-22:00; Mo off",
+    "curated": false
+  },
+  {
+    "id": "node/6407758201",
+    "name": "Em Blömche",
+    "lat": 50.9211251,
+    "lng": 6.9564559,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/256574183",
+    "name": "Em Golde Kappes",
+    "lat": 50.9650637,
+    "lng": 6.9533927,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 11:00-24:00; PH,Su 12:00-22:00",
+    "website": "https://www.emgoldekappes.de/",
+    "address": {
+      "street": "Neusser Straße",
+      "housenumber": "295",
+      "postcode": "50733",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/450907609",
+    "name": "Em Hähnche",
+    "lat": 50.9436929,
+    "lng": 6.9451737,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 15:00-01:00",
+    "curated": false
+  },
+  {
+    "id": "node/14098646336",
+    "name": "Em Höttche",
+    "lat": 50.9299584,
+    "lng": 7.0449264,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/243974623",
+    "name": "em Kölsche Klüngel",
+    "lat": 50.9593868,
+    "lng": 6.8969672,
+    "category": "pub",
+    "address": {
+      "street": "Venloer Straße",
+      "housenumber": "696"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/244118172",
+    "name": "em Övvje",
+    "lat": 50.9646114,
+    "lng": 6.8297994,
+    "category": "pub",
+    "opening_hours": "Mo,We-Sa 16:00+",
+    "address": {
+      "street": "Hauptstraße",
+      "housenumber": "15",
+      "postcode": "50859",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10202044177",
+    "name": "Em Pötzje",
+    "lat": 50.9462987,
+    "lng": 6.9565523,
+    "category": "pub",
+    "address": {
+      "street": "Eigelstein",
+      "housenumber": "18",
+      "postcode": "50668",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14051676041",
+    "name": "Empire",
+    "lat": 50.9397319,
+    "lng": 6.9387787,
+    "category": "bar",
+    "address": {
+      "street": "Limburger Straße",
+      "housenumber": "12"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3116467852",
+    "name": "EMPIRE",
+    "lat": 51.0371793,
+    "lng": 6.8835552,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/1337589559",
+    "name": "En d'r Hött",
+    "lat": 50.9490977,
+    "lng": 7.0056042,
+    "category": "pub",
+    "opening_hours": "Mo,We 14:00-23:00; Tu,Th 14:00-21:00; Fr 14:00-18:00+; Sa 12:00-18:00+; Su off",
+    "curated": false
+  },
+  {
+    "id": "node/365930480",
+    "name": "Eventgewölbe Köln",
+    "lat": 50.9354408,
+    "lng": 6.960016,
+    "category": "bar",
+    "website": "https://eventgewoelbe.koeln",
+    "address": {
+      "street": "Pipinstraße",
+      "housenumber": "9",
+      "postcode": "50667",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/567527241",
+    "name": "ExCorner",
+    "lat": 50.9347087,
+    "lng": 6.9406606,
+    "category": "pub",
+    "address": {
+      "street": "Schaafenstraße",
+      "housenumber": "57-59",
+      "postcode": "50676",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3465117721",
+    "name": "Exile",
+    "lat": 50.9346857,
+    "lng": 6.94027,
+    "category": "bar",
+    "opening_hours": "Fr,Sa,PH -1 day 21:00-05:00",
+    "address": {
+      "street": "Schaafenstraße",
+      "housenumber": "61a",
+      "postcode": "50676",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/330722502",
+    "name": "Fair Play",
+    "lat": 50.991976,
+    "lng": 7.0448169,
+    "category": "pub",
+    "address": {
+      "street": "Zeisbuschweg",
+      "housenumber": "50",
+      "postcode": "51061",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/7072160886",
+    "name": "Fass",
+    "lat": 50.9674455,
+    "lng": 7.0029254,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 17:00-18:00+",
+    "address": {
+      "street": "Keupstraße",
+      "housenumber": "2",
+      "postcode": "51063"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/316257619",
+    "name": "FC Gildentreff",
+    "lat": 50.9615778,
+    "lng": 7.0219524,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/12446981737",
+    "name": "fi",
+    "lat": 50.9482109,
+    "lng": 6.8929688,
+    "category": "nightclub",
+    "website": "https://ursprung-fi.de",
+    "address": {
+      "street": "Widdersdorfer Straße",
+      "housenumber": "246",
+      "postcode": "50825",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13253707065",
+    "name": "Fiffi Bar",
+    "lat": 50.9227436,
+    "lng": 6.9620651,
+    "category": "bar",
+    "website": "https://www.fiffibar.de/",
+    "address": {
+      "street": "Severinswall",
+      "housenumber": "33",
+      "postcode": "50678",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/538207117",
+    "name": "Filos",
+    "lat": 50.9203609,
+    "lng": 6.9554626,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/1912760411",
+    "name": "Flamingo Royal",
+    "lat": 50.9395452,
+    "lng": 6.9411359,
+    "category": "nightclub",
+    "website": "https://www.flamingo-royal.com/",
+    "curated": false
+  },
+  {
+    "id": "node/595644461",
+    "name": "Flittarder Hof",
+    "lat": 51.001231,
+    "lng": 6.979484,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "way/307601764",
+    "name": "Flora 6",
+    "lat": 50.9646731,
+    "lng": 6.9543245,
+    "category": "pub",
+    "address": {
+      "street": "Florastraße",
+      "housenumber": "6",
+      "postcode": "50733",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/444552400",
+    "name": "Flotte",
+    "lat": 50.9298363,
+    "lng": 6.9397766,
+    "category": "bar",
+    "opening_hours": "Tu-Th 18:00-01:00; Fr 18:00-04:00; Sa 15:00-05:00",
+    "website": "https://www.dieflotte.de/",
+    "curated": false
+  },
+  {
+    "id": "node/6630538585",
+    "name": "Forelle blau",
+    "lat": 50.9414555,
+    "lng": 6.9353157,
+    "category": "pub",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "address": {
+      "street": "Bismarckstraße",
+      "housenumber": "44",
+      "postcode": "50672"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/186484750",
+    "name": "Försterstube",
+    "lat": 50.9553466,
+    "lng": 6.922293,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 16:30-01:00; PH, Sa, Su 17:30-01:00",
+    "curated": false
+  },
+  {
+    "id": "node/659459580",
+    "name": "Franky’s Bar",
+    "lat": 50.9518333,
+    "lng": 6.9139368,
+    "category": "pub",
+    "opening_hours": "Mo off; Tu-Sa 16:00+; PH, Su off",
+    "address": {
+      "street": "Venloer Straße",
+      "housenumber": "403",
+      "postcode": "50825",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1038672508",
+    "name": "Fratelli Maugeri",
+    "lat": 50.9383441,
+    "lng": 7.000442,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/3234607819",
+    "name": "Freiheit",
+    "lat": 50.9371008,
+    "lng": 6.9775998,
+    "category": "pub",
+    "opening_hours": "Mo-Th 15:00-01:00, Fr,Sa 12:00-01:00; Su off",
+    "address": {
+      "street": "Justinianstraße",
+      "housenumber": "1",
+      "postcode": "50679",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/196186731",
+    "name": "Fridolin-Eck",
+    "lat": 50.9544702,
+    "lng": 6.9207681,
+    "category": "pub",
+    "opening_hours": "Tu-Th 11:00-23:00; Fr,Sa 11:00-01:00, Su 11:00-17:00",
+    "curated": false
+  },
+  {
+    "id": "node/4751013676",
+    "name": "Frieda",
+    "lat": 50.9400585,
+    "lng": 6.9340197,
+    "category": "bar",
+    "website": "http://frieda-bar.de/",
+    "address": {
+      "street": "Antwerpener Straße",
+      "housenumber": "53",
+      "postcode": "50672",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13765091901",
+    "name": "Friends Club",
+    "lat": 50.94122,
+    "lng": 6.937768,
+    "category": "bar",
+    "opening_hours": "We-Sa 18:00-02:00",
+    "address": {
+      "street": "Venloer Straße",
+      "housenumber": "2",
+      "postcode": "50672"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2285773937",
+    "name": "Friesen",
+    "lat": 50.9407171,
+    "lng": 6.943611,
+    "category": "bar",
+    "opening_hours": "Tu-Th 21:00-01:00, Fr,Sa 20:00-05:00",
+    "website": "https://www.friesen-bar.com/",
+    "address": {
+      "street": "Friesenstraße",
+      "housenumber": "41",
+      "postcode": "50670",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/9482948280",
+    "name": "Friesenvierzig",
+    "lat": 50.9406607,
+    "lng": 6.9433449,
+    "category": "bar",
+    "address": {
+      "street": "Friesenstraße",
+      "housenumber": "47"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1912760415",
+    "name": "Frohnatur",
+    "lat": 50.9394856,
+    "lng": 6.9410785,
+    "category": "bar",
+    "opening_hours": "We,Th 18:00-23:00; Fr,Sa 17:00-01:00",
+    "website": "https://www.frohnatur.wine/",
+    "curated": false
+  },
+  {
+    "id": "node/538242962",
+    "name": "FRÜH „Em Veedel“",
+    "lat": 50.9220267,
+    "lng": 6.9596732,
+    "category": "pub",
+    "opening_hours": "Mo-Th 16:00-24:00; Fr,Sa 11:00-24:00",
+    "curated": false
+  },
+  {
+    "id": "node/258546781",
+    "name": "Fusswinkel",
+    "lat": 51.0214949,
+    "lng": 6.8848166,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/320884860",
+    "name": "Gaffelstübchen",
+    "lat": 50.983022,
+    "lng": 7.0384204,
+    "category": "pub",
+    "address": {
+      "street": "Im Weidenbruch",
+      "housenumber": "205",
+      "postcode": "51061",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13770215016",
+    "name": "GARAGEN",
+    "lat": 50.9499045,
+    "lng": 6.9069326,
+    "category": "nightclub",
+    "website": "https://www.garagenclub.de",
+    "curated": false
+  },
+  {
+    "id": "node/244310885",
+    "name": "Gasthaus \"Laternchen\"",
+    "lat": 51.0020672,
+    "lng": 6.8521633,
+    "category": "pub",
+    "opening_hours": "Tu-Sa 17:00-18:00+; Su,PH 12:00-15:00,17:00-18:00+; Mo off",
+    "curated": false
+  },
+  {
+    "id": "node/4729430990",
+    "name": "Gaststätte Linkewitz Gaffel",
+    "lat": 50.9895838,
+    "lng": 6.9637789,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/4656902797",
+    "name": "Gaststätte Neue Post",
+    "lat": 50.971401,
+    "lng": 7.0497361,
+    "category": "pub",
+    "opening_hours": "We-Mo 11:00-14:30,17:00-23:00",
+    "curated": false
+  },
+  {
+    "id": "node/246567031",
+    "name": "Gaststätte Siegfriedhof",
+    "lat": 50.9744531,
+    "lng": 6.9394086,
+    "category": "pub",
+    "opening_hours": "Su 10:30-13:30,17:00-01:00; Tu off, Mo,We-Sa 11:00-01:00",
+    "address": {
+      "street": "Neue Kempener Straße",
+      "housenumber": "255",
+      "postcode": "50739",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/159088258",
+    "name": "Gastwerk Engelshof",
+    "lat": 50.9001011,
+    "lng": 7.0209612,
+    "category": "biergarten",
+    "opening_hours": "Mo-Fr 12:00-24:00;Sa-Su 10:00-24:00",
+    "curated": false
+  },
+  {
+    "id": "node/572689826",
+    "name": "Gerhard Fischenich",
+    "lat": 50.9302882,
+    "lng": 6.9430827,
+    "category": "pub",
+    "address": {
+      "street": "Weyerstraße",
+      "housenumber": "71",
+      "postcode": "50676",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/579865150",
+    "name": "Gewölbe",
+    "lat": 50.943847,
+    "lng": 6.9339207,
+    "category": "nightclub",
+    "website": "https://gewoelbe.club",
+    "address": {
+      "street": "Hans-Böckler-Platz",
+      "housenumber": "2",
+      "postcode": "50672",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/582823957",
+    "name": "Giga Center Köln",
+    "lat": 50.9368343,
+    "lng": 6.9387889,
+    "category": "pub",
+    "website": "https://www.giga-center.de/",
+    "address": {
+      "street": "Hohenzollernring",
+      "housenumber": "7-11",
+      "postcode": "50672",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/769203803",
+    "name": "Giglio's Ristobar",
+    "lat": 50.9527551,
+    "lng": 6.9130297,
+    "category": "bar",
+    "opening_hours": "Mo off; Tu-Th 17:00-24:00; Fr, Sa 17:00-03:00; Su 10:00-22:00",
+    "website": "https://giglios.de/",
+    "curated": false
+  },
+  {
+    "id": "node/356175734",
+    "name": "Gilbert's Pinte",
+    "lat": 50.9305805,
+    "lng": 6.9390773,
+    "category": "pub",
+    "opening_hours": "Fr 18:00-03:00; Sa 14:00-03:00; Su-Th 18:00-02:00",
+    "website": "http://gilbertspinte.de",
+    "curated": false
+  },
+  {
+    "id": "node/723976547",
+    "name": "Glow Up Bar",
+    "lat": 50.9484965,
+    "lng": 6.9180083,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/13192499997",
+    "name": "Golden",
+    "lat": 50.9165801,
+    "lng": 6.990917,
+    "category": "bar",
+    "address": {
+      "street": "Siegburger Straße",
+      "housenumber": "363"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1039919989",
+    "name": "Golden Italy",
+    "lat": 50.9434381,
+    "lng": 7.0016312,
+    "category": "pub",
+    "address": {
+      "street": "Kalk-Mülheimer Straße",
+      "housenumber": "150",
+      "postcode": "51103",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/9428822139",
+    "name": "Goldener Kegel",
+    "lat": 50.9529538,
+    "lng": 6.9563706,
+    "category": "pub",
+    "opening_hours": "Mo-Su 16:00-24:00",
+    "website": "https://goldener-kegel.com/",
+    "address": {
+      "street": "Balthasarstraße",
+      "housenumber": "53",
+      "postcode": "50670",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/577003926",
+    "name": "Goldfinger",
+    "lat": 50.9407446,
+    "lng": 6.9421787,
+    "category": "pub",
+    "opening_hours": "Th 20:30-03:00, Fr-Sa 20:30-05:00",
+    "website": "http://www.goldfinger-koeln.de",
+    "curated": false
+  },
+  {
+    "id": "node/6406002048",
+    "name": "Goltstein-Schenke",
+    "lat": 50.9115504,
+    "lng": 6.9683871,
+    "category": "pub",
+    "address": {
+      "street": "Goltsteinstraße",
+      "housenumber": "36",
+      "postcode": "50968",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/411194408",
+    "name": "gottes grüne wiese",
+    "lat": 50.9402482,
+    "lng": 6.9332601,
+    "category": "pub",
+    "opening_hours": "Mo-Th 18:00-01:00; Fr 18:00-03:00; Sa 14:30-03:00; Su 15:00-01:00",
+    "address": {
+      "street": "Bismarckstraße",
+      "housenumber": "53",
+      "postcode": "50672",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1156505611",
+    "name": "Gottmannsgrüner",
+    "lat": 50.9385154,
+    "lng": 7.0058331,
+    "category": "pub",
+    "opening_hours": "Su,PH 12:00+; Mo-Sa 10:00+",
+    "address": {
+      "street": "Kalker Hauptstraße",
+      "housenumber": "205",
+      "postcode": "51103",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6191145439",
+    "name": "Greesberger Wirtschaft",
+    "lat": 50.9498143,
+    "lng": 6.9579535,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/11694757004",
+    "name": "Groove Bar & Lounge",
+    "lat": 50.858221,
+    "lng": 7.0859168,
+    "category": "nightclub",
+    "opening_hours": "We-Th 19:00-01:00, Fr-Sa 19:00-03:00",
+    "address": {
+      "street": "Frankfurter Straße",
+      "housenumber": "200",
+      "postcode": "51147",
+      "suburb": "Wahn",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/595461867",
+    "name": "Grünfeld",
+    "lat": 50.9367979,
+    "lng": 6.9343545,
+    "category": "pub",
+    "opening_hours": "17:00+",
+    "address": {
+      "street": "Brüsseler Straße",
+      "housenumber": "47",
+      "postcode": "50674",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/570294964",
+    "name": "H&A Tagesbar",
+    "lat": 50.9407282,
+    "lng": 6.9413461,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 11:30+",
+    "website": "http://www.ha-tagesbar.de/",
+    "curated": false
+  },
+  {
+    "id": "node/10980362838",
+    "name": "Hafenterrasse am Malakoffturm",
+    "lat": 50.9327112,
+    "lng": 6.9636387,
+    "category": "bar",
+    "website": "https://www.biergartenkoeln.de/biergarten-uebersicht/koeln-neustadt-sued/hafenterasse/",
+    "curated": false
+  },
+  {
+    "id": "node/538205977",
+    "name": "HaifischClub",
+    "lat": 50.9228151,
+    "lng": 6.9599976,
+    "category": "pub",
+    "address": {
+      "street": "Im Ferkulum",
+      "housenumber": "24-26",
+      "postcode": "50678",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1658835668",
+    "name": "Haltestelle Westhoven",
+    "lat": 50.9004084,
+    "lng": 7.0187797,
+    "category": "pub",
+    "opening_hours": "Mo-We,Fr 18:00+",
+    "curated": false
+  },
+  {
+    "id": "node/537516364",
+    "name": "Hammond Bar",
+    "lat": 50.9208014,
+    "lng": 6.9544012,
+    "category": "pub",
+    "address": {
+      "street": "Metzer Straße",
+      "housenumber": "25",
+      "postcode": "50677",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/667381587",
+    "name": "Harry's New-York Bar",
+    "lat": 50.9356744,
+    "lng": 6.9578273,
+    "category": "bar",
+    "website": "https://dorint.com/de/harrys-new-york-bar-koeln",
+    "curated": false
+  },
+  {
+    "id": "node/434463146",
+    "name": "Hartwichklause",
+    "lat": 50.958424,
+    "lng": 6.945313,
+    "category": "pub",
+    "opening_hours": "We-Mo 10:00-18:00+",
+    "address": {
+      "street": "Hartwichstraße",
+      "housenumber": "70",
+      "postcode": "50733",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3656272996",
+    "name": "Haus am See",
+    "lat": 50.9184302,
+    "lng": 6.8879974,
+    "category": "biergarten",
+    "curated": false
+  },
+  {
+    "id": "node/768877786",
+    "name": "Haus Bayer",
+    "lat": 50.9334745,
+    "lng": 6.9971825,
+    "category": "pub",
+    "opening_hours": "Mo-Su,PH 12:00-24:00+",
+    "curated": false
+  },
+  {
+    "id": "node/1156505598",
+    "name": "Haus Böhmer",
+    "lat": 50.9386059,
+    "lng": 7.0079662,
+    "category": "pub",
+    "opening_hours": "PH,Su 12:00-21:00; Tu-Sa 14:00-23:00; Mo off",
+    "address": {
+      "street": "Kalker Hauptstraße",
+      "housenumber": "216"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/320718240",
+    "name": "Haus Knüsener",
+    "lat": 50.9774281,
+    "lng": 7.032609,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/244059778",
+    "name": "Haus Thomas",
+    "lat": 50.9621323,
+    "lng": 6.9046296,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "way/156339392",
+    "name": "Haus Unkelbach",
+    "lat": 50.9152987,
+    "lng": 6.9266058,
+    "category": "pub",
+    "opening_hours": "Sa 12:00-24:00; Mo-Fr 17:00-24:00; Su 12:00-22:00",
+    "website": "http://www.hausunkelbach.de/",
+    "address": {
+      "street": "Luxemburger Straße",
+      "housenumber": "260",
+      "postcode": "50937",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/317003048",
+    "name": "Havana",
+    "lat": 50.9517383,
+    "lng": 6.9568766,
+    "category": "pub",
+    "opening_hours": "Mo-Th 16:00-01:00, Fr,Sa 15:00-03:00, Su 15:00-01:00",
+    "address": {
+      "street": "Neusser Straße",
+      "housenumber": "41"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13282957947",
+    "name": "Heidemann",
+    "lat": 50.9231685,
+    "lng": 6.9628941,
+    "category": "bar",
+    "website": "https://www.heidemannbar.de/",
+    "address": {
+      "street": "Karl-Korn-Straße",
+      "housenumber": "18",
+      "postcode": "50678",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1702453082",
+    "name": "Heimathirsch",
+    "lat": 50.9656234,
+    "lng": 6.9529777,
+    "category": "bar",
+    "website": "https://liveimheimathirsch.jimdoweb.com",
+    "address": {
+      "street": "Mauenheimer Straße",
+      "housenumber": "4",
+      "postcode": "50733",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4617886159",
+    "name": "Helios 37",
+    "lat": 50.9503221,
+    "lng": 6.9134481,
+    "category": "nightclub",
+    "curated": false
+  },
+  {
+    "id": "node/726839074",
+    "name": "Hellers Brauhaus",
+    "lat": 50.930595,
+    "lng": 6.9384721,
+    "category": "pub",
+    "opening_hours": "Mo off; Tu-Sa 17:00+; PH, Su off",
+    "website": "https://www.hellers.koeln/brauhaus-hellers/",
+    "address": {
+      "street": "Roonstraße",
+      "housenumber": "33",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/503863373",
+    "name": "Hellers Volksgarten",
+    "lat": 50.9213903,
+    "lng": 6.9465369,
+    "category": "biergarten",
+    "opening_hours": "\"Bei gutem Wetter. Siehe Schild an der Volksgartenstraße\"",
+    "website": "https://www.hellers.koeln/volksgarten-hellers/",
+    "curated": false
+  },
+  {
+    "id": "node/442693423",
+    "name": "Herler Eck",
+    "lat": 50.9579462,
+    "lng": 7.0203219,
+    "category": "pub",
+    "opening_hours": "Su-Th 10:00-01:00, Fr,Sa 10:00-03:00",
+    "address": {
+      "street": "Herler Straße",
+      "housenumber": "53",
+      "postcode": "51067",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/7029821285",
+    "name": "Hidden Club",
+    "lat": 50.9377381,
+    "lng": 6.9372594,
+    "category": "nightclub",
+    "address": {
+      "street": "Brabanter Straße",
+      "housenumber": "15",
+      "postcode": "50674",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1217588473",
+    "name": "Hillebrands",
+    "lat": 50.9295973,
+    "lng": 6.9378369,
+    "category": "bar",
+    "address": {
+      "street": "Zülpicher Straße",
+      "housenumber": "26",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/325852364",
+    "name": "Hirtsiefer Hof",
+    "lat": 50.9693227,
+    "lng": 7.0363103,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/2979064645",
+    "name": "hopla Cocktail Bar",
+    "lat": 50.9399973,
+    "lng": 7.0075317,
+    "category": "bar",
+    "opening_hours": "18:30+",
+    "website": "https://hopla.koeln/",
+    "address": {
+      "street": "Steprathstraße",
+      "housenumber": "26",
+      "postcode": "51103",
+      "suburb": "Kalk",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/410606773",
+    "name": "Hospital Bar",
+    "lat": 50.9238684,
+    "lng": 6.9568949,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "way/1473082660",
+    "name": "Hotel-Restaurant-Goebels",
+    "lat": 51.0157049,
+    "lng": 6.8577734,
+    "category": "biergarten",
+    "curated": false
+  },
+  {
+    "id": "way/48358878",
+    "name": "Hühnerfranz",
+    "lat": 50.9376546,
+    "lng": 6.9599306,
+    "category": "pub",
+    "address": {
+      "street": "Hühnergasse",
+      "housenumber": "2",
+      "postcode": "50667",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3657179400",
+    "name": "Hyatt Regency",
+    "lat": 50.9406575,
+    "lng": 6.9692669,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4304976454",
+    "name": "Hypnotic",
+    "lat": 50.9587844,
+    "lng": 7.0091732,
+    "category": "bar",
+    "opening_hours": "Mo-Th 10:00-04:00, Fr-Su 11:00-06:00",
+    "address": {
+      "street": "Frankfurter Straße",
+      "housenumber": "58",
+      "postcode": "51065",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4459414296",
+    "name": "IceBar",
+    "lat": 50.9417101,
+    "lng": 6.9410726,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/243975980",
+    "name": "Ihrefelder Eck",
+    "lat": 50.9564628,
+    "lng": 6.9129698,
+    "category": "pub",
+    "address": {
+      "street": "Subbelrather Straße",
+      "housenumber": "349",
+      "postcode": "50825",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/233327575",
+    "name": "Iltis-Eck",
+    "lat": 50.958158,
+    "lng": 6.9187638,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/14105099280",
+    "name": "Im Hochhaus",
+    "lat": 50.9659562,
+    "lng": 6.912387,
+    "category": "pub",
+    "address": {
+      "street": "Iltisstraße",
+      "housenumber": "170"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/9905733697",
+    "name": "Im kleinen Finanzamt",
+    "lat": 50.9291689,
+    "lng": 6.945641,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 16:00-0:00",
+    "address": {
+      "street": "Friedrichstraße",
+      "housenumber": "2",
+      "postcode": "50676",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/882379601",
+    "name": "Im Leuchtturm",
+    "lat": 50.93318,
+    "lng": 6.945296,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 17:00-01:00",
+    "website": "http://www.imleuchtturm.de",
+    "address": {
+      "street": "Mauritiussteinweg",
+      "housenumber": "70",
+      "postcode": "50676",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/428482008",
+    "name": "im Moselstübchen",
+    "lat": 50.9550346,
+    "lng": 6.91798,
+    "category": "pub",
+    "opening_hours": "Mo-Th 16:00+; Fr 15:00+; Sa-Su 11:00+",
+    "website": "http://www.moselstübchen.de/",
+    "curated": false
+  },
+  {
+    "id": "node/233271767",
+    "name": "Im Rondellchen",
+    "lat": 50.9632796,
+    "lng": 6.8943621,
+    "category": "pub",
+    "address": {
+      "street": "Akazienweg",
+      "housenumber": "54 a",
+      "postcode": "50827",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/309731635",
+    "name": "Im Schäfer",
+    "lat": 50.9291761,
+    "lng": 6.9127128,
+    "category": "pub",
+    "address": {
+      "street": "Dürener Straße",
+      "postcode": "50931",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2541285980",
+    "name": "Im Schnörres",
+    "lat": 50.9243584,
+    "lng": 6.9600775,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 17:00-18:00+",
+    "website": "http://www.schnoerres.de/",
+    "curated": false
+  },
+  {
+    "id": "way/297234723",
+    "name": "Im Stübchen",
+    "lat": 50.9640026,
+    "lng": 6.8995554,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/8254554285",
+    "name": "Im Veedel",
+    "lat": 50.9775975,
+    "lng": 6.9665259,
+    "category": "pub",
+    "opening_hours": "Mo-Su 11:00-01:00",
+    "curated": false
+  },
+  {
+    "id": "node/4459414297",
+    "name": "inCavall",
+    "lat": 50.9419853,
+    "lng": 6.940644,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/937529177",
+    "name": "Iron Cocktaillounge",
+    "lat": 50.9347392,
+    "lng": 6.9411509,
+    "category": "bar",
+    "opening_hours": "Tu,Th 18:00-02:00, We 18:00-03:00, Fr,Sa 19:00-05:00",
+    "curated": false
+  },
+  {
+    "id": "node/3172057616",
+    "name": "Italia 90",
+    "lat": 50.9368177,
+    "lng": 7.0004605,
+    "category": "pub",
+    "address": {
+      "street": "Rolshover Straße",
+      "housenumber": "14",
+      "postcode": "51105",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/930764137",
+    "name": "JAKI",
+    "lat": 50.9428727,
+    "lng": 6.9350985,
+    "category": "nightclub",
+    "website": "https://www.stadtgarten.de/",
+    "address": {
+      "street": "Venloer Straße",
+      "housenumber": "40",
+      "postcode": "50672",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/569769023",
+    "name": "Jameson Distillery Pub",
+    "lat": 50.9408816,
+    "lng": 6.9435429,
+    "category": "pub",
+    "opening_hours": "Mo-Th 12:00-01:00, Fr,Sa 12:00-03:00, Su 11:00-01:00",
+    "website": "https://jamesondistillerypub.com/",
+    "address": {
+      "street": "Friesenstraße",
+      "housenumber": "30-40",
+      "postcode": "50670",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4304832368",
+    "name": "Jeck",
+    "lat": 50.9396692,
+    "lng": 6.9616232,
+    "category": "pub",
+    "opening_hours": "Fr-Sa 20:00+",
+    "address": {
+      "postcode": "50667"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/571800671",
+    "name": "Joe Champs",
+    "lat": 50.9365751,
+    "lng": 6.9386543,
+    "category": "pub",
+    "website": "https://joe-champs.de/",
+    "curated": false
+  },
+  {
+    "id": "node/638777248",
+    "name": "John Barleycorn",
+    "lat": 50.9249932,
+    "lng": 6.9585765,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 17:00+; Sa 14:00-18:00+; Su 15:00+",
+    "address": {
+      "street": "Severinstraße",
+      "housenumber": "62",
+      "postcode": "50678",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/919586315",
+    "name": "Joode Lade",
+    "lat": 50.9332942,
+    "lng": 6.934632,
+    "category": "pub",
+    "opening_hours": "\"Sonntags ohne Bundesliga Schließung um 14:00\"",
+    "curated": false
+  },
+  {
+    "id": "node/4656780992",
+    "name": "Jupp der Schotte",
+    "lat": 50.9715487,
+    "lng": 7.0387917,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/13068387496",
+    "name": "Kaifischbar",
+    "lat": 50.9054302,
+    "lng": 6.9579435,
+    "category": "pub",
+    "website": "https://kaifischbar.com/",
+    "curated": false
+  },
+  {
+    "id": "node/1583877615",
+    "name": "Kajüte",
+    "lat": 50.9462645,
+    "lng": 6.9565529,
+    "category": "pub",
+    "address": {
+      "street": "Eigelstein",
+      "housenumber": "18",
+      "postcode": "50668",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1038602739",
+    "name": "Kalker Klubbistro",
+    "lat": 50.9404796,
+    "lng": 6.9991316,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/475547958",
+    "name": "Kalscheurer Weiher",
+    "lat": 50.8925388,
+    "lng": 6.9329992,
+    "category": "biergarten",
+    "website": "https://kalscheurer-weiher.de/kiosk/",
+    "curated": false
+  },
+  {
+    "id": "node/8518287644",
+    "name": "Kardia Biergarten",
+    "lat": 50.9651278,
+    "lng": 6.9475742,
+    "category": "biergarten",
+    "curated": false
+  },
+  {
+    "id": "node/570697238",
+    "name": "Kartäuser Stübchen",
+    "lat": 50.92554,
+    "lng": 6.954694,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 14:30-22:00+; Sa 13:00-22:00+; Su off; PH 14:30-22:00+",
+    "address": {
+      "street": "Kartäusergasse",
+      "housenumber": "30",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1237305084",
+    "name": "Kaschämm",
+    "lat": 50.9679248,
+    "lng": 6.9588301,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/960162968",
+    "name": "Kattwinkel",
+    "lat": 50.949459,
+    "lng": 6.9577177,
+    "category": "pub",
+    "opening_hours": "Mo-Th,Su 17:00-01:00; Fr-Sa 17:00-03:00",
+    "website": "https://kattwinkelcologne.chayns.site/",
+    "address": {
+      "street": "Greesbergstraße",
+      "housenumber": "2",
+      "postcode": "50668",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/661026160",
+    "name": "Keks",
+    "lat": 50.9376348,
+    "lng": 6.9613593,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/10889619479",
+    "name": "King Georg Jazz Club",
+    "lat": 50.9509948,
+    "lng": 6.9563819,
+    "category": "nightclub",
+    "opening_hours": "Tu-Th 19:00-01:00, Fr,Sa 21:00-03:00",
+    "website": "https://kinggeorg.de/",
+    "curated": false
+  },
+  {
+    "id": "node/1133675668",
+    "name": "Klaaf em Franz-Eck",
+    "lat": 50.9247516,
+    "lng": 6.911697,
+    "category": "pub",
+    "opening_hours": "Tu-Fr 16:00-24:00; Sa-Su 11:00-24:00",
+    "curated": false
+  },
+  {
+    "id": "node/8852571629",
+    "name": "Kläävbotz",
+    "lat": 50.9109236,
+    "lng": 6.9425782,
+    "category": "pub",
+    "opening_hours": "Mo-Su 10:30-23:00",
+    "address": {
+      "street": "Gottesweg",
+      "housenumber": "20",
+      "postcode": "50969",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/570203107",
+    "name": "Klein Köln",
+    "lat": 50.940645,
+    "lng": 6.9430853,
+    "category": "pub",
+    "website": "http://www.klein-koeln.com/",
+    "address": {
+      "street": "Friesenstraße",
+      "housenumber": "53"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/353958533",
+    "name": "Kleine Freiheit",
+    "lat": 50.9199659,
+    "lng": 6.9315875,
+    "category": "pub",
+    "opening_hours": "Su, Tu-Th 12:00-22:00; Fr-Sa 12:00-00:00",
+    "curated": false
+  },
+  {
+    "id": "node/432375128",
+    "name": "Klettenberger Hof",
+    "lat": 50.915431,
+    "lng": 6.9277477,
+    "category": "pub",
+    "opening_hours": "Mo-Su 11:00-03:00",
+    "address": {
+      "street": "Siebengebirgsallee",
+      "housenumber": "1",
+      "postcode": "50939",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/496126090",
+    "name": "Klub Berlin",
+    "lat": 50.9487591,
+    "lng": 6.9180589,
+    "category": "bar",
+    "website": "http://www.klub-berlin.koeln/",
+    "curated": false
+  },
+  {
+    "id": "node/4459548652",
+    "name": "Klub Domhof",
+    "lat": 50.9416891,
+    "lng": 6.95977,
+    "category": "nightclub",
+    "website": "https://www.domhof.info/",
+    "address": {
+      "street": "Hohenzollernbrücke",
+      "housenumber": "11",
+      "postcode": "50667",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10816159583",
+    "name": "Kneipe am Markt",
+    "lat": 50.96315,
+    "lng": 6.9516351,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/3269636141",
+    "name": "Knippschild Werk 2",
+    "lat": 50.9755678,
+    "lng": 7.0747508,
+    "category": "pub",
+    "website": "https://knippschild-werk2.de/",
+    "address": {
+      "street": "An der Kemperwiese",
+      "housenumber": "4",
+      "postcode": "51069",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/459951004",
+    "name": "Knobelbecher",
+    "lat": 50.9366586,
+    "lng": 6.9344435,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 16:00-24:00+; Sa,Su 11:00-24:00+",
+    "address": {
+      "street": "Brüsseler Straße",
+      "housenumber": "47",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/619186941",
+    "name": "Kölner Hof",
+    "lat": 51.0667653,
+    "lng": 6.8614266,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/774756957",
+    "name": "Kölner Treff",
+    "lat": 50.9397004,
+    "lng": 6.9614379,
+    "category": "pub",
+    "opening_hours": "Mo-Th, Su off;Fr, Sa, PH -1 day 18:00+",
+    "website": "https://koelnertreff-partykneipe.de/",
+    "curated": false
+  },
+  {
+    "id": "node/529399360",
+    "name": "Kölners",
+    "lat": 50.9367454,
+    "lng": 6.9591745,
+    "category": "pub",
+    "opening_hours": "Mo-Th 16:00-24:00; Fr-Sa 14:00-24:00, Su off",
+    "website": "https://www.koelners.de",
+    "curated": false
+  },
+  {
+    "id": "node/4326471604",
+    "name": "Kölschbar",
+    "lat": 50.933501,
+    "lng": 6.9350817,
+    "category": "pub",
+    "address": {
+      "street": "Lindenstraße",
+      "housenumber": "56",
+      "postcode": "50674",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/478633068",
+    "name": "Kongs Bar",
+    "lat": 50.9392077,
+    "lng": 6.9587287,
+    "category": "bar",
+    "address": {
+      "street": "Kleine Budengasse",
+      "housenumber": "7-9"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13726035917",
+    "name": "Konstantin",
+    "lat": 50.9138916,
+    "lng": 6.9209212,
+    "category": "bar",
+    "opening_hours": "Mo,Su off; Tu-We 18:00-22:00; Th 18:00-23:00",
+    "website": "https://www.konstantin-cologne.de",
+    "curated": false
+  },
+  {
+    "id": "node/3376526780",
+    "name": "Korkenzieher Bar",
+    "lat": 50.9400723,
+    "lng": 6.9508439,
+    "category": "bar",
+    "opening_hours": "We,Th 18:00-23:00; Fr,Sa 18:00-01:00; Su 12:00-18:00; Mo,Tu off",
+    "curated": false
+  },
+  {
+    "id": "node/1038105384",
+    "name": "Kornkammer",
+    "lat": 50.9391418,
+    "lng": 7.0082333,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/8860342055",
+    "name": "Kornkammer",
+    "lat": 50.9679662,
+    "lng": 6.953272,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/7029834085",
+    "name": "KRAUTIs",
+    "lat": 50.9200296,
+    "lng": 6.954964,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/249065636",
+    "name": "Kreins",
+    "lat": 50.9469573,
+    "lng": 6.8859112,
+    "category": "pub",
+    "address": {
+      "street": "Vitalisstraße",
+      "housenumber": "303",
+      "postcode": "50933",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/256188568",
+    "name": "Kuen",
+    "lat": 50.9612519,
+    "lng": 6.9564742,
+    "category": "pub",
+    "opening_hours": "Mo-Th 18:00-01:00, Fr,Sa 18:00-03:00",
+    "website": "https://www.kuenkneipe.de/",
+    "curated": false
+  },
+  {
+    "id": "way/566058700",
+    "name": "Kulturcafé Lichtung",
+    "lat": 50.9215777,
+    "lng": 6.9611466,
+    "category": "bar",
+    "website": "http://www.lichtung.ws/",
+    "curated": false
+  },
+  {
+    "id": "node/660694991",
+    "name": "Kunst Kaschämm",
+    "lat": 50.9377153,
+    "lng": 6.9596431,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "way/30482607",
+    "name": "KunstBar",
+    "lat": 50.9419192,
+    "lng": 6.9587984,
+    "category": "bar",
+    "opening_hours": "Mo off; Tu-Sa 19:00+; Su off",
+    "website": "https://diekunstbar.de/",
+    "curated": false
+  },
+  {
+    "id": "node/1673071223",
+    "name": "Kupferkessel",
+    "lat": 50.8813177,
+    "lng": 7.0736847,
+    "category": "pub",
+    "address": {
+      "street": "Kaiserstraße",
+      "housenumber": "94",
+      "postcode": "51145",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1643520989",
+    "name": "Kwartier",
+    "lat": 50.9300595,
+    "lng": 6.9386697,
+    "category": "bar",
+    "address": {
+      "street": "Zülpicher Straße",
+      "housenumber": "10",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1023189954",
+    "name": "L'Angelo Blu",
+    "lat": 50.9426547,
+    "lng": 7.0085945,
+    "category": "bar",
+    "opening_hours": "Mo-Fr 05:30-22:00; Sa 08:30-03:00; Su 08:30-22:00",
+    "address": {
+      "street": "Buchforststraße",
+      "housenumber": "20"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/667782414",
+    "name": "La Croque",
+    "lat": 50.9292666,
+    "lng": 6.9377164,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/5475043406",
+    "name": "La Roja",
+    "lat": 50.9396224,
+    "lng": 7.0171349,
+    "category": "bar",
+    "opening_hours": "Mo 16:00-24:00; Tu-Sa 00:00-01:00,16:00-24:00; Su 00:00-01:00",
+    "website": "https://www.philerohotel-koeln.de/bar_la_roja_koeln.aspx",
+    "curated": false
+  },
+  {
+    "id": "node/12201193323",
+    "name": "LAB12",
+    "lat": 50.9403904,
+    "lng": 6.9455783,
+    "category": "bar",
+    "opening_hours": "Th-Su 18:00-00:00",
+    "address": {
+      "street": "Helenenstraße",
+      "housenumber": "14",
+      "postcode": "50667",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/7016205685",
+    "name": "Lapidarium",
+    "lat": 50.9491826,
+    "lng": 6.9571439,
+    "category": "pub",
+    "opening_hours": "Th-Sa 12:00-02:00, Su-We 12:00-01:00",
+    "address": {
+      "street": "Eigelstein",
+      "housenumber": "118",
+      "postcode": "50668",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/682371636",
+    "name": "Latino cubana",
+    "lat": 50.9391346,
+    "lng": 6.9765727,
+    "category": "pub",
+    "opening_hours": "Su-Th 12:00-24:00, Fr,Sa 12:00-02:00",
+    "website": "https://www.latinocubana.de/",
+    "address": {
+      "street": "Constantinstraße",
+      "housenumber": "88",
+      "postcode": "50679",
+      "suburb": "Deutz",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/730936241",
+    "name": "Le Petit Bar",
+    "lat": 50.9409917,
+    "lng": 7.0222229,
+    "category": "bar",
+    "address": {
+      "street": "Fuldaer Straße",
+      "housenumber": "11",
+      "postcode": "51103",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3667653401",
+    "name": "Leo",
+    "lat": 50.9274249,
+    "lng": 6.9036314,
+    "category": "bar",
+    "opening_hours": "Mo-Th 17:00-23:00; Fr,Sa 17:00-01:00",
+    "curated": false
+  },
+  {
+    "id": "node/10102831702",
+    "name": "Liebefeld",
+    "lat": 50.9513789,
+    "lng": 6.9186526,
+    "category": "bar",
+    "opening_hours": "Mo off;Tu-Th 18:00-01:00; Fr, Sa 18:00-03:00; Su off",
+    "website": "https://www.liebefeld-zuehren.de/",
+    "curated": false
+  },
+  {
+    "id": "node/2902369161",
+    "name": "Limes",
+    "lat": 50.9673078,
+    "lng": 7.0023642,
+    "category": "pub",
+    "opening_hours": "We-Sa 19:00-23:00; Su 12:00-17:00",
+    "website": "https://limeskoeln.wordpress.com/",
+    "curated": false
+  },
+  {
+    "id": "node/6958122396",
+    "name": "Linos Weinbar",
+    "lat": 50.892615,
+    "lng": 6.9948466,
+    "category": "bar",
+    "opening_hours": "Mo-Sa 10:00-01:00",
+    "address": {
+      "street": "Hauptstraße",
+      "housenumber": "102",
+      "postcode": "50996",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5624518821",
+    "name": "Little Link",
+    "lat": 50.9384801,
+    "lng": 6.9369616,
+    "category": "bar",
+    "website": "https://www.littlelink.de",
+    "address": {
+      "street": "Maastrichter Straße",
+      "housenumber": "20",
+      "postcode": "50672",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/435136644",
+    "name": "Little Lui",
+    "lat": 50.9269986,
+    "lng": 6.9396066,
+    "category": "bar",
+    "opening_hours": "\"Eventlocation\"",
+    "address": {
+      "street": "Luxemburger Straße",
+      "housenumber": "43",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5022778618",
+    "name": "Liyah",
+    "lat": 50.9418939,
+    "lng": 6.9414443,
+    "category": "bar",
+    "address": {
+      "street": "Hildeboldplatz",
+      "housenumber": "3"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14054132696",
+    "name": "Lobby",
+    "lat": 50.9507608,
+    "lng": 7.0045327,
+    "category": "pub",
+    "address": {
+      "street": "Heidelberger Straße",
+      "housenumber": "28"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/296816912",
+    "name": "Lokal im Altenberger Hof",
+    "lat": 50.9685013,
+    "lng": 6.9489881,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 12:00-23:00; Sa,Su 10:00-23:00",
+    "address": {
+      "street": "Mauenheimer Straße",
+      "housenumber": "92",
+      "housename": "Altenberger Hof",
+      "postcode": "50733"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/244894955",
+    "name": "Lommerzheim",
+    "lat": 50.9386312,
+    "lng": 6.9736398,
+    "category": "pub",
+    "opening_hours": "Mo, We-Sa 11:00-14:30, 16:30-24:00; Su 11:00-14:30, 16:30-23:00",
+    "website": "https://www.lommerzheim.koeln/",
+    "address": {
+      "street": "Siegesstraße",
+      "housenumber": "18",
+      "postcode": "50679",
+      "suburb": "Deutz",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5677533662",
+    "name": "Lorbass - Bar & Lounge",
+    "lat": 50.9402875,
+    "lng": 6.9351464,
+    "category": "bar",
+    "opening_hours": "We,Th 20:00-02:00, Fr,Sa 20:00-03:00",
+    "website": "https://lorbass-bar.de/",
+    "curated": false
+  },
+  {
+    "id": "node/312669384",
+    "name": "Loreley",
+    "lat": 50.9328327,
+    "lng": 6.9345025,
+    "category": "pub",
+    "opening_hours": "Th-Sa 20:00+",
+    "address": {
+      "street": "Lindenstraße",
+      "housenumber": "65",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/310795521",
+    "name": "Lotta",
+    "lat": 50.922205,
+    "lng": 6.9582911,
+    "category": "pub",
+    "opening_hours": "Mo-We 19:00-01:00; Th 19:00-02:00; Fr-Sa 19:00-03:00; Su 19:00-01:00",
+    "website": "https://www.lotta-koeln.de",
+    "address": {
+      "street": "Kartäuserwall",
+      "housenumber": "12",
+      "postcode": "50678",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/322776542",
+    "name": "Low Budget",
+    "lat": 50.9363777,
+    "lng": 6.9334923,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 18:00-01:00",
+    "address": {
+      "street": "Aachener Straße",
+      "housenumber": "47",
+      "postcode": "50674",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/441157835",
+    "name": "Löwenschänke",
+    "lat": 50.9103417,
+    "lng": 6.9621369,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 10:00+",
+    "address": {
+      "street": "Brühler Straße",
+      "housenumber": "6",
+      "postcode": "50968",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1139533712",
+    "name": "Loya Lounge",
+    "lat": 50.9638599,
+    "lng": 6.9493229,
+    "category": "bar",
+    "opening_hours": "Mo-Th 13:00-23:00, Fr-Su 14:00-23:00",
+    "address": {
+      "street": "Kempener Straße",
+      "housenumber": "56",
+      "postcode": "50733",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/328811631",
+    "name": "Lucky's",
+    "lat": 50.9633336,
+    "lng": 7.0229466,
+    "category": "bar",
+    "address": {
+      "street": "Johannes-Stumpf-Straße",
+      "housenumber": "3",
+      "postcode": "51067",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/538209854",
+    "name": "Lusitania",
+    "lat": 50.9199474,
+    "lng": 6.9608473,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/353957008",
+    "name": "Lux",
+    "lat": 50.9179316,
+    "lng": 6.9294626,
+    "category": "pub",
+    "opening_hours": "Mo-Th 18:00-24:00; Fr,Sa 18:00-02:00",
+    "curated": false
+  },
+  {
+    "id": "node/537611212",
+    "name": "Lux 88",
+    "lat": 50.92529,
+    "lng": 6.9373174,
+    "category": "pub",
+    "opening_hours": "Mo-Th 16:00-01:00, Fr,Sa 16:00-03:00; Su off",
+    "website": "http://www.lux88.de/",
+    "curated": false
+  },
+  {
+    "id": "node/419015184",
+    "name": "Luxor",
+    "lat": 50.927378,
+    "lng": 6.9394216,
+    "category": "pub",
+    "website": "https://www.luxor-koeln.de/",
+    "address": {
+      "street": "Luxemburger Straße",
+      "housenumber": "40",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2653705027",
+    "name": "Mai Tai",
+    "lat": 50.9407673,
+    "lng": 6.9425574,
+    "category": "bar",
+    "opening_hours": "Fr,Sa 20:00-02:00",
+    "address": {
+      "street": "Friesenstraße",
+      "housenumber": "48",
+      "postcode": "50670",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/603316689",
+    "name": "Mangal Döner Lukas Podolski 10",
+    "lat": 50.9586459,
+    "lng": 7.0093757,
+    "category": "bar",
+    "address": {
+      "street": "Frankfurter Straße",
+      "housenumber": "62"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1962875726",
+    "name": "Mantikor",
+    "lat": 50.9392287,
+    "lng": 6.9582689,
+    "category": "bar",
+    "opening_hours": "Mo-Th 13:00-02:00, Fr,Sa 13:00-05:00, Su 14:00-02:00",
+    "website": "https://mantikor-cologne.de/",
+    "curated": false
+  },
+  {
+    "id": "node/243172170",
+    "name": "Marcel‘s",
+    "lat": 50.9999618,
+    "lng": 6.8854271,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "way/70779749",
+    "name": "Markt Schänke",
+    "lat": 50.8973136,
+    "lng": 7.0290227,
+    "category": "pub",
+    "address": {
+      "street": "Hohe Straße",
+      "housenumber": "87",
+      "postcode": "51149",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/264075125",
+    "name": "Markt-Klause",
+    "lat": 50.994981,
+    "lng": 6.9203852,
+    "category": "pub",
+    "opening_hours": "14:00-22:00",
+    "curated": false
+  },
+  {
+    "id": "node/12186423974",
+    "name": "Marktschänke",
+    "lat": 50.9105689,
+    "lng": 6.9598741,
+    "category": "pub",
+    "address": {
+      "street": "Marktstraße",
+      "housenumber": "19",
+      "postcode": "50968",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/293189981",
+    "name": "Massimo",
+    "lat": 50.9201122,
+    "lng": 6.9623533,
+    "category": "pub",
+    "website": "https://www.rosticceria-massimo.de/",
+    "address": {
+      "street": "Alteburger Straße",
+      "housenumber": "41",
+      "postcode": "50678",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6958122389",
+    "name": "Maternus Eck",
+    "lat": 50.8921522,
+    "lng": 6.9937196,
+    "category": "pub",
+    "address": {
+      "street": "Maternusplatz",
+      "housenumber": "9",
+      "postcode": "50996",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3078084194",
+    "name": "Mäurer",
+    "lat": 50.9297309,
+    "lng": 6.9399832,
+    "category": "bar",
+    "opening_hours": "We-Sa 20:00-22:00+",
+    "address": {
+      "street": "Roonstraße",
+      "housenumber": "19",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3088765847",
+    "name": "Max Stark",
+    "lat": 50.9491753,
+    "lng": 6.9617716,
+    "category": "pub",
+    "website": "https://www.max-stark.de/maxstark.html",
+    "address": {
+      "street": "Unter Kahlenhausen",
+      "postcode": "50668",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4396527249",
+    "name": "Maybach",
+    "lat": 50.9491389,
+    "lng": 6.9494489,
+    "category": "biergarten",
+    "opening_hours": "Mo-Fr 16:00-24:00; Su,PH off",
+    "curated": false
+  },
+  {
+    "id": "node/5451078523",
+    "name": "MD Bar",
+    "lat": 50.9350946,
+    "lng": 6.9435813,
+    "category": "bar",
+    "opening_hours": "Tu-Th 20:00-00:30; Fr-Sa 20:00-02:30",
+    "address": {
+      "street": "Marsilstein",
+      "housenumber": "21-23",
+      "postcode": "50676",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14000649148",
+    "name": "ME Sportsbar",
+    "lat": 50.9699879,
+    "lng": 7.046747,
+    "category": "bar",
+    "address": {
+      "street": "Bergisch Gladbacher Straße",
+      "housenumber": "584"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/223482056",
+    "name": "Meisenklause",
+    "lat": 50.9546503,
+    "lng": 6.8800274,
+    "category": "pub",
+    "opening_hours": "Mo-Th 16:30-23:00, Fr 16:30-01:00, Sa 15:00-03:00, Su 15:00-22:00",
+    "curated": false
+  },
+  {
+    "id": "node/294115359",
+    "name": "Metronom",
+    "lat": 50.9303936,
+    "lng": 6.9436314,
+    "category": "pub",
+    "address": {
+      "street": "Weyerstraße",
+      "housenumber": "59",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/243975982",
+    "name": "meyers",
+    "lat": 50.9560691,
+    "lng": 6.9139599,
+    "category": "pub",
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "website": "https://www.meyers-ehrenfeld.de/",
+    "address": {
+      "street": "Subbelrather Straße",
+      "housenumber": "329",
+      "postcode": "50825",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2510376630",
+    "name": "Mimozza",
+    "lat": 50.9372256,
+    "lng": 6.9388622,
+    "category": "bar",
+    "address": {
+      "street": "Hohenzollernring",
+      "housenumber": "17"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/617136121",
+    "name": "Mittelblond",
+    "lat": 50.9401533,
+    "lng": 6.9500518,
+    "category": "pub",
+    "opening_hours": "We-Su 17:00+; Mo, Tu, Su off",
+    "website": "https://www.mittelblond-kulturkneipe.de/",
+    "curated": false
+  },
+  {
+    "id": "node/583434200",
+    "name": "Mittendrin",
+    "lat": 50.9724675,
+    "lng": 7.0109888,
+    "category": "pub",
+    "address": {
+      "street": "Berliner Straße",
+      "housenumber": "79",
+      "postcode": "51063",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1643521006",
+    "name": "Mojitos",
+    "lat": 50.9293861,
+    "lng": 6.9374653,
+    "category": "bar",
+    "address": {
+      "street": "Zülpicher Straße",
+      "housenumber": "34",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6015485229",
+    "name": "Monkey Bar",
+    "lat": 50.9420469,
+    "lng": 6.9430737,
+    "category": "bar",
+    "opening_hours": "Mo-Th 00:00-01:00,17:00-24:00; Fr-Su 00:00-02:00,17:00-24:00",
+    "website": "https://monkeybarkoeln.de",
+    "curated": false
+  },
+  {
+    "id": "node/286414931",
+    "name": "Monkeys",
+    "lat": 50.9420717,
+    "lng": 6.9355574,
+    "category": "pub",
+    "opening_hours": "Mo-Su,PH 18:00+",
+    "curated": false
+  },
+  {
+    "id": "node/446769243",
+    "name": "Moon Bar",
+    "lat": 50.9450039,
+    "lng": 6.9548026,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/809813736",
+    "name": "MTC",
+    "lat": 50.9300375,
+    "lng": 6.9386297,
+    "category": "nightclub",
+    "address": {
+      "street": "Zülpicher Straße",
+      "housenumber": "10",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/196191317",
+    "name": "Müllers Ehrenfeld",
+    "lat": 50.9515985,
+    "lng": 6.9252478,
+    "category": "pub",
+    "opening_hours": "Tu-Sa 19:00-03:00",
+    "website": "https://muellers.koeln/",
+    "address": {
+      "street": "Subbelrather Straße",
+      "housenumber": "159",
+      "postcode": "50823",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/985923530",
+    "name": "Museum",
+    "lat": 50.9297438,
+    "lng": 6.9396166,
+    "category": "bar",
+    "website": "https://www.museum-kneipe.de/",
+    "curated": false
+  },
+  {
+    "id": "node/786918226",
+    "name": "My Lord",
+    "lat": 50.9336329,
+    "lng": 6.9589756,
+    "category": "bar",
+    "opening_hours": "Su,Mo,We,Th 17:00-01:00, Fr,Sa 17:00-02:00",
+    "address": {
+      "street": "Mühlenbach",
+      "housenumber": "57",
+      "postcode": "50676",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/996396619",
+    "name": "My Way",
+    "lat": 50.9368258,
+    "lng": 6.9074161,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 15:30+; Sa 15:00+; Su off || \" und zu allen Spielen des 1. FC Köln\"",
+    "website": "http://www.veedelskneipe.de/",
+    "curated": false
+  },
+  {
+    "id": "node/2725059582",
+    "name": "Nachteule",
+    "lat": 50.9348923,
+    "lng": 6.9431138,
+    "category": "bar",
+    "opening_hours": "Mo-Tu off; We-Sa 20:00+; Su off",
+    "address": {
+      "street": "Am Rinkenpfuhl",
+      "housenumber": "51",
+      "postcode": "50676",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1225186194",
+    "name": "Nachtflug",
+    "lat": 50.9419456,
+    "lng": 6.9400294,
+    "category": "nightclub",
+    "website": "http://www.nachtflug.com",
+    "address": {
+      "street": "Hohenzollernring",
+      "housenumber": "89-93",
+      "postcode": "50672",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/425836301",
+    "name": "Nachtigall",
+    "lat": 50.949818,
+    "lng": 6.9231055,
+    "category": "bar",
+    "opening_hours": "Tu-Th 18:00-01:00, Fr,Sa 20:00-05:00",
+    "website": "https://nachtigall-ehrenfeld.de/",
+    "address": {
+      "street": "Körnerstraße",
+      "housenumber": "65",
+      "postcode": "50823",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/8703261616",
+    "name": "Nantoka Bar",
+    "lat": 50.9237406,
+    "lng": 6.9364594,
+    "category": "bar",
+    "website": "https://az-koeln.org/nantoka-bar/",
+    "curated": false
+  },
+  {
+    "id": "node/2630343382",
+    "name": "NATRAS",
+    "lat": 50.940555,
+    "lng": 6.9412869,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/11963404826",
+    "name": "Nico's Kneipe",
+    "lat": 50.9460606,
+    "lng": 6.9562986,
+    "category": "pub",
+    "address": {
+      "street": "Eigelstein",
+      "housenumber": "33",
+      "postcode": "50668",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2667034223",
+    "name": "No 6 The Beast",
+    "lat": 50.9461238,
+    "lng": 6.9194764,
+    "category": "pub",
+    "opening_hours": "We-Sa 19:00-02:00+",
+    "website": "https://gaffel.de/gastronomien/",
+    "address": {
+      "street": "Geisselstraße",
+      "housenumber": "66",
+      "postcode": "50823",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/665538714",
+    "name": "No. 199",
+    "lat": 50.9295434,
+    "lng": 6.9565869,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/340232024",
+    "name": "Nordschänke",
+    "lat": 50.9750178,
+    "lng": 7.0139506,
+    "category": "pub",
+    "address": {
+      "street": "Berliner Straße",
+      "housenumber": "137",
+      "postcode": "51063",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/877664696",
+    "name": "Nox",
+    "lat": 50.9283919,
+    "lng": 6.9398133,
+    "category": "pub",
+    "opening_hours": "We-Sa 20:00-07:00",
+    "address": {
+      "street": "Hochstadenstraße",
+      "housenumber": "12",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/6881635389",
+    "name": "Numinos",
+    "lat": 50.916109,
+    "lng": 6.9612959,
+    "category": "bar",
+    "address": {
+      "street": "Bonner Straße",
+      "housenumber": "87"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5585374457",
+    "name": "Odonien",
+    "lat": 50.9549487,
+    "lng": 6.9399883,
+    "category": "nightclub",
+    "website": "https://www.odonien.de",
+    "address": {
+      "street": "Hornstraße",
+      "housenumber": "85",
+      "postcode": "50823",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/419015187",
+    "name": "Off Bar",
+    "lat": 50.9264189,
+    "lng": 6.9384629,
+    "category": "bar",
+    "opening_hours": "Th-Fr 17:00-04:00; Sa 19:00-04:00",
+    "address": {
+      "street": "Luxemburger Straße",
+      "housenumber": "46",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1069189906",
+    "name": "Ona Mor",
+    "lat": 50.9334547,
+    "lng": 6.9339193,
+    "category": "bar",
+    "opening_hours": "20:00-02:00",
+    "website": "https://www.onamor.de/",
+    "address": {
+      "street": "Roonstraße",
+      "housenumber": "94",
+      "postcode": "50674",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/264063089",
+    "name": "Op d'r Eck",
+    "lat": 51.0512943,
+    "lng": 6.916132,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 15:00-24:00; Su 11:00-24:00",
+    "curated": false
+  },
+  {
+    "id": "node/608425516",
+    "name": "Op d'r Eck",
+    "lat": 50.9460598,
+    "lng": 6.9196893,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/243934863",
+    "name": "op d'r Höh",
+    "lat": 50.9665163,
+    "lng": 6.897945,
+    "category": "pub",
+    "opening_hours": "Su off; Mo-Fr 07:00-18:00; Sa 09:00-14:00",
+    "address": {
+      "street": "Sandweg",
+      "housenumber": "112",
+      "postcode": "50827",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/316866686",
+    "name": "Os Conquistadores",
+    "lat": 50.9546408,
+    "lng": 6.930481,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/614215772",
+    "name": "Oscar Lounge",
+    "lat": 50.9369949,
+    "lng": 6.9611658,
+    "category": "pub",
+    "address": {
+      "street": "Heumarkt",
+      "housenumber": "46",
+      "postcode": "50667",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/230226545",
+    "name": "Ossendorfer-Stübchen",
+    "lat": 50.9671954,
+    "lng": 6.9028008,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/8940080450",
+    "name": "Ostheimer Stube",
+    "lat": 50.9299394,
+    "lng": 7.0398689,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 00:00-04:00, 10:00-24:00; Su 00:00-04:00, 11:00-24:00",
+    "address": {
+      "street": "Frankfurter Straße",
+      "housenumber": "702",
+      "postcode": "51107",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/569769890",
+    "name": "Päff",
+    "lat": 50.9414326,
+    "lng": 6.9415624,
+    "category": "pub",
+    "website": "http://www.paeff.com/",
+    "curated": false
+  },
+  {
+    "id": "node/674745014",
+    "name": "Papa Joe's Jazzlokal",
+    "lat": 50.9378616,
+    "lng": 6.9621934,
+    "category": "pub",
+    "opening_hours": "Mo-Su 20:00-03:00",
+    "website": "https://www.papajoes.de/",
+    "address": {
+      "postcode": "50667"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/70779608",
+    "name": "Papa Madeo",
+    "lat": 50.8971518,
+    "lng": 7.0254775,
+    "category": "pub",
+    "address": {
+      "street": "Oberstraße",
+      "housenumber": "21",
+      "postcode": "51149",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/665538717",
+    "name": "Papa Rudi",
+    "lat": 50.9314402,
+    "lng": 6.9567088,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/1862062033",
+    "name": "Paps Pub",
+    "lat": 50.9702929,
+    "lng": 7.0080419,
+    "category": "pub",
+    "address": {
+      "street": "Berliner Straße",
+      "housenumber": "25",
+      "postcode": "51063",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11261447209",
+    "name": "Paradise",
+    "lat": 50.8578144,
+    "lng": 7.0876878,
+    "category": "pub",
+    "address": {
+      "street": "Heidestraße",
+      "housenumber": "11",
+      "postcode": "51147",
+      "suburb": "Wahn",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12154220626",
+    "name": "Park Cafe 3.0 Insbaration",
+    "lat": 50.9433454,
+    "lng": 6.9300111,
+    "category": "biergarten",
+    "address": {
+      "street": "Venloer Straße",
+      "housenumber": "65",
+      "postcode": "50672",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4326452542",
+    "name": "Pegel Köln",
+    "lat": 50.9339334,
+    "lng": 6.9346348,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 19:00+",
+    "address": {
+      "street": "Brüsseler Straße",
+      "housenumber": "10",
+      "postcode": "50674",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/654207161",
+    "name": "Petit Prince",
+    "lat": 50.9421526,
+    "lng": 6.9407092,
+    "category": "nightclub",
+    "address": {
+      "street": "Hohenzollernring"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/12073914869",
+    "name": "Petras Heidestube",
+    "lat": 50.9503028,
+    "lng": 7.0431884,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 17:00-22:00",
+    "address": {
+      "postcode": "51109"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/569769755",
+    "name": "Pier 124",
+    "lat": 50.9412479,
+    "lng": 6.9415027,
+    "category": "bar",
+    "opening_hours": "Mo, Tu off; We, Th 19:00-01:00; Fr, Sa 19:00-03:00; Su off",
+    "website": "https://www.pier124.de/",
+    "curated": false
+  },
+  {
+    "id": "node/1629678507",
+    "name": "Piranha",
+    "lat": 50.9288812,
+    "lng": 6.9387101,
+    "category": "bar",
+    "website": "https://www.piranha-koeln.de/",
+    "curated": false
+  },
+  {
+    "id": "node/9935413046",
+    "name": "Pitter em 1/4",
+    "lat": 50.9209296,
+    "lng": 6.9583969,
+    "category": "pub",
+    "website": "https://www.pitter-em-veedel.de/",
+    "address": {
+      "street": "Merowingerstraße",
+      "housenumber": "2",
+      "postcode": "50677",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1680566899",
+    "name": "Playa in Cologne",
+    "lat": 50.9325455,
+    "lng": 6.8729362,
+    "category": "biergarten",
+    "opening_hours": "Mo-Fr 17:00-23:00; Sa 14:00-23:00; Su 12:00-21:00; PH 14:00-23:00",
+    "website": "https://www.playa.de/",
+    "address": {
+      "street": "Junkersdorfer Straße",
+      "housenumber": "1",
+      "postcode": "50933",
+      "suburb": "Müngersdorf",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/942692370",
+    "name": "Plaza",
+    "lat": 50.939308,
+    "lng": 6.9393743,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/4459414291",
+    "name": "PM in Kölle",
+    "lat": 50.9406742,
+    "lng": 6.9434254,
+    "category": "bar",
+    "address": {
+      "street": "Friesenstraße",
+      "housenumber": "43"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/752010343",
+    "name": "Point One",
+    "lat": 50.9463178,
+    "lng": 6.9247831,
+    "category": "pub",
+    "opening_hours": "Tu-Th 18:00-01:00; Fr 18:00-03:00; Sa 15:00-03:00; Su 15:00-01:00",
+    "website": "https://www.point-one.info",
+    "address": {
+      "street": "Venloer Straße",
+      "housenumber": "219",
+      "postcode": "50823"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/246763435",
+    "name": "Potpourri",
+    "lat": 50.9684534,
+    "lng": 6.9490557,
+    "category": "biergarten",
+    "opening_hours": "Mo-Fr 12:00-23:00; Sa,Su 10:00-23:00",
+    "website": "https://www.potpourri.koeln",
+    "address": {
+      "street": "Mauenheimer Straße",
+      "housenumber": "92",
+      "postcode": "50733",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13463182203",
+    "name": "Prime Lounge Bar",
+    "lat": 51.025891,
+    "lng": 6.9583742,
+    "category": "bar",
+    "address": {
+      "street": "Merkenicher Hauptstraße",
+      "housenumber": "168"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/608425592",
+    "name": "PUB-Likum",
+    "lat": 50.9459229,
+    "lng": 6.920101,
+    "category": "pub",
+    "website": "http://www.pub-likum.de/",
+    "curated": false
+  },
+  {
+    "id": "node/14088101526",
+    "name": "PubG",
+    "lat": 50.9380335,
+    "lng": 7.0006358,
+    "category": "pub",
+    "address": {
+      "street": "Kalk-Mülheimer Straße",
+      "housenumber": "4"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/9053749471",
+    "name": "Pullermanns",
+    "lat": 50.9332999,
+    "lng": 6.9593916,
+    "category": "nightclub",
+    "opening_hours": "Mo 18:00-03:00; Tu-Th 21:00-03:00; Fr-Sa 21:00-05:00; Su 14:00-20:00,21:00-03:00",
+    "website": "https://pullermanns.de/",
+    "address": {
+      "street": "Mathiasstraße",
+      "housenumber": "22",
+      "postcode": "50676",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/14371452712",
+    "name": "Pulverfass",
+    "lat": 50.8922967,
+    "lng": 6.9925256,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/661055175",
+    "name": "Purn",
+    "lat": 50.9378844,
+    "lng": 6.9618647,
+    "category": "bar",
+    "address": {
+      "postcode": "50667"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/249059840",
+    "name": "Pütz",
+    "lat": 50.9463508,
+    "lng": 6.8956686,
+    "category": "pub",
+    "website": "http://www.xn--ptz-bistro-9db.de/",
+    "curated": false
+  },
+  {
+    "id": "node/635892169",
+    "name": "Quater1",
+    "lat": 50.9367427,
+    "lng": 6.9574664,
+    "category": "bar",
+    "website": "https://www.quater1.de/",
+    "curated": false
+  },
+  {
+    "id": "node/246280220",
+    "name": "Queens Bar",
+    "lat": 50.9738058,
+    "lng": 6.9270105,
+    "category": "bar",
+    "address": {
+      "street": "Am Bilderstöckchen",
+      "housenumber": "57",
+      "postcode": "50739",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/256542313",
+    "name": "Rakete",
+    "lat": 50.9644644,
+    "lng": 6.9526336,
+    "category": "bar",
+    "opening_hours": "Tu-Fr 16:00-22:00; Sa,Su,PH 14:00-22:00",
+    "address": {
+      "street": "Baudriplatz",
+      "housenumber": "2",
+      "postcode": "50733",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/614228327",
+    "name": "Rathausglöckchen",
+    "lat": 50.9375751,
+    "lng": 6.959668,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/660695023",
+    "name": "Rathaustreff",
+    "lat": 50.9377673,
+    "lng": 6.9597232,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/429693515",
+    "name": "red cat lounge",
+    "lat": 50.926165,
+    "lng": 6.938234,
+    "category": "pub",
+    "address": {
+      "street": "Luxemburger Straße",
+      "housenumber": "60",
+      "postcode": "50674"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/496107904",
+    "name": "Red Fox Bar",
+    "lat": 50.9489469,
+    "lng": 6.9209012,
+    "category": "bar",
+    "opening_hours": "Mo off; Tu-Sa 18:00-03:00; Su off",
+    "website": "https://redfoxbar.cologne/",
+    "curated": false
+  },
+  {
+    "id": "node/763221006",
+    "name": "Redrum Rockbar",
+    "lat": 50.9319061,
+    "lng": 6.932383,
+    "category": "bar",
+    "address": {
+      "street": "Lindenstraße",
+      "housenumber": "94",
+      "postcode": "50674",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/366949150",
+    "name": "Refugium",
+    "lat": 50.91243,
+    "lng": 6.945588,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 18:00-01:00; Su 18:00-00:00; PH 18:00-00:00",
+    "website": "https://refugium.apps-1and1.net/",
+    "address": {
+      "street": "Herthastraße",
+      "housenumber": "1",
+      "postcode": "50969",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2882785357",
+    "name": "Reineke Fuchs",
+    "lat": 50.9366304,
+    "lng": 6.9349836,
+    "category": "nightclub",
+    "website": "https://www.reineke-fuchs.com/",
+    "address": {
+      "street": "Aachener Straße",
+      "housenumber": "50",
+      "postcode": "50674",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13990488229",
+    "name": "Reisebüro",
+    "lat": 50.9285736,
+    "lng": 6.9376339,
+    "category": "bar",
+    "opening_hours": "Tu-Th 17:00-00:00",
+    "address": {
+      "street": "Kyffhäuserstraße",
+      "housenumber": "47"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/357906773",
+    "name": "Reissdorf am Brunnen",
+    "lat": 50.9284875,
+    "lng": 6.9566349,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/1431911472",
+    "name": "Reissdorf am Hahnentor",
+    "lat": 50.9363291,
+    "lng": 6.9409225,
+    "category": "pub",
+    "opening_hours": "Mo-Su,PH 11:30-24:00",
+    "website": "https://reissdorf-amhahnentor.de/",
+    "curated": false
+  },
+  {
+    "id": "node/1683516790",
+    "name": "Reissdorf im Mondial",
+    "lat": 50.9401907,
+    "lng": 6.9603582,
+    "category": "pub",
+    "opening_hours": "Mo-Su 17:00-01:00",
+    "website": "https://www.accorhotels.com/de/hotel-1306-hotel-mondial-am-dom-cologne-mgallery-collection/restaurant.shtml",
+    "curated": false
+  },
+  {
+    "id": "node/246271957",
+    "name": "Relax",
+    "lat": 50.968798,
+    "lng": 6.9393495,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/3682757311",
+    "name": "Rheinterrassen",
+    "lat": 50.9459712,
+    "lng": 6.9700332,
+    "category": "biergarten",
+    "website": "https://www.rheinterrassen.eu/",
+    "curated": false
+  },
+  {
+    "id": "node/14120378111",
+    "name": "RistoBar",
+    "lat": 50.9727304,
+    "lng": 7.0720407,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/538207115",
+    "name": "Roland Eck",
+    "lat": 50.9198975,
+    "lng": 6.9542865,
+    "category": "pub",
+    "website": "http://www.rolandeck-restaurant.de/",
+    "address": {
+      "street": "Rolandstraße",
+      "housenumber": "96",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11063103794",
+    "name": "Rollers Club",
+    "lat": 50.9533563,
+    "lng": 6.8954068,
+    "category": "nightclub",
+    "opening_hours": "Mo off; Tu-Th 17:00-21:00; Fr 17:00-24:00; Sa 13:00-24:00; Su 12:00-20:00",
+    "website": "https://www.rollersclub.de/",
+    "curated": false
+  },
+  {
+    "id": "node/444111714",
+    "name": "Römerkeller",
+    "lat": 50.9396819,
+    "lng": 6.946145,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/586889732",
+    "name": "Roonburg",
+    "lat": 50.9306512,
+    "lng": 6.9383749,
+    "category": "nightclub",
+    "website": "https://www.roonburg.de/",
+    "address": {
+      "street": "Roonstraße",
+      "housenumber": "33",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/897594974",
+    "name": "Rotana",
+    "lat": 50.9370931,
+    "lng": 6.9381561,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/362940567",
+    "name": "Roter Platz",
+    "lat": 50.9297832,
+    "lng": 6.9393588,
+    "category": "bar",
+    "address": {
+      "street": "Zülpicher Platz",
+      "housenumber": "11",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/150928916",
+    "name": "Roxy",
+    "lat": 50.8994184,
+    "lng": 6.9870407,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/635552010",
+    "name": "Rüdell Eck",
+    "lat": 50.9918997,
+    "lng": 6.93305,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 11:00-18:00+; Su 10:00-14:00",
+    "curated": false
+  },
+  {
+    "id": "node/427539872",
+    "name": "Rüttgers",
+    "lat": 50.9369226,
+    "lng": 6.9624091,
+    "category": "pub",
+    "address": {
+      "street": "Buttermarkt",
+      "postcode": "50667"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/330141669",
+    "name": "Sadie's Irish Pub",
+    "lat": 50.9477219,
+    "lng": 6.9518826,
+    "category": "pub",
+    "opening_hours": "Tu 19:00+; We-Sa 18:00+",
+    "curated": false
+  },
+  {
+    "id": "node/12765919311",
+    "name": "Samuel´s Shep",
+    "lat": 50.930648,
+    "lng": 6.9374181,
+    "category": "bar",
+    "opening_hours": "Tu-Th 19:00-24:00; Fr-Sa 19:00-02:00",
+    "address": {
+      "street": "Rathenauplatz",
+      "housenumber": "5",
+      "postcode": "50674",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10202340571",
+    "name": "Santiago de Cuba",
+    "lat": 50.9485963,
+    "lng": 6.9535885,
+    "category": "bar",
+    "opening_hours": "Mo-Su 18:00-04:00",
+    "website": "https://www.santiago-cuba.de/",
+    "address": {
+      "street": "Weidengasse",
+      "housenumber": "79",
+      "postcode": "50668",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2096386367",
+    "name": "Saphir Club",
+    "lat": 50.9621395,
+    "lng": 6.9586643,
+    "category": "nightclub",
+    "curated": false
+  },
+  {
+    "id": "node/196190188",
+    "name": "Schäfer's Eck",
+    "lat": 50.9518538,
+    "lng": 6.9246184,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/938889590",
+    "name": "Schampanja",
+    "lat": 50.9343331,
+    "lng": 6.9405489,
+    "category": "pub",
+    "opening_hours": "Mo-Su 20:00-05:00",
+    "website": "https://schampanja-koeln.de/",
+    "curated": false
+  },
+  {
+    "id": "node/320560422",
+    "name": "Schänke Dezernat 90",
+    "lat": 50.9433137,
+    "lng": 6.9608631,
+    "category": "pub",
+    "address": {
+      "street": "Johannisstraße",
+      "housenumber": "30",
+      "postcode": "50668"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/441632084",
+    "name": "Scheinbar",
+    "lat": 50.9337305,
+    "lng": 6.9346044,
+    "category": "pub",
+    "opening_hours": "Mo-Su,PH 18:00-24:00+",
+    "address": {
+      "street": "Brüsseler Straße",
+      "housenumber": "10",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3039677879",
+    "name": "Schill-Eck",
+    "lat": 50.9665183,
+    "lng": 6.9531555,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/14049722789",
+    "name": "Schlagbaums Eck",
+    "lat": 50.9584022,
+    "lng": 7.0402182,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/8740462975",
+    "name": "Schlösselche",
+    "lat": 50.9178897,
+    "lng": 6.9237777,
+    "category": "pub",
+    "address": {
+      "street": "Sülzburgstraße",
+      "housenumber": "94",
+      "postcode": "50937",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/435541538",
+    "name": "Schmelztiegel",
+    "lat": 50.9275452,
+    "lng": 6.9396204,
+    "category": "bar",
+    "opening_hours": "Th-Sa 20:00-24:00+",
+    "website": "https://schmelztiegel.de/",
+    "address": {
+      "street": "Luxemburger Straße",
+      "housenumber": "34",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/370841032",
+    "name": "Schmittchen",
+    "lat": 50.9391502,
+    "lng": 6.9519671,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/3329143448",
+    "name": "Schulz",
+    "lat": 50.9578059,
+    "lng": 6.9198638,
+    "category": "pub",
+    "opening_hours": "Tu-Su 19:00+",
+    "address": {
+      "postcode": "50825"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/966736945",
+    "name": "Schwimmbad",
+    "lat": 50.9613483,
+    "lng": 6.9840925,
+    "category": "biergarten",
+    "opening_hours": "Tu-Su 13:00-23:00 unknown \"In der Saison, bei schönem Wetter\"",
+    "address": {
+      "street": "An der Schanz",
+      "housenumber": "2a",
+      "postcode": "50735",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4077377860",
+    "name": "SeventySix Lounge Cocktailbar",
+    "lat": 50.9969256,
+    "lng": 6.9053564,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/538268435",
+    "name": "Shamrock",
+    "lat": 50.9198093,
+    "lng": 6.9621418,
+    "category": "pub",
+    "address": {
+      "street": "Alteburger Straße",
+      "housenumber": "40",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4396248670",
+    "name": "Shorty Shooter Bar",
+    "lat": 50.9302786,
+    "lng": 6.9390134,
+    "category": "bar",
+    "opening_hours": "Mo-Sa 20:00-03:00",
+    "curated": false
+  },
+  {
+    "id": "node/247313380",
+    "name": "Siedlerklause",
+    "lat": 51.0146729,
+    "lng": 6.8973457,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/5696952871",
+    "name": "Sion an der Agneskirche",
+    "lat": 50.9534189,
+    "lng": 6.9570487,
+    "category": "pub",
+    "address": {
+      "street": "Neusser Straße",
+      "housenumber": "57",
+      "postcode": "50670",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1797180486",
+    "name": "Sion Bräues",
+    "lat": 50.936893,
+    "lng": 6.9743052,
+    "category": "pub",
+    "opening_hours": "Tu-Th 16:00-24:00+; Fr-Su 12:00-24:00+; Mo off",
+    "website": "https://traditionsbrauhaus.de/",
+    "address": {
+      "street": "Deutzer Freiheit",
+      "housenumber": "85-87",
+      "postcode": "50679",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/322776543",
+    "name": "Six Pack",
+    "lat": 50.936362,
+    "lng": 6.9343192,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 20:00-18:00+",
+    "address": {
+      "street": "Aachener Straße",
+      "housenumber": "33",
+      "postcode": "50674",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/427539908",
+    "name": "Sonderbar",
+    "lat": 50.9382278,
+    "lng": 6.9620657,
+    "category": "bar",
+    "opening_hours": "Mo-Su 17:00-03:00",
+    "website": "https://sonderbar-koeln.de/",
+    "address": {
+      "postcode": "50667"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1643521285",
+    "name": "Soul Bar",
+    "lat": 50.9290459,
+    "lng": 6.937347,
+    "category": "bar",
+    "address": {
+      "street": "Zülpicher Straße",
+      "housenumber": "29",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/849724556",
+    "name": "Soylent Green",
+    "lat": 50.9287379,
+    "lng": 6.9391708,
+    "category": "bar",
+    "opening_hours": "Su-Th 18:00-05:00; Fr-Sa 18:00-06:00",
+    "address": {
+      "street": "Kyffhäuserstraße",
+      "housenumber": "23",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/809813841",
+    "name": "Späti Köln",
+    "lat": 50.9298775,
+    "lng": 6.9392424,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/5624515121",
+    "name": "Spirits",
+    "lat": 50.9349184,
+    "lng": 6.9378706,
+    "category": "bar",
+    "opening_hours": "Mo-Th 18:00-01:00; Fr, Sa 18:00-03:00",
+    "website": "https://www.spiritsbar.de/",
+    "address": {
+      "street": "Engelbertstraße",
+      "housenumber": "63",
+      "postcode": "50674",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1480429892",
+    "name": "Sports Bar",
+    "lat": 50.8914128,
+    "lng": 6.9906067,
+    "category": "pub",
+    "opening_hours": "11:00-23:00",
+    "address": {
+      "street": "Maternusstraße",
+      "housenumber": "39"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3777877573",
+    "name": "Sportsbar Altstadt",
+    "lat": 50.9366853,
+    "lng": 6.9596439,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/4264453712",
+    "name": "Sportsbar21",
+    "lat": 50.9860178,
+    "lng": 6.9976796,
+    "category": "bar",
+    "opening_hours": "9:00-6:00",
+    "address": {
+      "street": "Moses-Heß-Straße",
+      "housenumber": "2",
+      "postcode": "51061",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/572638298",
+    "name": "Spritz",
+    "lat": 50.9275451,
+    "lng": 6.942286,
+    "category": "pub",
+    "opening_hours": "We-Su 16:00-01:00",
+    "address": {
+      "street": "Trierer Straße",
+      "housenumber": "41",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/394702500",
+    "name": "Stadt Treff",
+    "lat": 50.9360839,
+    "lng": 6.9592689,
+    "category": "pub",
+    "opening_hours": "We-Sa 17:00-24:00",
+    "curated": false
+  },
+  {
+    "id": "node/14088478701",
+    "name": "Stadtgarten",
+    "lat": 50.9429863,
+    "lng": 6.9351599,
+    "category": "biergarten",
+    "curated": false
+  },
+  {
+    "id": "node/12918065095",
+    "name": "Stammheimer Treff",
+    "lat": 50.9868412,
+    "lng": 6.9906465,
+    "category": "pub",
+    "opening_hours": "Mo-Su 09:00-22:00",
+    "address": {
+      "street": "Gisbertstraße",
+      "housenumber": "83",
+      "postcode": "51061",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2959085464",
+    "name": "Startbahn",
+    "lat": 50.8767249,
+    "lng": 7.1035408,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/6490693254",
+    "name": "Stauss",
+    "lat": 50.9184136,
+    "lng": 6.9251384,
+    "category": "pub",
+    "opening_hours": "Mo,We,Th 18:00-01:00, Fr 19:00-03:00, Sa 20:00-03:00; Tu,Su off",
+    "curated": false
+  },
+  {
+    "id": "node/419015185",
+    "name": "Stereo Wonderland",
+    "lat": 50.9273748,
+    "lng": 6.9401083,
+    "category": "pub",
+    "address": {
+      "street": "Trierer Straße",
+      "housenumber": "65",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1969878504",
+    "name": "Sterlinglounge",
+    "lat": 50.9423523,
+    "lng": 6.9401444,
+    "category": "bar",
+    "opening_hours": "Mo-Su 14:00+",
+    "address": {
+      "street": "Hohenzollernring",
+      "housenumber": "99 - 101",
+      "postcode": "50672",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5807533940",
+    "name": "Sternhagel",
+    "lat": 50.9538229,
+    "lng": 6.9504251,
+    "category": "pub",
+    "opening_hours": "Tu-Th 21:00-02:00, Fr,Sa 21:00-05:00",
+    "website": "https://sternhagel.koeln/",
+    "address": {
+      "street": "Krefelder Straße",
+      "housenumber": "101",
+      "postcode": "50670",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/445344062",
+    "name": "Stövchen",
+    "lat": 50.9451188,
+    "lng": 6.9535313,
+    "category": "pub",
+    "opening_hours": "Su-Fr 11:00-24:00; Sa off",
+    "curated": false
+  },
+  {
+    "id": "node/1880975515",
+    "name": "Subbelrather Hof",
+    "lat": 50.9499878,
+    "lng": 6.9286793,
+    "category": "pub",
+    "website": "http://www.subbelratherhof.de/",
+    "curated": false
+  },
+  {
+    "id": "node/6942642331",
+    "name": "Subway",
+    "lat": 50.9366935,
+    "lng": 6.9316037,
+    "category": "nightclub",
+    "website": "https://www.subway-der-club.de",
+    "curated": false
+  },
+  {
+    "id": "node/1512568892",
+    "name": "Suderman",
+    "lat": 50.9513403,
+    "lng": 6.9542103,
+    "category": "bar",
+    "opening_hours": "Tu-Th 17:00-00:00, Fr,Sa 17:00-01:00",
+    "address": {
+      "street": "Sudermanplatz",
+      "housenumber": "3",
+      "postcode": "50670",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/353954229",
+    "name": "Südkurve",
+    "lat": 50.9170022,
+    "lng": 6.9284769,
+    "category": "pub",
+    "opening_hours": "11:00+",
+    "website": "https://www.koelner-suedkurve.de/",
+    "address": {
+      "street": "Luxemburger Straße",
+      "housenumber": "228",
+      "postcode": "50937",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/661026162",
+    "name": "Sünner im Walfisch",
+    "lat": 50.9377038,
+    "lng": 6.9619002,
+    "category": "pub",
+    "opening_hours": "Tu-Th 17:00+; Fr-Su 12:00+",
+    "website": "https://walfisch.de/",
+    "curated": false
+  },
+  {
+    "id": "node/976649106",
+    "name": "Sünner Stube",
+    "lat": 50.9252613,
+    "lng": 6.9112494,
+    "category": "pub",
+    "website": "https://www.suenner-stube.de/",
+    "address": {
+      "street": "Lindenthalgürtel",
+      "housenumber": "72",
+      "postcode": "50935",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/534440463",
+    "name": "Tag und Nacht Kneipe",
+    "lat": 50.9644265,
+    "lng": 7.0207347,
+    "category": "pub",
+    "address": {
+      "street": "Wichheimer Straße",
+      "housenumber": "2",
+      "postcode": "51067",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/356175010",
+    "name": "Tankstelle Köln",
+    "lat": 50.9287735,
+    "lng": 6.9394758,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 18:00+; Su 14:30+ || \"eine Stunde vor FC-Spielen\"",
+    "website": "https://www.tankstelle-koeln.de/",
+    "address": {
+      "street": "Kyffhäuserstraße",
+      "housenumber": "19",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4987719426",
+    "name": "Tanzbrunnen Köln",
+    "lat": 50.945818,
+    "lng": 6.970363,
+    "category": "biergarten",
+    "website": "http://koelnkongress.de/de/locations/tanzbrunnen-koeln.html",
+    "address": {
+      "street": "Rheinparkweg",
+      "housenumber": "1",
+      "postcode": "50679",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/661055161",
+    "name": "Taverna Flamenca",
+    "lat": 50.9375689,
+    "lng": 6.9617594,
+    "category": "pub",
+    "website": "http://taberna-flamenca.net/",
+    "curated": false
+  },
+  {
+    "id": "node/244310884",
+    "name": "Taverne im Pohlhof",
+    "lat": 51.002207,
+    "lng": 6.8516326,
+    "category": "pub",
+    "opening_hours": "Mo 17:00-22:00; We-Fr 17:00-22:00; Sa,Su 11:30-14:30,17:00-22:00",
+    "curated": false
+  },
+  {
+    "id": "node/250517411",
+    "name": "Tennessee Bar",
+    "lat": 51.0610262,
+    "lng": 6.8729477,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/244120259",
+    "name": "Tennis-Klause",
+    "lat": 50.9697575,
+    "lng": 6.8447716,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/786918256",
+    "name": "The 3B",
+    "lat": 50.9336099,
+    "lng": 6.9587357,
+    "category": "bar",
+    "website": "https://the3b.cologne/",
+    "address": {
+      "street": "Mühlenbach",
+      "housenumber": "53",
+      "postcode": "50676",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2833536264",
+    "name": "The Bär",
+    "lat": 50.9469271,
+    "lng": 6.9215736,
+    "category": "bar",
+    "opening_hours": "We-Sa 19:00+",
+    "address": {
+      "street": "Thebäerstraße",
+      "housenumber": "8",
+      "postcode": "50823",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/826292837",
+    "name": "The Black Banshee",
+    "lat": 50.928723,
+    "lng": 6.9390639,
+    "category": "pub",
+    "opening_hours": "Mo-We 18:00-01:00; Th 18:00-02:00; Fr-Sa 18:00-03:00",
+    "address": {
+      "street": "Kyffhäuserstraße",
+      "housenumber": "25",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1089025092",
+    "name": "The Black Moon",
+    "lat": 50.9419173,
+    "lng": 7.008303,
+    "category": "bar",
+    "address": {
+      "street": "Buchforststraße",
+      "housenumber": "27-29"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/593552802",
+    "name": "The Cage",
+    "lat": 50.9305557,
+    "lng": 6.9373212,
+    "category": "nightclub",
+    "website": "https://thecage.club/",
+    "address": {
+      "street": "Rathenauplatz",
+      "housenumber": "6",
+      "postcode": "50674",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3777877574",
+    "name": "The Copper Pot",
+    "lat": 50.9366817,
+    "lng": 6.959762,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/560723712",
+    "name": "The Corkonian",
+    "lat": 50.9389293,
+    "lng": 6.9597485,
+    "category": "pub",
+    "opening_hours": "Su-Th,PH 12:00-01:00, Fr,Sa 12:00-03:00",
+    "website": "https://www.thecorkonian.com/",
+    "address": {
+      "postcode": "50667"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/990902453",
+    "name": "Thiebolds Eck",
+    "lat": 50.9348469,
+    "lng": 6.947903,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/13975470581",
+    "name": "Tipsy Monk",
+    "lat": 50.9375613,
+    "lng": 6.9614913,
+    "category": "bar",
+    "address": {
+      "street": "Salzgasse",
+      "housenumber": "4",
+      "postcode": "50667",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5357065860",
+    "name": "Toddy Tapper",
+    "lat": 50.9520992,
+    "lng": 6.9579828,
+    "category": "bar",
+    "opening_hours": "Mo-Th 18:00-24:00; Fr,Sa 18:00-02:00",
+    "website": "https://toddytapperbar.de/",
+    "address": {
+      "street": "Schillingstraße",
+      "housenumber": "27",
+      "postcode": "50670",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/156689987",
+    "name": "Tombis Bar",
+    "lat": 51.0647604,
+    "lng": 6.8526022,
+    "category": "bar",
+    "address": {
+      "street": "Hackenbroicher Straße",
+      "housenumber": "132",
+      "postcode": "50769",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/3465130071",
+    "name": "Tomorrows",
+    "lat": 50.9422369,
+    "lng": 6.94071,
+    "category": "nightclub",
+    "address": {
+      "street": "Hohenzollernring",
+      "housenumber": "92",
+      "postcode": "50672",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/633181822",
+    "name": "Topkapi Deluxe",
+    "lat": 50.9384192,
+    "lng": 6.9604148,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/1870354446",
+    "name": "Torburg",
+    "lat": 50.9217927,
+    "lng": 6.9589548,
+    "category": "pub",
+    "website": "https://torburg.koeln/",
+    "curated": false
+  },
+  {
+    "id": "node/2569080812",
+    "name": "Trafic",
+    "lat": 50.9570616,
+    "lng": 6.9003367,
+    "category": "nightclub",
+    "website": "https://www.club-trafic.de/",
+    "address": {
+      "street": "Venloer Straße",
+      "housenumber": "601-603",
+      "postcode": "50827",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2837702295",
+    "name": "Trash Chic",
+    "lat": 50.9369997,
+    "lng": 7.0090022,
+    "category": "pub",
+    "opening_hours": "Tu-Su,PH 17:00-22:00+; Mo off",
+    "website": "https://www.trash-chic.com/",
+    "address": {
+      "street": "Wiersbergstraße",
+      "housenumber": "31",
+      "postcode": "51103",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/366969491",
+    "name": "Treffpunkt",
+    "lat": 50.905311,
+    "lng": 6.9418318,
+    "category": "pub",
+    "opening_hours": "Tu-Th 15:00-24:00, Fr-Su,PH 11:00-24:00",
+    "address": {
+      "street": "Zollstockgürtel",
+      "housenumber": "22"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/4536537853",
+    "name": "Treffpunkt",
+    "lat": 50.8815928,
+    "lng": 7.0921027,
+    "category": "pub",
+    "address": {
+      "street": "Waldstraße",
+      "housenumber": "88",
+      "postcode": "51145",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/252371674",
+    "name": "Treffpunkt",
+    "lat": 50.9777321,
+    "lng": 7.070834,
+    "category": "pub",
+    "address": {
+      "street": "Idastraße",
+      "housenumber": "44",
+      "postcode": "51069",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/477336342",
+    "name": "Treppchen-Keller am Dom",
+    "lat": 50.9397818,
+    "lng": 6.9590835,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/442702961",
+    "name": "Tresörchen Köln",
+    "lat": 50.9251806,
+    "lng": 6.958251,
+    "category": "bar",
+    "opening_hours": "Tu-Th 16:00-02:00, Fr 15:00-03:00, Sa 15:00-04:00, Su 15:00-24:00; Mo off",
+    "website": "https://tresoerchen.koeln/",
+    "address": {
+      "street": "Severinstraße",
+      "housenumber": "77-79",
+      "postcode": "50678",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/456372577",
+    "name": "Trierer Eck",
+    "lat": 50.9276761,
+    "lng": 6.9453931,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 14:00-24:00; Sa,Su,PH 10:30-24:00",
+    "website": "https://trierereck.de",
+    "address": {
+      "street": "Trierer Straße",
+      "housenumber": "21A",
+      "postcode": "50676",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/243924625",
+    "name": "Trink-Genossin",
+    "lat": 50.9544498,
+    "lng": 6.9187639,
+    "category": "pub",
+    "opening_hours": "Th 18:00-00:00; Mo-We, Fr 19:00-00:00; Sa-Su 19:00-02:00",
+    "website": "https://trink-genosse.de/",
+    "curated": false
+  },
+  {
+    "id": "node/538205979",
+    "name": "Tsunami Club",
+    "lat": 50.9226627,
+    "lng": 6.9596517,
+    "category": "pub",
+    "address": {
+      "street": "Im Ferkulum",
+      "housenumber": "9",
+      "postcode": "50678",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10895942368",
+    "name": "Twin Tin",
+    "lat": 50.9548876,
+    "lng": 6.9659006,
+    "category": "bar",
+    "opening_hours": "Mo-Tu off; We-Th 16:00-24:00; Fr-Sa 16:00-01:00; Su 14:00-22:00",
+    "address": {
+      "street": "Riehler Straße",
+      "housenumber": "73",
+      "postcode": "50668",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/479893788",
+    "name": "Ü 36 - bei Wally",
+    "lat": 50.9488475,
+    "lng": 6.9168179,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/538270555",
+    "name": "Ubierschänke",
+    "lat": 50.9216676,
+    "lng": 6.9619997,
+    "category": "pub",
+    "address": {
+      "street": "Ubierring",
+      "housenumber": "19",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/286420724",
+    "name": "Umbruch",
+    "lat": 50.9294748,
+    "lng": 6.9380873,
+    "category": "bar",
+    "address": {
+      "street": "Zülpicher Straße",
+      "housenumber": "11",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/413454048",
+    "name": "Umleitung",
+    "lat": 50.9421948,
+    "lng": 6.9353068,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 12:00-01:00; Sa,PH 15:00-01:00; Su 14:00-22:00 || \"Bei Spielen des 1.FC Köln (Sa/So Anstoß 13:30) um 13 Uhr\"",
+    "website": "https://www.umleitung-koeln.de/",
+    "curated": false
+  },
+  {
+    "id": "node/1305920085",
+    "name": "Uni Schänke",
+    "lat": 50.9217864,
+    "lng": 6.9322837,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/8903733394",
+    "name": "Uns Landebahn",
+    "lat": 50.9355191,
+    "lng": 7.0609991,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "way/291664467",
+    "name": "Valhalla Metal Club",
+    "lat": 50.9688513,
+    "lng": 7.0064178,
+    "category": "nightclub",
+    "opening_hours": "Fr,Sa 20:00-03:00+",
+    "address": {
+      "street": "Clevischer Ring",
+      "housenumber": "119",
+      "postcode": "51063",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2439165335",
+    "name": "Vanity",
+    "lat": 50.9374505,
+    "lng": 6.9394937,
+    "category": "nightclub",
+    "website": "https://vanity.cc/",
+    "curated": false
+  },
+  {
+    "id": "node/1152590448",
+    "name": "Veedels Treff",
+    "lat": 50.9812277,
+    "lng": 7.0240617,
+    "category": "pub",
+    "address": {
+      "street": "Berliner Straße",
+      "housenumber": "334",
+      "postcode": "51061",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/13608555301",
+    "name": "Venloer Stube",
+    "lat": 50.9414006,
+    "lng": 6.9368615,
+    "category": "bar",
+    "opening_hours": "Mo-Th 17:00-24:00; Fr,Sa 15:00-03:00; Su off",
+    "address": {
+      "street": "Venloer Straße",
+      "housenumber": "17"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/903968348",
+    "name": "Vingster Pohl",
+    "lat": 50.9322765,
+    "lng": 7.0200007,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/246763446",
+    "name": "Vintage54",
+    "lat": 50.9636834,
+    "lng": 6.9497498,
+    "category": "bar",
+    "address": {
+      "postcode": "50733"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2697806632",
+    "name": "Viva Colonia",
+    "lat": 50.9401676,
+    "lng": 7.0225858,
+    "category": "pub",
+    "opening_hours": "Mo-Th 11:00-23:00, Fr 10:00-24:00, Sa,Su 10:00-23:00",
+    "curated": false
+  },
+  {
+    "id": "node/324404281",
+    "name": "Waldstube",
+    "lat": 51.006844,
+    "lng": 7.0281934,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/5159786286",
+    "name": "Weimarer Stübchen",
+    "lat": 50.9435049,
+    "lng": 7.0214698,
+    "category": "pub",
+    "opening_hours": "Mo-Th 15:00-23:00; Fr-Sa 15:00-00:00; Su 11:00-17:00",
+    "website": "https://www.weimarerstuebchen.de/",
+    "curated": false
+  },
+  {
+    "id": "node/5742063821",
+    "name": "Weingarten Severinstorburg",
+    "lat": 50.9219995,
+    "lng": 6.9592103,
+    "category": "bar",
+    "curated": false
+  },
+  {
+    "id": "node/570778486",
+    "name": "Weinkneipe Zur alten Wettannahme",
+    "lat": 50.9211416,
+    "lng": 6.9616762,
+    "category": "pub",
+    "opening_hours": "Tu-Fr 17:00-02:00+, Sa 12:00-18:00+",
+    "address": {
+      "street": "Alteburger Straße",
+      "housenumber": "16",
+      "postcode": "50678",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/648540171",
+    "name": "Weißer Holunder",
+    "lat": 50.9464769,
+    "lng": 6.9385283,
+    "category": "pub",
+    "address": {
+      "street": "Gladbacher Straße",
+      "housenumber": "48",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/444782834",
+    "name": "Whnbar",
+    "lat": 50.9369976,
+    "lng": 6.9435688,
+    "category": "bar",
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:30",
+    "curated": false
+  },
+  {
+    "id": "node/14316557401",
+    "name": "Woodcutter - Axtwerfen und Bier trinken",
+    "lat": 50.9355669,
+    "lng": 6.9379847,
+    "category": "bar",
+    "opening_hours": "Tu-Th 14:30-22:00; Fr 14:30-23:45; Sa 12:00-00:00; Su 14:30-20:00",
+    "website": "https://woodcutter.world/de/koeln",
+    "address": {
+      "street": "Habsburgerring",
+      "housenumber": "9-13",
+      "postcode": "50674"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/569768387",
+    "name": "Woods",
+    "lat": 50.9406546,
+    "lng": 6.9432636,
+    "category": "bar",
+    "opening_hours": "Mo-Th 18:00-24:00; Th-Sa 18:00-01:00; Su 06:00-23:30",
+    "website": "https://www.woods-cologne.de/",
+    "address": {
+      "street": "Friesenstraße",
+      "housenumber": "49",
+      "postcode": "50670",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/250517412",
+    "name": "Worringen Oriental",
+    "lat": 51.0608517,
+    "lng": 6.8724008,
+    "category": "pub",
+    "opening_hours": "Mo-Su 17:00-23:00",
+    "curated": false
+  },
+  {
+    "id": "node/2725052256",
+    "name": "Zentralgarderobe",
+    "lat": 50.9347578,
+    "lng": 6.9410248,
+    "category": "bar",
+    "opening_hours": "Fr-Sa 21:00-06:00",
+    "address": {
+      "street": "Schaafenstraße",
+      "housenumber": "49",
+      "postcode": "50676",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "way/372973071",
+    "name": "Zillichs Biergarten",
+    "lat": 51.022217,
+    "lng": 6.9271366,
+    "category": "biergarten",
+    "curated": false
+  },
+  {
+    "id": "node/218194322",
+    "name": "Zimmermanns Jassweetschaff",
+    "lat": 50.9604109,
+    "lng": 6.9025528,
+    "category": "pub",
+    "opening_hours": "17:00-00:00",
+    "website": "https://zimmermannskoeln.com/",
+    "address": {
+      "street": "Subbelrather Straße",
+      "housenumber": "543",
+      "postcode": "50827",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/249759190",
+    "name": "Zint Tönnes",
+    "lat": 51.0637168,
+    "lng": 6.8638167,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/2556100566",
+    "name": "Zirkel",
+    "lat": 50.9364174,
+    "lng": 6.8986508,
+    "category": "pub",
+    "address": {
+      "street": "Braunstraße",
+      "housenumber": "20",
+      "postcode": "50933",
+      "suburb": "Lindenthal",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/11904558869",
+    "name": "Zoch‘s Biergaten",
+    "lat": 50.9615154,
+    "lng": 7.0050426,
+    "category": "biergarten",
+    "website": "http://www.zochscatering.de",
+    "address": {
+      "street": "Wiener Platz",
+      "postcode": "51065"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/701848805",
+    "name": "Zum Äädäppel",
+    "lat": 50.9110547,
+    "lng": 6.9412912,
+    "category": "pub",
+    "opening_hours": "Tu-Th 12:00-22:00; Fr 12:00-23:00; Sa 15:00-23:00; Su 12:00-21:00",
+    "website": "https://www.zumäädäppel.de/",
+    "address": {
+      "street": "Höninger Weg",
+      "housenumber": "200",
+      "postcode": "50969",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/243975720",
+    "name": "Zum Alibi",
+    "lat": 50.9570594,
+    "lng": 6.9115847,
+    "category": "pub",
+    "address": {
+      "street": "Hackländerstraße",
+      "housenumber": "31",
+      "postcode": "50825",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2686381170",
+    "name": "Zum Alten Brauhaus",
+    "lat": 50.9983387,
+    "lng": 6.9063973,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/243172237",
+    "name": "zum Backstein",
+    "lat": 51.001179,
+    "lng": 6.8774505,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/6396973919",
+    "name": "Zum Boor",
+    "lat": 50.9176603,
+    "lng": 6.9895296,
+    "category": "pub",
+    "website": "https://zumboor.de/",
+    "address": {
+      "street": "Siegburger Straße",
+      "housenumber": "333a",
+      "postcode": "51105",
+      "suburb": "Poll",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/232271724",
+    "name": "zum Denkmal",
+    "lat": 50.9642552,
+    "lng": 6.9480551,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 17:00-02:00",
+    "address": {
+      "postcode": "50733"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/7158783719",
+    "name": "Zum Faß II",
+    "lat": 50.957657,
+    "lng": 7.0104824,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/495700410",
+    "name": "Zum Fuss",
+    "lat": 50.9315567,
+    "lng": 7.0465494,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/4751013677",
+    "name": "Zum Goldenen Schuss",
+    "lat": 50.940241,
+    "lng": 6.9345649,
+    "category": "pub",
+    "address": {
+      "street": "Antwerpener Straße",
+      "housenumber": "38",
+      "postcode": "50672",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/817316401",
+    "name": "Zum kleinen Geißbock",
+    "lat": 50.931414,
+    "lng": 6.9186842,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/297909949",
+    "name": "Zum Kornbrenner",
+    "lat": 50.9596783,
+    "lng": 6.9543225,
+    "category": "pub",
+    "opening_hours": "Tu-Sa 16:00-00:30, Su 16:00-23:00",
+    "website": "https://www.zumkornbrenner.koeln/",
+    "address": {
+      "street": "Neusser Straße",
+      "housenumber": "171",
+      "postcode": "50733",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/272728754",
+    "name": "Zum Krug",
+    "lat": 50.9591455,
+    "lng": 6.9999341,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/1732898269",
+    "name": "Zum Musketier",
+    "lat": 50.9502811,
+    "lng": 6.9280204,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/633181870",
+    "name": "Zum Pitter",
+    "lat": 50.9390282,
+    "lng": 6.9602996,
+    "category": "pub",
+    "website": "http://www.zum-pitter-cologne.de",
+    "address": {
+      "street": "Alter Markt",
+      "postcode": "50667"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/2202487005",
+    "name": "Zum scheuen Reh",
+    "lat": 50.9435951,
+    "lng": 6.9337095,
+    "category": "pub",
+    "website": "http://www.zum-scheuen-reh.de",
+    "address": {
+      "street": "Hans-Böckler-Platz",
+      "housenumber": "2",
+      "postcode": "50672",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/342403718",
+    "name": "Zum Schützenhof",
+    "lat": 50.9708323,
+    "lng": 7.0089639,
+    "category": "pub",
+    "opening_hours": "Mo-Su 08:00-01:00",
+    "address": {
+      "street": "Berliner Straße",
+      "housenumber": "43",
+      "postcode": "51063",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5413040705",
+    "name": "Zum Schwazze Köbes",
+    "lat": 50.9459328,
+    "lng": 6.9207195,
+    "category": "pub",
+    "opening_hours": "Mo-Th 12:30-02:00, Fr,Sa 12:30-06:00, Su 12:30-18:00",
+    "address": {
+      "street": "Thebäerstraße",
+      "housenumber": "50",
+      "postcode": "50823",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/247388970",
+    "name": "Zum Treppchen",
+    "lat": 51.0242124,
+    "lng": 6.960163,
+    "category": "pub",
+    "address": {
+      "street": "Merkenicher Hauptstraße",
+      "housenumber": "136"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10202044167",
+    "name": "Zur Eigelschänke",
+    "lat": 50.9473497,
+    "lng": 6.9563599,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "way/287016952",
+    "name": "Zur Goldenen Brosche",
+    "lat": 50.923645,
+    "lng": 7.0867008,
+    "category": "pub",
+    "address": {
+      "street": "An der Rather Burg",
+      "postcode": "51107",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/10895949842",
+    "name": "Zur letzten Instanz",
+    "lat": 50.9552003,
+    "lng": 6.96618,
+    "category": "pub",
+    "opening_hours": "Tu-Sa 17:00+",
+    "curated": false
+  },
+  {
+    "id": "node/342793553",
+    "name": "Zur Linde",
+    "lat": 51.0014733,
+    "lng": 6.9914679,
+    "category": "biergarten",
+    "curated": false
+  },
+  {
+    "id": "node/247388976",
+    "name": "Zur Post",
+    "lat": 51.0246909,
+    "lng": 6.9592967,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/343578730",
+    "name": "Zur Post",
+    "lat": 50.9636653,
+    "lng": 7.0039502,
+    "category": "pub",
+    "address": {
+      "street": "Adamsstraße",
+      "housenumber": "22",
+      "postcode": "51063",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/1673071224",
+    "name": "Zur Traube",
+    "lat": 50.8822483,
+    "lng": 7.0783462,
+    "category": "pub",
+    "opening_hours": "Tu-Su 17:30-24:00",
+    "curated": false
+  },
+  {
+    "id": "node/246812984",
+    "name": "Zwergnase",
+    "lat": 50.9955061,
+    "lng": 6.925302,
+    "category": "pub",
+    "opening_hours": "Mo-Fr 16:00-24:00+, Sa 13:00-24:00+; Su,Mo off",
+    "website": "https://www.zwergnase-koeln.de/",
+    "address": {
+      "street": "Altonaer Straße",
+      "housenumber": "30",
+      "postcode": "50737",
+      "city": "Köln"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/224392067",
+    "name": "Zwitscherhäuschen",
+    "lat": 50.9557615,
+    "lng": 6.8808806,
+    "category": "pub",
+    "curated": false
+  },
+  {
+    "id": "node/2982340092",
+    "name": "Zwitscherstube",
+    "lat": 50.9610919,
+    "lng": 6.9552513,
+    "category": "pub",
+    "opening_hours": "Mo-Sa 17:00+; Su,PH off",
+    "curated": false
+  },
+  {
+    "id": "node/435575968",
+    "name": "zwoeinz",
+    "lat": 50.9286158,
+    "lng": 6.9394732,
+    "category": "pub",
+    "opening_hours": "Fr-Sa 20:00-04:00",
+    "address": {
+      "street": "Hochstadenstraße",
+      "housenumber": "21",
+      "postcode": "50674",
+      "city": "Köln",
+      "country": "DE"
+    },
+    "curated": false
+  },
+  {
+    "id": "node/5022790018",
+    "name": "ΙΧΩΡ Night Club",
+    "lat": 50.9417165,
+    "lng": 6.9412155,
+    "category": "nightclub",
+    "curated": false
+  }
+]

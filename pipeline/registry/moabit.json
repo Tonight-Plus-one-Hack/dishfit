@@ -1,0 +1,109 @@
+{
+ "kiez": "moabit",
+ "name": "Moabit",
+ "scannedBy": "vinaynaik432-debug",
+ "updatedAt": "2026-11-22T12:05:11.385Z",
+ "provider": "openai",
+ "models": {
+  "menu": "gpt-6.2-sol",
+  "nutrition": "gpt-6.2-sol",
+  "chief": "gpt-6.2-sol",
+  "second": "gpt-6.1-terra",
+  "translate": "gpt-6-luna"
+ },
+ "counts": {
+  "found": 114,
+  "menus": 9,
+  "restaurants": 9,
+  "dishes": 304,
+  "images": 0,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 3.94,
+  "byStage": {
+   "check": 0.04,
+   "classify": 0.01,
+   "find": 1.38,
+   "menu": 1.55,
+   "nutrition": 0.96
+  },
+  "byProvider": {
+   "openai": 2.5,
+   "google-places": 1.44
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/moabit.json",
+ "places": [
+  {
+   "id": "osm-node-2091658202",
+   "placeId": "ChIJHbia3kpRqEcRJvVFS8jffGo",
+   "osmId": "node/2091658202"
+  },
+  {
+   "id": "osm-node-616921895",
+   "placeId": "ChIJCTP5L1tRqEcRS2MmoHie2is",
+   "osmId": "node/616921895"
+  },
+  {
+   "id": "osm-node-3134605457",
+   "placeId": "ChIJY5aAMwNRqEcRyl4iJayjiv4",
+   "osmId": "node/3134605457"
+  },
+  {
+   "id": "osm-node-9048259076",
+   "placeId": "ChIJF4DkyFxRqEcRL0mOx8NY8nA",
+   "osmId": "node/9048259076"
+  },
+  {
+   "id": "osm-node-1578311973",
+   "placeId": "ChIJxSq-NXpRqEcR57LZqfhsPAQ",
+   "osmId": "node/1578311973"
+  },
+  {
+   "id": "osm-node-1078763289",
+   "placeId": "ChIJK3vT4zlRqEcRqQRJZvaK9ps",
+   "osmId": "node/1078763289"
+  },
+  {
+   "id": "osm-node-13736823212",
+   "placeId": "ChIJ87uyegBRqEcRTJhCH-LhD5I",
+   "osmId": "node/13736823212"
+  },
+  {
+   "id": "osm-node-12803095100",
+   "placeId": "ChIJO0k2O65RqEcRe1dH4-0w11Q",
+   "osmId": "node/12803095100"
+  },
+  {
+   "id": "osm-node-1869988127",
+   "placeId": "ChIJ9fc8fxFRqEcRMwkzsTU2yRU",
+   "osmId": "node/1869988127"
+  }
+ ],
+ "appendBase": {
+  "provider": "openai",
+  "counts": {
+   "found": 110,
+   "menus": 8,
+   "restaurants": 8,
+   "dishes": 253,
+   "images": 0,
+   "skippedDuplicates": 0
+  },
+  "costUsd": {
+   "total": 3.6,
+   "byStage": {
+    "check": 0.03,
+    "classify": 0.01,
+    "find": 1.38,
+    "menu": 1.37,
+    "nutrition": 0.81
+   },
+   "byProvider": {
+    "openai": 2.16,
+    "google-places": 1.44
+   }
+  }
+ }
+}

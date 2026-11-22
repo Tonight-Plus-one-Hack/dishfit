@@ -1,0 +1,136 @@
+{
+ "kiez": "zehlendorf",
+ "name": "Zehlendorf",
+ "scannedBy": "BatuCani",
+ "updatedAt": "2026-11-21T21:49:29.070Z",
+ "provider": "openai",
+ "models": {
+  "menu": "gpt-6.2-sol",
+  "nutrition": "gpt-6.2-sol",
+  "chief": "gpt-6.2-sol",
+  "second": "gpt-6.1-terra",
+  "translate": "gpt-6-luna"
+ },
+ "counts": {
+  "found": 41,
+  "menus": 19,
+  "restaurants": 19,
+  "dishes": 680,
+  "images": 18,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 4.97,
+  "byStage": {
+   "check": 0.1,
+   "classify": 0.03,
+   "find": 0.53,
+   "image": 0.46,
+   "menu": 2.12,
+   "nutrition": 1.74
+  },
+  "byProvider": {
+   "openai": 4.17,
+   "google-places": 0.81
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/zehlendorf.json",
+ "places": [
+  {
+   "id": "osm-node-1365282871",
+   "placeId": "ChIJLUlfGDNaqEcRAfxsdYJXw-k",
+   "osmId": "node/1365282871"
+  },
+  {
+   "id": "osm-node-12301591895",
+   "placeId": "ChIJVy1uUWhbqEcRcoKfihXAPNw",
+   "osmId": "node/12301591895"
+  },
+  {
+   "id": "osm-node-1367075978",
+   "placeId": "ChIJT3yzycxbqEcRWNW_tKUhP70",
+   "osmId": "node/1367075978"
+  },
+  {
+   "id": "osm-node-668246119",
+   "placeId": "ChIJaRFfkiFaqEcRFKwrxgDyFhw",
+   "osmId": "node/668246119"
+  },
+  {
+   "id": "osm-node-1054886356",
+   "placeId": "ChIJBxUM_MRbqEcRooUVOdzBEUc",
+   "osmId": "node/1054886356"
+  },
+  {
+   "id": "osm-node-975755791",
+   "placeId": "ChIJuY5tLC5aqEcROap8x9bd7XE",
+   "osmId": "node/975755791"
+  },
+  {
+   "id": "osm-node-1080839726",
+   "placeId": "ChIJ3ROo9TBaqEcR2P5NFyLQLD4",
+   "osmId": "node/1080839726"
+  },
+  {
+   "id": "osm-node-1096737562",
+   "placeId": "ChIJRTkDNDNaqEcRaxesAR7hFb4",
+   "osmId": "node/1096737562"
+  },
+  {
+   "id": "osm-node-1096737559",
+   "placeId": "ChIJXesqyMxbqEcRj79q-QWC4KY",
+   "osmId": "node/1096737559"
+  },
+  {
+   "id": "osm-node-1238736462",
+   "placeId": "ChIJS8SLKE9ZqEcRJHaaYjvyv5Y",
+   "osmId": "node/1238736462"
+  },
+  {
+   "id": "osm-node-2622394011",
+   "placeId": "ChIJJ0n4FQBbqEcRXMOI7EWwwks",
+   "osmId": "node/2622394011"
+  },
+  {
+   "id": "osm-node-13542876515",
+   "placeId": "ChIJ3y6pj-BbqEcRVRuU3Ch7GeM",
+   "osmId": "node/13542876515"
+  },
+  {
+   "id": "osm-node-1112649650",
+   "placeId": "ChIJpZ7k2ZtbqEcRFSSQTqgFaFo",
+   "osmId": "node/1112649650"
+  },
+  {
+   "id": "osm-node-1632282922",
+   "placeId": "ChIJo_Ot4G07ZUERdk8swOk4Ess",
+   "osmId": "node/1632282922"
+  },
+  {
+   "id": "osm-node-4675339300",
+   "placeId": "ChIJsT7h8YdZqEcRoACwGkcGzI4",
+   "osmId": "node/4675339300"
+  },
+  {
+   "id": "osm-node-4089517216",
+   "placeId": "ChIJg7Rxk75bqEcRlr_3bYR1b-A",
+   "osmId": "node/4089517216"
+  },
+  {
+   "id": "osm-node-352907185",
+   "placeId": "ChIJefTgpolZqEcR0vqg4GbxZNc",
+   "osmId": "node/352907185"
+  },
+  {
+   "id": "osm-node-2297408940",
+   "placeId": "ChIJNQFb6gFbqEcRLTeAjka_Lq4",
+   "osmId": "node/2297408940"
+  },
+  {
+   "id": "osm-node-272446730",
+   "placeId": "ChIJ6-wu0XhZqEcRu6M4Z-7gY-I",
+   "osmId": "node/272446730"
+  }
+ ],
+ "appendBase": null
+}

@@ -1,0 +1,68 @@
+/* Impressum and Datenschutz: one readable column with clear placeholders for the operator's details. */
+
+.legal {
+  display: grid;
+  gap: 32px;
+  max-width: 40rem;
+  margin-inline: auto;
+  padding-block: var(--section-pad);
+}
+
+.legal__head {
+  display: grid;
+  gap: 10px;
+}
+
+.legal__lang {
+  font-size: 14px;
+}
+
+.legal__body {
+  display: grid;
+  gap: 28px;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  line-height: 1.6;
+}
+
+.legal__body h2 {
+  margin-bottom: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+}
+
+.legal__body ul {
+  display: grid;
+  gap: 8px;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.legal__body p + p,
+.legal__body ul + p {
+  margin-top: 10px;
+}
+
+.legal__body a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.legal__also {
+  color: var(--muted);
+}
+
+/* Visible on purpose: these must be replaced before ads run. */
+.todo {
+  padding: 1px 6px;
+  border: 1px dashed var(--focus);
+  border-radius: 4px;
+  background: rgb(53 94 218 / 0.06);
+  color: var(--focus);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}

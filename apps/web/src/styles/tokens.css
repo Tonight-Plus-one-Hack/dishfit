@@ -1,0 +1,142 @@
+/* Plus One tokens from the brand kit (brand/theme.css, docs/design/tokens.json).
+   Phone values are the default; desktop values apply from 768 px. Display sizes scale fluidly between. */
+:root {
+  --canvas: #fcfcfd;
+  --surface: #f9f9fb;
+  --hover: #f0f0f3;
+  --ink: #1c2024;
+  --muted: #60646c;
+  --rule: #d9d9e0;
+  --rule-soft: #e8e8ec;
+  --cta: #111113;
+  --cta-ink: #fcfcfd;
+  --cta-hover: #363a3f;
+  --focus: #355eda;
+
+  --dark: #111113;
+  --dark-surface: #18191b;
+  --dark-rule: #363a3f;
+  --dark-ink: #edeef0;
+  --dark-muted: #afb3ba;
+  --muted-decorative: #8b8d98;
+
+  /* Artwork only: saturated blue-violet never paints controls. */
+  --art-1: #355eda;
+  --art-2: #8391f7;
+  --art-3: #9c90fe;
+
+  /* Cal AI type: the Apple system font, Inter elsewhere (see styles/fonts.css). Display picks SF Pro Display's optical size. */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter Variable', Inter, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-display: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter Variable', Inter, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  /* Large numbers: SF Pro Rounded where the browser exposes it (Safari), else the system font. */
+  --font-rounded: ui-rounded, 'SF Pro Rounded', -apple-system, BlinkMacSystemFont, 'Inter Variable', Inter, system-ui, sans-serif;
+
+  --fs-hero: clamp(26px, 14.86px + 2.857vw, 56px);
+  --fs-section: clamp(24px, 15.09px + 2.286vw, 48px);
+  --fs-feature: clamp(20px, 12.57px + 1.905vw, 40px);
+  --fs-card: 18px;
+  --fs-body: 14px;
+  --fs-lede: 14px;
+  --fs-label: 12px;
+  --fs-button: 12.8px;
+  /* Apple's tracking for SF Pro at these sizes: tighter for large bold display, near zero for labels. */
+  --track-display: -0.025em;
+  --track-card: -0.015em;
+  --track-body: -0.01em;
+  --track-lede: -0.01em;
+  --track-label: 0;
+  --track-button: -0.01em;
+
+  --rail: 8px;
+  --header: 56px;
+  --section-pad: 40px;
+  --hero-top: 64px;
+  --copy-max: 800px;
+  --action-gap: 24px;
+  --gap-card: 24px;
+
+  --radius-action: 4px;
+  --radius-card: 8px;
+  --radius-media: 16px;
+  --badge-shadow: inset 0 4px 4px #f0f0f3;
+
+}
+
+@media (min-width: 768px) {
+  :root {
+    --fs-card: 20px;
+    --fs-body: 16px;
+    --fs-lede: 18px;
+    --track-lede: -0.01em;
+    --rail: 16px;
+    --header: 68px;
+    --section-pad: 80px;
+    --hero-top: 92px;
+    --action-gap: 48px;
+  }
+}
+
+/* App tokens (nutrition app). Append-only: add new tokens below, do not change values above. */
+:root {
+  --tabbar-h: 64px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  /* Room the fixed phone tab bar takes at the bottom, home indicator included: every phone scroller pads by this. */
+  --tabbar-space: calc(var(--tabbar-h) + var(--safe-bottom));
+  --app-max: 560px;
+
+  /* Data colours: quiet and functional, never brand art. */
+  --estimate-bg: #eef0fe;
+  --estimate-ink: #3a3f9a;
+  --official-bg: #e7f4ec;
+  --official-ink: #1f6b3d;
+  --open: #1f7a45;
+  --score: #1c2024;
+  --protein: #355eda;
+  --kcal: #1c2024;
+  --carbs: #a3adf3;
+  --fat: #b9bbc6;
+  --score-top: #1f7a45;
+  --score-good: #5c9a3d;
+  --score-ok: #b7791f;
+  --score-low: #b4532a;
+}
+
+/* Desktop frame (src/app/desktop). Brand accent: the purple-blue of the brand kit, used for active states. */
+:root {
+  --sidebar-w: 248px;
+  --sidebar-rail-w: 76px;
+  --topbar-h: 72px;
+  --panel-w: 440px;
+  --shell-bg: #f5f5f8;
+  --shell-card: #ffffff;
+  --shell-radius: 20px;
+  --shell-shadow: 0 1px 2px rgb(20 22 60 / 0.04), 0 8px 28px rgb(20 22 60 / 0.07);
+  --accent: #4b5fe0;
+  --accent-ink: #ffffff;
+  --accent-soft: #eef0fe;
+  --accent-soft-ink: #3a3f9a;
+  --brand-grad: linear-gradient(135deg, #355eda 0%, #6f7cf0 55%, #9c90fe 100%);
+}
+
+@media (min-width: 1680px) {
+  :root {
+    --sidebar-w: 264px;
+    --panel-w: 480px;
+  }
+}
+
+/* Cal AI style data colours: macro glyphs and rings, health score bands, the brand action. */
+:root {
+  --macro-protein: #ef5b4c;
+  --macro-carbs: #f5a524;
+  --macro-fat: #3d9df6;
+  --macro-kcal: #ff7a1f;
+  --ring-track: #eeeef3;
+  --band-green: #2fa866;
+  --band-orange: #f0a03c;
+  --band-red: #e5534b;
+  --soft-card: #ffffff;
+  --soft-card-shadow: 0 1px 2px rgb(20 22 60 / 0.04), 0 6px 20px rgb(20 22 60 / 0.06);
+  --soft-radius: 22px;
+}

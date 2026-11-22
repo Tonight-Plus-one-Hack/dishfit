@@ -1,0 +1,294 @@
+/* ---------- Test data and sources ---------- */
+
+.test-badge {
+  display: inline-flex;
+  align-items: center;
+  height: 18px;
+  padding: 0 6px;
+  border: 1px dashed var(--muted-decorative);
+  border-radius: var(--radius-action);
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  line-height: 1;
+  color: var(--muted);
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.source-badge {
+  display: inline-flex;
+  justify-self: start;
+  width: max-content;
+  align-items: center;
+  gap: 4px;
+  height: 22px;
+  padding: 0 8px;
+  border-radius: var(--radius-action);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: var(--track-label);
+  white-space: nowrap;
+}
+
+.source-badge--ai {
+  background: var(--estimate-bg);
+  color: var(--estimate-ink);
+}
+
+.source-badge--official {
+  background: var(--official-bg);
+  color: var(--official-ink);
+}
+
+.source-badge__conf {
+  opacity: 0.75;
+}
+
+.conf {
+  display: inline-flex;
+  gap: 2px;
+}
+
+.conf span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--rule);
+}
+
+.conf span.is-on {
+  background: var(--ink);
+}
+
+/* ---------- Macros ---------- */
+
+.macro-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 12px;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  color: var(--muted);
+}
+
+.macro-line b {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.macro-line__price {
+  margin-left: auto;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.macro-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--radius-card);
+  background: var(--rule-soft);
+}
+
+.macro-grid__cell {
+  display: grid;
+  gap: 2px;
+  padding: 12px 14px;
+  background: var(--canvas);
+}
+
+.macro-grid dd {
+  display: grid;
+  margin: 0;
+}
+
+.macro-grid__value {
+  font-family: var(--font-rounded);
+  font-size: 28px;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.macro-grid__value small {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  color: var(--muted);
+}
+
+.macro-grid__value small.macro-grid__approx {
+  font-size: 14px;
+}
+
+.macro-grid__range {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: var(--track-label);
+  color: var(--muted);
+}
+
+/* ---------- Score ---------- */
+
+.score-ring {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+}
+
+.score-ring svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.score-ring circle {
+  fill: none;
+  stroke-width: 3.5;
+}
+
+.score-ring__track {
+  stroke: var(--hover);
+}
+
+.score-ring__value {
+  stroke: var(--score);
+  stroke-linecap: round;
+}
+
+/* Same colour bands as HealthRing (components/rings.css). */
+.score-ring--green .score-ring__value {
+  stroke: var(--band-green);
+}
+
+.score-ring--orange .score-ring__value {
+  stroke: var(--band-orange);
+}
+
+.score-ring--red .score-ring__value {
+  stroke: var(--band-red);
+}
+
+.score-ring__num {
+  font-family: var(--font-rounded);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Dish art ---------- */
+
+.dish-thumb {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+}
+
+.dish-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dish-thumb__label {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  padding: 2px 6px;
+  border-radius: var(--radius-action);
+  background: rgb(17 17 19 / 0.64);
+  color: var(--cta-ink);
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+}
+
+/* Brand tile for dishes without a KI-Bild: the art gradient, a soft light from the top left and a fine dot grain.
+   The glyph scales with the font size each screen already sets on `.x.dish-thumb--art span`. */
+.dish-thumb--art {
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(120% 90% at 18% 0%, rgb(252 252 253 / 0.75), rgb(252 252 253 / 0) 60%),
+    radial-gradient(rgb(53 94 218 / 0.09) 1px, transparent 1.2px) 0 0 / 12px 12px,
+    linear-gradient(150deg, #eef0fe, #d7dcfb 55%, #c9c2fe);
+}
+
+.dish-thumb__label--art {
+  top: 6px;
+  right: 6px;
+}
+
+.dish-thumb--art span:not(.dish-thumb__label) {
+  font-size: 28px;
+}
+
+.dish-thumb__glyph {
+  display: grid;
+  place-items: center;
+  width: min(1.75em, 112px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: rgb(252 252 253 / 0.62);
+  box-shadow:
+    0 0 0 1px rgb(252 252 253 / 0.8),
+    0 4px 14px rgb(53 94 218 / 0.14);
+  color: rgb(28 32 36 / 0.62);
+}
+
+.dish-thumb__glyph svg {
+  width: 52%;
+  height: 52%;
+}
+
+/* ---------- Restaurant meta ---------- */
+
+.rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+}
+
+.rating svg {
+  color: var(--ink);
+}
+
+.rating__count,
+.rating--none {
+  color: var(--muted);
+}
+
+.open-state {
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  color: var(--muted);
+}
+
+.open-state.is-open {
+  color: var(--open);
+}
+
+.restaurant-name {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}

@@ -1,0 +1,29 @@
+/* Icon-set glyphs are inlined SVG inside a sized box. */
+.glyph--set {
+  display: inline-block;
+  flex: none;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+.glyph--set svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Clay dish icon on the brand tile when a dish has no illustration (DishThumb). One definite cell, so the icon's
+   percentage size follows the tile in both directions (wide card headers as much as square thumbnails). */
+.dish-thumb.dish-thumb--art {
+  grid-template: 100% / 100%;
+}
+
+.dish-thumb .dish-thumb__art {
+  place-self: center;
+  width: 100%;
+  height: 100%;
+  max-width: 176px;
+  max-height: 74%;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 10px rgb(60 60 120 / 0.18));
+}

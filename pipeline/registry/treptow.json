@@ -1,0 +1,66 @@
+{
+ "kiez": "treptow",
+ "name": "Treptow",
+ "scannedBy": "BatuCani",
+ "updatedAt": "2026-11-21T21:49:29.132Z",
+ "provider": "openai",
+ "models": {
+  "menu": "gpt-6.2-sol",
+  "nutrition": "gpt-6.2-sol",
+  "chief": "gpt-6.2-sol",
+  "second": "gpt-6.1-terra",
+  "translate": "gpt-6-luna"
+ },
+ "counts": {
+  "found": 18,
+  "menus": 5,
+  "restaurants": 5,
+  "dishes": 150,
+  "images": 5,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 2.04,
+  "byStage": {
+   "check": 0.02,
+   "classify": 0.01,
+   "find": 0.32,
+   "image": 0.13,
+   "menu": 1.13,
+   "nutrition": 0.43
+  },
+  "byProvider": {
+   "openai": 1.52,
+   "google-places": 0.52
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/treptow.json",
+ "places": [
+  {
+   "id": "osm-node-1176680934",
+   "placeId": "ChIJBdBEVwBPqEcR_i0QJdPBeAw",
+   "osmId": "node/1176680934"
+  },
+  {
+   "id": "osm-node-622136256",
+   "placeId": "ChIJB7q8BNdPqEcROrkbkSuVEOM",
+   "osmId": "node/622136256"
+  },
+  {
+   "id": "osm-node-5082266440",
+   "placeId": "ChIJk2v1rgBPqEcR17wqpbVpX8Q",
+   "osmId": "node/5082266440"
+  },
+  {
+   "id": "osm-node-6596758439",
+   "placeId": "ChIJ2VuI9jVPqEcRMid44DI1QU4",
+   "osmId": "node/6596758439"
+  },
+  {
+   "id": "osm-node-3630570094",
+   "placeId": "ChIJyzi3TiBPqEcR0qVEISLPMr8",
+   "osmId": "node/3630570094"
+  }
+ ],
+ "appendBase": null
+}

@@ -1,0 +1,167 @@
+{
+  "brand": "DishFit",
+  "language": "de",
+  "end_card": [
+    "DishFit",
+    "Dein nächstes gutes Essen.",
+    "BETA-VORSCHAU"
+  ],
+  "reels": [
+    {
+      "id": 1,
+      "slug": "01-hungry-in-berlin",
+      "title": "Hunger in Berlin",
+      "hook": [
+        "Hunger",
+        "in Berlin?"
+      ],
+      "proof": [
+        "Entdecke Gerichte",
+        "in deinem Kiez."
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "02-know-before-ordering",
+      "title": "Erst schauen, dann bestellen",
+      "hook": [
+        "Erst schauen.",
+        "Dann bestellen."
+      ],
+      "proof": [
+        "Preis und Nährwerte.",
+        "Auf einen Blick."
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "03-your-meal-budget",
+      "title": "Dein Essensbudget",
+      "hook": [
+        "Dein Budget.",
+        "Dein nächstes Essen."
+      ],
+      "proof": [
+        "Gerichte filtern.",
+        "Unter 12 €."
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "04-new-kiez-new-favourite",
+      "title": "Neuer Kiez, neuer Favorit",
+      "hook": [
+        "Neuer Kiez.",
+        "Neuer Favorit?"
+      ],
+      "proof": [
+        "Restaurants finden.",
+        "Speisekarten sehen."
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "05-meet-your-macros",
+      "title": "Die Makros deines Essens",
+      "hook": [
+        "Was steckt",
+        "in deinem Essen?"
+      ],
+      "proof": [
+        "Kalorien. Protein.",
+        "Kohlenhydrate. Fett."
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "06-protein-per-euro",
+      "title": "Protein pro Euro",
+      "hook": [
+        "Dein Essen.",
+        "Dein Geld."
+      ],
+      "proof": [
+        "Gerichte vergleichen",
+        "nach Protein pro €."
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "07-break-the-lunch-loop",
+      "title": "Raus aus der Essensroutine",
+      "hook": [
+        "Wieder",
+        "das gleiche Essen?"
+      ],
+      "proof": [
+        "Entdecke Gerichte",
+        "in Berlin."
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "08-estimates-with-context",
+      "title": "Schätzungen mit Kontext",
+      "hook": [
+        "Zahlen brauchen",
+        "etwas Kontext."
+      ],
+      "proof": [
+        "KI-Schätzungen.",
+        "Mit Spannbreiten."
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "09-before-you-pick",
+      "title": "Bevor du dein Essen wählst",
+      "hook": [
+        "Bevor du",
+        "dein Essen wählst."
+      ],
+      "proof": [
+        "Sieh dir Preis",
+        "und Makros an."
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "10-your-kiez-your-bite",
+      "title": "Dein Kiez, dein nächstes Essen",
+      "hook": [
+        "Dein Kiez.",
+        "Dein nächstes Essen."
+      ],
+      "proof": [
+        "Entdecke die Karte.",
+        "Finde Speisekarten."
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "11-one-menu-more-options",
+      "title": "Eine Speisekarte, mehr Optionen",
+      "hook": [
+        "Eine Speisekarte.",
+        "Mehr Optionen."
+      ],
+      "proof": [
+        "Gerichte vergleichen",
+        "mit KI-Schätzungen."
+      ]
+    },
+    {
+      "id": 12,
+      "slug": "12-your-meal-priorities",
+      "title": "Deine Kriterien fürs Essen",
+      "hook": [
+        "Dein Essen.",
+        "Deine Kriterien."
+      ],
+      "proof": [
+        "Nach Preis filtern.",
+        "Nach Protein ordnen."
+      ]
+    }
+  ]
+}

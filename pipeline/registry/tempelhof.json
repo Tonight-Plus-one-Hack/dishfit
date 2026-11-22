@@ -1,0 +1,69 @@
+{
+ "kiez": "tempelhof",
+ "name": "Tempelhof",
+ "scannedBy": "BatuCani",
+ "updatedAt": "2026-11-22T01:42:00.242Z",
+ "provider": "openai",
+ "models": {
+  "menu": "gpt-6.2-sol",
+  "nutrition": "gpt-6.2-sol",
+  "chief": "gpt-6.2-sol",
+  "second": "gpt-6.1-terra",
+  "translate": "gpt-6-luna"
+ },
+ "counts": {
+  "found": 25,
+  "menus": 6,
+  "restaurants": 6,
+  "dishes": 208,
+  "images": 0,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 3.1,
+  "byStage": {
+   "check": 0.04,
+   "classify": 0.01,
+   "find": 1.12,
+   "menu": 1.2,
+   "nutrition": 0.73
+  },
+  "byProvider": {
+   "openai": 1.84,
+   "google-places": 1.26
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/tempelhof.json",
+ "places": [
+  {
+   "id": "osm-node-3401808138",
+   "placeId": "ChIJEQ9zNVZFqEcRiM6kNXzQ9EQ",
+   "osmId": "node/3401808138"
+  },
+  {
+   "id": "osm-node-3050011428",
+   "placeId": "ChIJE2q5EVZFqEcRNzft5zkuOWE",
+   "osmId": "node/3050011428"
+  },
+  {
+   "id": "osm-node-1390934997",
+   "placeId": "ChIJ384UpZ5PqEcRvW6eID4uXaY",
+   "osmId": "node/1390934997"
+  },
+  {
+   "id": "osm-node-5440526351",
+   "placeId": "ChIJu_UOk-JPqEcR2Gj_NcJx-es",
+   "osmId": "node/5440526351"
+  },
+  {
+   "id": "osm-node-442390305",
+   "placeId": "ChIJq5MacFZFqEcRTQcE0KErNJY",
+   "osmId": "node/442390305"
+  },
+  {
+   "id": "osm-node-2778210534",
+   "placeId": "ChIJaQlEmW1PqEcRLMQkTCniLNU",
+   "osmId": "node/2778210534"
+  }
+ ]
+}

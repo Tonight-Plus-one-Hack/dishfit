@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A local Plus One prototype for finding small groups tonight.">
+  <title>Discover · Plus One</title>
+  <link rel="icon" href="assets/symbol.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="theme.css">
+  <style>
+    .prototype { min-height: calc(100svh - var(--header)); padding: 64px var(--section-inline) 80px; }
+    .workspace { max-width: 1120px; margin-inline: auto; }
+    .back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 0;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      text-decoration: underline;
+      text-underline-offset: .2em;
+    }
+    .back:hover { color: var(--ink); }
+    .back svg, .row-icon { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+    [data-screen] h1[tabindex="-1"]:focus { outline: none; }
+    .page-header { margin: 24px 0 32px; }
+    .page-header p { margin-top: 12px; }
+    .city-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+    .city {
+      padding: 8px;
+      overflow: hidden;
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-media);
+      background: var(--surface);
+      color: var(--ink);
+      text-align: left;
+      transition: background-color var(--time-interaction) ease-out, border-color var(--time-interaction) ease-out;
+    }
+    .city:hover { background: var(--hover); border-color: var(--muted); }
+    .city img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      object-position: center 44%;
+      border-radius: var(--radius-card);
+      background: var(--periwinkle);
+    }
+    .city-body { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 12px; padding: 12px 8px 6px; }
+    .city-body strong { display: block; font-size: var(--title-size); font-weight: 500; }
+    .city-body small { color: var(--muted); }
+
+    .demo-notice {
+      margin-top: 32px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+    .city-detail { max-width: 800px; }
+    .city-banner {
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+      display: grid;
+      align-content: end;
+      min-height: 230px;
+      margin-top: 16px;
+      padding: 28px;
+      border-radius: var(--radius-media);
+      color: var(--white);
+      background: #282a57;
+    }
+    .city-banner img { position: absolute; z-index: -2; width: 100%; height: 100%; object-fit: cover; object-position: center 42%; }
+    .city-banner::after { content: ""; z-index: -1; position: absolute; inset: 0; background: linear-gradient(0deg, #101122, #10112230); }
+    .city-banner p { margin-top: 8px; }
+    .filter-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0; }
+    .filter-bar .button { min-height: 34px; padding-inline: 14px; }
+    .filter-bar [aria-pressed="true"] { color: var(--white); background: var(--night); border-color: var(--night); }
+    .plans { display: grid; gap: 10px; }
+    .plan {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 18px;
+      min-height: 82px;
+      padding: 12px 16px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-card);
+      background: var(--canvas);
+    }
+    .plan time { color: var(--muted); min-width: 46px; font-variant-numeric: tabular-nums; }
+    .plan p { color: var(--muted); }
+    .plan .button { padding-inline: 12px; min-height: 40px; }
+
+    .joining { max-width: 480px; }
+    .joining-title { margin-top: 14px; }
+    .joining-meta { margin-top: 12px; }
+    .step {
+      display: block;
+      width: 100%;
+      height: 2px;
+      margin-block: 14px 30px;
+      appearance: none;
+      accent-color: var(--ink);
+    }
+    .step::-webkit-progress-bar { background: var(--line); }
+    .step::-webkit-progress-value { background: var(--ink); }
+    .step::-moz-progress-bar { background: var(--ink); }
+    .join-form { display: grid; gap: 14px; margin-top: 24px; }
+    .name-field { display: grid; gap: 8px; }
+    input[type="text"] {
+      min-height: 46px;
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-control);
+      color: var(--ink);
+      background: var(--surface);
+      caret-color: var(--cobalt);
+    }
+    .age-field { display: flex; gap: 8px; align-items: center; min-height: 44px; cursor: pointer; }
+    .age-field input { accent-color: var(--ink); width: 16px; height: 16px; }
+    .join-form .primary, .joining > .primary { min-height: 46px; width: 100%; }
+    .joining > .primary { margin-top: 24px; }
+    .confirm-mark { width: 48px; height: 48px; margin-top: 36px; }
+    @media (max-width: 950px) {
+      .prototype { padding-inline: 40px; }
+      .city-grid { gap: 16px; }
+      .city img { height: 190px; }
+    }
+    @media (max-width: 767px) {
+      .prototype { padding: 30px var(--section-inline) 48px; }
+      .page-header { margin: 14px 0 24px; }
+      .city-grid { grid-template-columns: 1fr; gap: 12px; }
+      .city { display: grid; grid-template-columns: 96px 1fr; border-radius: var(--radius-card); }
+      .city img { height: 72px; }
+      .city-body { padding: 8px 8px 8px 12px; }
+      .city-banner { min-height: 168px; padding: 18px; }
+      .plan { grid-template-columns: auto minmax(0, 1fr) auto; gap: 8px; padding: 10px; }
+      .plan time { min-width: 37px; }
+      .plan .button { padding-inline: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link button" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="topbar-logo" href="index.html" aria-label="Plus One brand kit"><img src="assets/logo-primary.svg" alt="" height="26"></a>
+    <nav class="topbar-nav" aria-label="Prototype"><a href="#cities">Discover</a></nav>
+    <div class="topbar-end"><a class="button" href="index.html#assets">Brand kit</a></div>
+  </header>
+  <main class="prototype rails" id="main">
+    <div class="workspace">
+      <section data-screen="cities" aria-labelledby="city-picker-heading">
+        <header class="page-header">
+          <h1 class="display section-title" id="city-picker-heading" tabindex="-1">Choose your city</h1>
+          <p class="muted">See who’s heading out tonight.</p>
+        </header>
+        <div class="city-grid" id="city-list"></div>
+        <noscript><p>Turn on JavaScript to try the city prototype.</p></noscript>
+      </section>
+
+      <section class="city-detail" data-screen="plans" aria-labelledby="city-heading" hidden>
+        <button class="mono back" type="button" data-action="cities">All cities</button>
+        <div class="city-banner">
+          <img id="city-banner-image" src="assets/city-berlin.webp" alt="">
+          <h1 class="display section-title" id="city-heading" tabindex="-1"></h1>
+          <p class="mono" id="city-count"></p>
+        </div>
+        <div class="filter-bar" id="filters" role="group" aria-label="Filter hangouts by mood"></div>
+        <div class="plans" id="plan-list" aria-live="polite"></div>
+      </section>
+
+      <section class="joining" data-screen="join" aria-labelledby="join-heading" hidden>
+        <button class="mono back" type="button" data-action="plans">Back to hangouts</button>
+        <progress class="step" max="2" value="1" aria-label="Join progress"></progress>
+        <h1 class="display section-title joining-title" id="join-heading" tabindex="-1"></h1>
+        <p class="mono muted joining-meta" id="join-meta"></p>
+        <form class="join-form" id="join-form">
+          <label class="name-field">What should the group call you?
+            <input type="text" name="nickname" maxlength="32" required autocomplete="off">
+          </label>
+          <label class="age-field"><input type="checkbox" name="age" required> I’m 18 or older.</label>
+          <button class="button primary" type="submit">Join this demo hangout</button>
+        </form>
+      </section>
+
+      <section class="joining" data-screen="joined" aria-labelledby="joined-heading" hidden>
+        <progress class="step" max="2" value="2" aria-label="Join progress"></progress>
+        <img class="confirm-mark" src="assets/symbol.svg" alt="" width="48" height="48">
+        <h1 class="display section-title joining-title" id="joined-heading" tabindex="-1">You’re in, <span id="joined-name"></span>.</h1>
+        <p class="muted joining-meta" id="joined-meta"></p>
+        <button class="button primary" type="button" data-action="plans">Back to tonight</button>
+      </section>
+
+      <p class="mono demo-notice">Prototype · Sample places and hangouts</p>
+    </div>
+  </main>
+
+  <template id="city-card">
+    <button type="button" class="city">
+      <img alt="" width="720" height="724">
+      <span class="city-body"><span><strong></strong><small class="mono"></small></span>
+        <svg class="row-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10m-4-4 4 4-4 4"/></svg>
+      </span>
+    </button>
+  </template>
+  <template id="plan-card">
+    <article class="plan">
+      <time class="mono"></time>
+      <div><h2 class="card-title"></h2><p></p></div>
+      <button class="button" type="button">Details</button>
+    </article>
+  </template>
+
+  <script>
+    const cities = {
+      berlin: { name: "Berlin", plans: [
+        { title: "Drinks in Kreuzberg", spot: "Kanal Bar", type: "Drinks", time: "20:30", seats: 6, going: 3 },
+        { title: "A late gallery lap", spot: "Courtyard Gallery", type: "Culture", time: "21:00", seats: 5, going: 2 },
+        { title: "One more at the canal", spot: "Canal Kiosk", type: "Chill", time: "21:45", seats: 6, going: 4 },
+      ] },
+      hamburg: { name: "Hamburg", plans: [
+        { title: "A table in Sternschanze", spot: "Brick Corner Bar", type: "Drinks", time: "20:00", seats: 6, going: 4 },
+        { title: "Walk the warehouse district", spot: "Harbor Lookout", type: "Chill", time: "21:00", seats: 5, going: 2 },
+      ] },
+      paris: { name: "Paris", plans: [
+        { title: "An apéro by the canal", spot: "Canal Terrace", type: "Drinks", time: "19:45", seats: 6, going: 3 },
+        { title: "A late exhibition", spot: "Passage Gallery", type: "Culture", time: "20:30", seats: 5, going: 2 },
+      ] },
+    };
+
+    const cityList = document.querySelector("#city-list");
+    const planList = document.querySelector("#plan-list");
+    const filters = document.querySelector("#filters");
+    const joinForm = document.querySelector("#join-form");
+    let activeFilter = "All";
+    const joined = new Map();
+
+    function imageFor(cityId) {
+      return "assets/city-" + cityId + ".webp";
+    }
+
+    function navigate(hash) {
+      if (location.hash === "#" + hash) {
+        renderRoute();
+      } else {
+        location.hash = hash;
+      }
+    }
+
+    function show(screen, moveFocus) {
+      for (const section of document.querySelectorAll("[data-screen]")) {
+        section.hidden = section.dataset.screen !== screen;
+        if (!section.hidden && moveFocus) {
+          section.querySelector("h1").focus({ preventScroll: true });
+        }
+      }
+      if (moveFocus) window.scrollTo(0, 0);
+    }
+
+    function renderCities() {
+      for (const [id, city] of Object.entries(cities)) {
+        const template = document.querySelector("#city-card").content.cloneNode(true);
+        const card = template.querySelector("button");
+        card.querySelector("img").src = imageFor(id);
+        card.querySelector("strong").textContent = city.name;
+        card.querySelector("small").textContent = city.plans.length + " sample hangouts";
+        card.addEventListener("click", () => {
+          activeFilter = "All";
+          navigate(id);
+        });
+        cityList.append(card);
+      }
+    }
+
+    function renderPlanList(cityId) {
+      planList.replaceChildren();
+      for (const [index, plan] of cities[cityId].plans.entries()) {
+        if (activeFilter !== "All" && activeFilter !== plan.type) continue;
+        const fragment = document.querySelector("#plan-card").content.cloneNode(true);
+        const time = fragment.querySelector("time");
+        const planKey = cityId + "/" + index;
+        const hasJoined = joined.has(planKey);
+        time.dateTime = plan.time;
+        time.textContent = plan.time;
+        fragment.querySelector("h2").textContent = plan.title;
+        fragment.querySelector("p").textContent = plan.spot + " · " + (plan.going + Number(hasJoined)) + " of " + plan.seats + " seats";
+        const button = fragment.querySelector("button");
+        if (hasJoined) button.textContent = "Joined";
+        button.setAttribute("aria-label", (hasJoined ? "See confirmation for " : "Details for ") + plan.title);
+        button.addEventListener("click", () => navigate(planKey));
+        planList.append(fragment);
+      }
+    }
+
+    function renderPlans(cityId, city, moveFocus) {
+      document.querySelector("#city-heading").textContent = "Tonight in " + city.name;
+      document.querySelector("#city-banner-image").src = imageFor(cityId);
+      document.querySelector("#city-count").textContent = city.plans.length + " sample hangouts · Public spots";
+      const categories = ["All", ...new Set(city.plans.map((plan) => plan.type))];
+      if (!categories.includes(activeFilter)) activeFilter = "All";
+      filters.replaceChildren();
+      for (const category of categories) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "button";
+        button.textContent = category;
+        button.setAttribute("aria-pressed", category === activeFilter);
+        button.addEventListener("click", () => {
+          activeFilter = category;
+          for (const sibling of filters.children) sibling.setAttribute("aria-pressed", sibling === button);
+          renderPlanList(cityId);
+        });
+        filters.append(button);
+      }
+      renderPlanList(cityId);
+      show("plans", moveFocus);
+    }
+
+    function renderRoute(moveFocus = true) {
+      const [cityId, planIndex] = location.hash.slice(1).split("/");
+      const city = Object.hasOwn(cities, cityId) ? cities[cityId] : undefined;
+      if (!city) {
+        show("cities", moveFocus);
+        return;
+      }
+      const plan = /^\d+$/.test(planIndex ?? "") ? city.plans[Number(planIndex)] : undefined;
+      if (!plan) {
+        renderPlans(cityId, city, moveFocus);
+        return;
+      }
+      const planKey = cityId + "/" + Number(planIndex);
+      const meta = plan.time + " · " + plan.spot + " · " + city.name;
+      if (joined.has(planKey)) {
+        document.querySelector("#joined-name").textContent = joined.get(planKey);
+        document.querySelector("#joined-meta").textContent = plan.title + " · " + meta;
+        show("joined", moveFocus);
+      } else {
+        document.querySelector("#join-heading").textContent = plan.title;
+        document.querySelector("#join-meta").textContent = meta + " · " + plan.going + " of " + plan.seats + " seats";
+        joinForm.reset();
+        joinForm.elements.nickname.setCustomValidity("");
+        joinForm.dataset.plan = planKey;
+        show("join", moveFocus);
+      }
+    }
+
+    for (const button of document.querySelectorAll("[data-action]")) {
+      button.addEventListener("click", () => {
+        const cityId = location.hash.slice(1).split("/")[0];
+        navigate(button.dataset.action === "plans" ? cityId : "cities");
+      });
+    }
+    joinForm.elements.nickname.addEventListener("input", (event) => event.target.setCustomValidity(""));
+    joinForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const nickname = joinForm.elements.nickname;
+      const name = nickname.value.trim();
+      if (!name) {
+        nickname.setCustomValidity("Enter a nickname.");
+        nickname.reportValidity();
+        return;
+      }
+      joined.set(joinForm.dataset.plan, name);
+      renderRoute();
+    });
+    window.addEventListener("hashchange", () => renderRoute());
+
+    renderCities();
+    renderRoute(false);
+  </script>
+</body>
+</html>

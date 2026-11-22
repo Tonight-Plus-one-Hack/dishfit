@@ -1,0 +1,48 @@
+{
+  "fill": {
+    "linear-gradient": [
+      "srgb:0.20784,0.36863,0.85490,1.00000",
+      "srgb:0.61176,0.56471,0.99608,1.00000"
+    ],
+    "orientation": {
+      "start": {
+        "x": 0.5,
+        "y": 0
+      },
+      "stop": {
+        "x": 0.5,
+        "y": 1
+      }
+    }
+  },
+  "groups": [
+    {
+      "layers": [
+        {
+          "image-name": "dot.svg",
+          "name": "dot",
+          "glass": true
+        },
+        {
+          "image-name": "petals.svg",
+          "name": "petals",
+          "glass": true
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.2
+      }
+    }
+  ],
+  "supported-platforms": {
+    "circles": [
+      "watchOS"
+    ],
+    "squares": "shared"
+  }
+}

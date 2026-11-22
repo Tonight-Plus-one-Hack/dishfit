@@ -1,0 +1,119 @@
+{
+ "kiez": "tegel",
+ "name": "Tegel",
+ "scannedBy": "vinaynaik432-debug",
+ "updatedAt": "2026-11-22T12:05:11.580Z",
+ "provider": "openai",
+ "models": {
+  "menu": "gpt-6.2-sol",
+  "nutrition": "gpt-6.2-sol",
+  "chief": "gpt-6.2-sol",
+  "second": "gpt-6.1-terra",
+  "translate": "gpt-6-luna"
+ },
+ "counts": {
+  "found": 38,
+  "menus": 11,
+  "restaurants": 11,
+  "dishes": 525,
+  "images": 0,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 4.26,
+  "byStage": {
+   "check": 0.09,
+   "classify": 0.03,
+   "find": 0.96,
+   "menu": 1.44,
+   "nutrition": 1.74
+  },
+  "byProvider": {
+   "openai": 3.3,
+   "google-places": 0.96
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/tegel.json",
+ "places": [
+  {
+   "id": "osm-node-268484615",
+   "placeId": "ChIJNUHvM0JVqEcRCBHakejV5k0",
+   "osmId": "node/268484615"
+  },
+  {
+   "id": "osm-node-12526876074",
+   "placeId": "ChIJTfaY1nhVqEcRU85uHWcWbto",
+   "osmId": "node/12526876074"
+  },
+  {
+   "id": "osm-node-508679741",
+   "placeId": "ChIJvxDoaUNUqEcRZFvfHGXHxLI",
+   "osmId": "node/508679741"
+  },
+  {
+   "id": "osm-node-3811246433",
+   "placeId": "ChIJYdKLpWlUqEcRs-tCbUMumcQ",
+   "osmId": "node/3811246433"
+  },
+  {
+   "id": "osm-node-1543127135",
+   "placeId": "ChIJu4yuC3NUqEcRgc2J0Nh3Ap0",
+   "osmId": "node/1543127135"
+  },
+  {
+   "id": "osm-node-13969035148",
+   "placeId": "ChIJH7WfNABVqEcRdTCQg8V9ynA",
+   "osmId": "node/13969035148"
+  },
+  {
+   "id": "osm-node-13876574535",
+   "placeId": "ChIJAZ8ZIj5VqEcR4ti2Yi8Yqtw",
+   "osmId": "node/13876574535"
+  },
+  {
+   "id": "osm-node-310612083",
+   "placeId": "ChIJCTZfGGhUqEcR2na5Ny7BF4I",
+   "osmId": "node/310612083"
+  },
+  {
+   "id": "osm-node-508669156",
+   "placeId": "ChIJI348FmhUqEcRQJKsFtz79CA",
+   "osmId": "node/508669156"
+  },
+  {
+   "id": "osm-node-205497468",
+   "placeId": "ChIJ2duAU4hUqEcRJoOsofETv_k",
+   "osmId": "node/205497468"
+  },
+  {
+   "id": "osm-node-13817894985",
+   "placeId": "ChIJ2QQ8JENUqEcR1iF0r2IgEPs",
+   "osmId": "node/13817894985"
+  }
+ ],
+ "appendBase": {
+  "provider": "openai",
+  "counts": {
+   "found": 36,
+   "menus": 10,
+   "restaurants": 10,
+   "dishes": 371,
+   "images": 0,
+   "skippedDuplicates": 0
+  },
+  "costUsd": {
+   "total": 3.23,
+   "byStage": {
+    "check": 0.05,
+    "classify": 0.02,
+    "find": 0.96,
+    "menu": 1.15,
+    "nutrition": 1.05
+   },
+   "byProvider": {
+    "openai": 2.27,
+    "google-places": 0.96
+   }
+  }
+ }
+}

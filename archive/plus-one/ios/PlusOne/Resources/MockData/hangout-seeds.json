@@ -1,0 +1,461 @@
+{
+  "nicknames": [
+    "Mara",
+    "Jonas",
+    "Aylin",
+    "Theo",
+    "Sofia",
+    "Kenji",
+    "Lea",
+    "Omar",
+    "Noor",
+    "Felix",
+    "Ines",
+    "Luca",
+    "Priya",
+    "Mateo",
+    "Hanna",
+    "Yusuf",
+    "Clara",
+    "Ravi",
+    "Elif",
+    "Nils",
+    "Zoe",
+    "Marco",
+    "Amara",
+    "Ben",
+    "Saskia",
+    "Tomás",
+    "Yara",
+    "Emil",
+    "Julia",
+    "Kofi",
+    "Mina",
+    "Arjun",
+    "Lotte",
+    "Pablo",
+    "Freya",
+    "Sami"
+  ],
+  "aboutLines": [
+    "Up for chill drinks",
+    "Here for good talks",
+    "Ready to dance later",
+    "Open for anything"
+  ],
+  "hangouts": [
+    {
+      "city": "berlin",
+      "key": "berlin-manifest-starter",
+      "spot": "Manifest Taproom",
+      "title": "Craft beer, slow start",
+      "time": "18:45",
+      "maxSize": 6,
+      "members": [
+        2,
+        10,
+        14,
+        18,
+        22,
+        30
+      ],
+      "vibe": "chill",
+      "language": "en",
+      "note": "A relaxed first round on Oderberger Straße before everyone heads their own way. No crawl, no pressure."
+    },
+    {
+      "city": "berlin",
+      "key": "berlin-maclaren-afterwork",
+      "spot": "MacLaren",
+      "title": "After-work pints in Friedrichshain",
+      "time": "18:30",
+      "maxSize": 8,
+      "members": [
+        5,
+        9,
+        13,
+        21,
+        27
+      ],
+      "vibe": "chill",
+      "language": "en",
+      "note": "Just finished work, new in town or both. We grab the long table by the window and keep it easy."
+    },
+    {
+      "city": "berlin",
+      "key": "berlin-bijou-first-night",
+      "spot": "Bijou Bar",
+      "title": "First night in Berlin? Start here",
+      "time": "19:00",
+      "maxSize": 6,
+      "members": [
+        1,
+        4,
+        8,
+        12
+      ],
+      "vibe": "bar",
+      "language": "en",
+      "note": "For anyone who landed this week. Swap tips on neighborhoods, flats and where to go next, right by Monbijoupark."
+    },
+    {
+      "city": "berlin",
+      "key": "berlin-lerchen-language",
+      "spot": "Lerchen & Eulen",
+      "title": "Language swap: English, German, Spanish",
+      "time": "19:30",
+      "maxSize": 8,
+      "members": [
+        17,
+        3,
+        25,
+        29,
+        33
+      ],
+      "vibe": "bar",
+      "language": "any",
+      "note": "Half the evening in the language you are learning, half in the one you know. Beginners welcome."
+    },
+    {
+      "city": "berlin",
+      "key": "berlin-platzwart-kicker",
+      "spot": "Platzwart Kickerbar",
+      "title": "Table football and a cold one",
+      "time": "20:00",
+      "maxSize": 6,
+      "members": [
+        6,
+        16,
+        24
+      ],
+      "vibe": "culture",
+      "language": "en",
+      "note": "Mixed teams, nobody keeps score for long. If you have never played, even better."
+    },
+    {
+      "city": "berlin",
+      "key": "berlin-vin-aqua-wine",
+      "spot": "Vin Aqua Vin",
+      "title": "Natural wine and long conversations",
+      "time": "20:30",
+      "maxSize": 5,
+      "members": [
+        11,
+        19,
+        31
+      ],
+      "vibe": "bar",
+      "language": "en",
+      "note": "A small table on Weserstraße, a couple of bottles to share and room for two more people."
+    },
+    {
+      "city": "berlin",
+      "key": "berlin-frannz-live",
+      "spot": "Frannz Club",
+      "title": "Live music, then see where the night goes",
+      "time": "21:00",
+      "maxSize": 8,
+      "members": [
+        7,
+        15,
+        20,
+        23,
+        28,
+        34
+      ],
+      "vibe": "culture",
+      "language": "en",
+      "note": "We catch the band at Frannz and decide together what comes after. Leave whenever you like."
+    },
+    {
+      "city": "berlin",
+      "key": "berlin-clarchens-dance",
+      "spot": "Clärchens Ballhaus",
+      "title": "Drinks first, dancing later",
+      "time": "21:30",
+      "maxSize": 8,
+      "members": [
+        3,
+        26,
+        32,
+        35
+      ],
+      "vibe": "club",
+      "language": "any",
+      "note": "Meet at the bar of the old ballroom, warm up with a drink, then join the dance floor as a group."
+    },
+    {
+      "city": "berlin",
+      "key": "berlin-bflat-jazz",
+      "spot": "b-flat",
+      "title": "Late jazz for the curious",
+      "time": "22:00",
+      "maxSize": 6,
+      "members": [
+        9,
+        36
+      ],
+      "vibe": "chill",
+      "language": "en",
+      "note": "Two of us so far. One more and it happens. No jazz knowledge needed, just ears."
+    },
+    {
+      "city": "hamburg",
+      "key": "hamburg-le-fonque",
+      "spot": "Le Fonque",
+      "title": "Schanze warm-up",
+      "time": "19:30",
+      "maxSize": 6,
+      "members": [
+        2,
+        13,
+        21,
+        30
+      ],
+      "vibe": "chill",
+      "language": "en",
+      "note": "A drink in the Schanzenviertel before the weekend crowd arrives."
+    },
+    {
+      "city": "hamburg",
+      "key": "hamburg-molotow",
+      "spot": "Molotow",
+      "title": "Indie night on the Reeperbahn",
+      "time": "22:00",
+      "maxSize": 8,
+      "members": [
+        7,
+        18,
+        23,
+        28,
+        34
+      ],
+      "vibe": "club",
+      "language": "en",
+      "note": "Meet outside, go in together, dance as much or as little as you want."
+    },
+    {
+      "city": "hamburg",
+      "key": "hamburg-frau-moller",
+      "spot": "Frau Möller",
+      "title": "Lange Reihe pub chat",
+      "time": "20:00",
+      "maxSize": 5,
+      "members": [
+        1,
+        12,
+        25
+      ],
+      "vibe": "bar",
+      "language": "en",
+      "note": "Easy conversation in a classic St. Georg pub."
+    },
+    {
+      "city": "munich",
+      "key": "munich-viktualienmarkt",
+      "spot": "Biergarten am Viktualienmarkt",
+      "title": "Early beer garden round",
+      "time": "18:30",
+      "maxSize": 8,
+      "members": [
+        4,
+        10,
+        16,
+        22,
+        26,
+        33
+      ],
+      "vibe": "chill",
+      "language": "en",
+      "note": "Long tables, a Maß or a Spezi, and people who just moved here."
+    },
+    {
+      "city": "munich",
+      "key": "munich-monchalant",
+      "spot": "Monchalant",
+      "title": "Cocktails in Haidhausen",
+      "time": "21:00",
+      "maxSize": 6,
+      "members": [
+        5,
+        17,
+        29
+      ],
+      "vibe": "bar",
+      "language": "en",
+      "note": "A quieter bar for people who want to actually talk."
+    },
+    {
+      "city": "cologne",
+      "key": "cologne-james-joyce",
+      "spot": "James Joyce",
+      "title": "Südstadt pub evening",
+      "time": "19:30",
+      "maxSize": 6,
+      "members": [
+        6,
+        14,
+        24,
+        31
+      ],
+      "vibe": "chill",
+      "language": "en",
+      "note": "A relaxed start in the Südstadt. Kölsch or anything else."
+    },
+    {
+      "city": "cologne",
+      "key": "cologne-bahnhof-ehrenfeld",
+      "spot": "Club Bahnhof Ehrenfeld",
+      "title": "Ehrenfeld club night",
+      "time": "23:00",
+      "maxSize": 8,
+      "members": [
+        3,
+        11,
+        19,
+        27,
+        35
+      ],
+      "vibe": "club",
+      "language": "en",
+      "note": "Meet at the entrance, go in as a group."
+    },
+    {
+      "city": "amsterdam",
+      "key": "amsterdam-jazz-alto",
+      "spot": "Jazz Cafe Alto",
+      "title": "Jazz near Leidseplein",
+      "time": "21:30",
+      "maxSize": 6,
+      "members": [
+        8,
+        20,
+        32,
+        36
+      ],
+      "vibe": "chill",
+      "language": "en",
+      "note": "Live sets every night. We grab a corner and listen."
+    },
+    {
+      "city": "amsterdam",
+      "key": "amsterdam-cafe-zwart",
+      "spot": "Café Zwart",
+      "title": "Brown café on the Dam",
+      "time": "19:00",
+      "maxSize": 5,
+      "members": [
+        1,
+        9,
+        15
+      ],
+      "vibe": "bar",
+      "language": "en",
+      "note": "One drink, real conversation, no phones on the table."
+    },
+    {
+      "city": "barcelona",
+      "key": "barcelona-bar-del-pla",
+      "spot": "Bar del Pla",
+      "title": "Vermouth hour in El Born",
+      "time": "20:00",
+      "maxSize": 6,
+      "members": [
+        2,
+        12,
+        22,
+        26
+      ],
+      "vibe": "bar",
+      "language": "en",
+      "note": "Pre-dinner vermouth the local way."
+    },
+    {
+      "city": "barcelona",
+      "key": "barcelona-cerveseria-jazz",
+      "spot": "Cerveseria Jazz",
+      "title": "Poble-sec beers",
+      "time": "22:30",
+      "maxSize": 8,
+      "members": [
+        7,
+        13,
+        23,
+        29,
+        33
+      ],
+      "vibe": "chill",
+      "language": "any",
+      "note": "Late start, as is tradition."
+    },
+    {
+      "city": "lisbon",
+      "key": "lisbon-duque",
+      "spot": "Duque Brewpub",
+      "title": "Craft beer below Bairro Alto",
+      "time": "19:30",
+      "maxSize": 6,
+      "members": [
+        4,
+        18,
+        28
+      ],
+      "vibe": "chill",
+      "language": "en",
+      "note": "Small brewpub on the steps of Calçada do Duque."
+    },
+    {
+      "city": "lisbon",
+      "key": "lisbon-hot-club",
+      "spot": "Hot Club Portugal",
+      "title": "Jazz at Praça da Alegria",
+      "time": "22:00",
+      "maxSize": 6,
+      "members": [
+        10,
+        16,
+        30,
+        34
+      ],
+      "vibe": "culture",
+      "language": "en",
+      "note": "One of the oldest jazz clubs in Europe. We meet at the door."
+    },
+    {
+      "city": "prague",
+      "key": "prague-agharta",
+      "spot": "AghaRTA Jazz Centrum",
+      "title": "Old town jazz cellar",
+      "time": "21:00",
+      "maxSize": 6,
+      "members": [
+        5,
+        15,
+        25,
+        35
+      ],
+      "vibe": "chill",
+      "language": "en",
+      "note": "A cellar, a band and a small table for six."
+    },
+    {
+      "city": "prague",
+      "key": "prague-letna",
+      "spot": "Zahradní pivnice Letenské sady",
+      "title": "Letná beer garden with a view",
+      "time": "18:30",
+      "maxSize": 8,
+      "members": [
+        6,
+        11,
+        17,
+        21,
+        27,
+        31
+      ],
+      "vibe": "bar",
+      "language": "any",
+      "note": "Plastic cups, a view over the river and people from everywhere."
+    }
+  ]
+}

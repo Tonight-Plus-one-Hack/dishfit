@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.env
+.env.*
+worker/worker-configuration.d.ts
+.DS_Store
+worker/seed/real.sql
+
+# Playwright e2e output (screenshots per step, report, traces)
+e2e/artifacts/

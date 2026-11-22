@@ -1,0 +1,64 @@
+{
+ "kiez": "marzahn",
+ "name": "Marzahn",
+ "scannedBy": "BatuCani",
+ "updatedAt": "2026-11-22T01:38:57.316Z",
+ "provider": "openai",
+ "models": {
+  "menu": "gpt-6.2-sol",
+  "nutrition": "gpt-6.2-sol",
+  "chief": "gpt-6.2-sol",
+  "second": "gpt-6.1-terra",
+  "translate": "gpt-6-luna"
+ },
+ "counts": {
+  "found": 19,
+  "menus": 5,
+  "restaurants": 5,
+  "dishes": 199,
+  "images": 0,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 2.19,
+  "byStage": {
+   "check": 0.04,
+   "classify": 0.01,
+   "find": 0.77,
+   "menu": 0.88,
+   "nutrition": 0.49
+  },
+  "byProvider": {
+   "openai": 1.24,
+   "google-places": 0.95
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/marzahn.json",
+ "places": [
+  {
+   "id": "osm-node-5131072108",
+   "placeId": "ChIJPVgkr3hMqEcRv3rrqjeR070",
+   "osmId": "node/5131072108"
+  },
+  {
+   "id": "osm-node-9797339519",
+   "placeId": "ChIJcy2YffZLqEcRhTGqIJKjpvc",
+   "osmId": "node/9797339519"
+  },
+  {
+   "id": "osm-way-1196371265",
+   "placeId": "ChIJ7dVcXe1LqEcRuNAiQLAqKAQ",
+   "osmId": "way/1196371265"
+  },
+  {
+   "id": "osm-way-141563860",
+   "placeId": "ChIJUXDakp1LqEcRv5moNHLc2M0",
+   "osmId": "way/141563860"
+  },
+  {
+   "id": "osm-node-9957079091",
+   "placeId": "ChIJkeYDjShPqEcRyb9ye5-78CE",
+   "osmId": "node/9957079091"
+  }
+ ]
+}

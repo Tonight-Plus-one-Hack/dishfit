@@ -1,0 +1,456 @@
+/* Today tab habits: streak pill, camera tiles, recently eaten rail, weekly bars, my menus. */
+.streak {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 32px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: var(--soft-card);
+  box-shadow: var(--soft-card-shadow);
+  color: var(--muted);
+  font-family: var(--font-rounded);
+  font-size: 15px;
+}
+
+.streak.is-on {
+  color: var(--ink);
+}
+
+.streak.is-on .glyph,
+.streak.is-on svg {
+  color: #f76b15;
+}
+
+.cam-tiles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.cam-tile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  border-radius: var(--soft-radius);
+  background: var(--soft-card);
+  box-shadow: var(--soft-card-shadow);
+  color: var(--ink);
+  text-decoration: none;
+  min-width: 0;
+}
+
+.cam-tile__icon {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--cta);
+  color: var(--cta-ink);
+}
+
+.cam-tile__text {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.cam-tile__title {
+  font-weight: 700;
+}
+
+.cam-tile__body {
+  color: var(--muted);
+  font-size: var(--fs-label);
+}
+
+@media (hover: hover) {
+  .cam-tile:hover {
+    background: var(--hover);
+  }
+}
+
+@media (max-width: 479px) {
+  .cam-tile {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 14px;
+  }
+}
+
+.recent {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(176px, 200px);
+  gap: 12px;
+  margin: 0 calc(-1 * var(--page-pad, 16px));
+  padding: 4px var(--page-pad, 16px) 12px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  list-style: none;
+  scrollbar-width: none;
+}
+
+.recent::-webkit-scrollbar {
+  display: none;
+}
+
+.recent__card {
+  position: relative;
+  display: grid;
+  align-content: start;
+  gap: 4px;
+  padding: 14px 14px 16px;
+  border-radius: var(--soft-radius);
+  background: var(--soft-card);
+  box-shadow: var(--soft-card-shadow);
+  scroll-snap-align: start;
+}
+
+.recent__top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+  padding-right: 36px;
+  white-space: nowrap;
+}
+
+.recent__kind {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--hover);
+}
+
+.recent__time {
+  color: var(--muted);
+  font-size: var(--fs-label);
+}
+
+.recent__name {
+  margin: 0;
+  padding-right: 36px;
+  font-weight: 700;
+  line-height: 1.25;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.recent__place {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--fs-label);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.recent__kcal {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 6px 0 0;
+  font-family: var(--font-rounded);
+  font-weight: 700;
+}
+
+.recent__macros {
+  display: flex;
+  gap: 8px;
+  white-space: nowrap;
+  margin: 0 0 4px;
+  font-size: var(--fs-label);
+  color: var(--muted);
+}
+
+.recent__m::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 4px;
+  border-radius: 50%;
+  background: var(--dot);
+  vertical-align: middle;
+}
+
+.recent__m--protein {
+  --dot: var(--protein);
+}
+.recent__m--carbs {
+  --dot: var(--carbs);
+}
+.recent__m--fat {
+  --dot: var(--fat);
+}
+
+.recent__card .ai-badge {
+  justify-self: start;
+}
+
+.recent__add {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--cta);
+  color: var(--cta-ink);
+  cursor: pointer;
+}
+
+.recent__add.is-done {
+  background: var(--hover);
+  color: var(--ink);
+}
+
+.week-card {
+  display: grid;
+  gap: 18px;
+  padding: 20px;
+  border-radius: var(--soft-radius);
+  background: var(--soft-card);
+  box-shadow: var(--soft-card-shadow);
+}
+
+.week-card__stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.week-card__stats p {
+  display: grid;
+  align-content: start;
+  gap: 2px;
+  margin: 0;
+  min-width: 0;
+}
+
+.week-card__stats b {
+  font-family: var(--font-rounded);
+  font-size: 22px;
+  font-variant-numeric: tabular-nums;
+}
+
+.week-card__stats span {
+  color: var(--muted);
+  font-size: var(--fs-label);
+}
+
+.week-bars {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 8px;
+  height: 140px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.week-bars__day {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.week-bars__track {
+  position: relative;
+  width: min(100%, 28px);
+  height: 100%;
+  border-radius: 999px;
+  background: var(--hover);
+  overflow: hidden;
+}
+
+.week-bars__fill {
+  position: absolute;
+  inset: auto 0 0;
+  height: calc(var(--h) * 100%);
+  border-radius: 999px;
+  background: var(--ink);
+  transition: height 400ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.week-bars__fill.is-over {
+  background: #ce2c31;
+}
+
+.week-bars__label {
+  color: var(--muted);
+  font-size: var(--fs-label);
+}
+
+.week-bars__day.is-today .week-bars__label {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.week-bars__day.is-future .week-bars__track {
+  background: var(--surface);
+}
+
+/* The goal line sits at the goal's height inside the bar area (above the labels, about 20 px). */
+.week-bars__goal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(20px + (100% - 20px) * var(--goal));
+  border-top: 1.5px dashed var(--muted-decorative);
+  pointer-events: none;
+}
+
+.week-bars__goal span {
+  position: absolute;
+  right: 0;
+  top: -18px;
+  color: var(--muted-decorative);
+  font-size: 11px;
+}
+
+.cards {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards__item {
+  border-radius: var(--soft-radius);
+  background: var(--soft-card);
+  box-shadow: var(--soft-card-shadow);
+  overflow: hidden;
+}
+
+.cards__head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 14px 16px;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.cards__icon {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: var(--hover);
+}
+
+.cards__text {
+  display: grid;
+  flex: 1;
+  min-width: 0;
+}
+
+.cards__name {
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cards__meta {
+  color: var(--muted);
+  font-size: var(--fs-label);
+}
+
+.cards__chevron {
+  transition: transform 200ms;
+}
+
+.cards__item.is-open .cards__chevron {
+  transform: rotate(180deg);
+}
+
+.cards__body {
+  display: grid;
+  gap: 8px;
+  padding: 0 16px 12px;
+}
+
+.cards__body .ai-badge {
+  justify-self: start;
+}
+
+.cards__delete {
+  justify-self: start;
+}
+
+.eaten__range {
+  color: var(--muted);
+  font-size: var(--fs-label);
+}
+
+/* Desktop dashboard: camera tiles and the recently eaten rail take the whole row. */
+.dsk-screen--page .today > .today__wide {
+  grid-column: 1 / -1;
+}
+
+.dsk-screen--page .recent {
+  grid-auto-columns: minmax(200px, 1fr);
+  margin: 0;
+  padding: 4px 0 12px;
+}
+
+.dsk-screen--page .today > div > .today__section {
+  height: 100%;
+  align-content: start;
+  padding: 20px;
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--shell-radius);
+  background: var(--canvas);
+}
+
+.dsk-screen--page .today > div:has(> .today__section) {
+  align-self: stretch;
+}
+
+/* Inside the bordered desktop section the week card needs no second box. */
+.dsk-screen--page .week-card {
+  padding: 4px 0 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+/* A plate photo the Worker still keeps (private, 30 days) in place of the kind icon. */
+.recent__kind--photo {
+  object-fit: cover;
+  background: var(--hover);
+}
+
+/* The menu photo of a saved card while the Worker keeps it. */
+.cards__photo {
+  display: block;
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: var(--soft-radius);
+  background: var(--hover);
+}

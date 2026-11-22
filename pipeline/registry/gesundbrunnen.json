@@ -1,0 +1,84 @@
+{
+ "kiez": "gesundbrunnen",
+ "name": "Gesundbrunnen",
+ "scannedBy": "vinaynaik432-debug",
+ "updatedAt": "2026-11-22T12:05:11.140Z",
+ "provider": "openai",
+ "models": {
+  "menu": "gpt-6.2-sol",
+  "nutrition": "gpt-6.2-sol",
+  "chief": "gpt-6.2-sol",
+  "second": "gpt-6.1-terra",
+  "translate": "gpt-6-luna"
+ },
+ "counts": {
+  "found": 47,
+  "menus": 4,
+  "restaurants": 4,
+  "dishes": 106,
+  "images": 0,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 2.48,
+  "byStage": {
+   "check": 0.02,
+   "classify": 0,
+   "find": 1.63,
+   "menu": 0.39,
+   "nutrition": 0.42
+  },
+  "byProvider": {
+   "openai": 0.73,
+   "google-places": 1.73
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/gesundbrunnen.json",
+ "places": [
+  {
+   "id": "osm-node-6251995789",
+   "placeId": "ChIJ3U1W5KdTqEcRtMIgx-QeQIc",
+   "osmId": "node/6251995789"
+  },
+  {
+   "id": "osm-node-626868233",
+   "placeId": "ChIJ22W8iyFSqEcRNita0x7CoUc",
+   "osmId": "node/626868233"
+  },
+  {
+   "id": "osm-node-2756763476",
+   "placeId": "ChIJ78yzHT9SqEcRobqQkHZvHWY",
+   "osmId": "node/2756763476"
+  },
+  {
+   "id": "osm-node-4095732755",
+   "placeId": "ChIJG6-86vZRqEcRUXObQWX4qig",
+   "osmId": "node/4095732755"
+  }
+ ],
+ "appendBase": {
+  "provider": "openai",
+  "counts": {
+   "found": 45,
+   "menus": 3,
+   "restaurants": 3,
+   "dishes": 86,
+   "images": 0,
+   "skippedDuplicates": 0
+  },
+  "costUsd": {
+   "total": 2.26,
+   "byStage": {
+    "check": 0.01,
+    "classify": 0,
+    "find": 1.63,
+    "menu": 0.31,
+    "nutrition": 0.29
+   },
+   "byProvider": {
+    "openai": 0.51,
+    "google-places": 1.73
+   }
+  }
+ }
+}

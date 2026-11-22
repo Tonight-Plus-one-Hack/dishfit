@@ -1,0 +1,99 @@
+/* Rings, macro row and soft cards in the Cal AI manner. */
+
+.ring {
+  position: relative;
+  display: inline-grid;
+  flex: none;
+  place-items: center;
+}
+
+.ring > svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ring > svg circle {
+  fill: none;
+}
+
+.ring__track {
+  stroke: var(--ring-track);
+}
+
+.ring__value {
+  stroke-linecap: round;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .ring__value {
+    animation: ring-draw 900ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+}
+
+@keyframes ring-draw {
+  from {
+    stroke-dashoffset: var(--ring-c);
+  }
+}
+
+.ring__inside {
+  position: relative;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.macro-ring__value {
+  display: grid;
+  gap: 1px;
+  line-height: 1.05;
+}
+
+.macro-ring__value b {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.macro-ring__value b small {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.macro-ring__value > span {
+  font-size: 11.5px;
+  color: var(--muted);
+  letter-spacing: -0.01em;
+}
+
+.macro-ring__glyph {
+  display: grid;
+  place-items: center;
+}
+
+.energy-ring__flame {
+  display: grid;
+  place-items: center;
+  color: var(--ink);
+}
+
+.health-ring__num {
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.health-ring--green .health-ring__num {
+  color: var(--band-green);
+}
+
+.health-ring--orange .health-ring__num {
+  color: var(--band-orange);
+}
+
+.health-ring--red .health-ring__num {
+  color: var(--band-red);
+}

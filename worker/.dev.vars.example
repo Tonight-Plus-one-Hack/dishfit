@@ -1,0 +1,12 @@
+# Copy to worker/.dev.vars (gitignored) for local dev. Never commit real values.
+# Bearer token for GET /api/admin/ai-usage. Any long random string locally.
+ADMIN_TOKEN=
+# Community scans. Real review: set ANTHROPIC_API_KEY or OPENAI_API_KEY and COMMUNITY_REVIEW_MODE=auto
+# (remote: npx wrangler secret put OPENAI_API_KEY --env staging). Leave empty for the mock reviewer.
+ANTHROPIC_API_KEY=
+OPENAI_API_KEY=
+# Cloudflare's always-pass Turnstile test secret; used only when TURNSTILE_ENABLED is "true".
+TURNSTILE_SECRET_KEY=1x0000000000000000000000000000000AA
+# Signs the anonymous device profile cookie (worker/src/lib/device.ts). Leave empty locally (a dev secret is used);
+# remote: npx wrangler secret put DEVICE_COOKIE_SECRET --env staging (any long random string). Without it profiles answer 503.
+DEVICE_COOKIE_SECRET=

@@ -1,0 +1,94 @@
+{
+ "kiez": "mariendorf",
+ "name": "Mariendorf",
+ "scannedBy": "vinaynaik432-debug",
+ "updatedAt": "2026-11-22T12:05:11.334Z",
+ "provider": "openai",
+ "models": {
+  "menu": "gpt-6.2-sol",
+  "nutrition": "gpt-6.2-sol",
+  "chief": "gpt-6.2-sol",
+  "second": "gpt-6.1-terra",
+  "translate": "gpt-6-luna"
+ },
+ "counts": {
+  "found": 28,
+  "menus": 7,
+  "restaurants": 6,
+  "dishes": 280,
+  "images": 0,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 2.97,
+  "byStage": {
+   "check": 0.04,
+   "classify": 0.02,
+   "find": 0.54,
+   "menu": 1.3,
+   "nutrition": 1.08
+  },
+  "byProvider": {
+   "openai": 2.32,
+   "google-places": 0.66
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/mariendorf.json",
+ "places": [
+  {
+   "id": "osm-node-1408380022",
+   "placeId": "ChIJ_y-s9xlFqEcRx2abqy3Nf8Q",
+   "osmId": "node/1408380022"
+  },
+  {
+   "id": "osm-node-13761538828",
+   "placeId": "ChIJf4MZVABFqEcRcVrJ-ROqswY",
+   "osmId": "node/13761538828"
+  },
+  {
+   "id": "osm-node-12911295749",
+   "placeId": "ChIJR1gg7RdFqEcR1fFjhpCCPvM",
+   "osmId": "node/12911295749"
+  },
+  {
+   "id": "osm-node-1357458673",
+   "placeId": "ChIJh6sq1BlFqEcROQM3JfVwU0A",
+   "osmId": "node/1357458673"
+  },
+  {
+   "id": "osm-node-12197710539",
+   "placeId": "ChIJ-3t_aOxFqEcR6_EH4-ET6lc",
+   "osmId": "node/12197710539"
+  },
+  {
+   "id": "osm-node-2674876174",
+   "placeId": "ChIJmTv850ZFqEcRklSGHHmqRa4",
+   "osmId": "node/2674876174"
+  }
+ ],
+ "appendBase": {
+  "provider": "openai",
+  "counts": {
+   "found": 26,
+   "menus": 6,
+   "restaurants": 5,
+   "dishes": 186,
+   "images": 0,
+   "skippedDuplicates": 0
+  },
+  "costUsd": {
+   "total": 2.18,
+   "byStage": {
+    "check": 0.03,
+    "classify": 0.01,
+    "find": 0.54,
+    "menu": 0.96,
+    "nutrition": 0.64
+   },
+   "byProvider": {
+    "openai": 1.52,
+    "google-places": 0.66
+   }
+  }
+ }
+}

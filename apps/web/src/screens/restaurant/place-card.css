@@ -1,0 +1,134 @@
+/* Restaurant header: round avatar, chips, rounded mini map with a distance pill (Cal AI / ref-3 manner). */
+
+.place {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  padding-top: 8px;
+  text-align: center;
+}
+
+.place__avatar {
+  display: grid;
+  place-items: center;
+  width: 108px;
+  height: 108px;
+  margin-bottom: 6px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #fff 0%, var(--accent-soft) 70%);
+  box-shadow: 0 8px 24px rgb(75 95 224 / 0.2);
+}
+
+.place__name {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+.place__cuisine {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.place__chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 16px;
+  margin-top: 4px;
+}
+
+.place-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  height: 32px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: var(--hover);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.place-tag--open {
+  background: var(--band-green);
+  color: #fff;
+}
+
+.place-tag--closed {
+  background: #fdecea;
+  color: #b3362f;
+}
+
+.place-tag--plain {
+  padding: 0;
+  background: none;
+  color: var(--muted);
+}
+
+.place__map {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  margin-top: 12px;
+  overflow: hidden;
+  border-radius: var(--soft-radius);
+  background: #f4efe7;
+  box-shadow: var(--soft-card-shadow);
+  isolation: isolate;
+}
+
+.place__map-loading {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #f4efe7, #ece5d9, #f4efe7);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+}
+
+.place__bar {
+  position: absolute;
+  z-index: 5;
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 8px 8px 16px;
+  border-radius: 999px;
+  background: #fff;
+  box-shadow: 0 6px 20px rgb(20 22 60 / 0.14);
+  text-align: left;
+}
+
+.place__distance {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  font-size: 15px;
+  color: var(--muted);
+}
+
+.place__distance > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.place__distance svg {
+  flex: none;
+  color: var(--ink);
+}

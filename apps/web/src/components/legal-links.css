@@ -1,0 +1,33 @@
+.legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 16px;
+}
+
+.legal-links__a {
+  font-family: var(--font-mono);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: var(--track-label);
+  /* Taller hit area for touch without changing the line's look. */
+  padding-block: 6px;
+  color: var(--muted);
+  transition: color var(--dur-state) var(--ease-out);
+}
+
+.legal-links__a[aria-current='page'] {
+  color: var(--ink);
+}
+
+.legal-links__a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.legal-links__a:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 2px;
+}

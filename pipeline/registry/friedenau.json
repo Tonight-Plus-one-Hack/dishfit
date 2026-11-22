@@ -1,0 +1,99 @@
+{
+ "kiez": "friedenau",
+ "name": "Friedenau",
+ "scannedBy": "vinaynaik432-debug",
+ "updatedAt": "2026-11-22T12:05:11.093Z",
+ "provider": "openai",
+ "models": {
+  "menu": "gpt-6.2-sol",
+  "nutrition": "gpt-6.2-sol",
+  "chief": "gpt-6.2-sol",
+  "second": "gpt-6.1-terra",
+  "translate": "gpt-6-luna"
+ },
+ "counts": {
+  "found": 53,
+  "menus": 9,
+  "restaurants": 7,
+  "dishes": 337,
+  "images": 0,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 3.6,
+  "byStage": {
+   "check": 0.06,
+   "classify": 0.02,
+   "find": 1.09,
+   "menu": 1.34,
+   "nutrition": 1.11
+  },
+  "byProvider": {
+   "openai": 2.49,
+   "google-places": 1.13
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/friedenau.json",
+ "places": [
+  {
+   "id": "osm-node-4149887215",
+   "placeId": "ChIJyU2sM39RqEcRdVEwXTYwjik",
+   "osmId": "node/4149887215"
+  },
+  {
+   "id": "osm-node-5938897751",
+   "placeId": "ChIJWxJK41tRqEcRnZNAfkLvFpk",
+   "osmId": "node/5938897751"
+  },
+  {
+   "id": "osm-node-6289006714",
+   "placeId": "ChIJ_YypYXhQqEcR6KyskhhaUwA",
+   "osmId": "node/6289006714"
+  },
+  {
+   "id": "osm-node-5761158458",
+   "placeId": "ChIJdYu92mJQqEcRgXju4MSKgUI",
+   "osmId": "node/5761158458"
+  },
+  {
+   "id": "osm-node-3643212993",
+   "placeId": "ChIJtQxIfHBQqEcR7sSyQe0us8U",
+   "osmId": "node/3643212993"
+  },
+  {
+   "id": "osm-node-1259423611",
+   "placeId": "ChIJ89t3h31QqEcRXpGRPUGOmrQ",
+   "osmId": "node/1259423611"
+  },
+  {
+   "id": "osm-node-3354050331",
+   "placeId": "ChIJhYC9OH1QqEcRYbM4rLQprbY",
+   "osmId": "node/3354050331"
+  }
+ ],
+ "appendBase": {
+  "provider": "openai",
+  "counts": {
+   "found": 49,
+   "menus": 6,
+   "restaurants": 5,
+   "dishes": 182,
+   "images": 0,
+   "skippedDuplicates": 0
+  },
+  "costUsd": {
+   "total": 2.61,
+   "byStage": {
+    "check": 0.04,
+    "classify": 0.01,
+    "find": 1.09,
+    "menu": 0.95,
+    "nutrition": 0.53
+   },
+   "byProvider": {
+    "openai": 1.49,
+    "google-places": 1.13
+   }
+  }
+ }
+}

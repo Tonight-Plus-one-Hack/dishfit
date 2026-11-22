@@ -1,0 +1,919 @@
+/* Desktop frame: sidebar, top bar, map workspace with right panel, page column. Only renders from 768 px. */
+
+.dsk {
+  display: grid;
+  grid-template-columns: var(--sidebar-w) minmax(0, 1fr);
+  min-height: 100dvh;
+  background: var(--shell-bg);
+}
+
+.dsk--rail {
+  grid-template-columns: var(--sidebar-rail-w) minmax(0, 1fr);
+}
+
+/* Tablet: the expanded sidebar floats over the content instead of pushing it. */
+.dsk--tablet {
+  grid-template-columns: var(--sidebar-rail-w) minmax(0, 1fr);
+}
+
+.dsk {
+  height: 100dvh;
+  overflow: hidden;
+}
+
+.dsk__body {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.dsk__body {
+  min-height: 0;
+}
+
+.dsk__scrim {
+  position: fixed;
+  z-index: 40;
+  inset: 0;
+  background: rgb(17 17 19 / 0.24);
+}
+
+/* ---------- Sidebar ---------- */
+
+.sidebar {
+  position: sticky;
+  z-index: 50;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 100dvh;
+  padding: 20px 14px 16px;
+  background: var(--shell-card);
+  border-right: 1px solid var(--rule-soft);
+}
+
+.dsk--tablet .sidebar:not(.sidebar--rail) {
+  position: fixed;
+  left: 0;
+  width: var(--sidebar-w);
+  box-shadow: var(--shell-shadow);
+}
+
+.sidebar__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 40px;
+}
+
+.sidebar--rail .sidebar__head {
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sidebar__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  padding: 2px 6px;
+  border-radius: 12px;
+}
+
+.brand-mark {
+  display: inline-grid;
+  flex: none;
+  place-items: center;
+  border-radius: 10px;
+  background: var(--brand-grad);
+  color: #fff;
+  box-shadow: 0 4px 12px rgb(75 95 224 / 0.28);
+}
+
+.sidebar__name {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.sidebar__toggle {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  color: var(--muted);
+  transition: background-color var(--dur-state) var(--ease-out), color var(--dur-state) var(--ease-out);
+}
+
+.sidebar__toggle:hover {
+  background: var(--hover);
+  color: var(--ink);
+}
+
+.sidebar__list {
+  display: grid;
+  gap: 4px;
+}
+
+.sidebar__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 44px;
+  padding: 0 12px;
+  border-radius: 12px;
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  transition: color var(--dur-state) var(--ease-out), background-color var(--dur-state) var(--ease-out);
+}
+
+.sidebar__item svg,
+.sidebar__label {
+  position: relative;
+}
+
+.sidebar__item:hover {
+  background: var(--hover);
+  color: var(--ink);
+}
+
+.sidebar__item[aria-current='page'] {
+  --glyph-cut: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.sidebar__item[aria-current='page']:hover {
+  background: transparent;
+}
+
+.sidebar__indicator {
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  background: var(--accent-soft);
+}
+
+.sidebar--rail .sidebar__item {
+  justify-content: center;
+  padding: 0;
+}
+
+.sidebar--rail .sidebar__name,
+.sidebar--rail .sidebar__label,
+.sidebar--rail .sidebar__me-text {
+  display: none;
+}
+
+.sidebar__foot {
+  display: grid;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.sidebar__legal {
+  padding-inline: 12px;
+  gap: 4px 14px;
+}
+
+.sidebar__legal .legal-links__a {
+  font-size: 11.5px;
+}
+
+/* The icon rail is too narrow for a row: the two links stack, smaller and centred across the whole rail
+   (the negative margin spans the sidebar padding, so the links never widen the column under the avatar). */
+.sidebar--rail .sidebar__legal {
+  flex-direction: column;
+  margin-inline: -14px;
+  padding-inline: 0;
+  gap: 0;
+}
+
+.sidebar--rail .sidebar__legal .legal-links__a {
+  font-size: 10px;
+  letter-spacing: -0.03em;
+}
+
+.sidebar__me {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid var(--rule-soft);
+  transition: background-color var(--dur-state) var(--ease-out);
+}
+
+.sidebar__me:hover {
+  background: var(--hover);
+}
+
+.sidebar--rail .sidebar__me {
+  justify-content: center;
+  padding: 8px 0;
+  border-color: transparent;
+}
+
+.sidebar__avatar {
+  --glyph-cut: var(--accent-soft);
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent-soft-ink);
+}
+
+.sidebar__me-text {
+  display: grid;
+  min-width: 0;
+}
+
+.sidebar__me-title {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.sidebar__me-sub {
+  overflow: hidden;
+  font-size: 12.5px;
+  color: var(--muted);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---------- Top bar ---------- */
+
+.topbar {
+  position: sticky;
+  z-index: 30;
+  top: 0;
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 12px;
+  height: var(--topbar-h);
+  padding: 0 20px;
+  background: rgb(245 245 248 / 0.86);
+  backdrop-filter: saturate(1.4) blur(16px);
+  -webkit-backdrop-filter: saturate(1.4) blur(16px);
+  border-bottom: 1px solid var(--rule-soft);
+}
+
+.topbar__search {
+  display: flex;
+  flex: 0 1 380px;
+  align-items: center;
+  gap: 10px;
+  min-width: 268px;
+  height: 44px;
+  padding: 0 10px 0 14px;
+  border: 1px solid var(--rule-soft);
+  border-radius: 14px;
+  background: var(--shell-card);
+  color: var(--muted);
+  transition: border-color var(--dur-state) var(--ease-out), box-shadow var(--dur-state) var(--ease-out);
+}
+
+.topbar__search:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgb(75 95 224 / 0.14);
+}
+
+.topbar__search input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: none;
+  color: var(--ink);
+  font-size: 15px;
+}
+
+.topbar__search input::placeholder {
+  color: var(--muted);
+  opacity: 1;
+}
+
+.topbar__search input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.topbar__kbd {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.topbar__filters {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.topbar__filters::-webkit-scrollbar {
+  display: none;
+}
+
+.topbar__end {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.fchip {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 6px;
+  height: 40px;
+  padding: 0 14px;
+  border: 1px solid var(--rule-soft);
+  border-radius: 999px;
+  background: var(--shell-card);
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  transition: background-color var(--dur-state) var(--ease-out), color var(--dur-state) var(--ease-out), border-color var(--dur-state) var(--ease-out);
+}
+
+.fchip:hover {
+  border-color: var(--rule);
+}
+
+.fchip[aria-pressed='true'] {
+  --glyph-cut: #5a63e6;
+  border-color: transparent;
+  background: var(--brand-grad);
+  color: var(--accent-ink);
+  box-shadow: 0 4px 12px rgb(75 95 224 / 0.24);
+}
+
+/* On the brand fill an icon-set glyph sits on a small white disc. */
+.fchip[aria-pressed='true'] .glyph--set {
+  box-sizing: content-box;
+  padding: 2px;
+  margin: -2px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.fchip__caret {
+  margin-left: 2px;
+  opacity: 0.7;
+}
+
+.kiez-menu {
+  position: relative;
+}
+
+/* The list escapes the scrolling filter row through fixed positioning under the top bar. */
+.kiez-menu__list {
+  position: fixed;
+  z-index: 60;
+  top: calc(var(--topbar-h) - 6px);
+  display: grid;
+  min-width: 220px;
+  max-height: min(420px, 70dvh);
+  padding: 6px;
+  overflow-y: auto;
+  border: 1px solid var(--rule-soft);
+  border-radius: 16px;
+  background: var(--shell-card);
+  box-shadow: var(--shell-shadow);
+}
+
+.kiez-menu__option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.kiez-menu__option:hover {
+  background: var(--hover);
+}
+
+.kiez-menu__option[aria-selected='true'] {
+  color: var(--accent-soft-ink);
+  font-weight: 500;
+}
+
+.goal-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  height: 40px;
+  padding: 0 14px;
+  border: 1px solid var(--rule-soft);
+  border-radius: 999px;
+  background: var(--shell-card);
+  font-size: 14px;
+  color: var(--muted);
+  white-space: nowrap;
+  transition: border-color var(--dur-state) var(--ease-out);
+}
+
+.goal-pill:hover {
+  border-color: var(--rule);
+}
+
+.goal-pill__stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.goal-pill__stat b {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.goal-pill__stat svg {
+  color: var(--ink);
+}
+
+.goal-pill--cta {
+  gap: 6px;
+  border-color: transparent;
+  background: var(--brand-grad);
+  color: #fff;
+  font-weight: 500;
+}
+
+/* ---------- Map workspace ---------- */
+
+.ws {
+  position: relative;
+  display: grid;
+  flex: 1;
+  min-height: 0;
+}
+
+
+.stage {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  background: #f4efe7;
+  transition: opacity var(--dur-state) var(--ease-out);
+}
+
+.stage.is-stale {
+  opacity: 0.85;
+}
+
+.stage .maplibregl-ctrl-top-right {
+  top: 8px;
+  right: calc(8px + var(--map-right-inset, 0px));
+  z-index: 1001;
+}
+
+.stage {
+  grid-area: 1 / 1;
+}
+
+.stage__controls {
+  position: absolute;
+  z-index: 5;
+  left: 16px;
+  bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ws--drawer.is-open .stage__controls {
+  right: auto;
+}
+
+.stage__category {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 0;
+}
+
+.stage__category .map-category {
+  max-width: none;
+}
+
+.seg {
+  position: relative;
+  display: inline-flex;
+  padding: 4px;
+  border-radius: 999px;
+  background: var(--glass);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  box-shadow: var(--shell-shadow);
+}
+
+.seg__option {
+  position: relative;
+  height: 32px;
+  padding: 0 14px;
+  border-radius: 999px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--muted);
+  transition: color var(--dur-state) var(--ease-out);
+}
+
+.seg__option[aria-checked='true'] {
+  color: var(--accent-ink);
+}
+
+.seg__indicator {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+.seg__label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.stage__locate {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: var(--glass);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  box-shadow: var(--shell-shadow);
+  font-size: 13.5px;
+  font-weight: 500;
+}
+
+.stage__locate.is-on {
+  color: var(--accent);
+}
+
+.stage__locate[disabled] {
+  opacity: 0.6;
+}
+
+/* Community menu scan (src/screens/snap): the dark CTA pill, same as the phone map's. */
+.stage__scan {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: var(--cta);
+  color: var(--cta-ink);
+  box-shadow: var(--shell-shadow);
+  font-size: 13.5px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background var(--dur-state) var(--ease-out);
+}
+
+@media (hover: hover) {
+  .stage__scan:hover {
+    background: var(--cta-hover);
+  }
+}
+
+.stage__error {
+  position: absolute;
+  z-index: 4;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+/* The panel floats over the full-bleed map as a frosted card, like Apple Maps' place cards. */
+.ws__panel {
+  position: absolute;
+  z-index: 20;
+  top: 12px;
+  right: 12px;
+  bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  width: min(var(--panel-w), calc(100% - 120px));
+  min-height: 0;
+  overflow: hidden;
+  border: 1px solid rgb(255 255 255 / 0.7);
+  border-radius: 26px;
+  background: var(--glass-strong);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  box-shadow: 0 16px 48px rgb(20 22 60 / 0.18);
+}
+
+.ws__scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.ws__close {
+  position: absolute;
+  z-index: 15;
+  top: 12px;
+  right: 12px;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--shell-card);
+  box-shadow: var(--shell-shadow);
+}
+
+.ws__reopen {
+  position: absolute;
+  z-index: 10;
+  top: 16px;
+  right: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  background: var(--shell-card);
+  box-shadow: var(--shell-shadow);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Screens inside the panel keep their phone layout; the panel is their phone-width column. */
+.dsk-screen--panel {
+  min-height: 100%;
+  padding-bottom: 24px;
+}
+
+/* The drawer's close button sits in the top right corner; compact headers keep clear of it. */
+.ws--drawer .dsk-screen--panel .screen-head:not(.screen-head--large) {
+  padding-right: 52px;
+  grid-template-columns: 40px 1fr auto;
+}
+
+/* ---------- Ranking panel ---------- */
+
+.rank-panel {
+  display: grid;
+  align-content: start;
+  gap: 16px;
+  min-height: 100%;
+  padding: 24px 18px;
+}
+
+.rank-panel__head {
+  display: grid;
+  gap: 6px;
+}
+
+.rank-panel__title {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: var(--track-display);
+  text-wrap: balance;
+}
+
+.ws--drawer .rank-panel__title {
+  padding-right: 44px;
+}
+
+.rank-panel__meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  color: var(--muted);
+}
+
+.rank-panel__list {
+  display: grid;
+  gap: 12px;
+}
+
+.rank-panel__empty-art {
+  width: 120px;
+  height: 120px;
+  margin: -8px 0 -4px -8px;
+}
+
+.rank-panel__empty {
+  display: grid;
+  justify-items: start;
+  gap: 8px;
+  padding: 20px;
+  border-radius: var(--shell-radius);
+  background: var(--surface);
+}
+
+.rank-panel__empty-title {
+  font-weight: 500;
+}
+
+.rank-panel__note {
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.panel-skel {
+  display: block;
+}
+
+.panel-skel--label {
+  width: 64px;
+  height: 14px;
+}
+
+.panel-skel--title {
+  width: 80%;
+  height: 56px;
+}
+
+.panel-skel--row {
+  height: 236px;
+  border-radius: var(--soft-radius);
+}
+
+/* ---------- Page column ---------- */
+
+/* The column scrolls on its own under the top bar, so the screens' sticky headers and toolbars stick right below it. */
+.dsk__page {
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+  overflow-y: auto;
+  background: var(--canvas);
+}
+
+.dsk-screen--page {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 16px 32px 64px;
+}
+
+.dsk-screen--page .screen-head--large {
+  padding-inline: 0;
+}
+
+.dsk-screen--page .page {
+  padding-inline: 0;
+}
+
+/* The panel is a phone-width column: screens inside it get the phone type scale instead of the desktop one. */
+.dsk-screen--panel {
+  --fs-hero: 30px;
+  --fs-section: 30px;
+  --fs-feature: 22px;
+  --fs-card: 18px;
+  --fs-body: 15px;
+  --fs-lede: 15px;
+  --track-lede: -0.04em;
+  --rail: 8px;
+  --header: 56px;
+  --section-pad: 40px;
+  --hero-top: 64px;
+  --action-gap: 24px;
+}
+
+/* ---------- Today as a dashboard ---------- */
+
+.dsk-screen--page .today {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 24px;
+}
+
+.dsk-screen--page .today > .tailor-card,
+.dsk-screen--page .today > .day-board {
+  grid-column: 1 / -1;
+}
+
+/* Desktop: the kcal card and the three macro cards share one row under the week. */
+.dsk-screen--page .day-board__grid {
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 2fr);
+  align-items: stretch;
+}
+
+.dsk-screen--page .day-macros {
+  gap: 12px;
+}
+
+.dsk-screen--page .day-board > .week {
+  max-width: 640px;
+}
+
+.dsk-screen--page .today > .today__section {
+  align-self: stretch;
+  align-content: start;
+  padding: 20px;
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--shell-radius);
+  background: var(--canvas);
+}
+
+/* ---------- Onboarding: focused flow, centred ---------- */
+
+.dsk-focus {
+  min-height: 100dvh;
+  background: var(--shell-bg);
+}
+
+.dsk-focus .flow {
+  background: var(--canvas);
+  box-shadow: var(--shell-shadow);
+  border-inline: 0;
+}
+
+/* ---------- Tablet ---------- */
+
+.dsk--tablet .topbar {
+  padding: 0 16px;
+}
+
+.dsk--tablet .topbar__search {
+  flex-basis: 260px;
+}
+
+/* Keep room for the search and filters. The sidebar also links to the goal. */
+@media (width < 1440px) {
+  .topbar__search {
+    min-width: 236px;
+  }
+
+  .topbar__kbd,
+  .topbar:has(.topbar__filters) .topbar__end {
+    display: none;
+  }
+}
+
+.dsk--tablet .dsk-screen--page {
+  padding-inline: 24px;
+}
+
+/* Frosted glass for floating chrome over the map. */
+:root {
+  --glass: rgb(252 252 253 / 0.78);
+  --glass-strong: rgb(247 247 250 / 0.84);
+  --glass-blur: saturate(1.7) blur(26px);
+}
+
+/* Sticky headers inside the frosted panel stay glass too. */
+.ws__panel .screen-head {
+  background: rgb(250 250 252 / 0.72);
+}
+
+/* With the "Passt zu deinem Tag" button next to the filters, search gives up room first, so every filter chip stays visible. */
+.topbar:has(.topbar__filters) .topbar__search {
+  flex-shrink: 8;
+}
+
+.topbar__filters {
+  flex: 0 1 auto;
+}

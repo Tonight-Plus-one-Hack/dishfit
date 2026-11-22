@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Plus One logo loop, shot 01: optical field, ink mark. Mounted by index.html. -->
+  </head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/plus-one.css" />
+      <style>
+        #root {
+          position: absolute;
+          inset: 0;
+          overflow: hidden;
+          background: var(--canvas);
+        }
+        #s01-field {
+          position: absolute;
+          inset: -10%;
+          background:
+            radial-gradient(42% 34% at 50% 100%, var(--art-blue) 0%, rgba(53, 94, 218, 0) 100%),
+            radial-gradient(46% 40% at 18% 78%, var(--art-periwinkle) 0%, rgba(131, 145, 247, 0) 100%),
+            radial-gradient(44% 42% at 84% 72%, var(--art-violet) 0%, rgba(156, 144, 254, 0) 100%),
+            linear-gradient(180deg, #fcfcfd 0%, #fcfcfd 22%, #c9cdfb 62%, #8f99f5 100%);
+        }
+        #root .cross {
+          color: rgba(252, 252, 253, 0.9);
+        }
+        #root .cross.on-light {
+          color: rgba(96, 100, 108, 0.5);
+        }
+        #s01-mark {
+          background: var(--dark);
+        }
+      </style>
+
+      <div id="root" data-composition-id="s01" data-width="1080" data-height="1080">
+        <div id="s01-field" data-layout-allow-overflow></div>
+        <div class="cross on-light" style="left: calc(50% - 290px); top: calc(var(--mark-cy) - 290px)"></div>
+        <div class="cross on-light" style="left: calc(50% + 290px); top: calc(var(--mark-cy) - 290px)"></div>
+        <div class="cross" style="left: calc(50% - 290px); top: calc(var(--mark-cy) + 290px)"></div>
+        <div class="cross" style="left: calc(50% + 290px); top: calc(var(--mark-cy) + 290px)"></div>
+        <div id="s01-mark" class="mark logo-mask"></div>
+      </div>
+
+      <script>
+        const tl = gsap.timeline({ paused: true });
+        // Hold: the cut is the motion.
+        window.__timelines["s01"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+{
+ "kiez": "pankow",
+ "name": "Pankow",
+ "scannedBy": "vinaynaik432-debug",
+ "updatedAt": "2026-11-22T12:05:11.442Z",
+ "provider": "openai",
+ "models": {
+  "menu": "gpt-6.2-sol",
+  "nutrition": "gpt-6.2-sol",
+  "chief": "gpt-6.2-sol",
+  "second": "gpt-6.1-terra",
+  "translate": "gpt-6-luna"
+ },
+ "counts": {
+  "found": 45,
+  "menus": 8,
+  "restaurants": 8,
+  "dishes": 278,
+  "images": 0,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 3.43,
+  "byStage": {
+   "check": 0.04,
+   "classify": 0.01,
+   "find": 1.09,
+   "menu": 1.48,
+   "nutrition": 0.8
+  },
+  "byProvider": {
+   "openai": 2.21,
+   "google-places": 1.21
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/pankow.json",
+ "places": [
+  {
+   "id": "osm-node-3890826122",
+   "placeId": "ChIJN1PxiuBTqEcRFCOAciXXaCc",
+   "osmId": "node/3890826122"
+  },
+  {
+   "id": "osm-node-3041130877",
+   "placeId": "ChIJCaNcFoRTqEcRms0f3k_14RU",
+   "osmId": "node/3041130877"
+  },
+  {
+   "id": "osm-node-2331627862",
+   "placeId": "ChIJRQ56SiJTqEcRQ6kn4qTmdcM",
+   "osmId": "node/2331627862"
+  },
+  {
+   "id": "osm-node-2907015663",
+   "placeId": "ChIJ0XSbSUdSqEcRTw-0D-nusuQ",
+   "osmId": "node/2907015663"
+  },
+  {
+   "id": "osm-node-2610886464",
+   "placeId": "ChIJpRwt85dTqEcREUCNunCLupM",
+   "osmId": "node/2610886464"
+  },
+  {
+   "id": "osm-node-13239823101",
+   "placeId": "ChIJZ98QagBTqEcRBVrP4TQMdmA",
+   "osmId": "node/13239823101"
+  },
+  {
+   "id": "osm-node-10595463224",
+   "placeId": "ChIJp9ovNy1NqEcRCQQdw6s6TUI",
+   "osmId": "node/10595463224"
+  },
+  {
+   "id": "osm-node-319099110",
+   "placeId": "ChIJBw4qwNlTqEcRtp1G0nOu-1o",
+   "osmId": "node/319099110"
+  }
+ ],
+ "appendBase": {
+  "provider": "openai",
+  "counts": {
+   "found": 42,
+   "menus": 7,
+   "restaurants": 7,
+   "dishes": 219,
+   "images": 0,
+   "skippedDuplicates": 0
+  },
+  "costUsd": {
+   "total": 3.14,
+   "byStage": {
+    "check": 0.03,
+    "classify": 0.01,
+    "find": 1.09,
+    "menu": 1.37,
+    "nutrition": 0.64
+   },
+   "byProvider": {
+    "openai": 1.93,
+    "google-places": 1.21
+   }
+  }
+ }
+}

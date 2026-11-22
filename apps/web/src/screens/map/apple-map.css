@@ -1,0 +1,294 @@
+/* Apple-Maps-like map chrome: round white category pins, soft cluster circles, frosted floating cards.
+   Scoped under .score-map / .map-screen so it wins over map.css regardless of load order. */
+
+/* ---------- Pins: teardrop map pins with the clay category icon in the head ---------- */
+
+/* The host's bottom edge is the restaurant's point (MapLibre anchor: bottom); the drop's tip touches it. */
+.score-map .pin,
+.score-map .pin-dot {
+  --head: 34px;
+  position: relative;
+  display: block;
+  width: var(--head);
+  height: calc(var(--head) * 44 / 34);
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.score-map .pin-dot {
+  --head: 24px;
+}
+
+/* 44 px tap target around the drop. */
+.score-map .pin::before,
+.score-map .pin-dot::before {
+  content: '';
+  position: absolute;
+  inset: -6px -5px -2px;
+}
+
+.score-map .pin__drop {
+  position: absolute;
+  inset: 0;
+  display: block;
+  transform-origin: 50% 100%;
+  animation: pin-drop var(--dur-pop) var(--ease-pin) both;
+  transition: transform var(--dur-select) var(--ease-pin);
+}
+
+.score-map .pin__shape {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  filter: drop-shadow(0 3px 5px rgb(30 40 70 / 0.24)) drop-shadow(0 0 0.5px rgb(17 17 19 / 0.3));
+}
+
+.score-map .pin__shape path {
+  fill: color-mix(in srgb, var(--pin-category-color) 40%, white);
+  stroke: var(--pin-category-color);
+  stroke-width: 1.5;
+}
+
+.score-map .pin__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  width: var(--head);
+  height: var(--head);
+}
+
+.score-map .pin-dot .pin__drop {
+  opacity: 0.9;
+}
+
+@media (hover: hover) {
+  .score-map .pin:hover .pin__drop,
+  .score-map .pin-dot:hover .pin__drop {
+    transform: scale(1.1);
+  }
+}
+
+/* Selected: the drop grows from its tip with a small spring overshoot, and its name label slides out beside the head. */
+.score-map .pin.is-active .pin__drop {
+  transform: scale(1.36);
+}
+
+.score-map .pin.is-active .pin__shape path {
+  fill: var(--pin-category-color);
+}
+
+.score-map .pin.is-active .pin__shape {
+  filter: drop-shadow(0 6px 10px rgb(30 40 70 / 0.32));
+}
+
+.score-map .pin.is-active .pin__icon::before {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.score-map .pin.is-active .pin__icon > * {
+  position: relative;
+}
+
+/* The label sits right of the grown head (head centre 17 px + 23 px radius + 6 px air) and centres on it. */
+.score-map .pin__label {
+  position: absolute;
+  left: 46px;
+  bottom: 18px;
+  display: grid;
+  gap: 1px;
+  width: max-content;
+  max-width: 220px;
+  padding: 6px 26px 7px 11px;
+  border-radius: 13px;
+  background: rgb(255 255 255 / 0.9);
+  -webkit-backdrop-filter: saturate(1.6) blur(16px);
+  backdrop-filter: saturate(1.6) blur(16px);
+  box-shadow:
+    0 0 0 0.5px rgb(17 17 19 / 0.08),
+    0 6px 18px rgb(30 40 70 / 0.2);
+  color: var(--ink);
+  text-align: left;
+  white-space: nowrap;
+  transform-origin: 0 50%;
+  animation: pin-label var(--dur-select) var(--ease-pin) both;
+}
+
+.score-map .pin__name {
+  min-width: 0;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 18px;
+  text-overflow: ellipsis;
+}
+
+.score-map .pin__meta {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  font-variant-numeric: tabular-nums;
+}
+
+.score-map .pin__meta b {
+  color: var(--ink);
+  font-family: var(--font-rounded);
+  font-weight: 700;
+}
+
+.score-map .pin__tone {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--band-green);
+}
+
+.score-map .pin--orange .pin__tone {
+  background: var(--band-orange);
+}
+
+.score-map .pin--red .pin__tone {
+  background: var(--band-red);
+}
+
+.score-map .pin__chev {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  color: var(--muted);
+  transform: translateY(-50%);
+}
+
+@keyframes pin-drop {
+  from {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.6);
+  }
+}
+
+@keyframes pin-label {
+  from {
+    opacity: 0;
+    transform: translateX(-8px) scale(0.92);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .score-map .pin__drop,
+  .score-map .pin__label {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* ---------- Clusters: soft circles with a count ---------- */
+
+.score-map .pin-cluster {
+  position: relative;
+  display: block;
+  padding: 0 0 4px;
+  animation: pop var(--dur-pop) var(--ease-spring) both;
+  transition: transform var(--dur-state) var(--ease-out);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 48 px tap target around the 40 px disc. */
+.score-map .pin-cluster::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+}
+
+/* A soft circle, no pointer tail. */
+.score-map .pin-cluster::after {
+  content: none;
+}
+
+@media (hover: hover) {
+  .score-map .pin-cluster:hover {
+    transform: scale(1.06);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .score-map .pin-cluster {
+    animation: none;
+  }
+}
+
+.score-map .pin-cluster__body {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-width: 40px;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.88);
+  color: var(--accent);
+  -webkit-backdrop-filter: saturate(1.6) blur(14px);
+  backdrop-filter: saturate(1.6) blur(14px);
+  box-shadow:
+    0 4px 14px rgb(30 40 70 / 0.2);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.score-map .pin-cluster__body::after {
+  position: absolute;
+  inset: -5px;
+  padding: 5px;
+  border-radius: inherit;
+  background: var(--cluster-colors);
+  content: '';
+  mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* ---------- Phone map chrome: frosted floating cards and sheets ---------- */
+
+.map-screen .map-search,
+.map-screen .map-chip,
+.map-screen .locate-btn {
+  border-color: rgb(255 255 255 / 0.6);
+  border-radius: 999px;
+  background: rgb(252 252 253 / 0.78);
+  -webkit-backdrop-filter: saturate(1.6) blur(18px);
+  backdrop-filter: saturate(1.6) blur(18px);
+  box-shadow: 0 4px 16px rgb(30 40 70 / 0.12);
+}
+
+.map-screen .map-search {
+  border-radius: 16px;
+}
+
+.map-screen .map-chip[aria-pressed='true'] {
+  border-color: transparent;
+  background: var(--brand-grad);
+  color: #fff;
+}
+
+.map-screen .rank-sheet {
+  border-radius: 24px 24px 0 0;
+  background: rgb(250 250 252 / 0.84);
+  -webkit-backdrop-filter: saturate(1.6) blur(24px);
+  backdrop-filter: saturate(1.6) blur(24px);
+  box-shadow: 0 -8px 30px rgb(30 40 70 / 0.14);
+}
+
+.map-screen .carousel__card {
+  border-radius: 22px;
+}

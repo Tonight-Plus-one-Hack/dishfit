@@ -1,0 +1,778 @@
+/* Phone map layers, bottom up: map, carousel and actions, sheet, search and filters, Kiez dialog. */
+
+.map-screen {
+  --map-gutter-start: calc(16px + env(safe-area-inset-left, 0px));
+  --map-gutter-end: calc(16px + env(safe-area-inset-right, 0px));
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  background: #f4efe7;
+}
+
+.map-results {
+  position: absolute;
+  inset: 0;
+}
+
+/* ---------- Map ---------- */
+
+/* Doubled selector: maplibre-gl.css sets .maplibregl-map { position: relative } on the canvas container. */
+.score-map,
+.score-map > .score-map__canvas {
+  position: absolute;
+  inset: 0;
+}
+
+/* Own stacking context: pin z-indexes stay below the carousel, sheet and chrome. */
+.score-map {
+  z-index: 0;
+}
+
+.score-map__canvas {
+  font-family: var(--font-sans);
+}
+
+.score-map--loading {
+  background: linear-gradient(90deg, #f4efe7, #ece5d9, #f4efe7);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+}
+
+.score-map__error {
+  position: absolute;
+  z-index: 4;
+  left: 16px;
+  right: 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-card);
+  background: var(--canvas);
+  box-shadow: 0 4px 16px rgb(17 17 19 / 0.1);
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  line-height: 1.45;
+}
+
+.score-map__error svg {
+  flex: none;
+  margin-top: 1px;
+}
+
+.score-map__error b {
+  font-weight: 500;
+}
+
+/* The attribution button sits in the page gutter, clear of the chip row, the notch and the pins (which reach z-index 1000). */
+.map-screen .maplibregl-ctrl-top-right {
+  z-index: 1001;
+  top: calc(var(--chrome, 112px) + 2px);
+  right: var(--map-gutter-end);
+}
+
+.map-screen .maplibregl-ctrl-top-right .maplibregl-ctrl {
+  margin: 0;
+}
+
+.map-screen .maplibregl-ctrl-attrib.maplibregl-compact {
+  box-shadow:
+    0 0 0 1px rgb(17 17 19 / 0.08),
+    0 2px 8px rgb(60 44 20 / 0.1);
+}
+
+.map-screen .maplibregl-ctrl-attrib {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: -0.01em;
+  background: rgb(252 252 253 / 0.8);
+}
+
+.user-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--focus);
+  box-shadow:
+    0 0 0 3px var(--canvas),
+    0 0 0 10px rgb(53 94 218 / 0.16);
+}
+
+/* ---------- Top chrome ---------- */
+
+.map-chrome {
+  position: absolute;
+  z-index: 15;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  gap: 6px;
+  padding: calc(var(--safe-top) + 8px) 0 6px;
+  background: linear-gradient(rgb(244 239 231 / 0.92) 40%, rgb(244 239 231 / 0));
+  pointer-events: none;
+}
+
+.map-chrome > * {
+  pointer-events: auto;
+}
+
+.map-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 44px;
+  margin-inline: var(--map-gutter-start) var(--map-gutter-end);
+  padding: 0 16px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-card);
+  background: var(--canvas);
+  box-shadow: 0 4px 16px rgb(60 44 20 / 0.1);
+  color: var(--muted);
+  font-size: 15px;
+  letter-spacing: -0.02em;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.map-search svg {
+  color: var(--ink);
+}
+
+.map-chips {
+  display: flex;
+  gap: 6px;
+  padding: 3px var(--map-gutter-end) 3px var(--map-gutter-start);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+
+.map-chips::-webkit-scrollbar {
+  display: none;
+}
+
+.map-chip {
+  position: relative;
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 6px;
+  height: 34px;
+  padding: 0 11px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-card);
+  background: var(--canvas);
+  box-shadow: 0 2px 8px rgb(60 44 20 / 0.08);
+  font-family: var(--font-sans);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: var(--track-label);
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    background-color var(--dur-state) var(--ease-out),
+    border-color var(--dur-state) var(--ease-out),
+    color var(--dur-state) var(--ease-out),
+    transform var(--dur-state) var(--ease-out);
+}
+
+/* 42 px tap target; the row has no room for more without covering the map. */
+.map-chip::before {
+  content: '';
+  position: absolute;
+  inset: -4px -2px;
+}
+
+.map-chip:active {
+  transform: scale(0.97);
+}
+
+.map-chip[aria-pressed='true'] {
+  border-color: var(--cta);
+  background: var(--cta);
+  color: var(--cta-ink);
+}
+
+@media (hover: hover) {
+  .map-chip[aria-pressed='false']:hover {
+    background: var(--hover);
+  }
+}
+
+.map-chip__caret {
+  transform: rotate(90deg);
+  opacity: 0.7;
+}
+
+/* ---------- Controls and carousel ---------- */
+
+.map-layer {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  bottom: var(--sheet-head, 64px);
+  padding-bottom: 4px;
+  container-type: inline-size;
+  pointer-events: none;
+}
+
+.map-layer > * {
+  pointer-events: auto;
+}
+
+.map-actions {
+  position: absolute;
+  right: var(--map-gutter-end);
+  bottom: calc(100% + 8px);
+  display: grid;
+  gap: 8px;
+}
+
+.metric-toggle {
+  display: flex;
+  flex: none;
+  gap: 6px;
+}
+
+.metric-toggle__option {
+  justify-content: center;
+  min-width: 52px;
+  isolation: isolate;
+}
+
+.metric-toggle__option[aria-checked='true'] {
+  color: #fff;
+}
+
+.metric-toggle__indicator {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  border-radius: inherit;
+  background: var(--brand-grad);
+}
+
+.locate-btn,
+.map-scan-btn {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgb(60 44 20 / 0.12);
+  -webkit-tap-highlight-color: transparent;
+  transition: transform var(--dur-state) var(--ease-out);
+}
+
+.locate-btn {
+  border: 1px solid var(--rule);
+  background: var(--canvas);
+}
+
+.locate-btn[disabled] {
+  color: var(--muted);
+}
+
+.locate-btn.is-on {
+  color: var(--focus);
+}
+
+.map-scan-btn {
+  background: var(--cta);
+  color: var(--cta-ink);
+}
+
+@media (hover: hover) {
+  .map-scan-btn:hover {
+    background: var(--cta-hover);
+  }
+}
+
+.locate-btn:active,
+.map-scan-btn:active {
+  transform: scale(0.97);
+}
+
+.carousel {
+  --card-gutter: max(24px, var(--map-gutter-start), var(--map-gutter-end));
+  --card-w: min(340px, calc(100cqw - 2 * var(--card-gutter)));
+  position: relative;
+  display: flex;
+  gap: 8px;
+  padding: 2px calc((100cqw - var(--card-w)) / 2) 4px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel__item {
+  display: flex;
+  flex: none;
+  width: var(--card-w);
+  scroll-snap-align: center;
+}
+
+/* Compact card over the map: the dish art as a square on the left, the facts beside it, the score ring in the corner. */
+.carousel__card {
+  width: 100%;
+  --body-gap: 4px;
+  min-height: 110px;
+  grid-template-columns: 64px minmax(0, 1fr);
+  align-content: center;
+  align-items: center;
+  column-gap: 12px;
+  padding: 7px 12px 7px 10px;
+  border-color: rgb(17 17 19 / 0.06);
+  box-shadow: 0 8px 24px rgb(60 44 20 / 0.16);
+}
+
+.carousel__card .rank-card__media {
+  position: static;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  border-radius: var(--radius-card);
+}
+
+.carousel__card .rank-card__score {
+  top: 8px;
+  right: 8px;
+  bottom: auto;
+  box-shadow: none;
+  transform: scale(0.8);
+  transform-origin: top right;
+}
+
+.carousel__card .rank-card__body {
+  padding: 0;
+}
+
+.carousel__card .rank-card__head {
+  padding-right: 34px;
+}
+
+.carousel__card .rank-card__name {
+  font-size: 15px;
+  -webkit-line-clamp: 1;
+}
+
+/* One line each: a long restaurant name shortens, the Kiez stays. */
+.carousel__card .rank-card__place {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.carousel__card .rank-card__place > * {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.carousel__card .restaurant-name {
+  display: block;
+}
+
+.carousel__card .restaurant-name > * {
+  margin-left: 6px;
+}
+
+.carousel__card .rank-card__where,
+.carousel__card .rank-card__logo {
+  flex: none;
+}
+
+.carousel__card .rank-card__where {
+  max-width: 50%;
+}
+
+.carousel__card .rank-stats {
+  flex-wrap: nowrap;
+  gap: 4px;
+}
+
+.carousel__card .rank-stat {
+  height: 24px;
+  padding-inline: 6px;
+}
+
+.carousel__card .rank-card__foot {
+  flex-wrap: nowrap;
+}
+
+.carousel__card .rank-card__range {
+  display: none;
+}
+
+/* Protein and kcal; protein per euro waits on the dish page. */
+.carousel__card .rank-stat:nth-child(n + 3) {
+  display: none;
+}
+
+.carousel__card.is-active {
+  border-color: var(--ink);
+}
+
+.carousel--loading {
+  overflow: hidden;
+}
+
+.carousel--loading .carousel__card {
+  flex: none;
+  width: var(--card-w);
+}
+
+.map-results.is-stale .carousel,
+.map-results.is-stale .rank-list {
+  opacity: 0.55;
+  transition: opacity var(--dur-state) var(--ease-out);
+}
+
+.map-empty {
+  display: grid;
+  justify-items: start;
+  gap: 6px;
+  margin: 0 16px;
+  padding: 16px;
+  border-radius: var(--radius-media);
+  background: var(--canvas);
+  box-shadow: 0 8px 24px rgb(60 44 20 / 0.16);
+  font-size: 14px;
+}
+
+.map-empty__title {
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+}
+
+.map-empty .btn {
+  margin-top: 6px;
+  height: 44px;
+}
+
+/* ---------- Sheet ---------- */
+
+.rank-sheet {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: calc(var(--chrome, 112px) - 6px);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--rule-soft);
+  border-radius: var(--radius-media) var(--radius-media) 0 0;
+  background: var(--canvas);
+  box-shadow: 0 -8px 28px rgb(60 44 20 / 0.12);
+}
+
+.rank-sheet__head {
+  flex: none;
+  padding: 6px 16px 8px;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.rank-sheet__head:active {
+  cursor: grabbing;
+}
+
+.rank-sheet__handle {
+  display: block;
+  width: 36px;
+  height: 4px;
+  margin: 0 auto 6px;
+  border-radius: 2px;
+  background: var(--rule);
+}
+
+.rank-sheet__head-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.rank-sheet__title {
+  display: grid;
+  flex: 1;
+  gap: 4px;
+  min-width: 0;
+}
+
+.rank-sheet__heading {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: var(--track-display);
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rank-sheet__meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-sans);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: var(--track-label);
+  color: var(--muted);
+}
+
+.rank-sheet:not(.is-expanded) .rank-sheet__head {
+  min-height: 64px;
+}
+
+.rank-sheet.is-expanded .rank-sheet__heading {
+  white-space: normal;
+}
+
+/* Collapsed, the sheet is only its heading: the count and the ranking basis show once it opens. */
+.rank-sheet:not(.is-expanded) .rank-sheet__meta {
+  display: none;
+}
+
+.rank-sheet__toggle {
+  position: relative;
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+}
+
+/* 44 px tap target. */
+.rank-sheet__toggle::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+}
+
+.rank-sheet__chevron {
+  transform: rotate(-90deg);
+  transition: transform var(--dur-sheet) var(--ease-spring);
+}
+
+.rank-sheet.is-expanded .rank-sheet__chevron {
+  transform: rotate(90deg);
+}
+
+.rank-sheet__body {
+  flex: 1;
+  min-height: 0;
+  padding: 0 16px 24px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border-top: 1px solid var(--rule-soft);
+}
+
+.rank-sheet__body .map-empty {
+  margin: 16px 0;
+  box-shadow: none;
+  border: 1px solid var(--rule-soft);
+}
+
+.rank-list__more {
+  margin-top: 16px;
+}
+
+.rank-sheet__note {
+  padding-top: 16px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.rank-sheet--skeleton {
+  top: auto;
+  height: var(--sheet-head, 64px);
+}
+
+.rank-sheet--skeleton .rank-sheet__head {
+  display: grid;
+  gap: 8px;
+}
+
+/* Keep a continuous map strip on phones with the browser bars visible. */
+@media (max-height: 760px) {
+  .map-chrome {
+    gap: 2px;
+    padding-top: calc(var(--safe-top) + 4px);
+    padding-bottom: 0;
+  }
+
+  .map-chips {
+    padding-block: 2px;
+  }
+
+  .carousel {
+    padding-bottom: 2px;
+  }
+
+  .carousel__card {
+    --body-gap: 3px;
+    min-height: 82px;
+    padding-block: 5px;
+  }
+
+  .carousel__card .rank-stat {
+    height: 22px;
+    font-size: 11px;
+  }
+
+  .carousel__card .rank-card__foot {
+    display: none;
+  }
+
+  .map-screen {
+    --sheet-head: 52px;
+  }
+
+  .rank-sheet:not(.is-expanded) .rank-sheet__head {
+    min-height: 52px;
+    padding-block: 4px 2px;
+  }
+}
+
+/* ---------- Error ---------- */
+
+.map-results--error {
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: var(--surface);
+}
+
+.map-error {
+  display: grid;
+  justify-items: start;
+  gap: 10px;
+  max-width: 320px;
+}
+
+.map-error__title {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: var(--track-display);
+  line-height: 1.2;
+}
+
+.map-error .btn {
+  margin-top: 6px;
+  height: 44px;
+}
+
+/* ---------- Kiez dialog ---------- */
+
+.kiez-picker {
+  width: 100%;
+  max-width: var(--app-max);
+  max-height: 85dvh;
+  margin: auto auto 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+}
+
+.kiez-picker::backdrop {
+  background: rgb(17 17 19 / 0.4);
+  animation: share-fade var(--dur-backdrop) var(--ease-out);
+}
+
+.kiez-picker__panel {
+  padding: 12px 12px calc(16px + var(--safe-bottom));
+  border-radius: var(--radius-media) var(--radius-media) 0 0;
+  background: var(--canvas);
+  animation: share-up var(--dur-sheet) var(--ease-spring);
+}
+
+.kiez-picker__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4px 8px 8px;
+}
+
+.kiez-picker__head h2 {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: var(--track-display);
+}
+
+.kiez-picker__close {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-card);
+}
+
+.kiez-picker__list {
+  display: grid;
+  gap: 2px;
+}
+
+.kiez-picker__option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  height: 50px;
+  padding: 0 12px;
+  border-radius: var(--radius-card);
+  font-size: 15px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.kiez-picker__option svg:first-child {
+  color: var(--muted);
+}
+
+@media (hover: hover) {
+  .kiez-picker__option:hover,
+  .kiez-picker__close:hover {
+    background: var(--hover);
+  }
+}
+
+.kiez-picker__option[aria-checked='true'] {
+  background: var(--hover);
+  font-weight: 500;
+}
+
+.kiez-picker__check {
+  margin-left: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kiez-picker__panel,
+  .kiez-picker::backdrop {
+    animation: none;
+  }
+
+  .map-chip,
+  .locate-btn,
+  .map-scan-btn,
+  .rank-sheet__chevron {
+    transition: none;
+  }
+}

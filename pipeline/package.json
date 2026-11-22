@@ -1,0 +1,27 @@
+{
+  "name": "@menufit/pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Deterministic restaurant data pipeline: Google Places -> menu -> nutrition -> check -> images -> team review.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "pipeline": "node --disable-warning=ExperimentalWarning src/cli.ts",
+    "scan": "node --disable-warning=ExperimentalWarning src/cli.ts scan",
+    "test": "node --disable-warning=ExperimentalWarning --test 'test/**/*.test.ts'",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "check": "npm run typecheck && npm test",
+    "logos": "node scripts/restaurant-logos.ts",
+    "build:foods": "node --disable-warning=ExperimentalWarning scripts/build-foods.ts",
+    "build:kieze": "node --disable-warning=ExperimentalWarning scripts/build-kieze.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "typescript": "7.0.2"
+  }
+}

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Plus One logo loop, shot 11: enamel pin on crumpled paper. Mounted by index.html. -->
+  </head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/plus-one.css" />
+      <style>
+        #root {
+          position: absolute;
+          inset: 0;
+          overflow: hidden;
+          background: var(--surface);
+        }
+        #s11-paper {
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+        }
+        #s11-pin {
+          filter: url(#s11-enamel);
+        }
+        #s11-shape {
+          background: #000000;
+        }
+      </style>
+
+      <div id="root" data-composition-id="s11" data-width="1080" data-height="1080">
+        <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+          <filter id="s11-enamel" x="-25%" y="-25%" width="150%" height="160%" color-interpolation-filters="sRGB">
+            <feMorphology in="SourceAlpha" operator="dilate" radius="10" result="rim" />
+            <feGaussianBlur in="rim" stdDeviation="3" result="rimBlur" />
+            <feSpecularLighting in="rimBlur" surfaceScale="4" specularConstant="0.9" specularExponent="18" lighting-color="#FFFFFF" result="rimSpec">
+              <feDistantLight azimuth="235" elevation="40" />
+            </feSpecularLighting>
+            <feComposite in="rimSpec" in2="rim" operator="in" result="rimSpecIn" />
+            <feFlood flood-color="#B9BCC6" result="metal" />
+            <feComposite in="metal" in2="rim" operator="in" result="rimFill" />
+            <feComposite in="rimFill" in2="rimSpecIn" operator="arithmetic" k1="0" k2="1" k3="0.85" k4="0" result="rimLit" />
+            <feMorphology in="SourceAlpha" operator="erode" radius="3" result="inner" />
+            <feFlood flood-color="#355EDA" result="enamelColor" />
+            <feComposite in="enamelColor" in2="inner" operator="in" result="enamel" />
+            <feGaussianBlur in="inner" stdDeviation="5" result="innerBlur" />
+            <feSpecularLighting in="innerBlur" surfaceScale="3" specularConstant="0.75" specularExponent="26" lighting-color="#FFFFFF" result="gloss">
+              <feDistantLight azimuth="235" elevation="52" />
+            </feSpecularLighting>
+            <feComposite in="gloss" in2="inner" operator="in" result="glossIn" />
+            <feComposite in="enamel" in2="glossIn" operator="arithmetic" k1="0" k2="1" k3="0.55" k4="0" result="enamelLit" />
+            <feGaussianBlur in="rim" stdDeviation="12" result="shadowBlur" />
+            <feOffset in="shadowBlur" dx="0" dy="18" result="shadowOff" />
+            <feFlood flood-color="#1C2024" flood-opacity="0.3" />
+            <feComposite in2="shadowOff" operator="in" result="shadow" />
+            <feMerge>
+              <feMergeNode in="shadow" />
+              <feMergeNode in="rimLit" />
+              <feMergeNode in="enamelLit" />
+            </feMerge>
+          </filter>
+        </svg>
+        <svg id="s11-paper" aria-hidden="true">
+          <filter id="s11-crumple" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+            <feTurbulence type="fractalNoise" baseFrequency="0.0045" numOctaves="5" seed="11" />
+            <feDiffuseLighting surfaceScale="3" diffuseConstant="1.05" lighting-color="#F0F0F3">
+              <feDistantLight azimuth="60" elevation="56" />
+            </feDiffuseLighting>
+          </filter>
+          <rect width="100%" height="100%" filter="url(#s11-crumple)" />
+        </svg>
+        <div id="s11-pin" class="mark"><div id="s11-shape" class="shot-layer logo-mask"></div></div>
+      </div>
+
+      <script>
+        const tl = gsap.timeline({ paused: true });
+        // Hold: the cut is the motion.
+        window.__timelines["s11"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

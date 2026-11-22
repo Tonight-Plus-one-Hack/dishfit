@@ -1,0 +1,119 @@
+.dish-tile {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  width: 232px;
+  flex: none;
+  scroll-snap-align: start;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform var(--dur-state) var(--ease-out);
+}
+
+.dish-tile:active {
+  transform: scale(0.98);
+}
+
+.dish-tile__media {
+  position: relative;
+  display: block;
+}
+
+.dish-tile__thumb {
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-media);
+}
+
+.dish-tile__score {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--canvas);
+  box-shadow: 0 2px 8px rgb(17 17 19 / 0.12);
+}
+
+.dish-tile__price {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  padding: 4px 8px;
+  border-radius: var(--radius-action);
+  background: var(--canvas);
+  box-shadow: 0 2px 8px rgb(17 17 19 / 0.12);
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+}
+
+.dish-tile__body {
+  display: grid;
+  gap: 4px;
+}
+
+.dish-tile__name {
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+  line-height: 1.3;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.dish-tile__meta {
+  overflow: hidden;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  color: var(--muted);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.dish-tile__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 2px;
+}
+
+.dish-row {
+  display: grid;
+  grid-template-columns: 72px 1fr auto;
+  align-items: start;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule-soft);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.dish-row__thumb {
+  width: 72px;
+  height: 72px;
+}
+
+.dish-row__body {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.dish-row__name {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+  line-height: 1.3;
+}
+
+.dish-row__meta {
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  color: var(--muted);
+}
+
+.dish-row .source-badge {
+  justify-self: start;
+}

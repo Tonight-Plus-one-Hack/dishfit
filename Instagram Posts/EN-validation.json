@@ -1,0 +1,846 @@
+{
+  "generated_at": "2026-11-21T21:32:19.347948+00:00",
+  "expected": {
+    "reels": 12,
+    "duration_seconds": 12.0,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "frame_count": 360,
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_codec": "aac",
+    "sample_rate": 48000,
+    "audio_channels": "stereo"
+  },
+  "ffmpeg_version": "ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers",
+  "mode": "complete",
+  "complete": true,
+  "all_selected_existing_passed": true,
+  "expected_count": 12,
+  "checked_count": 12,
+  "passed_count": 12,
+  "missing_selected": [],
+  "not_selected_ids": [],
+  "contact_sheet": "EN-contact-sheet.jpg",
+  "checks_scope": "Encoded file metadata, complete video/audio decode, decoded frame count, MP4 fast-start, and decoded 2-second poster extraction. Visual and listening review are separate.",
+  "reels": [
+    {
+      "id": 1,
+      "slug": "01-hungry-in-berlin",
+      "title": "Hungry in Berlin",
+      "file": "EN-01-hungry-in-berlin-12s.mp4",
+      "bytes": 1437611,
+      "passed": true,
+      "checks": {
+        "fast_start": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "video_codec": true,
+        "pixel_format": true,
+        "audio_codec": true,
+        "sample_rate": true,
+        "audio_channels": true,
+        "duration": true,
+        "full_decode": true,
+        "frame_count": true
+      },
+      "errors": [],
+      "atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "bytes": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "bytes": 14700
+        },
+        {
+          "type": "free",
+          "offset": 14732,
+          "bytes": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 14740,
+          "bytes": 1422871
+        }
+      ],
+      "metadata": {
+        "duration_seconds": 12.0,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "audio_codec": "aac",
+        "sample_rate": 48000,
+        "audio_channels": "stereo",
+        "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 750 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "audio_stream": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 197 kb/s (default)"
+      },
+      "decode": {
+        "passed": true,
+        "return_code": 0,
+        "frame_count": 360,
+        "output_time_seconds": 12.0,
+        "errors": ""
+      },
+      "poster": "EN-01-hungry-in-berlin.jpg",
+      "poster_time_seconds": 2.0,
+      "sha256": "d275524c8cf0c31ba7e130a597bbf60a39b4ec2f7347bd26818ef13b904d62ec"
+    },
+    {
+      "id": 2,
+      "slug": "02-know-before-ordering",
+      "title": "Know Before Ordering",
+      "file": "EN-02-know-before-ordering-12s.mp4",
+      "bytes": 1275169,
+      "passed": true,
+      "checks": {
+        "fast_start": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "video_codec": true,
+        "pixel_format": true,
+        "audio_codec": true,
+        "sample_rate": true,
+        "audio_channels": true,
+        "duration": true,
+        "full_decode": true,
+        "frame_count": true
+      },
+      "errors": [],
+      "atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "bytes": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "bytes": 14696
+        },
+        {
+          "type": "free",
+          "offset": 14728,
+          "bytes": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 14736,
+          "bytes": 1260433
+        }
+      ],
+      "metadata": {
+        "duration_seconds": 12.0,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "audio_codec": "aac",
+        "sample_rate": 48000,
+        "audio_channels": "stereo",
+        "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 642 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "audio_stream": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 197 kb/s (default)"
+      },
+      "decode": {
+        "passed": true,
+        "return_code": 0,
+        "frame_count": 360,
+        "output_time_seconds": 12.0,
+        "errors": ""
+      },
+      "poster": "EN-02-know-before-ordering.jpg",
+      "poster_time_seconds": 2.0,
+      "sha256": "1c71b3f7cd13bb07404143807b7f05daff0759244991e92351c81f3f4c710237"
+    },
+    {
+      "id": 3,
+      "slug": "03-your-meal-budget",
+      "title": "Your Meal Budget",
+      "file": "EN-03-your-meal-budget-12s.mp4",
+      "bytes": 1069129,
+      "passed": true,
+      "checks": {
+        "fast_start": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "video_codec": true,
+        "pixel_format": true,
+        "audio_codec": true,
+        "sample_rate": true,
+        "audio_channels": true,
+        "duration": true,
+        "full_decode": true,
+        "frame_count": true
+      },
+      "errors": [],
+      "atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "bytes": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "bytes": 14724
+        },
+        {
+          "type": "free",
+          "offset": 14756,
+          "bytes": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 14764,
+          "bytes": 1054365
+        }
+      ],
+      "metadata": {
+        "duration_seconds": 12.0,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "audio_codec": "aac",
+        "sample_rate": 48000,
+        "audio_channels": "stereo",
+        "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 504 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "audio_stream": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 197 kb/s (default)"
+      },
+      "decode": {
+        "passed": true,
+        "return_code": 0,
+        "frame_count": 360,
+        "output_time_seconds": 12.0,
+        "errors": ""
+      },
+      "poster": "EN-03-your-meal-budget.jpg",
+      "poster_time_seconds": 2.0,
+      "sha256": "9248be8015d75a72437e10020dd81bbd38d349522d278ec9245b59155dc5c3f1"
+    },
+    {
+      "id": 4,
+      "slug": "04-new-kiez-new-favourite",
+      "title": "New Kiez, New Favourite",
+      "file": "EN-04-new-kiez-new-favourite-12s.mp4",
+      "bytes": 1043772,
+      "passed": true,
+      "checks": {
+        "fast_start": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "video_codec": true,
+        "pixel_format": true,
+        "audio_codec": true,
+        "sample_rate": true,
+        "audio_channels": true,
+        "duration": true,
+        "full_decode": true,
+        "frame_count": true
+      },
+      "errors": [],
+      "atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "bytes": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "bytes": 14746
+        },
+        {
+          "type": "free",
+          "offset": 14778,
+          "bytes": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 14786,
+          "bytes": 1028986
+        }
+      ],
+      "metadata": {
+        "duration_seconds": 12.0,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "audio_codec": "aac",
+        "sample_rate": 48000,
+        "audio_channels": "stereo",
+        "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 487 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "audio_stream": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 197 kb/s (default)"
+      },
+      "decode": {
+        "passed": true,
+        "return_code": 0,
+        "frame_count": 360,
+        "output_time_seconds": 12.0,
+        "errors": ""
+      },
+      "poster": "EN-04-new-kiez-new-favourite.jpg",
+      "poster_time_seconds": 2.0,
+      "sha256": "f9d01b41a9f1e1bcfbd940ac56fea261df6b08634ab4bb630c16f5f7af72b60e"
+    },
+    {
+      "id": 5,
+      "slug": "05-meet-your-macros",
+      "title": "Meet Your Meal’s Macros",
+      "file": "EN-05-meet-your-macros-12s.mp4",
+      "bytes": 1131423,
+      "passed": true,
+      "checks": {
+        "fast_start": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "video_codec": true,
+        "pixel_format": true,
+        "audio_codec": true,
+        "sample_rate": true,
+        "audio_channels": true,
+        "duration": true,
+        "full_decode": true,
+        "frame_count": true
+      },
+      "errors": [],
+      "atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "bytes": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "bytes": 14692
+        },
+        {
+          "type": "free",
+          "offset": 14724,
+          "bytes": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 14732,
+          "bytes": 1116691
+        }
+      ],
+      "metadata": {
+        "duration_seconds": 12.0,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "audio_codec": "aac",
+        "sample_rate": 48000,
+        "audio_channels": "stereo",
+        "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 546 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "audio_stream": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 197 kb/s (default)"
+      },
+      "decode": {
+        "passed": true,
+        "return_code": 0,
+        "frame_count": 360,
+        "output_time_seconds": 12.0,
+        "errors": ""
+      },
+      "poster": "EN-05-meet-your-macros.jpg",
+      "poster_time_seconds": 2.0,
+      "sha256": "b5c6286f217c70ece43ce70c60da5c8b171bb77b7f99c5851267d04b3e62277d"
+    },
+    {
+      "id": 6,
+      "slug": "06-protein-per-euro",
+      "title": "Protein Per Euro",
+      "file": "EN-06-protein-per-euro-12s.mp4",
+      "bytes": 983174,
+      "passed": true,
+      "checks": {
+        "fast_start": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "video_codec": true,
+        "pixel_format": true,
+        "audio_codec": true,
+        "sample_rate": true,
+        "audio_channels": true,
+        "duration": true,
+        "full_decode": true,
+        "frame_count": true
+      },
+      "errors": [],
+      "atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "bytes": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "bytes": 14724
+        },
+        {
+          "type": "free",
+          "offset": 14756,
+          "bytes": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 14764,
+          "bytes": 968410
+        }
+      ],
+      "metadata": {
+        "duration_seconds": 12.0,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "audio_codec": "aac",
+        "sample_rate": 48000,
+        "audio_channels": "stereo",
+        "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 447 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "audio_stream": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 197 kb/s (default)"
+      },
+      "decode": {
+        "passed": true,
+        "return_code": 0,
+        "frame_count": 360,
+        "output_time_seconds": 12.0,
+        "errors": ""
+      },
+      "poster": "EN-06-protein-per-euro.jpg",
+      "poster_time_seconds": 2.0,
+      "sha256": "bfdca80d46e33ce4a73d555263b1dca33428dfcfd5021e362bf2799850d505d2"
+    },
+    {
+      "id": 7,
+      "slug": "07-break-the-lunch-loop",
+      "title": "Break the Lunch Loop",
+      "file": "EN-07-break-the-lunch-loop-12s.mp4",
+      "bytes": 1128666,
+      "passed": true,
+      "checks": {
+        "fast_start": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "video_codec": true,
+        "pixel_format": true,
+        "audio_codec": true,
+        "sample_rate": true,
+        "audio_channels": true,
+        "duration": true,
+        "full_decode": true,
+        "frame_count": true
+      },
+      "errors": [],
+      "atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "bytes": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "bytes": 14704
+        },
+        {
+          "type": "free",
+          "offset": 14736,
+          "bytes": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 14744,
+          "bytes": 1113922
+        }
+      ],
+      "metadata": {
+        "duration_seconds": 12.0,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "audio_codec": "aac",
+        "sample_rate": 48000,
+        "audio_channels": "stereo",
+        "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 544 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "audio_stream": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 197 kb/s (default)"
+      },
+      "decode": {
+        "passed": true,
+        "return_code": 0,
+        "frame_count": 360,
+        "output_time_seconds": 12.0,
+        "errors": ""
+      },
+      "poster": "EN-07-break-the-lunch-loop.jpg",
+      "poster_time_seconds": 2.0,
+      "sha256": "03aa69d404badac54e598a06c076187be35d17d64ce0a2deae75d2020e19a7aa"
+    },
+    {
+      "id": 8,
+      "slug": "08-estimates-with-context",
+      "title": "Estimates With Context",
+      "file": "EN-08-estimates-with-context-12s.mp4",
+      "bytes": 1155592,
+      "passed": true,
+      "checks": {
+        "fast_start": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "video_codec": true,
+        "pixel_format": true,
+        "audio_codec": true,
+        "sample_rate": true,
+        "audio_channels": true,
+        "duration": true,
+        "full_decode": true,
+        "frame_count": true
+      },
+      "errors": [],
+      "atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "bytes": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "bytes": 14682
+        },
+        {
+          "type": "free",
+          "offset": 14714,
+          "bytes": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 14722,
+          "bytes": 1140870
+        }
+      ],
+      "metadata": {
+        "duration_seconds": 12.0,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "audio_codec": "aac",
+        "sample_rate": 48000,
+        "audio_channels": "stereo",
+        "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 562 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "audio_stream": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 197 kb/s (default)"
+      },
+      "decode": {
+        "passed": true,
+        "return_code": 0,
+        "frame_count": 360,
+        "output_time_seconds": 12.0,
+        "errors": ""
+      },
+      "poster": "EN-08-estimates-with-context.jpg",
+      "poster_time_seconds": 2.0,
+      "sha256": "b4f69374552d56e0aa6b941f9cde4d7f026b8410e46b036612d4b3e78e739b84"
+    },
+    {
+      "id": 9,
+      "slug": "09-before-you-pick",
+      "title": "Before You Pick Your Plate",
+      "file": "EN-09-before-you-pick-12s.mp4",
+      "bytes": 1056164,
+      "passed": true,
+      "checks": {
+        "fast_start": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "video_codec": true,
+        "pixel_format": true,
+        "audio_codec": true,
+        "sample_rate": true,
+        "audio_channels": true,
+        "duration": true,
+        "full_decode": true,
+        "frame_count": true
+      },
+      "errors": [],
+      "atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "bytes": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "bytes": 14723
+        },
+        {
+          "type": "free",
+          "offset": 14755,
+          "bytes": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 14763,
+          "bytes": 1041401
+        }
+      ],
+      "metadata": {
+        "duration_seconds": 12.0,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "audio_codec": "aac",
+        "sample_rate": 48000,
+        "audio_channels": "stereo",
+        "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 496 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "audio_stream": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 197 kb/s (default)"
+      },
+      "decode": {
+        "passed": true,
+        "return_code": 0,
+        "frame_count": 360,
+        "output_time_seconds": 12.0,
+        "errors": ""
+      },
+      "poster": "EN-09-before-you-pick.jpg",
+      "poster_time_seconds": 2.0,
+      "sha256": "44b10d38678fae5ca296073588776aa899ec286229e82d6c07df1dba0c78fdeb"
+    },
+    {
+      "id": 10,
+      "slug": "10-your-kiez-your-bite",
+      "title": "Your Kiez, Your Next Bite",
+      "file": "EN-10-your-kiez-your-bite-12s.mp4",
+      "bytes": 1440705,
+      "passed": true,
+      "checks": {
+        "fast_start": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "video_codec": true,
+        "pixel_format": true,
+        "audio_codec": true,
+        "sample_rate": true,
+        "audio_channels": true,
+        "duration": true,
+        "full_decode": true,
+        "frame_count": true
+      },
+      "errors": [],
+      "atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "bytes": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "bytes": 14711
+        },
+        {
+          "type": "free",
+          "offset": 14743,
+          "bytes": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 14751,
+          "bytes": 1425954
+        }
+      ],
+      "metadata": {
+        "duration_seconds": 12.0,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "audio_codec": "aac",
+        "sample_rate": 48000,
+        "audio_channels": "stereo",
+        "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 752 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "audio_stream": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 197 kb/s (default)"
+      },
+      "decode": {
+        "passed": true,
+        "return_code": 0,
+        "frame_count": 360,
+        "output_time_seconds": 12.0,
+        "errors": ""
+      },
+      "poster": "EN-10-your-kiez-your-bite.jpg",
+      "poster_time_seconds": 2.0,
+      "sha256": "23a4e6af76ad70f31afbe989fe00860ee83f5ecc73fa1385c661062192495dc8"
+    },
+    {
+      "id": 11,
+      "slug": "11-one-menu-more-options",
+      "title": "One Menu, More Options",
+      "file": "EN-11-one-menu-more-options-12s.mp4",
+      "bytes": 1345951,
+      "passed": true,
+      "checks": {
+        "fast_start": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "video_codec": true,
+        "pixel_format": true,
+        "audio_codec": true,
+        "sample_rate": true,
+        "audio_channels": true,
+        "duration": true,
+        "full_decode": true,
+        "frame_count": true
+      },
+      "errors": [],
+      "atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "bytes": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "bytes": 14729
+        },
+        {
+          "type": "free",
+          "offset": 14761,
+          "bytes": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 14769,
+          "bytes": 1331182
+        }
+      ],
+      "metadata": {
+        "duration_seconds": 12.0,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "audio_codec": "aac",
+        "sample_rate": 48000,
+        "audio_channels": "stereo",
+        "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 689 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "audio_stream": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 197 kb/s (default)"
+      },
+      "decode": {
+        "passed": true,
+        "return_code": 0,
+        "frame_count": 360,
+        "output_time_seconds": 12.0,
+        "errors": ""
+      },
+      "poster": "EN-11-one-menu-more-options.jpg",
+      "poster_time_seconds": 2.0,
+      "sha256": "3b7841f4665ca1ac8d261d8a280c4bcc95d5c5c276daaa157c0501917489db93"
+    },
+    {
+      "id": 12,
+      "slug": "12-your-meal-priorities",
+      "title": "Your Meal Priorities",
+      "file": "EN-12-your-meal-priorities-12s.mp4",
+      "bytes": 1089631,
+      "passed": true,
+      "checks": {
+        "fast_start": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "video_codec": true,
+        "pixel_format": true,
+        "audio_codec": true,
+        "sample_rate": true,
+        "audio_channels": true,
+        "duration": true,
+        "full_decode": true,
+        "frame_count": true
+      },
+      "errors": [],
+      "atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "bytes": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "bytes": 14728
+        },
+        {
+          "type": "free",
+          "offset": 14760,
+          "bytes": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 14768,
+          "bytes": 1074863
+        }
+      ],
+      "metadata": {
+        "duration_seconds": 12.0,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "audio_codec": "aac",
+        "sample_rate": 48000,
+        "audio_channels": "stereo",
+        "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 518 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "audio_stream": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 197 kb/s (default)"
+      },
+      "decode": {
+        "passed": true,
+        "return_code": 0,
+        "frame_count": 360,
+        "output_time_seconds": 12.0,
+        "errors": ""
+      },
+      "poster": "EN-12-your-meal-priorities.jpg",
+      "poster_time_seconds": 2.0,
+      "sha256": "be71d2ffad47744daa2275f76f9fccd2cf689ba1ed3d5c130aa5064afac87a7d"
+    }
+  ],
+  "packaging_note": "Original decode validation retained; filenames remapped for the flat upload package. MP4 bytes are unchanged, and SHA-256 hashes have been checked against the original report."
+}

@@ -1,0 +1,15 @@
+"Zeig mir gesunde Gerichte in deiner Nähe" = "Show me healthy dishes nearby";
+"Finde passende Gerichte und sieh, wie weit die Restaurants entfernt sind. Dein Standort bleibt auf deinem Gerät." = "Find dishes that fit your goals and see how far away each restaurant is. Your location stays on your device.";
+"Standort verwenden" = "Use location";
+"Standort wird bestimmt…" = "Finding your location…";
+"Später" = "Later";
+"Kiez wählen" = "Choose a neighbourhood";
+"Wähle einen Berliner Kiez, um dort Gerichte zu entdecken." = "Choose a Berlin neighbourhood to discover dishes there.";
+"In meiner Nähe" = "Near me";
+"Zu meinem Standort" = "Centre on my location";
+"Dein Standort" = "Your location";
+"%lld Gerichte · nach 1-km-Stufen, dann nach %@" = "%lld dishes · by 1 km distance bands, then by %@";
+"%lld Gerichte · nach %@" = "%lld dishes · by %@";
+"Wenig kcal" = "Lower calories";
+"Health Score" = "Health Score";
+"Protein" = "Protein";

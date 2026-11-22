@@ -1,0 +1,87 @@
+/* Shared Plus One classes for every shot. Tokens live on :root in index.html.
+   Fonts are the brand kit's variable files, copied in by scripts/sync-brand.mjs. */
+@font-face {
+  font-family: "Source Serif 4";
+  font-weight: 200 900;
+  src: url("fonts/source-serif-4.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Geist Mono";
+  font-weight: 100 900;
+  src: url("fonts/geist-mono.woff2") format("woff2");
+}
+
+.shot-layer {
+  position: absolute;
+  inset: 0;
+}
+
+/* The one constant: same box, same place, every shot (405 px = 37.5 % of the 1080 px short side).
+   --mark-cy is set per canvas on the root composition in index.html. */
+.mark {
+  position: absolute;
+  left: 50%;
+  top: var(--mark-cy);
+  width: 405px;
+  height: 405px;
+  margin: -202.5px 0 0 -202.5px;
+}
+
+/* Every mark is assets/logo.svg used as an alpha mask: swap that file to re-brand. */
+.logo-mask {
+  -webkit-mask: url("logo.svg") center / contain no-repeat;
+  mask: url("logo.svg") center / contain no-repeat;
+}
+
+/* The wordmark is the brand kit's outlined lettering (assets/wordmark.svg), never live type. */
+.wordmark-mask {
+  -webkit-mask: url("wordmark.svg") center / contain no-repeat;
+  mask: url("wordmark.svg") center / contain no-repeat;
+}
+
+/* The official horizontal lockup (assets/lockup.svg = brand/assets/logo-primary.svg). */
+.lockup-mask {
+  -webkit-mask: url("lockup.svg") left center / contain no-repeat;
+  mask: url("lockup.svg") left center / contain no-repeat;
+}
+
+.mono {
+  font-family: "Geist Mono", monospace;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.5;
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+}
+.serif {
+  font-family: "Source Serif 4", serif;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+}
+
+/* Thayon-style technical crosshair */
+.cross {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  margin: -14px 0 0 -14px;
+}
+.cross::before,
+.cross::after {
+  content: "";
+  position: absolute;
+  background: currentColor;
+}
+.cross::before {
+  left: 13px;
+  top: 0;
+  width: 2px;
+  height: 28px;
+}
+.cross::after {
+  left: 0;
+  top: 13px;
+  width: 28px;
+  height: 2px;
+}

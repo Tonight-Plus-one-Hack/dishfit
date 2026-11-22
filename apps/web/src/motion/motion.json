@@ -1,0 +1,218 @@
+{
+  "$comment": "Plus One motion tokens. Measured live from the reference site on 2026-11-21 (WAAPI calls, per-frame inline styles, shipped Framer and Lenis configs). Springs use framer-motion duration-based semantics; stiffness/damping are the solved physical values (mass 1) and reproduce the captured curves within 0.001. linear() is the exact sampled curve for CSS; cubicBezier is the closest single cubic for platforms without springs. See motion-spec.md.",
+  "spring": {
+    "appear": {
+      "use": "Fade-and-slide reveals: hero art, sections, cards, headings",
+      "duration": 1,
+      "bounce": 0.2,
+      "stiffness": 80.9,
+      "damping": 14.39,
+      "mass": 1,
+      "durationMs": 1000,
+      "cubicBezier": [
+        0.326,
+        0.674,
+        0.053,
+        1.132
+      ],
+      "cubicBezierRmse": 0.0133,
+      "linear": "linear(0, 0.0224, 0.0794, 0.1581, 0.2486, 0.3435, 0.4375, 0.5269, 0.6093, 0.6833, 0.7484, 0.8044, 0.8518, 0.8911, 0.9231, 0.9487, 0.9688, 0.9841, 0.9954, 1.0036, 1.0091, 1.0125, 1.0144, 1.0151, 1.015, 1.0142, 1.0131, 1.0118, 1.0104, 1.0089, 1.0076, 1.0063, 1.0051, 1.0041, 1.0032, 1.0024, 1.0018, 1.0013, 1.0009, 1.0006, 1)"
+    },
+    "text": {
+      "use": "Per-character blur reveal of display headlines",
+      "duration": 0.5,
+      "bounce": 0,
+      "stiffness": 341.02,
+      "damping": 36.93,
+      "mass": 1,
+      "durationMs": 500,
+      "cubicBezier": [
+        0.253,
+        0.416,
+        0.087,
+        1.076
+      ],
+      "cubicBezierRmse": 0.0081,
+      "linear": "linear(0, 0.0229, 0.0788, 0.1532, 0.2361, 0.3208, 0.403, 0.4802, 0.5509, 0.6146, 0.6711, 0.7207, 0.7638, 0.801, 0.8329, 0.8601, 0.8832, 0.9027, 0.9191, 0.9329, 0.9445, 0.9541, 0.9621, 0.9688, 0.9743, 0.9789, 0.9827, 0.9858, 0.9884, 0.9905, 0.9922, 0.9936, 0.9948, 0.9958, 0.9965, 0.9972, 0.9977, 0.9981, 0.9985, 0.9988, 1)"
+    },
+    "textQuick": {
+      "use": "Per-character blur reveal of section headings and labels",
+      "duration": 0.4,
+      "bounce": 0,
+      "stiffness": 532.85,
+      "damping": 46.17,
+      "mass": 1,
+      "durationMs": 400,
+      "cubicBezier": [
+        0.253,
+        0.416,
+        0.087,
+        1.076
+      ],
+      "cubicBezierRmse": 0.0081,
+      "linear": "linear(0, 0.0229, 0.0788, 0.1532, 0.2361, 0.3208, 0.403, 0.4802, 0.5509, 0.6146, 0.6711, 0.7207, 0.7638, 0.801, 0.8329, 0.8601, 0.8832, 0.9027, 0.9191, 0.9329, 0.9445, 0.9541, 0.9621, 0.9688, 0.9743, 0.9789, 0.9827, 0.9858, 0.9884, 0.9905, 0.9922, 0.9936, 0.9948, 0.9958, 0.9965, 0.9972, 0.9977, 0.9981, 0.9985, 0.9988, 1)"
+    },
+    "nav": {
+      "use": "Header drop-in on first paint",
+      "duration": 2,
+      "bounce": 0.2,
+      "stiffness": 20.22,
+      "damping": 7.2,
+      "mass": 1,
+      "durationMs": 2000,
+      "cubicBezier": [
+        0.326,
+        0.674,
+        0.053,
+        1.132
+      ],
+      "cubicBezierRmse": 0.0133,
+      "linear": "linear(0, 0.0224, 0.0794, 0.1581, 0.2486, 0.3435, 0.4375, 0.5269, 0.6093, 0.6833, 0.7484, 0.8044, 0.8518, 0.8911, 0.9231, 0.9487, 0.9688, 0.9841, 0.9954, 1.0036, 1.0091, 1.0125, 1.0144, 1.0151, 1.015, 1.0142, 1.0131, 1.0118, 1.0104, 1.0089, 1.0076, 1.0063, 1.0051, 1.0041, 1.0032, 1.0024, 1.0018, 1.0013, 1.0009, 1.0006, 1)"
+    },
+    "zoom": {
+      "use": "Closing call-to-action backdrop zoom-out",
+      "duration": 3,
+      "bounce": 0.2,
+      "stiffness": 8.99,
+      "damping": 4.8,
+      "mass": 1,
+      "durationMs": 3000,
+      "cubicBezier": [
+        0.326,
+        0.674,
+        0.053,
+        1.132
+      ],
+      "cubicBezierRmse": 0.0133,
+      "linear": "linear(0, 0.0224, 0.0794, 0.1581, 0.2486, 0.3435, 0.4375, 0.5269, 0.6093, 0.6833, 0.7484, 0.8044, 0.8518, 0.8911, 0.9231, 0.9487, 0.9688, 0.9841, 0.9954, 1.0036, 1.0091, 1.0125, 1.0144, 1.0151, 1.015, 1.0142, 1.0131, 1.0118, 1.0104, 1.0089, 1.0076, 1.0063, 1.0051, 1.0041, 1.0032, 1.0024, 1.0018, 1.0013, 1.0009, 1.0006, 1)"
+    },
+    "state": {
+      "use": "Component state changes such as nav items and menu toggles (shipped Framer variant transition)",
+      "duration": 0.4,
+      "bounce": 0.2,
+      "stiffness": 505.61,
+      "damping": 35.98,
+      "mass": 1,
+      "durationMs": 400,
+      "cubicBezier": [
+        0.326,
+        0.674,
+        0.053,
+        1.132
+      ],
+      "cubicBezierRmse": 0.0133,
+      "linear": "linear(0, 0.0224, 0.0794, 0.1581, 0.2486, 0.3435, 0.4375, 0.5269, 0.6093, 0.6833, 0.7484, 0.8044, 0.8518, 0.8911, 0.9231, 0.9487, 0.9688, 0.9841, 0.9954, 1.0036, 1.0091, 1.0125, 1.0144, 1.0151, 1.015, 1.0142, 1.0131, 1.0118, 1.0104, 1.0089, 1.0076, 1.0063, 1.0051, 1.0041, 1.0032, 1.0024, 1.0018, 1.0013, 1.0009, 1.0006, 1)"
+    },
+    "magnetic": {
+      "use": "Pointer follow of magnetic art and cards",
+      "stiffness": 440,
+      "damping": 100,
+      "mass": 1
+    },
+    "scrollRotate": {
+      "use": "Logo symbol rotation driven by scroll",
+      "stiffness": 500,
+      "damping": 60,
+      "mass": 1
+    }
+  },
+  "easing": {
+    "roll": {
+      "use": "Rolling button label rows and characters",
+      "cubicBezier": [
+        0.25,
+        0.74,
+        0.22,
+        0.99
+      ]
+    },
+    "press": {
+      "use": "Button hover/press scale",
+      "cubicBezier": [
+        0,
+        0,
+        0.58,
+        1
+      ]
+    },
+    "smoothScroll": {
+      "use": "Lenis wheel smoothing, t => min(1, 1.001 - 2^(-10t))",
+      "cubicBezier": [
+        0.149,
+        0.994,
+        0.312,
+        0.999
+      ]
+    }
+  },
+  "duration": {
+    "charStagger": 25,
+    "charStaggerQuick": 20,
+    "charStaggerWide": 50,
+    "charStaggerLabel": 15,
+    "rollCharStagger": 30,
+    "rollChar": 300,
+    "rollRow": 500,
+    "press": 200,
+    "smoothScroll": 1000
+  },
+  "delay": {
+    "hero": {
+      "nav": 0,
+      "headline": 0,
+      "lede": 1500,
+      "action": 1700,
+      "art": 2000,
+      "strip": 2200
+    },
+    "sequence": [
+      0,
+      200,
+      300,
+      400,
+      500,
+      900,
+      1000,
+      1100,
+      1200,
+      1300,
+      1400,
+      1450,
+      1500,
+      1600
+    ],
+    "labelStart": 200
+  },
+  "distance": {
+    "heroArtY": 90,
+    "revealY": 30,
+    "revealYSmall": 20,
+    "revealYCard": 60,
+    "revealX": 10,
+    "labelY": 10,
+    "charY": 10,
+    "charBlur": 10,
+    "navY": -80,
+    "rollRowPercent": 110,
+    "rollCharY": 10,
+    "zoomFromScale": 2.5,
+    "pressScale": 0.98,
+    "magneticDistance": 24,
+    "magneticChildDistance": 10,
+    "magneticHoverArea": 49,
+    "scrollRotateDegPerPx": 0.5
+  },
+  "opacity": {
+    "hidden": 0.001
+  },
+  "viewport": {
+    "revealAmount": 0.5,
+    "eagerAmount": 0,
+    "once": true,
+    "labelOnce": false
+  },
+  "scroll": {
+    "smoothDuration": 1000,
+    "stickyTrackPxPerScrollPx": 0.894
+  }
+}

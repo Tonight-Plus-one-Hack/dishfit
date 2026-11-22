@@ -1,0 +1,30 @@
+{
+  "_readme": "Fill from the live /numbers page (our own events table, team and test devices excluded) and the ad dashboard right before submission. Leave a value null until it is real; slides.html shows null as a placeholder. Counts are raw; slides.html derives percentages and per-user ratios.",
+  "updated_at": null,
+  "launch_window": {
+    "start": null,
+    "end": null
+  },
+  "live_url": null,
+  "cities_live": null,
+  "unique_visitors": null,
+  "people_joined": null,
+  "hangouts_started": null,
+  "hangouts_reached_3": null,
+  "hangouts_filled": null,
+  "messages_sent": null,
+  "shares": null,
+  "brand_clicks": {
+    "layla": null,
+    "expedia": null,
+    "hotels_com": null,
+    "vrbo": null
+  },
+  "ads": {
+    "budget_eur": 150,
+    "spent_eur": null,
+    "impressions": null,
+    "link_clicks": null,
+    "people_joined_from_ads": null
+  }
+}

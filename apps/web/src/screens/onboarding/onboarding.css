@@ -1,0 +1,240 @@
+.onboarding {
+  padding-top: var(--safe-top);
+}
+
+.onb-note {
+  margin-top: 16px;
+  font-size: 13px;
+}
+
+/* ---------- Own value ---------- */
+
+.numfield {
+  display: grid;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.numfield__row {
+  display: grid;
+  grid-template-columns: 48px 1fr 48px;
+  align-items: center;
+  gap: 12px;
+}
+
+.numfield__step {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-action);
+  background: var(--surface);
+  color: var(--ink);
+  transition:
+    background-color var(--dur-state) var(--ease-out),
+    transform var(--dur-state) var(--ease-out);
+}
+
+@media (hover: hover) {
+  .numfield__step:hover {
+    background: var(--hover);
+  }
+}
+
+.numfield__step:active {
+  transform: scale(0.95);
+}
+
+.numfield__step[disabled] {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.numfield__value {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 6px;
+  height: 64px;
+  border-bottom: 1px solid var(--rule);
+  transition: border-color var(--dur-state) var(--ease-out);
+}
+
+.numfield__value:focus-within {
+  border-bottom-color: var(--ink);
+}
+
+.numfield__input {
+  width: 4.2ch;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font-family: var(--font-rounded);
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  outline: none;
+  font-weight: 700;
+}
+
+.numfield__input:focus-visible {
+  outline: none;
+}
+
+.numfield__input::placeholder {
+  color: #b9bbc6;
+}
+
+.numfield__unit {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.numfield__hint {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: var(--track-label);
+  color: var(--muted);
+  text-align: center;
+}
+
+.numfield__hint.is-invalid {
+  color: #ce2c31;
+}
+
+/* ---------- Kiez ---------- */
+
+.kiez-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.kiez-chip {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-action);
+  background: var(--canvas);
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: var(--track-label);
+  text-align: left;
+  transition:
+    background-color var(--dur-state) var(--ease-out),
+    border-color var(--dur-state) var(--ease-out),
+    color var(--dur-state) var(--ease-out);
+}
+
+@media (hover: hover) {
+  .kiez-chip:hover {
+    background: var(--hover);
+  }
+}
+
+.kiez-chip[aria-checked='true'] {
+  background: var(--cta);
+  border-color: var(--cta);
+  color: var(--cta-ink);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .kiez-grid,
+  .numfield {
+    animation: fade-up var(--dur-step) var(--ease-spring) both;
+  }
+}
+
+/* ---------- Working ---------- */
+
+.onb-working {
+  gap: 28px;
+}
+
+.onb-working__head {
+  display: grid;
+  gap: 8px;
+}
+
+.onb-count {
+  display: grid;
+  gap: 2px;
+}
+
+.onb-count__num {
+  font-family: var(--font-rounded);
+  font-size: 72px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.onb-count__label {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: var(--track-label);
+  color: var(--muted);
+}
+
+/* ---------- Result ---------- */
+
+.onb-result {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 8px;
+}
+
+.onb-result__head {
+  display: grid;
+  gap: 8px;
+}
+
+.onb-result__head .t-muted {
+  max-width: 32em;
+}
+
+.onb-picks {
+  display: grid;
+  gap: 16px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .onb-picks__item {
+    animation: fade-up var(--dur-reveal) var(--ease-spring) both;
+  }
+}
+
+.onb-result__loading {
+  display: grid;
+  gap: 24px;
+}
+
+.onb-result__sk-title {
+  height: 64px;
+  width: 80%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .numfield__step:active {
+    transform: none;
+  }
+}
+
+/* The sticky footer spans the flow's side padding, so card shadows never peek out beside it. */
+.onboarding .flow__footer {
+  margin-inline: -16px;
+  padding-inline: 16px;
+}

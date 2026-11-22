@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Plus One logo loop, shot 09: brand poster. Mounted by index.html. -->
+  </head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/plus-one.css" />
+      <style>
+        #root {
+          position: absolute;
+          inset: 0;
+          overflow: hidden;
+          background: var(--canvas);
+        }
+        #s09-no {
+          position: absolute;
+          left: var(--safe-left);
+          top: var(--safe-top);
+          color: var(--muted);
+        }
+        #s09-cities {
+          position: absolute;
+          right: var(--safe-right);
+          top: var(--safe-top);
+          text-align: right;
+          color: var(--ink);
+        }
+        #s09-tile {
+          position: absolute;
+          left: var(--safe-left);
+          top: calc(var(--safe-top) + 90px);
+          width: 180px;
+          height: 240px;
+          border-radius: 16px;
+          background:
+            radial-gradient(80% 60% at 50% 100%, var(--art-blue) 0%, rgba(53, 94, 218, 0) 100%),
+            linear-gradient(180deg, #e8e8ec 0%, var(--art-periwinkle) 100%);
+        }
+        #s09-line {
+          position: absolute;
+          left: var(--safe-left);
+          bottom: calc(var(--safe-bottom) + 140px);
+          width: 560px;
+          font-size: 44px;
+          color: var(--ink);
+        }
+        /* Official lockup, 85 px tall; half a symbol width (42 px) of clear space around it. */
+        #s09-lockup {
+          position: absolute;
+          left: var(--safe-left);
+          bottom: var(--safe-bottom);
+          width: 381px;
+          height: 85px;
+          background: var(--ink);
+        }
+        #s09-mark {
+          background: var(--ink);
+        }
+      </style>
+
+      <div id="root" data-composition-id="s09" data-width="1080" data-height="1080">
+        <div id="s09-no" class="mono">No. 01</div>
+        <div id="s09-cities" class="mono"><div>Berlin</div><div>Hamburg</div><div>Wien</div><div>Lisboa</div></div>
+        <div id="s09-tile"></div>
+        <div id="s09-line" class="serif">Find your people for tonight.</div>
+        <div id="s09-lockup" class="lockup-mask" role="img" aria-label="Plus One"></div>
+        <div id="s09-mark" class="mark logo-mask"></div>
+      </div>
+
+      <script>
+        const tl = gsap.timeline({ paused: true });
+        // Hold: the cut is the motion.
+        window.__timelines["s09"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

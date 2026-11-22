@@ -1,0 +1,167 @@
+{
+  "brand": "DishFit",
+  "language": "en",
+  "end_card": [
+    "DishFit",
+    "Your next good meal.",
+    "BETA PREVIEW"
+  ],
+  "reels": [
+    {
+      "id": 1,
+      "slug": "01-hungry-in-berlin",
+      "title": "Hungry in Berlin",
+      "hook": [
+        "Hungry",
+        "in Berlin?"
+      ],
+      "proof": [
+        "Explore dishes",
+        "across your Kiez."
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "02-know-before-ordering",
+      "title": "Know Before Ordering",
+      "hook": [
+        "Know before",
+        "you order."
+      ],
+      "proof": [
+        "Price. Nutrition.",
+        "Side by side."
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "03-your-meal-budget",
+      "title": "Your Meal Budget",
+      "hook": [
+        "Your budget.",
+        "Your next meal."
+      ],
+      "proof": [
+        "Filter dishes",
+        "under €12."
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "04-new-kiez-new-favourite",
+      "title": "New Kiez, New Favourite",
+      "hook": [
+        "New Kiez.",
+        "New favourite?"
+      ],
+      "proof": [
+        "Find restaurants.",
+        "Open their menus."
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "05-meet-your-macros",
+      "title": "Meet Your Meal’s Macros",
+      "hook": [
+        "Meet your",
+        "meal’s macros."
+      ],
+      "proof": [
+        "Calories. Protein.",
+        "Carbs. Fat."
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "06-protein-per-euro",
+      "title": "Protein Per Euro",
+      "hook": [
+        "Your food.",
+        "Your money."
+      ],
+      "proof": [
+        "Compare dishes",
+        "by protein per €."
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "07-break-the-lunch-loop",
+      "title": "Break the Lunch Loop",
+      "hook": [
+        "Same lunch.",
+        "Different day?"
+      ],
+      "proof": [
+        "Discover your",
+        "next Berlin dish."
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "08-estimates-with-context",
+      "title": "Estimates With Context",
+      "hook": [
+        "Numbers need",
+        "a little context."
+      ],
+      "proof": [
+        "AI estimates.",
+        "Visible ranges."
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "09-before-you-pick",
+      "title": "Before You Pick Your Plate",
+      "hook": [
+        "Before you",
+        "pick your plate."
+      ],
+      "proof": [
+        "Check the price.",
+        "See the macros."
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "10-your-kiez-your-bite",
+      "title": "Your Kiez, Your Next Bite",
+      "hook": [
+        "Your Kiez.",
+        "Your next bite."
+      ],
+      "proof": [
+        "Browse the map.",
+        "Find local menus."
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "11-one-menu-more-options",
+      "title": "One Menu, More Options",
+      "hook": [
+        "One menu.",
+        "More options."
+      ],
+      "proof": [
+        "Compare dishes.",
+        "See AI estimates."
+      ]
+    },
+    {
+      "id": 12,
+      "slug": "12-your-meal-priorities",
+      "title": "Your Meal Priorities",
+      "hook": [
+        "Your next meal.",
+        "Your priorities."
+      ],
+      "proof": [
+        "Filter by price.",
+        "Sort by protein."
+      ]
+    }
+  ]
+}

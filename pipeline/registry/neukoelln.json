@@ -1,0 +1,191 @@
+{
+ "kiez": "neukoelln",
+ "name": "Neukölln",
+ "scannedBy": "BatuCani",
+ "updatedAt": "2026-11-21T21:49:30.409Z",
+ "provider": "mixed",
+ "models": {},
+ "counts": {
+  "found": 371,
+  "menus": 26,
+  "restaurants": 26,
+  "dishes": 774,
+  "images": 25,
+  "skippedDuplicates": 0
+ },
+ "costUsd": {
+  "total": 12.28,
+  "byStage": {
+   "check": 0.32,
+   "find": 2.8,
+   "image": 0.61,
+   "menu": 4.72,
+   "nutrition": 3.84,
+   "classify": 0.01
+  },
+  "byProvider": {
+   "anthropic": 6.59,
+   "google-places": 3.36,
+   "openai": 2.35
+  }
+ },
+ "seedFile": "apps/web/src/data/seed/pipeline/kiez/neukoelln.json",
+ "places": [
+  {
+   "id": "osm-node-9570322834",
+   "placeId": "ChIJY7-uwKxPqEcRif8Ok0N0qbM",
+   "osmId": "node/9570322834"
+  },
+  {
+   "id": "osm-node-1602341387",
+   "placeId": "ChIJE4RYfM5PqEcRTefP55gXaDM",
+   "osmId": "node/1602341387"
+  },
+  {
+   "id": "osm-node-8048775170",
+   "placeId": "ChIJxcPlm0tPqEcRhOa2cqnzxtc",
+   "osmId": "node/8048775170"
+  },
+  {
+   "id": "osm-node-5119778578",
+   "placeId": "ChIJyZYQ67BPqEcRhzE-10lcdro",
+   "osmId": "node/5119778578"
+  },
+  {
+   "id": "osm-node-12856968801",
+   "placeId": "ChIJS-Ukx9hPqEcRfSvDyV8DPi4",
+   "osmId": "node/12856968801"
+  },
+  {
+   "id": "osm-node-1296744243",
+   "placeId": "ChIJNx0NcbFPqEcRlFK-tvVwIEw",
+   "osmId": "node/1296744243"
+  },
+  {
+   "id": "osm-node-1679668585",
+   "placeId": "ChIJF9dLhApPqEcRqd_KBXcul4U",
+   "osmId": "node/1679668585"
+  },
+  {
+   "id": "osm-node-5841263040",
+   "placeId": "ChIJ8wYNW7xPqEcRqNOOB8dqeuM",
+   "osmId": "node/5841263040"
+  },
+  {
+   "id": "osm-node-760605073",
+   "placeId": "ChIJa18JY79PqEcRGC2IbRHdfjk",
+   "osmId": "node/760605073"
+  },
+  {
+   "id": "osm-node-4157774308",
+   "placeId": "ChIJn4KYd6hPqEcRvXHk-PqI5pY",
+   "osmId": "node/4157774308"
+  },
+  {
+   "id": "osm-node-7252462666",
+   "placeId": "ChIJrRiEh41PqEcRC8L2V7MHkTw",
+   "osmId": "node/7252462666"
+  },
+  {
+   "id": "osm-node-269486924",
+   "placeId": "ChIJ4ZjeuwpPqEcR1LdWBdfqOrk",
+   "osmId": "node/269486924"
+  },
+  {
+   "id": "osm-node-3429995598",
+   "placeId": "ChIJHWMQnG8jZUERjgElv0I4Hjg",
+   "osmId": "node/3429995598"
+  },
+  {
+   "id": "osm-node-466461349",
+   "placeId": "ChIJ_8i7pJFPqEcRxmFgAssALik",
+   "osmId": "node/466461349"
+  },
+  {
+   "id": "osm-node-4866112524",
+   "placeId": "ChIJRXxs3LlPqEcR0Ax_dbxN5ak",
+   "osmId": "node/4866112524"
+  },
+  {
+   "id": "osm-node-5876910196",
+   "placeId": "ChIJrfDO31FPqEcRfQt7a6ZFGfU",
+   "osmId": "node/5876910196"
+  },
+  {
+   "id": "osm-node-566621190",
+   "placeId": "ChIJSxLOjPBPqEcRbafP-8pQJY0",
+   "osmId": "node/566621190"
+  },
+  {
+   "id": "osm-node-9072845543",
+   "placeId": "ChIJQ5N1rulPqEcRJ6jxN3Qe6DM",
+   "osmId": "node/9072845543"
+  },
+  {
+   "id": "osm-node-8812657559",
+   "placeId": "ChIJJ9BCtLZPqEcRVBeKT95_TXk",
+   "osmId": "node/8812657559"
+  },
+  {
+   "id": "osm-node-1569218581",
+   "placeId": "ChIJQyLHr-VPqEcR_ldHqHEDYsc",
+   "osmId": "node/1569218581"
+  },
+  {
+   "id": "osm-node-14310390061",
+   "placeId": "ChIJ28zHdCJPqEcR32ahHA2xs5s",
+   "osmId": "node/14310390061"
+  },
+  {
+   "id": "osm-node-745708763",
+   "placeId": "ChIJs9rm1EdPqEcRDY3XhW5wQ3A",
+   "osmId": "node/745708763"
+  },
+  {
+   "id": "osm-node-12147775071",
+   "placeId": "ChIJh1zdeolPqEcRyXO-Fb_mlt0",
+   "osmId": "node/12147775071"
+  },
+  {
+   "id": "osm-node-2212970826",
+   "placeId": "ChIJOQyKjppPqEcR42LP4ZuFCyA",
+   "osmId": "node/2212970826"
+  },
+  {
+   "id": "osm-node-1280544411",
+   "placeId": "ChIJxd5HsxRPqEcRV9IUVxDrM-s",
+   "osmId": "node/1280544411"
+  },
+  {
+   "id": "osm-node-13812880104",
+   "placeId": "ChIJiQuaOwBPqEcRVM-nR96MI28",
+   "osmId": "node/13812880104"
+  }
+ ],
+ "appendBase": {
+  "provider": "anthropic",
+  "counts": {
+   "found": 250,
+   "menus": 18,
+   "restaurants": 18,
+   "dishes": 526,
+   "images": 17,
+   "skippedDuplicates": 0
+  },
+  "costUsd": {
+   "total": 9.18,
+   "byStage": {
+    "check": 0.28,
+    "find": 1.89,
+    "image": 0.41,
+    "menu": 3.52,
+    "nutrition": 3.09
+   },
+   "byProvider": {
+    "anthropic": 6.59,
+    "google-places": 2.19,
+    "openai": 0.41
+   }
+  }
+ }
+}

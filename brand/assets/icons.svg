@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 48" role="img" aria-label="City, time, group, and public place icons">
+  <g fill="none" stroke="#1c2024" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 33h20M16 33V22h7v11m0-16h7v16m0-8h4v8m-15-7h1m6-5h1m-1 5h1"/>
+    <circle cx="72" cy="24" r="9"/>
+    <path d="M72 20v4l3 2"/>
+    <circle cx="118" cy="21" r="3"/>
+    <path d="M112 31v-1a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v1m2-12a3 3 0 0 1 0 5m3 7v-1a4 4 0 0 0-2-3.5"/>
+    <path d="M175 22c0 5.25-7 10.5-7 10.5s-7-5.25-7-10.5a7 7 0 1 1 14 0Z"/>
+    <circle cx="168" cy="22" r="2"/>
+  </g>
+</svg>

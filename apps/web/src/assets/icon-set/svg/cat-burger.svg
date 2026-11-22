@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="cat-burger">
+  <path d="M3.6 10.2C3.6 6.2 7.4 3.4 12 3.4C16.6 3.4 20.4 6.2 20.4 10.2C20.4 10.9 19.9 11.4 19.2 11.4H4.8C4.1 11.4 3.6 10.9 3.6 10.2Z" fill="#F5A524" stroke="#F5A524" stroke-width="0.8" stroke-linejoin="round"/>
+  <rect x="3.2" y="12.6" width="17.6" height="3.4" rx="1.7" fill="#8A4B2A"/>
+  <path d="M4.2 17.2H19.8V18.4C19.8 19.9 18.7 21 17.2 21H6.8C5.3 21 4.2 19.9 4.2 18.4Z" fill="#F5A524" stroke="#F5A524" stroke-width="0.8" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "berlin",
+    "name": "Berlin",
+    "nameEn": "Berlin",
+    "countryCode": "DE",
+    "timezone": "Europe/Berlin",
+    "lat": 52.52,
+    "lng": 13.405,
+    "sortOrder": 1
+  },
+  {
+    "slug": "hamburg",
+    "name": "Hamburg",
+    "nameEn": "Hamburg",
+    "countryCode": "DE",
+    "timezone": "Europe/Berlin",
+    "lat": 53.5507,
+    "lng": 9.993,
+    "sortOrder": 2
+  },
+  {
+    "slug": "munich",
+    "name": "München",
+    "nameEn": "Munich",
+    "countryCode": "DE",
+    "timezone": "Europe/Berlin",
+    "lat": 48.1374,
+    "lng": 11.5755,
+    "sortOrder": 3
+  },
+  {
+    "slug": "cologne",
+    "name": "Köln",
+    "nameEn": "Cologne",
+    "countryCode": "DE",
+    "timezone": "Europe/Berlin",
+    "lat": 50.9384,
+    "lng": 6.9603,
+    "sortOrder": 4
+  },
+  {
+    "slug": "amsterdam",
+    "name": "Amsterdam",
+    "nameEn": "Amsterdam",
+    "countryCode": "NL",
+    "timezone": "Europe/Amsterdam",
+    "lat": 52.3731,
+    "lng": 4.8926,
+    "sortOrder": 5
+  },
+  {
+    "slug": "barcelona",
+    "name": "Barcelona",
+    "nameEn": "Barcelona",
+    "countryCode": "ES",
+    "timezone": "Europe/Madrid",
+    "lat": 41.3874,
+    "lng": 2.1686,
+    "sortOrder": 6
+  },
+  {
+    "slug": "lisbon",
+    "name": "Lissabon",
+    "nameEn": "Lisbon",
+    "countryCode": "PT",
+    "timezone": "Europe/Lisbon",
+    "lat": 38.7223,
+    "lng": -9.1393,
+    "sortOrder": 7
+  },
+  {
+    "slug": "prague",
+    "name": "Prag",
+    "nameEn": "Prague",
+    "countryCode": "CZ",
+    "timezone": "Europe/Prague",
+    "lat": 50.0875,
+    "lng": 14.4214,
+    "sortOrder": 8
+  }
+]

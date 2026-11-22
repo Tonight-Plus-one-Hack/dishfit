@@ -1,0 +1,109 @@
+.map-category {
+  position: relative;
+  width: fit-content;
+  max-width: calc(100% - 32px);
+  color: var(--ink);
+  font-size: var(--fs-label);
+  font-weight: 500;
+}
+
+.map-chrome .map-category {
+  /* The menu is positioned relative to .map-chrome, outside the chip scroller's clip. */
+  position: static;
+  flex: none;
+}
+
+.map-chrome .map-category__options {
+  left: var(--map-gutter-start);
+  max-width: calc(100% - var(--map-gutter-start) - var(--map-gutter-end));
+}
+
+.map-chrome .map-category__trigger {
+  min-height: 34px;
+  white-space: nowrap;
+}
+
+.map-category__trigger {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid var(--rule-soft);
+  border-radius: 999px;
+  background: var(--canvas);
+  box-shadow: var(--shell-shadow);
+  cursor: pointer;
+  list-style: none;
+}
+
+.map-category__trigger::-webkit-details-marker {
+  display: none;
+}
+
+.map-category__chevron {
+  transform: rotate(90deg);
+}
+
+.map-category[open] .map-category__chevron {
+  transform: rotate(-90deg);
+}
+
+.map-category__options {
+  position: absolute;
+  z-index: 1;
+  top: calc(100% + 6px);
+  left: 0;
+  display: grid;
+  width: 230px;
+  max-width: calc(100vw - 32px);
+  max-height: max(160px, min(480px, calc(100dvh - 250px)));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 4px;
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--radius-card);
+  background: var(--canvas);
+  box-shadow: var(--shell-shadow);
+}
+
+.stage .map-category__options {
+  top: auto;
+  bottom: calc(100% + 6px);
+  max-height: max(160px, min(480px, calc(100dvh - 210px)));
+}
+
+.map-category__option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 42px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.map-category__option:hover,
+.map-category__option[aria-pressed='true'],
+.map-category__trigger:hover {
+  background: var(--hover);
+}
+
+.map-category__option[aria-pressed='true'] {
+  font-weight: 700;
+}
+
+.map-category__symbol {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border: 1px solid var(--category-color, var(--rule));
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--category-color, var(--canvas)) 22%, var(--canvas));
+}
+
+.map-category__option--static {
+  cursor: default;
+}

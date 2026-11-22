@@ -1,0 +1,212 @@
+<!doctype html>
+<html
+  lang="en"
+  data-composition-variables='[
+    {"id":"canvas","type":"color","label":"Canvas","default":"#FCFCFD"},
+    {"id":"ink","type":"color","label":"Ink","default":"#1C2024"},
+    {"id":"muted","type":"color","label":"Muted ink","default":"#60646C"},
+    {"id":"dark","type":"color","label":"Dark canvas","default":"#111113"},
+    {"id":"art-blue","type":"color","label":"Artwork blue","default":"#355EDA"},
+    {"id":"art-periwinkle","type":"color","label":"Artwork periwinkle","default":"#8391F7"},
+    {"id":"art-violet","type":"color","label":"Artwork violet","default":"#9C90FE"}
+  ]'
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1080" />
+    <title>Plus One logo loop</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      /* Plus One tokens (Thayon-derived). The 1080x1920 cut is rendered from this file by scripts/render.mjs. */
+      :root {
+        --canvas: #fcfcfd;
+        --surface: #f9f9fb;
+        --surface-hover: #f0f0f3;
+        --ink: #1c2024;
+        --muted: #60646c;
+        --rule: #d9d9e0;
+        --dark: #111113;
+        --dark-surface: #18191b;
+        --dark-rule: #363a3f;
+        --dark-ink: #edeef0;
+        --dark-muted: #afb3ba;
+        --art-blue: #355eda;
+        --art-periwinkle: #8391f7;
+        --art-violet: #9c90fe;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1080px;
+        height: 1080px;
+        overflow: hidden;
+        background: var(--canvas);
+      }
+      #root {
+        width: 100%;
+        height: 100%;
+      }
+      /* Layout anchors every shot positions from. Square: the mark sits dead centre. */
+      [data-composition-id="main"] {
+        --mark-cy: 540px;
+        --safe-top: 43px;
+        --safe-right: 43px;
+        --safe-bottom: 43px;
+        --safe-left: 43px;
+      }
+      /* Vertical: the mark sits at the centre of the band TikTok, Reels and Shorts all leave
+         clear (y 288 to 1248, x 120 to 888), and edge copy stays inside that band. */
+      [data-composition-id="main"][data-height="1920"] {
+        --mark-cy: 768px;
+        --safe-top: 288px;
+        --safe-right: 192px;
+        --safe-bottom: 672px;
+        --safe-left: 120px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Twelve shots of 8 frames at 30 fps, hard cuts, 3.2 s loop. -->
+    <div id="root" data-composition-id="main" data-start="0" data-duration="3.2" data-width="1080" data-height="1080">
+      <div
+        id="s01"
+        data-composition-id="s01"
+        data-composition-src="compositions/s01-optical.html"
+        data-start="0"
+        data-duration="0.2627"
+        data-track-index="0"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1080"
+      ></div>
+      <div
+        id="s02"
+        data-composition-id="s02"
+        data-composition-src="compositions/s02-city.html"
+        data-start="0.2627"
+        data-duration="0.2666"
+        data-track-index="0"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1080"
+      ></div>
+      <div
+        id="s03"
+        data-composition-id="s03"
+        data-composition-src="compositions/s03-poster.html"
+        data-start="0.5293"
+        data-duration="0.2667"
+        data-track-index="0"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1080"
+      ></div>
+      <div
+        id="s04"
+        data-composition-id="s04"
+        data-composition-src="compositions/s04-field.html"
+        data-start="0.796"
+        data-duration="0.2667"
+        data-track-index="0"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1080"
+      ></div>
+      <div
+        id="s05"
+        data-composition-id="s05"
+        data-composition-src="compositions/s05-sketch.html"
+        data-start="1.0627"
+        data-duration="0.2666"
+        data-track-index="0"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1080"
+      ></div>
+      <div
+        id="s06"
+        data-composition-id="s06"
+        data-composition-src="compositions/s06-glass.html"
+        data-start="1.3293"
+        data-duration="0.2667"
+        data-track-index="0"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1080"
+      ></div>
+      <div
+        id="s07"
+        data-composition-id="s07"
+        data-composition-src="compositions/s07-blueprint.html"
+        data-start="1.596"
+        data-duration="0.2667"
+        data-track-index="0"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1080"
+      ></div>
+      <div
+        id="s08"
+        data-composition-id="s08"
+        data-composition-src="compositions/s08-blocks.html"
+        data-start="1.8627"
+        data-duration="0.2666"
+        data-track-index="0"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1080"
+      ></div>
+      <div
+        id="s09"
+        data-composition-id="s09"
+        data-composition-src="compositions/s09-brand.html"
+        data-start="2.1293"
+        data-duration="0.2667"
+        data-track-index="0"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1080"
+      ></div>
+      <div
+        id="s10"
+        data-composition-id="s10"
+        data-composition-src="compositions/s10-grid.html"
+        data-start="2.396"
+        data-duration="0.2667"
+        data-track-index="0"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1080"
+      ></div>
+      <div
+        id="s11"
+        data-composition-id="s11"
+        data-composition-src="compositions/s11-pin.html"
+        data-start="2.6627"
+        data-duration="0.2666"
+        data-track-index="0"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1080"
+      ></div>
+      <div
+        id="s12"
+        data-composition-id="s12"
+        data-composition-src="compositions/s12-lockup.html"
+        data-start="2.9293"
+        data-duration="0.2707"
+        data-track-index="0"
+        data-track-kind="graphics"
+        data-width="1080"
+        data-height="1080"
+      ></div>
+    </div>
+    <script>
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+    </script>
+  </body>
+</html>

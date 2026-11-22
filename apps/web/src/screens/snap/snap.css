@@ -1,0 +1,483 @@
+/* Community menu scan: photo, restaurant, send, status. Builds on components/flow.css. */
+
+.snap .question {
+  gap: 0;
+}
+
+/* ---------- Photo ---------- */
+
+.snap-pick {
+  display: grid;
+  gap: 10px;
+  margin-top: 32px;
+}
+
+.snap-drop {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+  width: 100%;
+  padding: 40px 16px;
+  border: 1px dashed var(--rule);
+  border-radius: var(--radius-media);
+  background: var(--surface);
+  text-align: center;
+  transition:
+    background-color var(--dur-state) var(--ease-out),
+    border-color var(--dur-state) var(--ease-out),
+    transform var(--dur-state) var(--ease-out);
+}
+
+@media (hover: hover) {
+  .snap-drop:hover {
+    background: var(--hover);
+    border-color: var(--muted-decorative);
+  }
+}
+
+.snap-drop:active {
+  transform: scale(0.99);
+}
+
+.snap-drop[disabled] {
+  cursor: progress;
+}
+
+/* No photo storage on this deploy yet: a calm notice in the drop zone's place, not a button. */
+.snap-drop--paused,
+.snap-drop--paused:hover,
+.snap-drop--paused:active {
+  background: var(--surface);
+  border-color: var(--rule);
+  transform: none;
+}
+
+.snap-drop--paused .snap-drop__icon {
+  background: var(--hover);
+  color: var(--muted);
+}
+
+.snap-drop__icon {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 6px;
+  border-radius: 50%;
+  background: var(--cta);
+  color: var(--cta-ink);
+}
+
+.snap-drop__label {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+}
+
+.snap-drop__hint {
+  font-family: var(--font-mono);
+  font-size: var(--fs-label);
+  letter-spacing: var(--track-label);
+  color: var(--muted);
+}
+
+.snap-privacy,
+.snap-note,
+.snap-photo__note {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+}
+
+.snap-privacy svg,
+.snap-note svg,
+.snap-photo__note svg {
+  flex: none;
+  margin-top: 1px;
+}
+
+.snap-photo {
+  display: grid;
+  gap: 10px;
+  margin: 28px 0 0;
+}
+
+.snap-photo img {
+  display: block;
+  width: 100%;
+  max-height: min(52dvh, 520px);
+  object-fit: contain;
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--radius-media);
+  background: var(--surface);
+}
+
+.snap-photo__note {
+  color: var(--ink);
+}
+
+.snap-photo__again {
+  justify-self: start;
+  padding: 0 8px;
+  margin-left: -8px;
+}
+
+.snap-error {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  padding: 10px 12px;
+  border: 1px solid #f3c7c2;
+  border-radius: var(--radius-card);
+  background: #fff5f4;
+  color: #a2271c;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+}
+
+.snap-error svg {
+  flex: none;
+}
+
+/* ---------- Restaurant ---------- */
+
+.snap-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 52px;
+  margin-top: 28px;
+  padding: 0 16px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-card);
+  background: var(--canvas);
+  color: var(--ink);
+  transition: border-color var(--dur-state) var(--ease-out);
+}
+
+.snap-search:focus-within {
+  border-color: var(--ink);
+}
+
+.snap-search input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  outline: none;
+}
+
+.snap-options {
+  margin-top: 12px;
+}
+
+.snap-options--solo {
+  margin-top: 32px;
+}
+
+.snap-options .option__text {
+  min-width: 0;
+}
+
+.snap-options .option__hint {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.snap-sk {
+  height: 64px;
+  border-radius: var(--radius-card);
+}
+
+.snap-empty {
+  padding: 8px 4px;
+  font-size: 14px;
+}
+
+.snap-other {
+  justify-self: start;
+}
+
+.snap-new {
+  display: grid;
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.snap-field {
+  display: grid;
+  gap: 6px;
+}
+
+.snap-field input {
+  width: 100%;
+  height: 48px;
+  padding: 0 14px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-card);
+  background: var(--canvas);
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  outline: none;
+  transition: border-color var(--dur-state) var(--ease-out);
+}
+
+.snap-field input:focus {
+  border-color: var(--ink);
+}
+
+.snap-map-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  line-height: 1.35;
+}
+
+.snap-map-row .btn {
+  flex: none;
+  padding: 0 14px;
+}
+
+.snap-note {
+  color: var(--muted);
+}
+
+.snap-small {
+  font-size: 13px;
+  letter-spacing: -0.02em;
+}
+
+.pin-map {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-card);
+  background: #f2f0eb;
+}
+
+.pin-map--loading {
+  animation: shimmer 1.4s linear infinite;
+}
+
+/* Doubled selector: maplibre-gl.css sets .maplibregl-map { position: relative } on the canvas container. */
+.pin-map > .pin-map__canvas {
+  position: absolute;
+  inset: 0;
+}
+
+.pin-map__pin {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /* The pin's tip, not its middle, marks the centre. */
+  transform: translate(-50%, -92%);
+  color: var(--ink);
+  pointer-events: none;
+  filter: drop-shadow(0 2px 3px rgb(0 0 0 / 0.25));
+}
+
+.pin-map__pin svg {
+  fill: var(--canvas);
+}
+
+/* ---------- Send ---------- */
+
+.snap-summary {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 28px;
+  padding: 12px;
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+}
+
+.snap-summary__thumb {
+  width: 64px;
+  height: 64px;
+  flex: none;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.snap-summary__text {
+  display: grid;
+  min-width: 0;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+}
+
+.snap-summary__text > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.snap-summary__title {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+}
+
+.snap-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 16px;
+  padding: 14px 12px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-card);
+  font-size: 15px;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.snap-consent input {
+  width: 20px;
+  height: 20px;
+  flex: none;
+  margin: 0;
+  accent-color: var(--cta);
+}
+
+.snap-turnstile {
+  margin-top: 16px;
+  min-height: 0;
+}
+
+/* ---------- Status ---------- */
+
+.snap-status-wrap {
+  display: grid;
+  gap: 24px;
+}
+
+.snap-thanks {
+  display: grid;
+  justify-items: start;
+  gap: 4px;
+}
+
+.snap-thanks__num {
+  font-family: var(--font-serif);
+  font-size: 96px;
+  line-height: 1;
+  letter-spacing: var(--track-display);
+  font-variant-numeric: tabular-nums;
+}
+
+.snap-thanks__label {
+  font-family: var(--font-serif);
+  font-size: var(--fs-feature);
+  line-height: 1.15;
+  letter-spacing: var(--track-display);
+  max-width: 14em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .snap-thanks__num,
+  .snap-thanks__label,
+  .snap-status {
+    animation: fade-up var(--dur-step) var(--ease-spring) both;
+  }
+
+  .snap-thanks__label {
+    animation-delay: 80ms;
+  }
+
+  .snap-status {
+    animation-delay: 160ms;
+  }
+}
+
+.snap-status {
+  display: grid;
+  gap: 8px;
+  padding: 20px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+}
+
+.snap-status__state {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+}
+
+.snap-status__title {
+  font-size: var(--fs-card);
+  font-weight: 500;
+  letter-spacing: var(--track-card);
+  line-height: 1.3;
+}
+
+.snap-status__dot,
+.snap-status__pulse {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--muted);
+}
+
+.snap-status--online .snap-status__state {
+  color: #1d7a46;
+}
+
+.snap-status--online .snap-status__dot {
+  background: #1d7a46;
+}
+
+.snap-status--rejected .snap-status__state {
+  color: #a2271c;
+}
+
+.snap-status--rejected .snap-status__dot {
+  background: #a2271c;
+}
+
+.snap-status__pulse {
+  background: var(--art-1);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .snap-status__pulse {
+    animation: snap-pulse 1.6s var(--ease-out) infinite;
+  }
+}
+
+@keyframes snap-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgb(53 94 218 / 0.45);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgb(53 94 218 / 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgb(53 94 218 / 0);
+  }
+}
+
+.snap-status__refresh {
+  justify-self: start;
+  margin-top: 4px;
+}

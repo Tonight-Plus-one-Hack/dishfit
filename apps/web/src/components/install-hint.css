@@ -1,0 +1,86 @@
+/* "Zum Home-Bildschirm" sheet; shares the bottom sheet frame of the share sheet (share.css). */
+.install-hint .brand-mark {
+  display: inline-grid;
+  flex: none;
+  place-items: center;
+  border-radius: 14px;
+  background: var(--brand-grad);
+  color: #fff;
+  box-shadow: 0 4px 12px rgb(75 95 224 / 0.28);
+}
+
+.install-hint .share__panel {
+  max-width: 420px;
+}
+
+.install-hint__head {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 8px 0 4px;
+}
+
+.install-hint__title {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: var(--track-card);
+  line-height: 1.25;
+}
+
+.install-hint__lede {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: var(--fs-body);
+}
+
+.install-hint__steps {
+  display: grid;
+  gap: 8px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.install-hint__steps li {
+  display: grid;
+  grid-template-columns: 28px 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: var(--soft-card);
+  box-shadow: var(--soft-card-shadow);
+  font-size: var(--fs-body);
+}
+
+.install-hint__num {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--hover);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.install-hint__glyph {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.install-hint__actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.install-hint__actions .btn {
+  flex: 1;
+}

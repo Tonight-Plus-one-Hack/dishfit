@@ -1,0 +1,300 @@
+/* Dish card: soft white card, image left, health ring top right, macro row, restaurant chip and Route. */
+
+.dtile {
+  position: relative;
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+  border-radius: var(--soft-radius);
+  background: var(--soft-card);
+  box-shadow: var(--soft-card-shadow);
+  transition: box-shadow var(--dur-state) var(--ease-out), transform var(--dur-state) var(--ease-out);
+}
+
+@media (hover: hover) {
+  .dtile:hover {
+    box-shadow: 0 1px 2px rgb(20 22 60 / 0.05), 0 12px 32px rgb(20 22 60 / 0.1);
+  }
+}
+
+.dtile__top {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 14px;
+}
+
+.dtile__media {
+  position: relative;
+}
+
+.dtile__thumb {
+  width: 92px;
+  height: 92px;
+  border-radius: 16px;
+}
+
+.dtile--cover .dtile__top {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.dtile__cover {
+  --media-h: 136px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 16px;
+  pointer-events: none;
+}
+
+.dtile__cover .dtile__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+.dtile__brand {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.dtile__brand img {
+  flex: none;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.dtile__brand span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dtile__rank {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  display: grid;
+  place-items: center;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: var(--brand-grad);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgb(75 95 224 / 0.3);
+}
+
+.dtile__rank--inline {
+  position: static;
+  display: inline-grid;
+  margin-inline-end: 7px;
+  vertical-align: 1px;
+}
+
+.dtile__body {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.dtile__name {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}
+
+/* The whole card opens the dish; the footer links sit above this layer. */
+.dtile__link::after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  border-radius: var(--soft-radius);
+}
+
+.dtile__link:focus-visible {
+  outline: none;
+}
+
+.dtile__link:focus-visible::after {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.dtile__desc {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 13.5px;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.dtile__price {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.macro-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 0;
+  padding: 10px 0;
+  border-block: 1px solid var(--rule-soft);
+}
+
+.macro-row__cell {
+  display: grid;
+  gap: 2px;
+  padding: 0 10px;
+}
+
+.macro-row__cell + .macro-row__cell {
+  border-left: 1px solid var(--rule-soft);
+}
+
+.macro-row__cell:first-child {
+  padding-left: 0;
+}
+
+.macro-row dt {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  order: 2;
+  font-size: 11.5px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.macro-row dd {
+  order: 1;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.macro-row dd small {
+  margin-left: 1px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.dtile__source {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: -4px;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.dtile__foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.place-chip,
+.btn-brand {
+  position: relative;
+  z-index: 1;
+}
+
+.place-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  padding: 4px 10px 4px 4px;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--rule-soft);
+  transition: background-color var(--dur-state) var(--ease-out);
+}
+
+@media (hover: hover) {
+  .place-chip:hover {
+    background: var(--hover);
+  }
+}
+
+.place-chip__avatar {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgb(20 22 60 / 0.12);
+}
+
+.place-chip__text {
+  display: grid;
+  min-width: 0;
+  line-height: 1.2;
+}
+
+.place-chip__name {
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.place-chip__where {
+  overflow: hidden;
+  font-size: 11.5px;
+  color: var(--muted);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Primary action in the brand's purple-blue (Cal AI uses black here). */
+.btn-brand {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 44px;
+  padding: 0 20px;
+  border-radius: 999px;
+  background: var(--brand-grad);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  box-shadow: 0 6px 16px rgb(75 95 224 / 0.28);
+  transition: transform var(--dur-state) var(--ease-out), box-shadow var(--dur-state) var(--ease-out);
+}
+
+.btn-brand:active {
+  transform: scale(0.97);
+}
+
+@media (hover: hover) {
+  .btn-brand:hover {
+    box-shadow: 0 8px 22px rgb(75 95 224 / 0.38);
+  }
+}

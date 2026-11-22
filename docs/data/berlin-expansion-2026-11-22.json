@@ -1,0 +1,1759 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-22T12:06:27.810895+00:00",
+  "title": "Berlin restaurant catalogue expansion",
+  "status": "prepared_repository_data_not_production_deployment",
+  "sourceRevision": {
+    "originalSnapshotCommit": "b1b3a474fe80b46880c1b5c53581b795f9479fc4",
+    "baselineCapturedAt": "2026-11-22T10:37:42.962564+00:00",
+    "pullRequestBaseCommit": "370e09a99de413eba5a5db9cd342155b8c297a6b",
+    "latestCheckedCommit": "370e09a99de413eba5a5db9cd342155b8c297a6b",
+    "verifiedAt": "2026-11-22T11:47:30.116330+00:00",
+    "criticalFilesCompared": 119,
+    "criticalFilesChanged": 0
+  },
+  "counts": {
+    "previousRestaurants": 385,
+    "currentRestaurants": 396,
+    "addedRestaurants": 11,
+    "addedDishes": 832,
+    "addedHealthyDishes": 385,
+    "eligibleCurrentRestaurants": 395
+  },
+  "scope": {
+    "productionDatabaseWritten": false,
+    "productionDeploymentPerformed": false,
+    "imageBinariesAdded": 0,
+    "socialPostsPublished": false,
+    "nutrition": "AI estimates with ranges and confidence unless a source explicitly prints official values. Automated checks and source sampling are not human nutrition approval.",
+    "menuCoverage": "Coverage is partial where explicitly marked; completeness of any entire restaurant menu is not claimed. Quality exclusions remain omitted.",
+    "googleData": "Only place IDs are supplied for the existing photo feature. Google rating, photo bytes, photo references and reviews are not included in this report."
+  },
+  "restaurants": [
+    {
+      "id": "osm-node-1259423611",
+      "osmId": "node/1259423611",
+      "name": "Achilles Taverna",
+      "kiez": "friedenau",
+      "placeId": "ChIJ89t3h31QqEcRXpGRPUGOmrQ",
+      "website": "https://www.achilles-taverna.de/",
+      "menuSources": [
+        "https://www.achilles-taverna.de/speisekarte/achilles-taverna-speisekarte.pdf"
+      ],
+      "menuFetchedAt": "2026-11-22T11:25:45.998Z",
+      "exportedDishes": 87,
+      "healthyDishes": 31,
+      "dishesWithoutPrice": 0,
+      "nutritionSources": {
+        "ai": 87
+      },
+      "coverage": {
+        "status": "extracted_menu_with_quality_exclusions",
+        "completeMenuClaimed": false,
+        "extractedItemCount": 128,
+        "workingItemsHidden": 41,
+        "sourceNotes": "The menu is marked May 2026 and gives no expiry date. Greek subtitles appear alongside the German section headings. No nutrition values are printed. The unpriced side choices are listed as accompaniments, not as separately priced orders. Repeated garlic-bread listings are merged."
+      },
+      "automatedChecks": {
+        "pipelineStatus": "checked",
+        "verdict": "ok",
+        "confidence": "medium",
+        "note": "Keep the menu and spot-check portion assumptions for Fileto Gurunaki and Kynigos, both estimated above 1,500 kcal."
+      },
+      "humanNutritionApprovalClaimed": false,
+      "baseProvenance": {
+        "restaurantIdentity": "OpenStreetMap",
+        "osmSource": "https://www.openstreetmap.org/node/1259423611",
+        "websiteSource": "osm",
+        "websiteEvidence": [
+          "https://www.openstreetmap.org/node/1259423611"
+        ],
+        "addressEnrichment": []
+      },
+      "photos": {
+        "placeIdProvidedForExistingFeature": true,
+        "availabilityVerified": false,
+        "metadataCheckResult": "HTTP 403",
+        "imageBinaryAdded": false
+      }
+    },
+    {
+      "id": "osm-node-3354050331",
+      "osmId": "node/3354050331",
+      "name": "Yak & Yeti",
+      "kiez": "friedenau",
+      "placeId": "ChIJhYC9OH1QqEcRYbM4rLQprbY",
+      "website": "https://restaurant-yakundyeti.de/",
+      "menuSources": [
+        "https://restaurant-yakundyeti.de/wp-content/uploads/2025/10/YakugndYeti_Speisekarte_web.pdf"
+      ],
+      "menuFetchedAt": "2026-11-22T11:27:44.434Z",
+      "exportedDishes": 68,
+      "healthyDishes": 20,
+      "dishesWithoutPrice": 0,
+      "nutritionSources": {
+        "ai": 68
+      },
+      "coverage": {
+        "status": "extracted_menu_with_quality_exclusions",
+        "completeMenuClaimed": false,
+        "extractedItemCount": 75,
+        "workingItemsHidden": 5,
+        "sourceNotes": "Descriptions follow the primary German text, including applicable section-wide details. The English text also lists bread with Jhinga Machha and says “rice and bread” for the children’s dishes, where the German text says “Reis oder Brot.” No nutrition values are printed. Prices include VAT and service. The menu states that dishes can be ordered mild, spicy or extra spicy."
+      },
+      "automatedChecks": {
+        "pipelineStatus": "checked",
+        "verdict": "ok",
+        "confidence": "medium",
+        "note": "Keep the menu and spot-check serving sizes for Papadam and Chapati, where the second estimate disagreed."
+      },
+      "humanNutritionApprovalClaimed": false,
+      "baseProvenance": {
+        "restaurantIdentity": "OpenStreetMap",
+        "osmSource": "https://www.openstreetmap.org/node/3354050331",
+        "websiteSource": "osm",
+        "websiteEvidence": [
+          "https://www.openstreetmap.org/node/3354050331"
+        ],
+        "addressEnrichment": []
+      },
+      "photos": {
+        "placeIdProvidedForExistingFeature": true,
+        "availabilityVerified": false,
+        "metadataCheckResult": "HTTP 403",
+        "imageBinaryAdded": false
+      }
+    },
+    {
+      "id": "osm-node-4095732755",
+      "osmId": "node/4095732755",
+      "name": "Nguyen Kitchen",
+      "kiez": "gesundbrunnen",
+      "placeId": "ChIJG6-86vZRqEcRUXObQWX4qig",
+      "website": "https://www.nguyenkitchen.info/",
+      "menuSources": [
+        "https://www.nguyenkitchen.info/WP/wp-content/uploads/2025/06/speisekarte_nguyenkitchen2025.pdf"
+      ],
+      "menuFetchedAt": "2026-11-22T11:47:13.746Z",
+      "exportedDishes": 20,
+      "healthyDishes": 13,
+      "dishesWithoutPrice": 0,
+      "nutritionSources": {
+        "ai": 20
+      },
+      "coverage": {
+        "status": "explicitly_partial",
+        "completeMenuClaimed": false,
+        "extractedItemCount": 20,
+        "workingItemsHidden": 0,
+        "sourceNotes": "Bounded subset, not an exhaustive menu. All 20 dishes in the supplied partial transcription are included. They appear on PDF pages 6, 7, and 10 of Document 1. No nutrition values are printed."
+      },
+      "automatedChecks": {
+        "pipelineStatus": "checked",
+        "verdict": "ok",
+        "confidence": "medium",
+        "note": "Use the 20 priced dishes as a partial menu and label the unflagged nutrition values as estimates."
+      },
+      "humanNutritionApprovalClaimed": false,
+      "baseProvenance": {
+        "restaurantIdentity": "OpenStreetMap",
+        "osmSource": "https://www.openstreetmap.org/node/4095732755",
+        "websiteSource": "osm",
+        "websiteEvidence": [
+          "https://www.openstreetmap.org/node/4095732755"
+        ],
+        "addressEnrichment": []
+      },
+      "photos": {
+        "placeIdProvidedForExistingFeature": true,
+        "availabilityVerified": false,
+        "metadataCheckResult": "HTTP 403",
+        "imageBinaryAdded": false
+      }
+    },
+    {
+      "id": "osm-node-3803453107",
+      "osmId": "node/3803453107",
+      "name": "Hippocrates",
+      "kiez": "koepenick",
+      "placeId": "ChIJgVoE5EJIqEcRQ3snvA7ji9c",
+      "website": "https://www.hippokrates-koepenick.de",
+      "menuSources": [
+        "https://hippokrates.berlin/speisen/"
+      ],
+      "menuFetchedAt": "2026-11-22T10:34:35.026Z",
+      "exportedDishes": 75,
+      "healthyDishes": 38,
+      "dishesWithoutPrice": 1,
+      "nutritionSources": {
+        "ai": 75
+      },
+      "coverage": {
+        "status": "extracted_menu_with_quality_exclusions",
+        "completeMenuClaimed": false,
+        "extractedItemCount": 152,
+        "workingItemsHidden": 76,
+        "sourceNotes": "All dishes are from Document 2. No nutrition values are printed. Tageskuchen is available on request without a listed price."
+      },
+      "automatedChecks": {
+        "pipelineStatus": "checked",
+        "verdict": "ok",
+        "confidence": "medium",
+        "note": "At the next routine spot-check, confirm whether the two differently priced Knoblauchbrot entries are distinct dishes."
+      },
+      "humanNutritionApprovalClaimed": false,
+      "baseProvenance": {
+        "restaurantIdentity": "OpenStreetMap",
+        "osmSource": "https://www.openstreetmap.org/node/3803453107",
+        "websiteSource": "osm",
+        "websiteEvidence": [
+          "https://www.openstreetmap.org/node/3803453107"
+        ],
+        "addressEnrichment": []
+      },
+      "photos": {
+        "placeIdProvidedForExistingFeature": true,
+        "availabilityVerified": false,
+        "metadataCheckResult": "HTTP 403",
+        "imageBinaryAdded": false
+      }
+    },
+    {
+      "id": "osm-node-1331758242",
+      "osmId": "node/1331758242",
+      "name": "Wohin",
+      "kiez": "koepenick",
+      "placeId": "ChIJj5CbmYBJqEcRqWgFV4BtxcQ",
+      "website": "https://wohin.eatbu.com",
+      "menuSources": [
+        "https://cdn.website.dish.co/media/a7/f4/8273427/Speisekarte.pdf"
+      ],
+      "menuFetchedAt": "2026-11-22T10:35:10.877Z",
+      "exportedDishes": 146,
+      "healthyDishes": 67,
+      "dishesWithoutPrice": 0,
+      "nutritionSources": {
+        "ai": 146
+      },
+      "coverage": {
+        "status": "extracted_menu_with_quality_exclusions",
+        "completeMenuClaimed": false,
+        "extractedItemCount": 163,
+        "workingItemsHidden": 10,
+        "sourceNotes": "Beverages are excluded. Separately priced variants are listed individually; options sharing one printed price are kept together. No calories or macronutrients are printed."
+      },
+      "automatedChecks": {
+        "pipelineStatus": "checked",
+        "verdict": "needs_review",
+        "confidence": "medium",
+        "note": "Check the wakame salad portion because the two models disagreed, and verify the flagged side-dish prices against the PDF."
+      },
+      "humanNutritionApprovalClaimed": false,
+      "baseProvenance": {
+        "restaurantIdentity": "OpenStreetMap",
+        "osmSource": "https://www.openstreetmap.org/node/1331758242",
+        "websiteSource": "osm",
+        "websiteEvidence": [
+          "https://www.openstreetmap.org/node/1331758242"
+        ],
+        "addressEnrichment": []
+      },
+      "photos": {
+        "placeIdProvidedForExistingFeature": true,
+        "availabilityVerified": false,
+        "metadataCheckResult": "HTTP 403",
+        "imageBinaryAdded": false
+      }
+    },
+    {
+      "id": "osm-node-428114282",
+      "osmId": "node/428114282",
+      "name": "Lakshmi",
+      "kiez": "lichterfelde",
+      "placeId": "ChIJd3eZ9GJbqEcRm8FqHqs5e34",
+      "website": "https://lakshmi-restaurant-berlin.de",
+      "menuSources": [
+        "https://lakshmi-restaurant-berlin.de/our-menus/"
+      ],
+      "menuFetchedAt": "2026-11-22T11:50:48.927Z",
+      "exportedDishes": 50,
+      "healthyDishes": 32,
+      "dishesWithoutPrice": 0,
+      "nutritionSources": {
+        "ai": 50
+      },
+      "coverage": {
+        "status": "explicitly_partial",
+        "completeMenuClaimed": false,
+        "extractedItemCount": 60,
+        "workingItemsHidden": 10,
+        "sourceNotes": "This is a bounded subset, not an exhaustive menu. It prioritizes soups and fully specified main dishes. No per-serving nutrition figures were printed."
+      },
+      "automatedChecks": {
+        "pipelineStatus": "checked",
+        "verdict": "needs_review",
+        "confidence": "medium",
+        "note": "Check portion assumptions for the two low-calorie soups where the models disagreed, and verify whether sides are included in the four high-protein mains."
+      },
+      "humanNutritionApprovalClaimed": false,
+      "baseProvenance": {
+        "restaurantIdentity": "OpenStreetMap",
+        "osmSource": "https://www.openstreetmap.org/node/428114282",
+        "websiteSource": "osm",
+        "websiteEvidence": [
+          "https://www.openstreetmap.org/node/428114282"
+        ],
+        "addressEnrichment": []
+      },
+      "photos": {
+        "placeIdProvidedForExistingFeature": true,
+        "availabilityVerified": false,
+        "metadataCheckResult": "HTTP 403",
+        "imageBinaryAdded": false
+      }
+    },
+    {
+      "id": "osm-node-2674876174",
+      "osmId": "node/2674876174",
+      "name": "Villa Christina",
+      "kiez": "mariendorf",
+      "placeId": "ChIJmTv850ZFqEcRklSGHHmqRa4",
+      "website": "https://www.villa-christina-berlin.de/",
+      "menuSources": [
+        "https://www.villa-christina-berlin.de/"
+      ],
+      "menuFetchedAt": "2026-11-22T10:48:01.052Z",
+      "exportedDishes": 94,
+      "healthyDishes": 44,
+      "dishesWithoutPrice": 0,
+      "nutritionSources": {
+        "ai": 94
+      },
+      "coverage": {
+        "status": "extracted_menu_with_quality_exclusions",
+        "completeMenuClaimed": false,
+        "extractedItemCount": 193,
+        "workingItemsHidden": 99,
+        "sourceNotes": "The menu is primarily German, with Greek section subtitles and dish names. Prices are for dine-in or pickup; the PDF also gives delivery tariffs for the same dishes. The website and PDF repeat the food listings, so the website is cited as the source. No per-serving nutrition is printed. Breakfast hours are shown, but no breakfast dishes are listed."
+      },
+      "automatedChecks": {
+        "pipelineStatus": "checked",
+        "verdict": "needs_review",
+        "confidence": "medium",
+        "note": "Check whether the whole cake is correctly marked as multi-serving, and verify the portion and protein estimate for Souvlakia Kotopoulo Tria."
+      },
+      "humanNutritionApprovalClaimed": false,
+      "baseProvenance": {
+        "restaurantIdentity": "OpenStreetMap",
+        "osmSource": "https://www.openstreetmap.org/node/2674876174",
+        "websiteSource": "osm",
+        "websiteEvidence": [
+          "https://www.openstreetmap.org/node/2674876174"
+        ],
+        "addressEnrichment": [
+          {
+            "field": "street",
+            "provenance": "first_party_website",
+            "evidenceUrls": [
+              "https://www.villa-christina-berlin.de/"
+            ]
+          },
+          {
+            "field": "housenumber",
+            "provenance": "first_party_website",
+            "evidenceUrls": [
+              "https://www.villa-christina-berlin.de/"
+            ]
+          },
+          {
+            "field": "postcode",
+            "provenance": "first_party_website",
+            "evidenceUrls": [
+              "https://www.villa-christina-berlin.de/"
+            ]
+          }
+        ]
+      },
+      "photos": {
+        "placeIdProvidedForExistingFeature": true,
+        "availabilityVerified": false,
+        "metadataCheckResult": "HTTP 403",
+        "imageBinaryAdded": false
+      }
+    },
+    {
+      "id": "osm-node-1869988127",
+      "osmId": "node/1869988127",
+      "name": "Agni",
+      "kiez": "moabit",
+      "placeId": "ChIJ9fc8fxFRqEcRMwkzsTU2yRU",
+      "website": "http://www.restaurant-agni.de/",
+      "menuSources": [
+        "https://restaurant-agni.de/pdf/menu_moa.pdf"
+      ],
+      "menuFetchedAt": "2026-11-22T11:56:03.146Z",
+      "exportedDishes": 51,
+      "healthyDishes": 23,
+      "dishesWithoutPrice": 0,
+      "nutritionSources": {
+        "ai": 51
+      },
+      "coverage": {
+        "status": "explicitly_partial",
+        "completeMenuClaimed": false,
+        "extractedItemCount": 59,
+        "workingItemsHidden": 8,
+        "sourceNotes": "This is a bounded subset, not an exhaustive menu. Beverages, standalone sauces, condiment extras, and dishes or variants with unresolved components were omitted. The PDF does not print calories or macronutrients."
+      },
+      "automatedChecks": {
+        "pipelineStatus": "checked",
+        "verdict": "needs_review",
+        "confidence": "medium",
+        "note": "Check the assumed Papadam serving size and reconcile the eight reported flags with the six dishes shown before publishing."
+      },
+      "humanNutritionApprovalClaimed": false,
+      "baseProvenance": {
+        "restaurantIdentity": "OpenStreetMap",
+        "osmSource": "https://www.openstreetmap.org/node/1869988127",
+        "websiteSource": "osm",
+        "websiteEvidence": [
+          "https://www.openstreetmap.org/node/1869988127"
+        ],
+        "addressEnrichment": []
+      },
+      "photos": {
+        "placeIdProvidedForExistingFeature": true,
+        "availabilityVerified": false,
+        "metadataCheckResult": "HTTP 403",
+        "imageBinaryAdded": false
+      }
+    },
+    {
+      "id": "osm-node-319099110",
+      "osmId": "node/319099110",
+      "name": "Ristorante Avellino",
+      "kiez": "pankow",
+      "placeId": "ChIJBw4qwNlTqEcRtp1G0nOu-1o",
+      "website": "https://ristorante-avellino.de",
+      "menuSources": [
+        "https://ristorante-avellino.de/ristorante-avellino-speisekarte.pdf"
+      ],
+      "menuFetchedAt": "2026-11-22T10:57:41.472Z",
+      "exportedDishes": 59,
+      "healthyDishes": 29,
+      "dishesWithoutPrice": 0,
+      "nutritionSources": {
+        "ai": 59
+      },
+      "coverage": {
+        "status": "extracted_menu_with_quality_exclusions",
+        "completeMenuClaimed": false,
+        "extractedItemCount": 60,
+        "workingItemsHidden": 1,
+        "sourceNotes": "Beverages are excluded. No nutrition values are printed. The menu states that all pizzas are topped with tomatoes and mozzarella; extra toppings are available for a surcharge, with no individual prices listed. Meat dishes are served with rosemary potatoes and fresh vegetables, and fish dishes with rosemary potatoes and spinach."
+      },
+      "automatedChecks": {
+        "pipelineStatus": "checked",
+        "verdict": "needs_review",
+        "confidence": "high",
+        "note": "Check whether Rotweinsauce is a standalone menu item or an add-on, and verify its 65 kcal estimate because the second model disagreed."
+      },
+      "humanNutritionApprovalClaimed": false,
+      "baseProvenance": {
+        "restaurantIdentity": "OpenStreetMap",
+        "osmSource": "https://www.openstreetmap.org/node/319099110",
+        "websiteSource": "osm",
+        "websiteEvidence": [
+          "https://www.openstreetmap.org/node/319099110"
+        ],
+        "addressEnrichment": []
+      },
+      "photos": {
+        "placeIdProvidedForExistingFeature": true,
+        "availabilityVerified": false,
+        "metadataCheckResult": "HTTP 403",
+        "imageBinaryAdded": false
+      }
+    },
+    {
+      "id": "osm-node-778710973",
+      "osmId": "node/778710973",
+      "name": "Habba Habba",
+      "kiez": "prenzlauer-berg",
+      "placeId": "ChIJ-fAHwv5RqEcRC-KspHsIsi8",
+      "website": "https://www.habba-habba.de/",
+      "menuSources": [
+        "https://www.habba-habba.de/"
+      ],
+      "menuFetchedAt": "2026-11-22T12:00:11.221Z",
+      "exportedDishes": 28,
+      "healthyDishes": 15,
+      "dishesWithoutPrice": 0,
+      "nutritionSources": {
+        "ai": 28
+      },
+      "coverage": {
+        "status": "extracted_menu_with_quality_exclusions",
+        "completeMenuClaimed": false,
+        "extractedItemCount": 32,
+        "workingItemsHidden": 0,
+        "sourceNotes": "Begrenzte Auswahl, keine vollständige Speisekarte. Kombi-Wraps ohne vollständige Zutatenangaben sowie Extras, Zusätze und Getränke sind nicht enthalten. Nährwerte sind nicht angegeben."
+      },
+      "automatedChecks": {
+        "pipelineStatus": "checked",
+        "verdict": "ok",
+        "confidence": "medium",
+        "note": "Als Teilauswahl mit geschätzten Nährwerten veröffentlichen; die Werte sind plausibel und es gibt keine Ausreißerflags."
+      },
+      "humanNutritionApprovalClaimed": false,
+      "baseProvenance": {
+        "restaurantIdentity": "OpenStreetMap",
+        "osmSource": "https://www.openstreetmap.org/node/778710973",
+        "websiteSource": "osm",
+        "websiteEvidence": [
+          "https://www.openstreetmap.org/node/778710973"
+        ],
+        "addressEnrichment": []
+      },
+      "photos": {
+        "placeIdProvidedForExistingFeature": true,
+        "availabilityVerified": false,
+        "metadataCheckResult": "HTTP 403",
+        "imageBinaryAdded": false
+      }
+    },
+    {
+      "id": "osm-node-13817894985",
+      "osmId": "node/13817894985",
+      "name": "Du-Co-Sushi",
+      "kiez": "tegel",
+      "placeId": "ChIJ2QQ8JENUqEcR1iF0r2IgEPs",
+      "website": "https://www.ducorestaurant.de/",
+      "menuSources": [
+        "https://www.ducorestaurant.de/menue"
+      ],
+      "menuFetchedAt": "2026-11-22T11:04:51.877Z",
+      "exportedDishes": 154,
+      "healthyDishes": 73,
+      "dishesWithoutPrice": 0,
+      "nutritionSources": {
+        "ai": 154
+      },
+      "coverage": {
+        "status": "extracted_menu_with_quality_exclusions",
+        "completeMenuClaimed": false,
+        "extractedItemCount": 193,
+        "workingItemsHidden": 32,
+        "sourceNotes": "Getränke wurden ausgelassen. Bei „Ab:“ ist der gedruckte Einstiegspreis erfasst. Für die 4- und 8-Stück-Varianten der Spezialrollen S12–S15 steht nur ein gemeinsamer Einstiegspreis von 8,00 EUR auf der Karte; er ist bei der kleineren Variante erfasst, der Preis der größeren Variante ist nicht angegeben. Für paniertes Maki nennt die Karte einen allgemeinen Aufpreis von 2,00 EUR, aber keine separat ausgewiesenen Endpreise. Widersprüche zwischen Namen und Beschreibungen wurden aus der Vorlage übernommen. Nährwerte sind nicht angegeben."
+      },
+      "automatedChecks": {
+        "pipelineStatus": "checked",
+        "verdict": "needs_review",
+        "confidence": "medium",
+        "note": "Prüfe die Portionsannahmen für Edamame und Misosuppe, da die beiden Modelle bei diesen Gerichten voneinander abweichen."
+      },
+      "humanNutritionApprovalClaimed": false,
+      "baseProvenance": {
+        "restaurantIdentity": "OpenStreetMap",
+        "osmSource": "https://www.openstreetmap.org/node/13817894985",
+        "websiteSource": "osm",
+        "websiteEvidence": [
+          "https://www.openstreetmap.org/node/13817894985"
+        ],
+        "addressEnrichment": []
+      },
+      "photos": {
+        "placeIdProvidedForExistingFeature": true,
+        "availabilityVerified": false,
+        "metadataCheckResult": "HTTP 403",
+        "imageBinaryAdded": false
+      }
+    }
+  ],
+  "quality": {
+    "exclusionGroups": [
+      {
+        "restaurantId": "osm-node-3803453107",
+        "reason": "Weekday restrictions missing: Monday fish gyros; Tuesday gyros except holidays; Thursday schnitzel. Exclude all ten until availability context is restored.",
+        "source": "https://hippokrates.berlin/speisen/",
+        "recordedAuditStatus": "unspecified",
+        "affectedDishCount": 10,
+        "currentlyHiddenInQueue": 10,
+        "retainedInExport": 0,
+        "absentFromExport": 10,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_1a4c094246bcb91c",
+          "d_9e07e3766c9f56d9",
+          "d_6936357b22657393",
+          "d_d7efc7acab11582d",
+          "d_2f4f2ec4efda1441",
+          "d_80da50509fc22c78",
+          "d_61c8630add419c8f",
+          "d_c082f054383b5499",
+          "d_8988c4fed27acd8d",
+          "d_a73b08d0590ad89b"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-1331758242",
+        "reason": "Shared bowl ingredients and sauces omitted from extracted descriptions; current nutrition substitutes unsupported dressings. Exclude all six pending corrected context and recalculation.",
+        "source": "https://cdn.website.dish.co/media/a7/f4/8273427/Speisekarte.pdf#page=3",
+        "recordedAuditStatus": "resolved_source_context_and_nutrition_recalculated",
+        "affectedDishCount": 6,
+        "currentlyHiddenInQueue": 0,
+        "retainedInExport": 6,
+        "absentFromExport": 0,
+        "disposition": "retained_after_current_processing",
+        "excludedDishIds": []
+      },
+      {
+        "restaurantId": "osm-node-3803453107",
+        "reason": "Two-person platter; ambiguous serving basis and unspecified meat composition. Exclude pending serving-aware review.",
+        "source": "https://hippokrates.berlin/speisen/",
+        "recordedAuditStatus": "unspecified",
+        "affectedDishCount": 1,
+        "currentlyHiddenInQueue": 1,
+        "retainedInExport": 0,
+        "absentFromExport": 1,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_f1af14754d7ad4c3"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-1331758242",
+        "reason": "Shared tapas/menu serves2or3 people; exclude pending serving-aware review. Tapas composition is unspecified.",
+        "source": "https://cdn.website.dish.co/media/a7/f4/8273427/Speisekarte.pdf",
+        "recordedAuditStatus": "unspecified",
+        "affectedDishCount": 3,
+        "currentlyHiddenInQueue": 3,
+        "retainedInExport": 0,
+        "absentFromExport": 3,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_f45455a0b4f73a71",
+          "d_c668bb77c54bb85d",
+          "d_b76bf515b448f257"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-1331758242",
+        "reason": "Alternative protein choices combined in dish label, while nutrition selects one. Exclude until chosen variant is explicit.",
+        "source": "https://cdn.website.dish.co/media/a7/f4/8273427/Speisekarte.pdf#page=3",
+        "recordedAuditStatus": "unspecified",
+        "affectedDishCount": 3,
+        "currentlyHiddenInQueue": 3,
+        "retainedInExport": 0,
+        "absentFromExport": 3,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_305794bc0cd16e91",
+          "d_493e19baf818d2e3",
+          "d_df683ee365b2ee2c"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-2674876174",
+        "reason": "Five two-person platters: exclude pending serving-aware review; whole-platter nutrition must not be compared as one meal.",
+        "source": "https://www.villa-christina-berlin.de/",
+        "recordedAuditStatus": "unspecified",
+        "affectedDishCount": 5,
+        "currentlyHiddenInQueue": 5,
+        "retainedInExport": 0,
+        "absentFromExport": 5,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_ef359dfcd921a64c",
+          "d_142621e94717818f",
+          "d_a89cefd2e608b2ed",
+          "d_f612e34dbd25d29c",
+          "d_a728fd8a86927a28"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-2674876174",
+        "reason": "Chicken bifteki offers five alternative sauces without selecting one; exclude until variant is explicit.",
+        "source": "https://www.villa-christina-berlin.de/",
+        "recordedAuditStatus": "unspecified",
+        "affectedDishCount": 1,
+        "currentlyHiddenInQueue": 1,
+        "retainedInExport": 0,
+        "absentFromExport": 1,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_d87ce3fbf30c0ac4"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-2674876174",
+        "reason": "Single-person mixed starters do not specify components; exclude pending ingredient confirmation rather than invent assortment contents.",
+        "source": "https://www.villa-christina-berlin.de/",
+        "recordedAuditStatus": "unspecified",
+        "affectedDishCount": 2,
+        "currentlyHiddenInQueue": 2,
+        "retainedInExport": 0,
+        "absentFromExport": 2,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_4bbb36a802f53cb1",
+          "d_75a2ac5173ca5a95"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-319099110",
+        "reason": "Menu page 5 includes rosemary potatoes plus fresh vegetables with all meat dishes, and rosemary potatoes plus spinach with all fish dishes. Both descriptions and nutrition ingredients omit these sides; exclude until full-plate context and nutrition are recalculated.",
+        "source": "https://ristorante-avellino.de/ristorante-avellino-speisekarte.pdf",
+        "recordedAuditStatus": "resolved_source_context_and_nutrition_recalculated",
+        "affectedDishCount": 11,
+        "currentlyHiddenInQueue": 0,
+        "retainedInExport": 11,
+        "absentFromExport": 0,
+        "disposition": "retained_after_current_processing",
+        "excludedDishIds": []
+      },
+      {
+        "restaurantId": "osm-node-319099110",
+        "reason": "Mixed antipasti starter has no listed composition. Estimated meat/cheese/vegetable assortment is unsupported by first-party menu; exclude pending ingredient confirmation.",
+        "source": "https://ristorante-avellino.de/ristorante-avellino-speisekarte.pdf",
+        "recordedAuditStatus": "unspecified",
+        "affectedDishCount": 1,
+        "currentlyHiddenInQueue": 1,
+        "retainedInExport": 0,
+        "absentFromExport": 1,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_e07a5d98c851bb3e"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-13817894985",
+        "reason": "First-party item name and description contradict the protein or sauce. Do not choose one or combine them; exclude pending restaurant confirmation.",
+        "source": "https://www.ducorestaurant.de/menue",
+        "recordedAuditStatus": "unspecified",
+        "affectedDishCount": 6,
+        "currentlyHiddenInQueue": 6,
+        "retainedInExport": 0,
+        "absentFromExport": 6,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_4a3baeb9a52be22f",
+          "d_ba26531ea584db02",
+          "d_be352dc841a1b765",
+          "d_0a779d9d206f7b68",
+          "d_e4961c33148e4c9c",
+          "d_9f086617bf93a356"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-13817894985",
+        "reason": "Unresolved protein, sauce, or rice-versus-noodle choices share one extracted dish. Exclude until a concrete variant is selected and separately estimated.",
+        "source": "https://www.ducorestaurant.de/menue",
+        "recordedAuditStatus": "unspecified",
+        "affectedDishCount": 9,
+        "currentlyHiddenInQueue": 9,
+        "retainedInExport": 0,
+        "absentFromExport": 9,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_23ea4c99f4dbdaee",
+          "d_6501f0dabe95954c",
+          "d_4543519b920a7168",
+          "d_262c9149b501f433",
+          "d_00eeab56222083d1",
+          "d_d8326779789ce754",
+          "d_134170b619e5f846",
+          "d_06ce03e6a5e13815",
+          "d_1aad837baafd3816"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-13817894985",
+        "reason": "Sushi platter composition is incomplete: T15 specifies assorted rolls without fillings, T4 unnamed Inside Out, T11/T12 unspecified Futo variant. Do not invent assortment ingredients or divide into unprinted servings.",
+        "source": "https://www.ducorestaurant.de/menue",
+        "recordedAuditStatus": "unspecified",
+        "affectedDishCount": 4,
+        "currentlyHiddenInQueue": 4,
+        "retainedInExport": 0,
+        "absentFromExport": 4,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_17acdb433e8b55d6",
+          "d_8cd4d23817d4cf92",
+          "d_6fe55836adcc1ee2",
+          "d_e480f653b1a20986"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-13817894985",
+        "reason": "Same printed menu item/code repeats across sections. Keep canonical earlier item only; duplicatePairs in menu-repairs-duco.json identifies retained IDs.",
+        "source": "https://www.ducorestaurant.de/menue",
+        "recordedAuditStatus": "unspecified",
+        "affectedDishCount": 13,
+        "currentlyHiddenInQueue": 13,
+        "retainedInExport": 0,
+        "absentFromExport": 13,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_efdb51060bfbe178",
+          "d_a64781f64af997a8",
+          "d_baf9bec850f987e2",
+          "d_007ce9d90acc5ea0",
+          "d_abbfea57b60ed7a4",
+          "d_77b3cefc78c9a7e5",
+          "d_636e1a0aa3b7784c",
+          "d_966d8655325700a7",
+          "d_1debcf019d900b53",
+          "d_04f9aae3c75cadab",
+          "d_ef94a3b7ddef0a75",
+          "d_37ffd2384bcb8f27",
+          "d_16a61b6e880b87f5"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-13817894985",
+        "reason": "Printed shared sides, eggs/vegetables or per-order piece counts are absent from item descriptions; exclude temporarily until source-backed context is applied and nutrition recalculated.",
+        "source": "https://www.ducorestaurant.de/menue",
+        "recordedAuditStatus": "resolved_source_context_and_nutrition_recalculated",
+        "affectedDishCount": 87,
+        "currentlyHiddenInQueue": 0,
+        "retainedInExport": 83,
+        "absentFromExport": 4,
+        "disposition": "partly_omitted",
+        "excludedDishIds": [
+          "d_76d7df35a230cac9",
+          "d_ed4c72654af15267",
+          "d_94796409722bb77a",
+          "d_782119593341994f"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-3803453107",
+        "reason": "Included side is explicitly a customer choice (Beilage Ihrer Wahl), but no side is selected in the dish identity. Existing nutrition assumes rice or fries. Hold until a source-backed selected variant is represented; do not choose a side automatically.",
+        "source": "https://hippokrates.berlin/speisen/",
+        "recordedAuditStatus": "hold_pending_source_clarification",
+        "affectedDishCount": 56,
+        "currentlyHiddenInQueue": 56,
+        "retainedInExport": 0,
+        "absentFromExport": 56,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_c0697f1dc75769e6",
+          "d_20c101b8ecc96fa5",
+          "d_32e061ac1d008dce",
+          "d_46b5e7083d7f120e",
+          "d_6936967cd32fb8fd",
+          "d_48273700740a1ca7",
+          "d_a8c7a77c98d0ccb9",
+          "d_36b1d3b156fe5f18",
+          "d_cb40f5faa6515888",
+          "d_bd4fdb7804886b06",
+          "d_0c1ce3585864af91",
+          "d_6817e58b0652c241",
+          "d_1b1cb8ad404af1b7",
+          "d_85d660bc316bb2ad",
+          "d_f5ccd04d52217e2a",
+          "d_e8d16fbf52d1cdb0",
+          "d_5a41c9e212fa2485",
+          "d_3f7c395efbec8917",
+          "d_04457beed5e1c3d8",
+          "d_426594762c9b8dd7",
+          "d_d32e9ffb442a3c83",
+          "d_8530a69814144a13",
+          "d_f225a8252a1c2e8b",
+          "d_5d33503abaaeafab",
+          "d_0f3a5044a74bf7d4",
+          "d_678486dca0ba2b02",
+          "d_7d524621d062be02",
+          "d_61faa665658281c6",
+          "d_8c19d9b62b1275f1",
+          "d_9f6063cf090f9447",
+          "d_19d3403efbb7978a",
+          "d_682a703c9d1af333",
+          "d_43dfb2e8de06db20",
+          "d_477e9aa1fabcc759",
+          "d_1f3f20729873857d",
+          "d_669c6b2118c0f739",
+          "d_80674443a51abf9b",
+          "d_139a1d0602c83a50",
+          "d_2b8d09dc253765a5",
+          "d_cc0398a8688481b6",
+          "d_556c13f626171bfa",
+          "d_6ca5050c52e5830b",
+          "d_0d54edcd24a0b85a",
+          "d_c9d88d28e0504992",
+          "d_9d2e71f479b7f5a8",
+          "d_f1af14754d7ad4c3",
+          "d_7160057b22e09c05",
+          "d_4519cdd0351dca7b",
+          "d_e76061e05bc56666",
+          "d_da391d0d2a9cd72d",
+          "d_e6a8353a141351fa",
+          "d_3f4f78f3cab83c64",
+          "d_e157c46e100800d3",
+          "d_892d5dd1234bc64a",
+          "d_125977f5ed495ff5",
+          "d_9f00709ba889a443"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-3803453107",
+        "reason": "Menu includes an unnamed side (Beilage/Beilagen und Salat) without identifying its type. This is uncertainty about the food itself, not only portion size. Existing nutrition either omits the side or assumes a type. Hold pending menu/venue clarification; do not invent rice, fries or potatoes.",
+        "source": "https://hippokrates.berlin/speisen/",
+        "recordedAuditStatus": "hold_pending_source_clarification",
+        "affectedDishCount": 9,
+        "currentlyHiddenInQueue": 9,
+        "retainedInExport": 0,
+        "absentFromExport": 9,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_45e7898d5920a7fd",
+          "d_bb55838b4def1de3",
+          "d_1735d83a95074a02",
+          "d_5d72539bd824aa94",
+          "d_798640db9d5b20d0",
+          "d_75e1c825a9dcbe9f",
+          "d_eff06f5291126648",
+          "d_f4f1494d3707f2be",
+          "d_7fc36cd4c8b04d4c"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-2674876174",
+        "reason": "Menu includes an unnamed side (Beilage/Beilagen und Salat) without identifying its type. This is uncertainty about the food itself, not only portion size. Existing nutrition either omits the side or assumes a type. Hold pending menu/venue clarification; do not invent rice, fries or potatoes.",
+        "source": "https://www.villa-christina-berlin.de/",
+        "recordedAuditStatus": "hold_pending_source_clarification",
+        "affectedDishCount": 93,
+        "currentlyHiddenInQueue": 93,
+        "retainedInExport": 0,
+        "absentFromExport": 93,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_09ceea7e7b896500",
+          "d_65d63d3f75f3c103",
+          "d_9555a14c8188a379",
+          "d_627d6631b627efac",
+          "d_b72bfb2ad860baa7",
+          "d_806b271b20c35686",
+          "d_d3b79e013a6afed2",
+          "d_3241f4ae4ba0430c",
+          "d_1d038b137f3bb9f4",
+          "d_39b290c04671227d",
+          "d_0d389421f10728e4",
+          "d_9db0eadb65f99072",
+          "d_c037a1fe0a51ebf9",
+          "d_5c1f51185b39c922",
+          "d_0f36b37d9f6978d6",
+          "d_59678e6a72df468c",
+          "d_d343c588b8ea6ec8",
+          "d_d404dfe27d1cf59c",
+          "d_6544a59d483454d8",
+          "d_a490e46e13c9a2ca",
+          "d_7a1b4ed858a144eb",
+          "d_f1c9e239a763545e",
+          "d_cda801e140c1de0a",
+          "d_4daba020969bfea9",
+          "d_a24657969d9076f0",
+          "d_fadbb5d8d845423d",
+          "d_e6f23bd448f80ae4",
+          "d_1b6d13d941152329",
+          "d_a08f31d540ee2555",
+          "d_60fde1ea41e8bfdc",
+          "d_a742ac4a8092652c",
+          "d_8f9f19a8902f6dda",
+          "d_6b90070ae4e85aac",
+          "d_d87ce3fbf30c0ac4",
+          "d_8c77beffabe56690",
+          "d_ef5c7546b4f24aaa",
+          "d_2c9612a5777b9bdd",
+          "d_9bde617cfd313f9b",
+          "d_5d4747879191b150",
+          "d_0cb20ca4105581ef",
+          "d_46d37f8f76f0c489",
+          "d_854da3a6e2f0810e",
+          "d_a89cefd2e608b2ed",
+          "d_efe3bfe5023d8702",
+          "d_f612e34dbd25d29c",
+          "d_bfe9f20e97ac8dfc",
+          "d_456ce68010510c30",
+          "d_d262d1d3a3eec7f3",
+          "d_8b7bc9970c1f4a3c",
+          "d_432a2876cd50345a",
+          "d_70c876e507219eb3",
+          "d_ccfc92d2b3374bc1",
+          "d_8f9793a7e5b02937",
+          "d_d1809b96f60b77d7",
+          "d_0f876e6c6eb8d137",
+          "d_d7eacba51145b021",
+          "d_c9de15fce0241963",
+          "d_4922d3118cc9957b",
+          "d_b04de441c7761779",
+          "d_4748230df07df287",
+          "d_10991e1ea99312ae",
+          "d_144a2342cb54af6e",
+          "d_8e36b1d373f301bb",
+          "d_cefae00e5fb10cbd",
+          "d_86fd2b02a9a40239",
+          "d_38b7e6626ac8c1f6",
+          "d_60e1aca9e07f8bb2",
+          "d_a1766b14258a7f74",
+          "d_eec4171030eab70a",
+          "d_070165071ac1d11e",
+          "d_21aa52ef50d33dcd",
+          "d_9ff528f679c7f836",
+          "d_e8a7d6df72c9255b",
+          "d_438bbb95b98f0004",
+          "d_e2ff5a5ea1e7de51",
+          "d_23cf9aaa1345b90c",
+          "d_6499b91fd19840b0",
+          "d_18aea6fa2b7d08e7",
+          "d_06919a01111edeb9",
+          "d_9c59490e0129ca4f",
+          "d_8a361683e7a7560d",
+          "d_ee57d3290a2bd3ee",
+          "d_7004f794e76aa223",
+          "d_437d1b9b7ad53013",
+          "d_5487491d03992474",
+          "d_e17822e639949621",
+          "d_a6a8782baab48d0d",
+          "d_cce586f802c59163",
+          "d_bd28f717b3c188f6",
+          "d_7ada6e7d98aec5ff",
+          "d_0920aec7d7a48033",
+          "d_5b034acb575d55d6",
+          "d_a728fd8a86927a28"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-1331758242",
+        "reason": "Shared section ingredients/sauces were omitted from the extracted description. Apply source-backed description repairs from menu-repairs-greek.json, clear old nutrition/classification, and rerun before restoring eligibility.",
+        "source": "https://cdn.website.dish.co/media/a7/f4/8273427/Speisekarte.pdf",
+        "recordedAuditStatus": "resolved_source_context_and_nutrition_recalculated",
+        "affectedDishCount": 6,
+        "currentlyHiddenInQueue": 0,
+        "retainedInExport": 6,
+        "absentFromExport": 0,
+        "disposition": "retained_after_current_processing",
+        "excludedDishIds": []
+      },
+      {
+        "restaurantId": "osm-node-1331758242",
+        "reason": "Shared section ingredients/sauces were omitted from the extracted description. Apply source-backed description repairs from menu-repairs-greek.json, clear old nutrition/classification, and rerun before restoring eligibility.",
+        "source": "https://cdn.website.dish.co/media/a7/f4/8273427/Speisekarte.pdf",
+        "recordedAuditStatus": "resolved_source_context_and_nutrition_recalculated",
+        "affectedDishCount": 11,
+        "currentlyHiddenInQueue": 0,
+        "retainedInExport": 10,
+        "absentFromExport": 1,
+        "disposition": "partly_omitted",
+        "excludedDishIds": [
+          "d_24dd47ac68ae0ff2"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-1331758242",
+        "reason": "Shared section ingredients/sauces were omitted from the extracted description. Apply source-backed description repairs from menu-repairs-greek.json, clear old nutrition/classification, and rerun before restoring eligibility.",
+        "source": "https://cdn.website.dish.co/media/a7/f4/8273427/Speisekarte.pdf",
+        "recordedAuditStatus": "resolved_source_context_and_nutrition_recalculated",
+        "affectedDishCount": 7,
+        "currentlyHiddenInQueue": 0,
+        "retainedInExport": 7,
+        "absentFromExport": 0,
+        "disposition": "retained_after_current_processing",
+        "excludedDishIds": []
+      },
+      {
+        "restaurantId": "osm-node-1331758242",
+        "reason": "Shared section ingredients/sauces were omitted from the extracted description. Apply source-backed description repairs from menu-repairs-greek.json, clear old nutrition/classification, and rerun before restoring eligibility.",
+        "source": "https://cdn.website.dish.co/media/a7/f4/8273427/Speisekarte.pdf",
+        "recordedAuditStatus": "resolved_source_context_and_nutrition_recalculated",
+        "affectedDishCount": 6,
+        "currentlyHiddenInQueue": 0,
+        "retainedInExport": 6,
+        "absentFromExport": 0,
+        "disposition": "retained_after_current_processing",
+        "excludedDishIds": []
+      },
+      {
+        "restaurantId": "osm-node-1331758242",
+        "reason": "Shared section ingredients/sauces were omitted from the extracted description. Apply source-backed description repairs from menu-repairs-greek.json, clear old nutrition/classification, and rerun before restoring eligibility.",
+        "source": "https://cdn.website.dish.co/media/a7/f4/8273427/Speisekarte.pdf",
+        "recordedAuditStatus": "resolved_source_context_and_nutrition_recalculated",
+        "affectedDishCount": 8,
+        "currentlyHiddenInQueue": 0,
+        "retainedInExport": 8,
+        "absentFromExport": 0,
+        "disposition": "retained_after_current_processing",
+        "excludedDishIds": []
+      },
+      {
+        "restaurantId": "osm-node-1331758242",
+        "reason": "Chef surprise specialty lists no filling or fish identity; only the section sauces are stated. Current ingredients assume salmon, avocado, cucumber and cream cheese without menu support. Hold pending actual composition; adding shared sauces cannot resolve this.",
+        "source": "https://cdn.website.dish.co/media/a7/f4/8273427/Speisekarte.pdf",
+        "recordedAuditStatus": "hold_pending_source_clarification",
+        "affectedDishCount": 1,
+        "currentlyHiddenInQueue": 1,
+        "retainedInExport": 0,
+        "absentFromExport": 1,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_493eb0fcbe8a249d"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-442390302",
+        "reason": "Current extraction uses Steglitz lunch PDF for Tempelhof restaurant. Entire current menu withheld pending branch-correct source extraction; time limits and included sides also missing.",
+        "source": "https://cdn1.site-media.eu/images/document/17315834/SteglitzTagesmenu1.pdf",
+        "recordedAuditStatus": "temporary_pending_branch_correct_menu_reextraction",
+        "affectedDishCount": 18,
+        "currentlyHiddenInQueue": 18,
+        "retainedInExport": 0,
+        "absentFromExport": 18,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_a16924dbeb8464bc",
+          "d_a1552a9ea4ac8bce",
+          "d_d70e842d56b3420b",
+          "d_2393d03508c600ff",
+          "d_f9ae918fec555c04",
+          "d_ea8a30a9fc4717ab",
+          "d_e439a6aa6c11ac84",
+          "d_a1187ae7f8e427f6",
+          "d_f08739703469a10c",
+          "d_1f40a8c7bf6de65b",
+          "d_11837d5be3b1daf9",
+          "d_83e511c4e03f1c9e",
+          "d_6b0d9eade638e354",
+          "d_6e0e9cee42786d13",
+          "d_9074b64bf1ce05fc",
+          "d_6a880f2c519b060d",
+          "d_0bfe46ca3a205a03",
+          "d_beaf00f23b998735"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-5270689567",
+        "reason": "Generic Yoko chain catalog has no verified Tempelhof branch selection or prices. Entire restaurant withheld pending branch-specific menu provenance.",
+        "source": "https://webshop.yoko.de/storedata/listStore",
+        "recordedAuditStatus": "temporary_pending_branch_correct_menu_reextraction",
+        "affectedDishCount": 205,
+        "currentlyHiddenInQueue": 205,
+        "retainedInExport": 0,
+        "absentFromExport": 205,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_2ca17791dc1d06ce",
+          "d_9d493a80029a4f7f",
+          "d_e614bd434e0721bf",
+          "d_1134baa5d4eb38b4",
+          "d_2aec7e898eb4dc90",
+          "d_e9cce874b854b366",
+          "d_903ece87bd322656",
+          "d_e864cff1b3243dfe",
+          "d_75a7de83e8ad05fd",
+          "d_22d3f3115a058fc4",
+          "d_1c462fe917f637e9",
+          "d_af1bbff7bfb9b861",
+          "d_4ee2d3a0c0bc177e",
+          "d_db3fe3979743d5e4",
+          "d_930e7e86b071a71b",
+          "d_5c6e8cf6d711e04c",
+          "d_998d4a8c77c6fff7",
+          "d_ff9fbd2108c6dfee",
+          "d_431c78b3b9b9c557",
+          "d_c52f928855eeb0bf",
+          "d_871a95969827a64f",
+          "d_b89a018aa27cc207",
+          "d_27bb251e607a8b5b",
+          "d_60c56bb8538b165b",
+          "d_82440e38b487e0a3",
+          "d_ddb0054d93131dce",
+          "d_cdff425fa75575f6",
+          "d_2ce75d15d95062f7",
+          "d_78d80ff592690a60",
+          "d_b41b7037d224c9a9",
+          "d_1657d9962a5229ed",
+          "d_129844ff52370121",
+          "d_a987ccb0d5e54242",
+          "d_f3dc6df4399c29b5",
+          "d_c197c43d3f2b7095",
+          "d_e0b97b5a735d1a53",
+          "d_5296048442e6810f",
+          "d_e92e3c50c400aed0",
+          "d_48d8156dd271a2cc",
+          "d_f93afbdaf7c53379",
+          "d_2907855b84afc8f9",
+          "d_e201cfb4b0f3c6af",
+          "d_aca00db966a0517e",
+          "d_db75f45595c8060e",
+          "d_3c48d1402e80e163",
+          "d_4b5928ced0136f02",
+          "d_9f24bb69cd8c4754",
+          "d_6036d036cfa79b26",
+          "d_cb53fbfb3e87d47a",
+          "d_afbde79d33da6df8",
+          "d_8df7fd232bf006b3",
+          "d_da47de9e0c8b6715",
+          "d_e22309a86b5b3ee6",
+          "d_e3fe2f8e6d0f91a1",
+          "d_f02980c5174c059f",
+          "d_a0e9628b45c3879e",
+          "d_3346171a9afafd26",
+          "d_fa80e71711368126",
+          "d_b7f961fa0d1d6ad2",
+          "d_11fc7841c2449fc3",
+          "d_8587bf120400bba0",
+          "d_b69efb49742b3764",
+          "d_8c174c5953a34251",
+          "d_5df3bc78d6b01850",
+          "d_0d6d3ee0c5ca34ee",
+          "d_af8692801fa86b96",
+          "d_286e47d0ef3f776a",
+          "d_fc6754fa81b6b2fb",
+          "d_867811e932a3f404",
+          "d_d18ee81f3ded4c5e",
+          "d_38636d3bde5cb5d1",
+          "d_7a31e8dd46b41eb6",
+          "d_be5d4a98441d1b96",
+          "d_8204d84fd22744d0",
+          "d_1c4c78f697797548",
+          "d_1189a809ae20e756",
+          "d_d6bfafa8d90fd271",
+          "d_fde0b3f60c3480a3",
+          "d_fc8bc6497a16f344",
+          "d_d3857a99d2a5a3db",
+          "d_ecbfd96c692a0892",
+          "d_420d4999699d3c73",
+          "d_935be42be86ce191",
+          "d_ba9f273322f72bc2",
+          "d_c6f7eca8a6f0368d",
+          "d_b8b0795086dea556",
+          "d_e28719fc757249ad",
+          "d_22780236bbde1d29",
+          "d_a0c3ef9ad9f7cd4b",
+          "d_896f7a2ba3f71430",
+          "d_62a9e818a1fa78dc",
+          "d_0b87f9be2bfd1d57",
+          "d_d4082bf0fbaff948",
+          "d_ba7081118bbf5aa8",
+          "d_df9f64f8c1ac4fd9",
+          "d_25fc2b65131054ee",
+          "d_1cf3670368dfd65d",
+          "d_3d461fd954634dbe",
+          "d_ff178f5a2768e001",
+          "d_212c475eba62503c",
+          "d_29d240921998f35c",
+          "d_a4607f73aa04d74f",
+          "d_b76f1b94c40a17d5",
+          "d_c6d5580f44f5fd3e",
+          "d_27f488cf9a93e0e5",
+          "d_8cd0577ba4ff6896",
+          "d_0e20ab523bc2e683",
+          "d_b67ee59bea4e5076",
+          "d_e3e8552d452252ad",
+          "d_d81264f945909870",
+          "d_1dc3c8bd60ad54a4",
+          "d_d3d5ce86d1022c92",
+          "d_01c9287feedd1b6b",
+          "d_1adf5eeb382e4dbd",
+          "d_2936f13edc7045b0",
+          "d_82e8ef3051ff1e3d",
+          "d_47a643aa8aee7779",
+          "d_23e7413ebfb1bf95",
+          "d_830a77b83f0a8644",
+          "d_e3e48d5ba81140f3",
+          "d_1387cd38d175ff36",
+          "d_89127e383842ecfa",
+          "d_519fe387220d6a0f",
+          "d_d71322d608bea892",
+          "d_250b547c5e34e6d4",
+          "d_4b5add98210f0112",
+          "d_37f4208052e5c525",
+          "d_0562c91fdcf3aaf5",
+          "d_2f6bf1584c308cc9",
+          "d_0a428ff4d4ad995d",
+          "d_0b2c7ccd9b5ae42a",
+          "d_833f20abe299dafb",
+          "d_3cde26d31ccbb727",
+          "d_8c1000f976e84069",
+          "d_10ca629114f9b83c",
+          "d_9bb7ffc000118842",
+          "d_08d3b9fa7e3f72c0",
+          "d_9934f1448b8acae0",
+          "d_49fe10e03c65a4bd",
+          "d_1ed8a52354086405",
+          "d_e4dbb5eeb5b24d13",
+          "d_79d09db715c315a8",
+          "d_9981fbeb2bfd5050",
+          "d_76d9a89486635fc5",
+          "d_87219f53dadb81d2",
+          "d_bd7ec3e2f37ec732",
+          "d_8d906ebfdbbe4f6e",
+          "d_f7d72a952974414f",
+          "d_774da3dbededc3b2",
+          "d_cf646fc82ea9ee13",
+          "d_79a7809180e097b0",
+          "d_f5dfc224c9c6ad18",
+          "d_18cab9610432d7b7",
+          "d_6bf30f9449bcf458",
+          "d_241540ab88dbefc1",
+          "d_bba5be8ba6d23a4d",
+          "d_759273f529520a45",
+          "d_21df109cd9ce0bec",
+          "d_d02c0e27a6ebd492",
+          "d_2655ca31549b49c9",
+          "d_c7fec112ab64311c",
+          "d_aa2796183c34fb3e",
+          "d_a5bdde44f9ff8ebd",
+          "d_3676e758e76dca61",
+          "d_c6d2b354b160c6f5",
+          "d_9ff601d2efd894dc",
+          "d_91396b4cd1d058cd",
+          "d_31c0aff81c67e9d1",
+          "d_3131c0a6944a4432",
+          "d_f1c2e47a6fa5f49b",
+          "d_3caf3a51ac634a35",
+          "d_f011c2be8c529e2b",
+          "d_befd89a02b568415",
+          "d_ead85e99634d7959",
+          "d_90f865b57b777987",
+          "d_83cf892cea42f3c2",
+          "d_516e172b4d45e00c",
+          "d_454960c865c612ca",
+          "d_a3388330b73ff19c",
+          "d_637833d8c71137ea",
+          "d_83a2a7e112d3e5c3",
+          "d_f9fe2368965576d4",
+          "d_8b3cc29e7c480350",
+          "d_218d17cf179a231b",
+          "d_afee7c4eb774fad2",
+          "d_2f275260f5d8a312",
+          "d_dfc086b368f6cf69",
+          "d_13cea03177ed4ba0",
+          "d_b98c86842ffce810",
+          "d_7c7ba826dfd59e53",
+          "d_ee86041e8f14416a",
+          "d_eab8472ee8291614",
+          "d_99a35564f9e878d0",
+          "d_4b4183b8b2127335",
+          "d_0378e87ae82a45f6",
+          "d_5391340f50fd1c72",
+          "d_977c0782b1e26e38",
+          "d_020208994e048d81",
+          "d_f4d123accd58081f",
+          "d_c0b1380b4ed6e48a",
+          "d_80df78454bdfb5da",
+          "d_8f41af03296bf6a7",
+          "d_1b8730e5c30a83be",
+          "d_905b17a78855a528",
+          "d_52e13610c3069b7f"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-1259423611",
+        "reason": "Each dish includes an unspecified side, while the shared footer explicitly offers a choice of baked potatoes, fries, rice, rice-shaped pasta, or green beans. No variant selects a side. Hold pending a represented source-backed selection; do not silently choose a food for nutrition. Mixed salad is retained in both description fields.",
+        "source": "https://www.achilles-taverna.de/speisekarte/achilles-taverna-speisekarte.pdf",
+        "recordedAuditStatus": "hold_pending_source_clarification",
+        "affectedDishCount": 30,
+        "currentlyHiddenInQueue": 30,
+        "retainedInExport": 0,
+        "absentFromExport": 30,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_526d407dcea62f37",
+          "d_8f97472171a8eda1",
+          "d_d000a3b28534df75",
+          "d_b6da2c4c2ac3ae61",
+          "d_2451f173c55fed8d",
+          "d_0840e68c75be43a9",
+          "d_f3879d381d843cf9",
+          "d_f0631768f880ba10",
+          "d_ea64aac8f54d6e73",
+          "d_99396d0435b61582",
+          "d_8f86a4c8d840f8a7",
+          "d_2bd7f7f739ed89af",
+          "d_d31aee8dbc3fd4db",
+          "d_67208ed25af08f01",
+          "d_d9b3e46549a2ed7e",
+          "d_1b99f3f1274bfb4c",
+          "d_6195aae0d1a7fba6",
+          "d_2c6211b3f7bd09a5",
+          "d_fcc0054ded3c71af",
+          "d_8bb9ea4988b3892f",
+          "d_90fb9fd37422c7f1",
+          "d_90cb218f8c6697b4",
+          "d_318d3fc63d344c6e",
+          "d_b51d05d144d63980",
+          "d_8feb17fdc95952bd",
+          "d_f4155396ecdc6dec",
+          "d_f51232923ba30b2e",
+          "d_e562bca25d324cf6",
+          "d_0cb8ff174dd77cbf",
+          "d_bcad8d3fbee7876c"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-1259423611",
+        "reason": "These five labels are alternatives in a shared included-side footer, not separately priced standalone menu dishes. Exclude as extraction artifacts; keep their text as choice context for relevant mains.",
+        "source": "https://www.achilles-taverna.de/speisekarte/achilles-taverna-speisekarte.pdf",
+        "recordedAuditStatus": "hold_pending_source_clarification",
+        "affectedDishCount": 5,
+        "currentlyHiddenInQueue": 5,
+        "retainedInExport": 0,
+        "absentFromExport": 5,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_49382ca0490e06fb",
+          "d_bd16d44c0de33173",
+          "d_235ad4e06caa3dd4",
+          "d_10305fa185337742",
+          "d_656b20463279432c"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-1259423611",
+        "reason": "Menu explicitly states two-person platters; two are also offered for larger parties. Single-person nutrition/price comparison would be ambiguous without explicit serving normalization. Hold the whole-menu platter rows.",
+        "source": "https://www.achilles-taverna.de/speisekarte/achilles-taverna-speisekarte.pdf",
+        "recordedAuditStatus": "hold_pending_source_clarification",
+        "affectedDishCount": 4,
+        "currentlyHiddenInQueue": 4,
+        "retainedInExport": 0,
+        "absentFromExport": 4,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_e7d1c24c68810271",
+          "d_e89123c22ed85281",
+          "d_6a8ec2a32883124f",
+          "d_370d18ba17313212"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-1259423611",
+        "reason": "One-person mixed starter gives no component identities. Hold until composition is documented; do not invent a fixed starter mix.",
+        "source": "https://www.achilles-taverna.de/speisekarte/achilles-taverna-speisekarte.pdf",
+        "recordedAuditStatus": "hold_pending_source_clarification",
+        "affectedDishCount": 1,
+        "currentlyHiddenInQueue": 1,
+        "retainedInExport": 0,
+        "absentFromExport": 1,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_d647bada9cfbf24f"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-1259423611",
+        "reason": "Barbounia explicitly permits fried or grilled preparation, but the dish has no selected cooking-method variant. Hold pending a represented selection; keep the specified fish rice and salad.",
+        "source": "https://www.achilles-taverna.de/speisekarte/achilles-taverna-speisekarte.pdf",
+        "recordedAuditStatus": "hold_pending_source_clarification",
+        "affectedDishCount": 1,
+        "currentlyHiddenInQueue": 1,
+        "retainedInExport": 0,
+        "absentFromExport": 1,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_79a02ffc3f8dc3d8"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-3354050331",
+        "reason": "Mixed Pakora is explicitly for two persons and does not enumerate its exact mixed contents. Exclude from one-portion recommendations rather than invent assortment or silently halve the order.",
+        "source": "https://restaurant-yakundyeti.de/wp-content/uploads/2025/10/YakugndYeti_Speisekarte_web.pdf",
+        "recordedAuditStatus": "pending_restaurant_confirmation_or_explicit_portion_variant",
+        "affectedDishCount": 1,
+        "currentlyHiddenInQueue": 1,
+        "retainedInExport": 0,
+        "absentFromExport": 1,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_fe1eb775dd83c61c"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-3354050331",
+        "reason": "Children-only dishes preserve an unresolved rice-or-bread choice in German, while English says rice-and-bread. Exclude until the portion accompaniment is selected/confirmed; do not combine both or discard the children label.",
+        "source": "https://restaurant-yakundyeti.de/wp-content/uploads/2025/10/YakugndYeti_Speisekarte_web.pdf",
+        "recordedAuditStatus": "pending_restaurant_confirmation_or_explicit_portion_variant",
+        "affectedDishCount": 2,
+        "currentlyHiddenInQueue": 2,
+        "retainedInExport": 0,
+        "absentFromExport": 2,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_8c069a7c28222057",
+          "d_f4362038d50c2573"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-3354050331",
+        "reason": "German description includes rice only; English includes rice and bread. Both are first-party menu text. Exclude pending confirmation of the attached bread rather than choosing a lower-calorie interpretation.",
+        "source": "https://restaurant-yakundyeti.de/wp-content/uploads/2025/10/YakugndYeti_Speisekarte_web.pdf",
+        "recordedAuditStatus": "pending_restaurant_confirmation_or_explicit_portion_variant",
+        "affectedDishCount": 1,
+        "currentlyHiddenInQueue": 1,
+        "retainedInExport": 0,
+        "absentFromExport": 1,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_738abd256b8a058b"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-3178164315",
+        "reason": "Six included side dishes have no source composition. Some mains also leave protein or vessel choices unresolved; hold rather than assert a selected complete plate.",
+        "source": "http://dabangg.de/dishes/",
+        "recordedAuditStatus": "hold_pending_source_clarification",
+        "affectedDishCount": 7,
+        "currentlyHiddenInQueue": 7,
+        "retainedInExport": 0,
+        "absentFromExport": 7,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_21ab9b8c08ea78f1",
+          "d_1c16673d574c99e5",
+          "d_b81fc74e4c53ca03",
+          "d_4976e7907b5835a6",
+          "d_f09eac181a8de0d8",
+          "d_43a2a594bcc20f76",
+          "d_f84cd46f7719df21"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-3178164315",
+        "reason": "The lunch row retains chili-or-soy sauce choice without selecting a concrete variant; only the beef variant survived extraction. Hold pending explicitly represented menu variants.",
+        "source": "http://dabangg.de/dishes/",
+        "recordedAuditStatus": "hold_pending_source_clarification",
+        "affectedDishCount": 1,
+        "currentlyHiddenInQueue": 1,
+        "retainedInExport": 0,
+        "absentFromExport": 1,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_37774cf3dbce49bb"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-1331758242",
+        "reason": "Chef-selected assortment has unspecified fillings/toppings; current recipes invent salmon, tuna, shrimp, eel or vegetable combinations.",
+        "source": "https://cdn.website.dish.co/media/a7/f4/8273427/Speisekarte.pdf",
+        "recordedAuditStatus": "hold_source_ambiguity",
+        "affectedDishCount": 3,
+        "currentlyHiddenInQueue": 3,
+        "retainedInExport": 0,
+        "absentFromExport": 3,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_da4030d1a87faa12",
+          "d_80d404e670417b0e",
+          "d_325b5371cfdd0632"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-2674876174",
+        "reason": "Cake flavor is an unresolved choice among six variants; the whole-cake item is also multi-serving.",
+        "source": "https://www.villa-christina-berlin.de/",
+        "recordedAuditStatus": "hold_source_ambiguity",
+        "affectedDishCount": 2,
+        "currentlyHiddenInQueue": 2,
+        "retainedInExport": 0,
+        "absentFromExport": 2,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_d80667719877d492",
+          "d_824a899a58d99514"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-3803453107",
+        "reason": "Mixed pastry filling is not stated; current recipe assumes feta and spinach fillings.",
+        "source": "https://hippokrates.berlin/speisen/",
+        "recordedAuditStatus": "hold_source_ambiguity",
+        "affectedDishCount": 1,
+        "currentlyHiddenInQueue": 1,
+        "retainedInExport": 0,
+        "absentFromExport": 1,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_07c4f0da2398777f"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-3354050331",
+        "reason": "Included sauce assortment is unspecified; current recipe invents tamarind and yogurt dips.",
+        "source": "https://restaurant-yakundyeti.de/wp-content/uploads/2025/10/YakugndYeti_Speisekarte_web.pdf",
+        "recordedAuditStatus": "hold_source_ambiguity",
+        "affectedDishCount": 1,
+        "currentlyHiddenInQueue": 1,
+        "retainedInExport": 0,
+        "absentFromExport": 1,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_cf39bd1c555fe8ec"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-428114282",
+        "reason": "Estimated recipe adds a customary yogurt dip or raita not established by the official item description. Raita is separately sold at EUR3.90. Hold until these extra accompaniments are verified or excluded from the recipe and computed nutrition is updated.",
+        "source": "https://lakshmi-restaurant-berlin.de/our-menus/",
+        "recordedAuditStatus": "pending_accompaniment_verification_or_nutrition_repair",
+        "affectedDishCount": 7,
+        "currentlyHiddenInQueue": 7,
+        "retainedInExport": 0,
+        "absentFromExport": 7,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_cab2921744ff80dd",
+          "d_4dbd5c2f5fb54535",
+          "d_29c672f63aca0c61",
+          "d_d34b68efcff219ad",
+          "d_0a977aa31cd8f279",
+          "d_b937ddd6433b42d9",
+          "d_187df0d736b30466"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-428114282",
+        "reason": "Marketing description recommends naan OR basmati rice without establishing an included selected side. Hold pending a concrete portion/side interpretation. Current recipe includes neither; no side is invented by this audit.",
+        "source": "https://lakshmi-restaurant-berlin.de/our-menus/",
+        "recordedAuditStatus": "pending_explicit_side_confirmation",
+        "affectedDishCount": 1,
+        "currentlyHiddenInQueue": 1,
+        "retainedInExport": 0,
+        "absentFromExport": 1,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_7d7fad7ff4305644"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-428114282",
+        "reason": "For this bounded batch, hold the two selected Garam Shorba variants whose descriptions still say lamb OR vegetables. Names select variants and existing nutrition follows them, but the served composition text is unresolved; no additional repair/recalculation cycle requested.",
+        "source": "https://lakshmi-restaurant-berlin.de/our-menus/",
+        "recordedAuditStatus": "hold_for_bounded_batch",
+        "affectedDishCount": 2,
+        "currentlyHiddenInQueue": 2,
+        "retainedInExport": 0,
+        "absentFromExport": 2,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_78a8212f84f294d9",
+          "d_c590ba788fa99a2b"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-1869988127",
+        "reason": "Nutrition estimate adds an assumed separately served chutney/dip that is not stated for the selected starter. Regular menu separately lists priced optional dips on page7. Hold this bounded batch; do not invent side orders or silently replace a) with Chaat b).",
+        "source": "https://restaurant-agni.de/pdf/menu_moa.pdf",
+        "recordedAuditStatus": "hold_from_current_bounded_batch",
+        "affectedDishCount": 5,
+        "currentlyHiddenInQueue": 5,
+        "retainedInExport": 0,
+        "absentFromExport": 5,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_2a8f6259ad560f6b",
+          "d_c85c099bea9d791b",
+          "d_a4584bfb07f8fe63",
+          "d_b41e47ff15ea5bf8",
+          "d_fb9c391282b1beb4"
+        ]
+      },
+      {
+        "restaurantId": "osm-node-1869988127",
+        "reason": "Original dish describes Kasara sauce, whose official page7 recipe includes cream and nut paste. Nutrition estimates modeled only tomato/onion/spices/oil and omitted both cream and nuts. Hold this bounded batch pending a future source-context repair and recalculation.",
+        "source": "https://restaurant-agni.de/pdf/menu_moa.pdf",
+        "recordedAuditStatus": "hold_from_current_bounded_batch",
+        "affectedDishCount": 3,
+        "currentlyHiddenInQueue": 3,
+        "retainedInExport": 0,
+        "absentFromExport": 3,
+        "disposition": "all_omitted",
+        "excludedDishIds": [
+          "d_f6d96eb9467882f0",
+          "d_747dc51cfbc3ff1a",
+          "d_3e38ba57f4440054"
+        ]
+      }
+    ],
+    "restaurantAuditConcerns": [
+      {
+        "restaurantId": "osm-node-442390302",
+        "recordedConcern": "hold_entire_restaurant_wrong_branch_menu_source",
+        "recordedStatus": "hold_until_branch_menu_provenance_verified",
+        "includedInThisExport": false,
+        "currentQueueStatus": "found",
+        "currentSkipReason": null,
+        "currentMenuSource": "https://cdn1.site-media.eu/images/document/17315834/SteglitzTagesmenu1.pdf",
+        "replacementEvidenceSource": "https://cdn1.site-media.eu/images/document/7583021/JiAmmaTphfGSK_WEB124.pdf"
+      },
+      {
+        "restaurantId": "osm-node-5270689567",
+        "recordedConcern": "hold_entire_restaurant_branch_menu_provenance_unverified",
+        "recordedStatus": "hold_until_branch_menu_provenance_verified",
+        "includedInThisExport": false,
+        "currentQueueStatus": "menu",
+        "currentSkipReason": "menu_unreadable",
+        "currentMenuSource": "https://webshop.yoko.de/storedata/listStore",
+        "replacementEvidenceSource": null
+      }
+    ],
+    "interpretation": "Recorded concerns are historical audit findings. Current retained/omitted counts describe the final export, so corrected temporary holds are not automatically represented as unresolved."
+  },
+  "photos": {
+    "checkedCandidates": 33,
+    "metadataOutcomes": {
+      "http_403": 33
+    },
+    "verifiedAt": "2026-11-22T11:09:29.805Z",
+    "availabilityNotEstablishedWhenForbidden": true,
+    "photosDownloaded": 0,
+    "photoReferencesStored": 0,
+    "note": "HTTP 403 prevented photo-availability verification. Valid place IDs can be consumed by the existing application feature; actual browser photo rendering is not claimed."
+  },
+  "costs": {
+    "currency": "USD",
+    "authorizedTotal": 20.0,
+    "menuProcessingFromUsageLedger": 5.876019,
+    "menuProcessingByStage": {
+      "check": 0.153883,
+      "classify": 0.053504,
+      "menu": 2.355908,
+      "nutrition": 3.312724
+    },
+    "menuProcessingByModel": {
+      "gpt-6-luna": 0.053504,
+      "gpt-6.1-terra": 0.116511,
+      "gpt-6.2-sol": 5.706004
+    },
+    "discoveryAtListPrice": 1.575,
+    "discoveryConservativeAttemptCost": 1.575,
+    "discoveryHttpAttempts": 45,
+    "apifyProviderReportedRunCharge": 0.01853,
+    "unconfirmedInterruptedRequestReserve": 6.0,
+    "interruptionReserveNote": "Conservative reserves:1USD interrupted Yoko nutrition,3USD interrupted Nguyen full-PDF extraction,2USD for at most two requests interrupted when user stopped final processing. These are reserves, not confirmed charges.",
+    "totalIncludingReserve": 13.469549,
+    "remainingAuthorizedBudget": 6.530451,
+    "basis": "Processing charges are calculated from recorded token usage at published rates; discovery is a conservative list-price estimate; Apify reports its run charge. The interruption reserve is not a confirmed invoice charge."
+  },
+  "validation": {
+    "checkedAt": "2026-11-22T12:05:24.861033+00:00",
+    "existingRestaurantsPreserved": 385,
+    "semanticPreservationPassed": true,
+    "newDataChecksPassed": true,
+    "pipelineTests": {
+      "checkedAt": "2026-11-22T10:38:17.166725+00:00",
+      "passed": 88,
+      "failed": 0,
+      "typecheck": "passed"
+    },
+    "workerSql": {
+      "restaurantCount": 396,
+      "publishedRestaurantCount": 395,
+      "dishCount": 13542,
+      "quickCheck": "ok",
+      "secondApplyChanges": 0
+    },
+    "foreignKeyViolations": 0,
+    "productionValidationPerformed": false
+  }
+}

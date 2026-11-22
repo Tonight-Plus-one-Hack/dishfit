@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "DishFit · Eating healthy in Berlin",
+  "short_name": "DishFit",
+  "description": "Find dishes at Berlin restaurants and compare prices, calories and protein at a glance.",
+  "lang": "en",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fcfcfd",
+  "theme_color": "#fcfcfd",
+  "categories": ["food", "health", "lifestyle"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

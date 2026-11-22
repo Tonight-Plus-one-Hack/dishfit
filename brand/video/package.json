@@ -1,0 +1,13 @@
+{
+  "name": "plus-one-logo-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync-brand.mjs",
+    "dev": "node scripts/sync-brand.mjs && npx --yes hyperframes@0.9.77 preview",
+    "check": "node scripts/sync-brand.mjs --check && npx --yes hyperframes@0.9.77 check",
+    "render": "node scripts/render.mjs",
+    "render:square": "node scripts/render.mjs --only square",
+    "render:vertical": "node scripts/render.mjs --only vertical"
+  }
+}
